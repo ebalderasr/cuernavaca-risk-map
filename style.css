@@ -1,24 +1,67 @@
-body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; }
-#map { height: 100vh; width: 100%; }
+:root {
+    --bg-panel: rgba(15, 15, 15, 0.95);
+    --text-main: #f0f0f0;
+    --accent: #00ffcc; /* Un toque tecnológico */
+}
 
+body, html { 
+    margin: 0; padding: 0; height: 100%; 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #111;
+}
+
+#map { height: 100vh; width: 100%; z-index: 1; }
+
+/* Panel de Información Principal */
 #info-panel {
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    width: 250px;
+    background: var(--bg-panel);
+    color: var(--text-main);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    width: 280px;
+    transition: all 0.3s ease;
 }
 
-h1 { margin: 0; font-size: 1.2rem; color: #333; }
-hr { border: 0; border-top: 1px solid #ccc; margin: 10px 0; }
-.disclaimer { font-size: 0.7rem; color: #666; font-style: italic; }
+h1 { 
+    margin: 0; font-size: 1.4rem; 
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--accent);
+}
 
-#legend p { font-size: 0.9rem; margin: 5px 0; display: flex; align-items: center; }
-.dot { height: 12px; width: 12px; border-radius: 50%; display: inline-block; margin-right: 8px; }
-.red { background-color: #8B0000; }
-.orange { background-color: #FF8C00; }
-.yellow { background-color: #FFD700; }
+hr { border: 0; border-top: 1px solid #444; margin: 15px 0; }
+
+.disclaimer { 
+    font-size: 0.75rem; color: #888; 
+    line-height: 1.4; border-left: 2px solid #555;
+    padding-left: 10px;
+}
+
+/* Semáforo de Leyenda */
+#legend p { font-size: 0.9rem; margin: 8px 0; display: flex; align-items: center; }
+.dot { height: 14px; width: 14px; border-radius: 3px; display: inline-block; margin-right: 12px; }
+.red { background-color: #ff3333; box-shadow: 0 0 8px #ff3333; }
+.orange { background-color: #ff9933; box-shadow: 0 0 8px #ff9933; }
+.yellow { background-color: #ffdb4d; box-shadow: 0 0 8px #ffdb4d; }
+
+/* --- RESPONSIVIDAD (Móviles) --- */
+@media (max-width: 600px) {
+    #info-panel {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    h1 { font-size: 1.1rem; }
+    .disclaimer { font-size: 0.65rem; }
+}
