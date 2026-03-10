@@ -1,14 +1,17 @@
 [
-  {
-    "id": "20260310_01",
-    "fecha": "2026-03-10",
-    "hora": "22:30",
-    "colonia": "Centro",
-    "coordenadas": [18.9218, -99.2347],
-    "tipo_delito": "homicidio",
-    "nivel_inicial": 6,
-    "nivel_actual": 6,
-    "fuente": "https://www.diariodemorelos.com/noticia/...",
-    "dias_transcurridos": 0
-  }
+    {
+        "id": "20260310_01",
+        "fecha": "2026-03-10",
+        "hora": "22:30",
+        "colonia": "Centro",
+        "coordenadas": [
+            18.9218,
+            -99.2347
+        ],
+        "tipo_delito": "homicidio",
+        "nivel_inicial": 6,
+        "nivel_actual": 6,
+        "fuente": "https://www.diariodemorelos.com/noticia/...",
+        "dias_transcurridos": 0
+    }
 ]

@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nivel": 6, "info": "homicidio en Flores Magón" },
+      "geometry": { "type": "Polygon", "coordinates": [...] }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+name: OVICUE Daily Update
+
+on:
+  schedule:
+    # Se ejecuta todos los días a las 09:00 UTC (aprox 3:00 AM hora Cuernavaca)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la web de GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libgdal-dev
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 google-genai geopy geopandas shapely pyproj
+
+    - name: Run Scraper
+      env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      run: python scripts/scraper.py
+
+    - name: Run Geo-Logic
+      run: python scripts/logic.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "OVICUE Bot"
+        git config --global user.email "bot@ovicue.local"
+        git add data/events.json data/map_layers.json
+        # Solo hace commit si hay cambios reales en los datos
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Datos de incidencia diaria" && git push)

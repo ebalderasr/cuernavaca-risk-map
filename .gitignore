@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datos temporales de Geopandas/Ficheros de sistema
+.ipynb_checkpoints/
+.DS_Store
