@@ -1,32 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVICUE - Observatorio de Cuernavaca</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OVICUE · Observatorio de Violencia e Incidencia en Cuernavaca</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="map"></div>
 
-    <div id="map"></div>
-
-    <div id="info-panel">
-        <h1>OVICUE</h1>
-        <p><strong>Observatorio de Violencia e Incidencia en Cuernavaca</strong></p>
-        <hr>
-        <div id="legend">
-            <p><span class="dot red"></span> Nivel 7-10: Crítico</p>
-            <p><span class="dot orange"></span> Nivel 4-6: Riesgo</p>
-            <p><span class="dot yellow"></span> Nivel 1-3: Precaución</p>
-        </div>
-        <p class="disclaimer">
-            Este mapa es estrictamente informativo. Datos basados en reportes periodísticos. 
-            No es una fuente oficial.
-        </p>
+  <aside id="info-panel">
+    <div class="panel-top">
+      <div>
+        <div class="eyebrow">OVICUE</div>
+        <h1>Observatorio de Violencia e Incidencia en Cuernavaca</h1>
+      </div>
+      <div class="status-pill">Beta pública</div>
     </div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="app.js"></script>
+    <p class="lead">
+      Visualización aproximada de reportes periodísticos recientes sobre hechos violentos.
+    </p>
+
+    <div class="legend">
+      <div class="legend-item">
+        <span class="legend-swatch red"></span>
+        <div>
+          <strong>Nivel 7–10</strong>
+          <span>Crítico</span>
+        </div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-swatch orange"></span>
+        <div>
+          <strong>Nivel 4–6</strong>
+          <span>Riesgo</span>
+        </div>
+      </div>
+      <div class="legend-item">
+        <span class="legend-swatch yellow"></span>
+        <div>
+          <strong>Nivel 1–3</strong>
+          <span>Precaución</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <p class="disclaimer">
+      Este mapa es informativo. Se basa en notas periodísticas y geolocalización aproximada. No sustituye fuentes oficiales ni debe interpretarse como medición exacta del riesgo.
+    </p>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

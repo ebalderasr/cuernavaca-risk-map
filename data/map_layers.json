@@ -3,8 +3,7108 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "nivel": 6, "info": "homicidio en Flores Magón" },
-      "geometry": { "type": "Polygon", "coordinates": [...] }
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24010903959952,
+              18.92314281453657
+            ],
+            [
+              -99.24011058843885,
+              18.924227336188263
+            ],
+            [
+              -99.24125020716245,
+              18.92422585868261
+            ],
+            [
+              -99.24124865097215,
+              18.923141337121848
+            ],
+            [
+              -99.24010903959952,
+              18.92314281453657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24011058843885,
+              18.924227336188263
+            ],
+            [
+              -99.24011213738369,
+              18.925311857713275
+            ],
+            [
+              -99.24125176345875,
+              18.925310380116684
+            ],
+            [
+              -99.24125020716245,
+              18.92422585868261
+            ],
+            [
+              -99.24011058843885,
+              18.924227336188263
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24011213738369,
+              18.925311857713275
+            ],
+            [
+              -99.24011368643401,
+              18.926396379111583
+            ],
+            [
+              -99.24125331986106,
+              18.926394901424064
+            ],
+            [
+              -99.24125176345875,
+              18.925310380116684
+            ],
+            [
+              -99.24011213738369,
+              18.925311857713275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24011368643401,
+              18.926396379111583
+            ],
+            [
+              -99.24011523558985,
+              18.92748090038319
+            ],
+            [
+              -99.24125487636935,
+              18.927479422604737
+            ],
+            [
+              -99.24125331986106,
+              18.926394901424064
+            ],
+            [
+              -99.24011368643401,
+              18.926396379111583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24011523558985,
+              18.92748090038319
+            ],
+            [
+              -99.2401167848512,
+              18.928565421528088
+            ],
+            [
+              -99.24125643298368,
+              18.928563943658695
+            ],
+            [
+              -99.24125487636935,
+              18.927479422604737
+            ],
+            [
+              -99.24011523558985,
+              18.92748090038319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2401167848512,
+              18.928565421528088
+            ],
+            [
+              -99.24011833421805,
+              18.929649942546266
+            ],
+            [
+              -99.24125798970398,
+              18.929648464585938
+            ],
+            [
+              -99.24125643298368,
+              18.928563943658695
+            ],
+            [
+              -99.2401167848512,
+              18.928565421528088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23896788673801,
+              18.922059763087017
+            ],
+            [
+              -99.23896942812138,
+              18.923144284955907
+            ],
+            [
+              -99.24010903959952,
+              18.92314281453657
+            ],
+            [
+              -99.24010749086567,
+              18.922058292758177
+            ],
+            [
+              -99.23896788673801,
+              18.922059763087017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23896942812138,
+              18.923144284955907
+            ],
+            [
+              -99.23897096960975,
+              18.924228806698103
+            ],
+            [
+              -99.24011058843885,
+              18.924227336188263
+            ],
+            [
+              -99.24010903959952,
+              18.92314281453657
+            ],
+            [
+              -99.23896942812138,
+              18.923144284955907
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23897096960975,
+              18.924228806698103
+            ],
+            [
+              -99.23897251120312,
+              18.92531332831361
+            ],
+            [
+              -99.24011213738369,
+              18.925311857713275
+            ],
+            [
+              -99.24011058843885,
+              18.924227336188263
+            ],
+            [
+              -99.23897096960975,
+              18.924228806698103
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23897251120312,
+              18.92531332831361
+            ],
+            [
+              -99.23897405290148,
+              18.926397849802424
+            ],
+            [
+              -99.24011368643401,
+              18.926396379111583
+            ],
+            [
+              -99.24011213738369,
+              18.925311857713275
+            ],
+            [
+              -99.23897251120312,
+              18.92531332831361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23897405290148,
+              18.926397849802424
+            ],
+            [
+              -99.23897559470485,
+              18.92748237116453
+            ],
+            [
+              -99.24011523558985,
+              18.92748090038319
+            ],
+            [
+              -99.24011368643401,
+              18.926396379111583
+            ],
+            [
+              -99.23897405290148,
+              18.926397849802424
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23897559470485,
+              18.92748237116453
+            ],
+            [
+              -99.23897713661322,
+              18.928566892399928
+            ],
+            [
+              -99.2401167848512,
+              18.928565421528088
+            ],
+            [
+              -99.24011523558985,
+              18.92748090038319
+            ],
+            [
+              -99.23897559470485,
+              18.92748237116453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23897713661322,
+              18.928566892399928
+            ],
+            [
+              -99.2389786786266,
+              18.929651413508616
+            ],
+            [
+              -99.24011833421805,
+              18.929649942546266
+            ],
+            [
+              -99.2401167848512,
+              18.928565421528088
+            ],
+            [
+              -99.23897713661322,
+              18.928566892399928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2389786786266,
+              18.929651413508616
+            ],
+            [
+              -99.23898022074498,
+              18.93073593449058
+            ],
+            [
+              -99.24011988369041,
+              18.93073446343772
+            ],
+            [
+              -99.24011833421805,
+              18.929649942546266
+            ],
+            [
+              -99.2389786786266,
+              18.929651413508616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23782828250536,
+              18.922061226420894
+            ],
+            [
+              -99.23782981653825,
+              18.923145748379845
+            ],
+            [
+              -99.23896942812138,
+              18.923144284955907
+            ],
+            [
+              -99.23896788673801,
+              18.922059763087017
+            ],
+            [
+              -99.23782828250536,
+              18.922061226420894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23782981653825,
+              18.923145748379845
+            ],
+            [
+              -99.23783135067565,
+              18.924230270212117
+            ],
+            [
+              -99.23897096960975,
+              18.924228806698103
+            ],
+            [
+              -99.23896942812138,
+              18.923144284955907
+            ],
+            [
+              -99.23782981653825,
+              18.923145748379845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783135067565,
+              18.924230270212117
+            ],
+            [
+              -99.23783288491755,
+              18.925314791917696
+            ],
+            [
+              -99.23897251120312,
+              18.92531332831361
+            ],
+            [
+              -99.23897096960975,
+              18.924228806698103
+            ],
+            [
+              -99.23783135067565,
+              18.924230270212117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783288491755,
+              18.925314791917696
+            ],
+            [
+              -99.23783441926395,
+              18.926399313496578
+            ],
+            [
+              -99.23897405290148,
+              18.926397849802424
+            ],
+            [
+              -99.23897251120312,
+              18.92531332831361
+            ],
+            [
+              -99.23783288491755,
+              18.925314791917696
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783441926395,
+              18.926399313496578
+            ],
+            [
+              -99.23783595371482,
+              18.927483834948756
+            ],
+            [
+              -99.23897559470485,
+              18.92748237116453
+            ],
+            [
+              -99.23897405290148,
+              18.926397849802424
+            ],
+            [
+              -99.23783441926395,
+              18.926399313496578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783595371482,
+              18.927483834948756
+            ],
+            [
+              -99.23783748827023,
+              18.92856835627423
+            ],
+            [
+              -99.23897713661322,
+              18.928566892399928
+            ],
+            [
+              -99.23897559470485,
+              18.92748237116453
+            ],
+            [
+              -99.23783595371482,
+              18.927483834948756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783748827023,
+              18.92856835627423
+            ],
+            [
+              -99.23783902293012,
+              18.929652877472986
+            ],
+            [
+              -99.2389786786266,
+              18.929651413508616
+            ],
+            [
+              -99.23897713661322,
+              18.928566892399928
+            ],
+            [
+              -99.23783748827023,
+              18.92856835627423
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23783902293012,
+              18.929652877472986
+            ],
+            [
+              -99.23784055769454,
+              18.930737398545027
+            ],
+            [
+              -99.23898022074498,
+              18.93073593449058
+            ],
+            [
+              -99.2389786786266,
+              18.929651413508616
+            ],
+            [
+              -99.23783902293012,
+              18.929652877472986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23784055769454,
+              18.930737398545027
+            ],
+            [
+              -99.23784209256347,
+              18.931821919490343
+            ],
+            [
+              -99.23898176296838,
+              18.931820455345814
+            ],
+            [
+              -99.23898022074498,
+              18.93073593449058
+            ],
+            [
+              -99.23784055769454,
+              18.930737398545027
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23668715158978,
+              18.920978160584543
+            ],
+            [
+              -99.23668867816822,
+              18.9220626827598
+            ],
+            [
+              -99.23782828250536,
+              18.922061226420894
+            ],
+            [
+              -99.23782674857694,
+              18.92097670433527
+            ],
+            [
+              -99.23668715158978,
+              18.920978160584543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23668867816822,
+              18.9220626827598
+            ],
+            [
+              -99.23669020485065,
+              18.923147204808398
+            ],
+            [
+              -99.23782981653825,
+              18.923145748379845
+            ],
+            [
+              -99.23782828250536,
+              18.922061226420894
+            ],
+            [
+              -99.23668867816822,
+              18.9220626827598
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669020485065,
+              18.923147204808398
+            ],
+            [
+              -99.23669173163707,
+              18.924231726730298
+            ],
+            [
+              -99.23783135067565,
+              18.924230270212117
+            ],
+            [
+              -99.23782981653825,
+              18.923145748379845
+            ],
+            [
+              -99.23669020485065,
+              18.923147204808398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669173163707,
+              18.924231726730298
+            ],
+            [
+              -99.23669325852748,
+              18.92531624852552
+            ],
+            [
+              -99.23783288491755,
+              18.925314791917696
+            ],
+            [
+              -99.23783135067565,
+              18.924230270212117
+            ],
+            [
+              -99.23669173163707,
+              18.924231726730298
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669325852748,
+              18.92531624852552
+            ],
+            [
+              -99.2366947855219,
+              18.926400770194043
+            ],
+            [
+              -99.23783441926395,
+              18.926399313496578
+            ],
+            [
+              -99.23783288491755,
+              18.925314791917696
+            ],
+            [
+              -99.23669325852748,
+              18.92531624852552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2366947855219,
+              18.926400770194043
+            ],
+            [
+              -99.23669631262032,
+              18.927485291735866
+            ],
+            [
+              -99.23783595371482,
+              18.927483834948756
+            ],
+            [
+              -99.23783441926395,
+              18.926399313496578
+            ],
+            [
+              -99.2366947855219,
+              18.926400770194043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669631262032,
+              18.927485291735866
+            ],
+            [
+              -99.23669783982272,
+              18.92856981315098
+            ],
+            [
+              -99.23783748827023,
+              18.92856835627423
+            ],
+            [
+              -99.23783595371482,
+              18.927483834948756
+            ],
+            [
+              -99.23669631262032,
+              18.927485291735866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669783982272,
+              18.92856981315098
+            ],
+            [
+              -99.23669936712915,
+              18.92965433443938
+            ],
+            [
+              -99.23783902293012,
+              18.929652877472986
+            ],
+            [
+              -99.23783748827023,
+              18.92856835627423
+            ],
+            [
+              -99.23669783982272,
+              18.92856981315098
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23669936712915,
+              18.92965433443938
+            ],
+            [
+              -99.23670089453958,
+              18.930738855601064
+            ],
+            [
+              -99.23784055769454,
+              18.930737398545027
+            ],
+            [
+              -99.23783902293012,
+              18.929652877472986
+            ],
+            [
+              -99.23669936712915,
+              18.92965433443938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23670089453958,
+              18.930738855601064
+            ],
+            [
+              -99.23670242205404,
+              18.93182337663603
+            ],
+            [
+              -99.23784209256347,
+              18.931821919490343
+            ],
+            [
+              -99.23784055769454,
+              18.930737398545027
+            ],
+            [
+              -99.23670089453958,
+              18.930738855601064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23554755449862,
+              18.920979609839275
+            ],
+            [
+              -99.23554907372709,
+              18.922064132103742
+            ],
+            [
+              -99.23668867816822,
+              18.9220626827598
+            ],
+            [
+              -99.23668715158978,
+              18.920978160584543
+            ],
+            [
+              -99.23554755449862,
+              18.920979609839275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23554907372709,
+              18.922064132103742
+            ],
+            [
+              -99.23555059305905,
+              18.92314865424154
+            ],
+            [
+              -99.23669020485065,
+              18.923147204808398
+            ],
+            [
+              -99.23668867816822,
+              18.9220626827598
+            ],
+            [
+              -99.23554907372709,
+              18.922064132103742
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555059305905,
+              18.92314865424154
+            ],
+            [
+              -99.23555211249447,
+              18.924233176252653
+            ],
+            [
+              -99.23669173163707,
+              18.924231726730298
+            ],
+            [
+              -99.23669020485065,
+              18.923147204808398
+            ],
+            [
+              -99.23555059305905,
+              18.92314865424154
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555211249447,
+              18.924233176252653
+            ],
+            [
+              -99.23555363203343,
+              18.92531769813708
+            ],
+            [
+              -99.23669325852748,
+              18.92531624852552
+            ],
+            [
+              -99.23669173163707,
+              18.924231726730298
+            ],
+            [
+              -99.23555211249447,
+              18.924233176252653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555363203343,
+              18.92531769813708
+            ],
+            [
+              -99.23555515167585,
+              18.926402219894815
+            ],
+            [
+              -99.2366947855219,
+              18.926400770194043
+            ],
+            [
+              -99.23669325852748,
+              18.92531624852552
+            ],
+            [
+              -99.23555363203343,
+              18.92531769813708
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555515167585,
+              18.926402219894815
+            ],
+            [
+              -99.23555667142179,
+              18.92748674152585
+            ],
+            [
+              -99.23669631262032,
+              18.927485291735866
+            ],
+            [
+              -99.2366947855219,
+              18.926400770194043
+            ],
+            [
+              -99.23555515167585,
+              18.926402219894815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555667142179,
+              18.92748674152585
+            ],
+            [
+              -99.23555819127124,
+              18.928571263030175
+            ],
+            [
+              -99.23669783982272,
+              18.92856981315098
+            ],
+            [
+              -99.23669631262032,
+              18.927485291735866
+            ],
+            [
+              -99.23555667142179,
+              18.92748674152585
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555819127124,
+              18.928571263030175
+            ],
+            [
+              -99.23555971122417,
+              18.929655784407792
+            ],
+            [
+              -99.23669936712915,
+              18.92965433443938
+            ],
+            [
+              -99.23669783982272,
+              18.92856981315098
+            ],
+            [
+              -99.23555819127124,
+              18.928571263030175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23555971122417,
+              18.929655784407792
+            ],
+            [
+              -99.23556123128063,
+              18.930740305658695
+            ],
+            [
+              -99.23670089453958,
+              18.930738855601064
+            ],
+            [
+              -99.23669936712915,
+              18.92965433443938
+            ],
+            [
+              -99.23555971122417,
+              18.929655784407792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23556123128063,
+              18.930740305658695
+            ],
+            [
+              -99.23556275144058,
+              18.93182482678287
+            ],
+            [
+              -99.23670242205404,
+              18.93182337663603
+            ],
+            [
+              -99.23670089453958,
+              18.930738855601064
+            ],
+            [
+              -99.23556123128063,
+              18.930740305658695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23440795730399,
+              18.92098105209947
+            ],
+            [
+              -99.23440946918248,
+              18.922065574452713
+            ],
+            [
+              -99.23554907372709,
+              18.922064132103742
+            ],
+            [
+              -99.23554755449862,
+              18.920979609839275
+            ],
+            [
+              -99.23440795730399,
+              18.92098105209947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23440946918248,
+              18.922065574452713
+            ],
+            [
+              -99.23441098116395,
+              18.92315009667929
+            ],
+            [
+              -99.23555059305905,
+              18.92314865424154
+            ],
+            [
+              -99.23554907372709,
+              18.922064132103742
+            ],
+            [
+              -99.23440946918248,
+              18.922065574452713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441098116395,
+              18.92315009667929
+            ],
+            [
+              -99.23441249324841,
+              18.924234618779177
+            ],
+            [
+              -99.23555211249447,
+              18.924233176252653
+            ],
+            [
+              -99.23555059305905,
+              18.92314865424154
+            ],
+            [
+              -99.23441098116395,
+              18.92315009667929
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441249324841,
+              18.924234618779177
+            ],
+            [
+              -99.23441400543587,
+              18.925319140752382
+            ],
+            [
+              -99.23555363203343,
+              18.92531769813708
+            ],
+            [
+              -99.23555211249447,
+              18.924233176252653
+            ],
+            [
+              -99.23441249324841,
+              18.924234618779177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441400543587,
+              18.925319140752382
+            ],
+            [
+              -99.23441551772632,
+              18.926403662598894
+            ],
+            [
+              -99.23555515167585,
+              18.926402219894815
+            ],
+            [
+              -99.23555363203343,
+              18.92531769813708
+            ],
+            [
+              -99.23441400543587,
+              18.925319140752382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441551772632,
+              18.926403662598894
+            ],
+            [
+              -99.23441703011977,
+              18.92748818431871
+            ],
+            [
+              -99.23555667142179,
+              18.92748674152585
+            ],
+            [
+              -99.23555515167585,
+              18.926402219894815
+            ],
+            [
+              -99.23441551772632,
+              18.926403662598894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441703011977,
+              18.92748818431871
+            ],
+            [
+              -99.23441854261621,
+              18.928572705911822
+            ],
+            [
+              -99.23555819127124,
+              18.928571263030175
+            ],
+            [
+              -99.23555667142179,
+              18.92748674152585
+            ],
+            [
+              -99.23441703011977,
+              18.92748818431871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23441854261621,
+              18.928572705911822
+            ],
+            [
+              -99.23442005521567,
+              18.92965722737822
+            ],
+            [
+              -99.23555971122417,
+              18.929655784407792
+            ],
+            [
+              -99.23555819127124,
+              18.928571263030175
+            ],
+            [
+              -99.23441854261621,
+              18.928572705911822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23442005521567,
+              18.92965722737822
+            ],
+            [
+              -99.23442156791813,
+              18.930741748717903
+            ],
+            [
+              -99.23556123128063,
+              18.930740305658695
+            ],
+            [
+              -99.23555971122417,
+              18.929655784407792
+            ],
+            [
+              -99.23442005521567,
+              18.92965722737822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23442156791813,
+              18.930741748717903
+            ],
+            [
+              -99.23442308072362,
+              18.931826269930863
+            ],
+            [
+              -99.23556275144058,
+              18.93182482678287
+            ],
+            [
+              -99.23556123128063,
+              18.930740305658695
+            ],
+            [
+              -99.23442156791813,
+              18.930741748717903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23326986453488,
+              18.92206700980671
+            ],
+            [
+              -99.23327136916586,
+              18.92315153212163
+            ],
+            [
+              -99.23441098116395,
+              18.92315009667929
+            ],
+            [
+              -99.23440946918248,
+              18.922065574452713
+            ],
+            [
+              -99.23326986453488,
+              18.92206700980671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327136916586,
+              18.92315153212163
+            ],
+            [
+              -99.23327287389934,
+              18.924236054309866
+            ],
+            [
+              -99.23441249324841,
+              18.924234618779177
+            ],
+            [
+              -99.23441098116395,
+              18.92315009667929
+            ],
+            [
+              -99.23327136916586,
+              18.92315153212163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327287389934,
+              18.924236054309866
+            ],
+            [
+              -99.23327437873532,
+              18.92532057637142
+            ],
+            [
+              -99.23441400543587,
+              18.925319140752382
+            ],
+            [
+              -99.23441249324841,
+              18.924234618779177
+            ],
+            [
+              -99.23327287389934,
+              18.924236054309866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327437873532,
+              18.92532057637142
+            ],
+            [
+              -99.23327588367378,
+              18.926405098306283
+            ],
+            [
+              -99.23441551772632,
+              18.926403662598894
+            ],
+            [
+              -99.23441400543587,
+              18.925319140752382
+            ],
+            [
+              -99.23327437873532,
+              18.92532057637142
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327588367378,
+              18.926405098306283
+            ],
+            [
+              -99.23327738871474,
+              18.92748962011445
+            ],
+            [
+              -99.23441703011977,
+              18.92748818431871
+            ],
+            [
+              -99.23441551772632,
+              18.926403662598894
+            ],
+            [
+              -99.23327588367378,
+              18.926405098306283
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327738871474,
+              18.92748962011445
+            ],
+            [
+              -99.23327889385821,
+              18.928574141795913
+            ],
+            [
+              -99.23441854261621,
+              18.928572705911822
+            ],
+            [
+              -99.23441703011977,
+              18.92748818431871
+            ],
+            [
+              -99.23327738871474,
+              18.92748962011445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23327889385821,
+              18.928574141795913
+            ],
+            [
+              -99.23328039910417,
+              18.929658663350658
+            ],
+            [
+              -99.23442005521567,
+              18.92965722737822
+            ],
+            [
+              -99.23441854261621,
+              18.928572705911822
+            ],
+            [
+              -99.23327889385821,
+              18.928574141795913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23328039910417,
+              18.929658663350658
+            ],
+            [
+              -99.23328190445265,
+              18.9307431847787
+            ],
+            [
+              -99.23442156791813,
+              18.930741748717903
+            ],
+            [
+              -99.23442005521567,
+              18.92965722737822
+            ],
+            [
+              -99.23328039910417,
+              18.929658663350658
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2321302597848,
+              18.922068438165724
+            ],
+            [
+              -99.23213175706529,
+              18.923152960568565
+            ],
+            [
+              -99.23327136916586,
+              18.92315153212163
+            ],
+            [
+              -99.23326986453488,
+              18.92206700980671
+            ],
+            [
+              -99.2321302597848,
+              18.922068438165724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23213175706529,
+              18.923152960568565
+            ],
+            [
+              -99.23213325444777,
+              18.924237482844713
+            ],
+            [
+              -99.23327287389934,
+              18.924236054309866
+            ],
+            [
+              -99.23327136916586,
+              18.92315153212163
+            ],
+            [
+              -99.23213175706529,
+              18.923152960568565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23213325444777,
+              18.924237482844713
+            ],
+            [
+              -99.23213475193226,
+              18.925322004994182
+            ],
+            [
+              -99.23327437873532,
+              18.92532057637142
+            ],
+            [
+              -99.23327287389934,
+              18.924236054309866
+            ],
+            [
+              -99.23213325444777,
+              18.924237482844713
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23213475193226,
+              18.925322004994182
+            ],
+            [
+              -99.23213624951873,
+              18.92640652701697
+            ],
+            [
+              -99.23327588367378,
+              18.926405098306283
+            ],
+            [
+              -99.23327437873532,
+              18.92532057637142
+            ],
+            [
+              -99.23213475193226,
+              18.925322004994182
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23213624951873,
+              18.92640652701697
+            ],
+            [
+              -99.23213774720722,
+              18.927491048913055
+            ],
+            [
+              -99.23327738871474,
+              18.92748962011445
+            ],
+            [
+              -99.23327588367378,
+              18.926405098306283
+            ],
+            [
+              -99.23213624951873,
+              18.92640652701697
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23213774720722,
+              18.927491048913055
+            ],
+            [
+              -99.2321392449977,
+              18.928575570682437
+            ],
+            [
+              -99.23327889385821,
+              18.928574141795913
+            ],
+            [
+              -99.23327738871474,
+              18.92748962011445
+            ],
+            [
+              -99.23213774720722,
+              18.927491048913055
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2321392449977,
+              18.928575570682437
+            ],
+            [
+              -99.23214074289017,
+              18.929660092325108
+            ],
+            [
+              -99.23328039910417,
+              18.929658663350658
+            ],
+            [
+              -99.23327889385821,
+              18.928574141795913
+            ],
+            [
+              -99.2321392449977,
+              18.928575570682437
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23214074289017,
+              18.929660092325108
+            ],
+            [
+              -99.23214224088464,
+              18.930744613841068
+            ],
+            [
+              -99.23328190445265,
+              18.9307431847787
+            ],
+            [
+              -99.23328039910417,
+              18.929658663350658
+            ],
+            [
+              -99.23214074289017,
+              18.929660092325108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23099363489423,
+              18.924238904383724
+            ],
+            [
+              -99.23099512502722,
+              18.92532342662069
+            ],
+            [
+              -99.23213475193226,
+              18.925322004994182
+            ],
+            [
+              -99.23213325444777,
+              18.924237482844713
+            ],
+            [
+              -99.23099363489423,
+              18.924238904383724
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23099512502722,
+              18.92532342662069
+            ],
+            [
+              -99.2309966152617,
+              18.926407948730954
+            ],
+            [
+              -99.23213624951873,
+              18.92640652701697
+            ],
+            [
+              -99.23213475193226,
+              18.925322004994182
+            ],
+            [
+              -99.23099512502722,
+              18.92532342662069
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2309966152617,
+              18.926407948730954
+            ],
+            [
+              -99.23099810559769,
+              18.927492470714526
+            ],
+            [
+              -99.23213774720722,
+              18.927491048913055
+            ],
+            [
+              -99.23213624951873,
+              18.92640652701697
+            ],
+            [
+              -99.2309966152617,
+              18.926407948730954
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 5,
+        "max_nivel_base": 5,
+        "n_eventos": 1,
+        "n_eventos_ge5": 1,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Nueva Jerusalén"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23099810559769,
+              18.927492470714526
+            ],
+            [
+              -99.23099959603516,
+              18.9285769925714
+            ],
+            [
+              -99.2321392449977,
+              18.928575570682437
+            ],
+            [
+              -99.23213774720722,
+              18.927491048913055
+            ],
+            [
+              -99.23099810559769,
+              18.927492470714526
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20134401806021,
+              18.908005528246775
+            ],
+            [
+              -99.20134531572661,
+              18.909090054506464
+            ],
+            [
+              -99.20248483488686,
+              18.909088815928204
+            ],
+            [
+              -99.2024835298764,
+              18.908004289744795
+            ],
+            [
+              -99.20134401806021,
+              18.908005528246775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20134531572661,
+              18.909090054506464
+            ],
+            [
+              -99.20134661348145,
+              18.910174580639588
+            ],
+            [
+              -99.20248613998626,
+              18.91017334198505
+            ],
+            [
+              -99.20248483488686,
+              18.909088815928204
+            ],
+            [
+              -99.20134531572661,
+              18.909090054506464
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20134661348145,
+              18.910174580639588
+            ],
+            [
+              -99.20134791132472,
+              18.91125910664613
+            ],
+            [
+              -99.20248744517458,
+              18.911257867915314
+            ],
+            [
+              -99.20248613998626,
+              18.91017334198505
+            ],
+            [
+              -99.20134661348145,
+              18.910174580639588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20134791132472,
+              18.91125910664613
+            ],
+            [
+              -99.20134920925645,
+              18.912343632526095
+            ],
+            [
+              -99.20248875045185,
+              18.912342393718998
+            ],
+            [
+              -99.20248744517458,
+              18.911257867915314
+            ],
+            [
+              -99.20134791132472,
+              18.91125910664613
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20134920925645,
+              18.912343632526095
+            ],
+            [
+              -99.2013505072766,
+              18.913428158279466
+            ],
+            [
+              -99.20249005581807,
+              18.91342691939608
+            ],
+            [
+              -99.20248875045185,
+              18.912342393718998
+            ],
+            [
+              -99.20134920925645,
+              18.912343632526095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2013505072766,
+              18.913428158279466
+            ],
+            [
+              -99.2013518053852,
+              18.91451268390625
+            ],
+            [
+              -99.20249136127325,
+              18.914511444946584
+            ],
+            [
+              -99.20249005581807,
+              18.91342691939608
+            ],
+            [
+              -99.2013505072766,
+              18.913428158279466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20020321592118,
+              18.9069222332972
+            ],
+            [
+              -99.20020450615559,
+              18.908006759759303
+            ],
+            [
+              -99.20134401806021,
+              18.908005528246775
+            ],
+            [
+              -99.20134272048224,
+              18.90692100186052
+            ],
+            [
+              -99.20020321592118,
+              18.9069222332972
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20020450615559,
+              18.908006759759303
+            ],
+            [
+              -99.20020579647792,
+              18.909091286094842
+            ],
+            [
+              -99.20134531572661,
+              18.909090054506464
+            ],
+            [
+              -99.20134401806021,
+              18.908005528246775
+            ],
+            [
+              -99.20020450615559,
+              18.908006759759303
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20020579647792,
+              18.909091286094842
+            ],
+            [
+              -99.2002070868882,
+              18.91017581230382
+            ],
+            [
+              -99.20134661348145,
+              18.910174580639588
+            ],
+            [
+              -99.20134531572661,
+              18.909090054506464
+            ],
+            [
+              -99.20020579647792,
+              18.909091286094842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.2002070868882,
+              18.91017581230382
+            ],
+            [
+              -99.20020837738642,
+              18.911260338386207
+            ],
+            [
+              -99.20134791132472,
+              18.91125910664613
+            ],
+            [
+              -99.20134661348145,
+              18.910174580639588
+            ],
+            [
+              -99.2002070868882,
+              18.91017581230382
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20020837738642,
+              18.911260338386207
+            ],
+            [
+              -99.20020966797257,
+              18.91234486434202
+            ],
+            [
+              -99.20134920925645,
+              18.912343632526095
+            ],
+            [
+              -99.20134791132472,
+              18.91125910664613
+            ],
+            [
+              -99.20020837738642,
+              18.911260338386207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20020966797257,
+              18.91234486434202
+            ],
+            [
+              -99.20021095864668,
+              18.913429390171245
+            ],
+            [
+              -99.2013505072766,
+              18.913428158279466
+            ],
+            [
+              -99.20134920925645,
+              18.912343632526095
+            ],
+            [
+              -99.20020966797257,
+              18.91234486434202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20021095864668,
+              18.913429390171245
+            ],
+            [
+              -99.20021224940872,
+              18.91451391587388
+            ],
+            [
+              -99.2013518053852,
+              18.91451268390625
+            ],
+            [
+              -99.2013505072766,
+              18.913428158279466
+            ],
+            [
+              -99.20021095864668,
+              18.913429390171245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.20021224940872,
+              18.91451391587388
+            ],
+            [
+              -99.20021354025872,
+              18.91559844144991
+            ],
+            [
+              -99.20135310358226,
+              18.915597209406425
+            ],
+            [
+              -99.2013518053852,
+              18.91451268390625
+            ],
+            [
+              -99.20021224940872,
+              18.91451391587388
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19906371127217,
+              18.90692345774486
+            ],
+            [
+              -99.19906499416302,
+              18.908007984282378
+            ],
+            [
+              -99.20020450615559,
+              18.908006759759303
+            ],
+            [
+              -99.20020321592118,
+              18.9069222332972
+            ],
+            [
+              -99.19906371127217,
+              18.90692345774486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19906499416302,
+              18.908007984282378
+            ],
+            [
+              -99.1990662771413,
+              18.909092510693338
+            ],
+            [
+              -99.20020579647792,
+              18.909091286094842
+            ],
+            [
+              -99.20020450615559,
+              18.908006759759303
+            ],
+            [
+              -99.19906499416302,
+              18.908007984282378
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1990662771413,
+              18.909092510693338
+            ],
+            [
+              -99.19906756020703,
+              18.910177036977725
+            ],
+            [
+              -99.2002070868882,
+              18.91017581230382
+            ],
+            [
+              -99.20020579647792,
+              18.909091286094842
+            ],
+            [
+              -99.1990662771413,
+              18.909092510693338
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19906756020703,
+              18.910177036977725
+            ],
+            [
+              -99.19906884336018,
+              18.911261563135543
+            ],
+            [
+              -99.20020837738642,
+              18.911260338386207
+            ],
+            [
+              -99.2002070868882,
+              18.91017581230382
+            ],
+            [
+              -99.19906756020703,
+              18.910177036977725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19906884336018,
+              18.911261563135543
+            ],
+            [
+              -99.19907012660077,
+              18.912346089166775
+            ],
+            [
+              -99.20020966797257,
+              18.91234486434202
+            ],
+            [
+              -99.20020837738642,
+              18.911260338386207
+            ],
+            [
+              -99.19906884336018,
+              18.911261563135543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19907012660077,
+              18.912346089166775
+            ],
+            [
+              -99.1990714099288,
+              18.913430615071416
+            ],
+            [
+              -99.20021095864668,
+              18.913429390171245
+            ],
+            [
+              -99.20020966797257,
+              18.91234486434202
+            ],
+            [
+              -99.19907012660077,
+              18.912346089166775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1990714099288,
+              18.913430615071416
+            ],
+            [
+              -99.19907269334429,
+              18.91451514084947
+            ],
+            [
+              -99.20021224940872,
+              18.91451391587388
+            ],
+            [
+              -99.20021095864668,
+              18.913429390171245
+            ],
+            [
+              -99.1990714099288,
+              18.913430615071416
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19907269334429,
+              18.91451514084947
+            ],
+            [
+              -99.19907397684722,
+              18.915599666500924
+            ],
+            [
+              -99.20021354025872,
+              18.91559844144991
+            ],
+            [
+              -99.20021224940872,
+              18.91451391587388
+            ],
+            [
+              -99.19907269334429,
+              18.91451514084947
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19907397684722,
+              18.915599666500924
+            ],
+            [
+              -99.1990752604376,
+              18.916684192025773
+            ],
+            [
+              -99.20021483119666,
+              18.916682966899334
+            ],
+            [
+              -99.20021354025872,
+              18.91559844144991
+            ],
+            [
+              -99.19907397684722,
+              18.915599666500924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19792420653576,
+              18.9069246752035
+            ],
+            [
+              -99.19792548208304,
+              18.908009201816004
+            ],
+            [
+              -99.19906499416302,
+              18.908007984282378
+            ],
+            [
+              -99.19906371127217,
+              18.90692345774486
+            ],
+            [
+              -99.19792420653576,
+              18.9069246752035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19792548208304,
+              18.908009201816004
+            ],
+            [
+              -99.19792675771725,
+              18.909093728301944
+            ],
+            [
+              -99.1990662771413,
+              18.909092510693338
+            ],
+            [
+              -99.19906499416302,
+              18.908007984282378
+            ],
+            [
+              -99.19792548208304,
+              18.908009201816004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19792675771725,
+              18.909093728301944
+            ],
+            [
+              -99.1979280334384,
+              18.91017825466132
+            ],
+            [
+              -99.19906756020703,
+              18.910177036977725
+            ],
+            [
+              -99.1990662771413,
+              18.909092510693338
+            ],
+            [
+              -99.19792675771725,
+              18.909093728301944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1979280334384,
+              18.91017825466132
+            ],
+            [
+              -99.19792930924649,
+              18.911262780894127
+            ],
+            [
+              -99.19906884336018,
+              18.911261563135543
+            ],
+            [
+              -99.19906756020703,
+              18.910177036977725
+            ],
+            [
+              -99.1979280334384,
+              18.91017825466132
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19792930924649,
+              18.911262780894127
+            ],
+            [
+              -99.19793058514152,
+              18.912347307000346
+            ],
+            [
+              -99.19907012660077,
+              18.912346089166775
+            ],
+            [
+              -99.19906884336018,
+              18.911261563135543
+            ],
+            [
+              -99.19792930924649,
+              18.911262780894127
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19793058514152,
+              18.912347307000346
+            ],
+            [
+              -99.19793186112351,
+              18.913431832979985
+            ],
+            [
+              -99.1990714099288,
+              18.913430615071416
+            ],
+            [
+              -99.19907012660077,
+              18.912346089166775
+            ],
+            [
+              -99.19793058514152,
+              18.912347307000346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19793186112351,
+              18.913431832979985
+            ],
+            [
+              -99.19793313719242,
+              18.914516358833026
+            ],
+            [
+              -99.19907269334429,
+              18.91451514084947
+            ],
+            [
+              -99.1990714099288,
+              18.913430615071416
+            ],
+            [
+              -99.19793186112351,
+              18.913431832979985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19793313719242,
+              18.914516358833026
+            ],
+            [
+              -99.19793441334828,
+              18.915600884559474
+            ],
+            [
+              -99.19907397684722,
+              18.915599666500924
+            ],
+            [
+              -99.19907269334429,
+              18.91451514084947
+            ],
+            [
+              -99.19793313719242,
+              18.914516358833026
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19793441334828,
+              18.915600884559474
+            ],
+            [
+              -99.19793568959109,
+              18.916685410159317
+            ],
+            [
+              -99.1990752604376,
+              18.916684192025773
+            ],
+            [
+              -99.19907397684722,
+              18.915599666500924
+            ],
+            [
+              -99.19793441334828,
+              18.915600884559474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19678470171239,
+              18.90692588567311
+            ],
+            [
+              -99.19678596991612,
+              18.908010412360166
+            ],
+            [
+              -99.19792548208304,
+              18.908009201816004
+            ],
+            [
+              -99.19792420653576,
+              18.9069246752035
+            ],
+            [
+              -99.19678470171239,
+              18.90692588567311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19678596991612,
+              18.908010412360166
+            ],
+            [
+              -99.19678723820627,
+              18.90909493892067
+            ],
+            [
+              -99.19792675771725,
+              18.909093728301944
+            ],
+            [
+              -99.19792548208304,
+              18.908009201816004
+            ],
+            [
+              -99.19678596991612,
+              18.908010412360166
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19678723820627,
+              18.90909493892067
+            ],
+            [
+              -99.19678850658286,
+              18.910179465354602
+            ],
+            [
+              -99.1979280334384,
+              18.91017825466132
+            ],
+            [
+              -99.19792675771725,
+              18.909093728301944
+            ],
+            [
+              -99.19678723820627,
+              18.90909493892067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19678850658286,
+              18.910179465354602
+            ],
+            [
+              -99.19678977504587,
+              18.91126399166196
+            ],
+            [
+              -99.19792930924649,
+              18.911262780894127
+            ],
+            [
+              -99.1979280334384,
+              18.91017825466132
+            ],
+            [
+              -99.19678850658286,
+              18.910179465354602
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19678977504587,
+              18.91126399166196
+            ],
+            [
+              -99.19679104359534,
+              18.91234851784274
+            ],
+            [
+              -99.19793058514152,
+              18.912347307000346
+            ],
+            [
+              -99.19792930924649,
+              18.911262780894127
+            ],
+            [
+              -99.19678977504587,
+              18.91126399166196
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19679104359534,
+              18.91234851784274
+            ],
+            [
+              -99.19679231223125,
+              18.91343304389694
+            ],
+            [
+              -99.19793186112351,
+              18.913431832979985
+            ],
+            [
+              -99.19793058514152,
+              18.912347307000346
+            ],
+            [
+              -99.19679104359534,
+              18.91234851784274
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19679231223125,
+              18.91343304389694
+            ],
+            [
+              -99.1967935809536,
+              18.914517569824543
+            ],
+            [
+              -99.19793313719242,
+              18.914516358833026
+            ],
+            [
+              -99.19793186112351,
+              18.913431832979985
+            ],
+            [
+              -99.19679231223125,
+              18.91343304389694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1967935809536,
+              18.914517569824543
+            ],
+            [
+              -99.19679484976238,
+              18.915602095625555
+            ],
+            [
+              -99.19793441334828,
+              18.915600884559474
+            ],
+            [
+              -99.19793313719242,
+              18.914516358833026
+            ],
+            [
+              -99.1967935809536,
+              18.914517569824543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19679484976238,
+              18.915602095625555
+            ],
+            [
+              -99.19679611865763,
+              18.916686621299956
+            ],
+            [
+              -99.19793568959109,
+              18.916685410159317
+            ],
+            [
+              -99.19793441334828,
+              18.915600884559474
+            ],
+            [
+              -99.19679484976238,
+              18.915602095625555
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1956451968026,
+              18.906927089153687
+            ],
+            [
+              -99.19564645766276,
+              18.90801161591487
+            ],
+            [
+              -99.19678596991612,
+              18.908010412360166
+            ],
+            [
+              -99.19678470171239,
+              18.90692588567311
+            ],
+            [
+              -99.1956451968026,
+              18.906927089153687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19564645766276,
+              18.90801161591487
+            ],
+            [
+              -99.19564771860885,
+              18.90909614254949
+            ],
+            [
+              -99.19678723820627,
+              18.90909493892067
+            ],
+            [
+              -99.19678596991612,
+              18.908010412360166
+            ],
+            [
+              -99.19564645766276,
+              18.90801161591487
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19564771860885,
+              18.90909614254949
+            ],
+            [
+              -99.19564897964086,
+              18.910180669057553
+            ],
+            [
+              -99.19678850658286,
+              18.910179465354602
+            ],
+            [
+              -99.19678723820627,
+              18.90909493892067
+            ],
+            [
+              -99.19564771860885,
+              18.90909614254949
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19564897964086,
+              18.910180669057553
+            ],
+            [
+              -99.19565024075882,
+              18.911265195439043
+            ],
+            [
+              -99.19678977504587,
+              18.91126399166196
+            ],
+            [
+              -99.19678850658286,
+              18.910179465354602
+            ],
+            [
+              -99.19564897964086,
+              18.910180669057553
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19565024075882,
+              18.911265195439043
+            ],
+            [
+              -99.19565150196271,
+              18.912349721693953
+            ],
+            [
+              -99.19679104359534,
+              18.91234851784274
+            ],
+            [
+              -99.19678977504587,
+              18.91126399166196
+            ],
+            [
+              -99.19565024075882,
+              18.911265195439043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19565150196271,
+              18.912349721693953
+            ],
+            [
+              -99.19565276325254,
+              18.91343424782228
+            ],
+            [
+              -99.19679231223125,
+              18.91343304389694
+            ],
+            [
+              -99.19679104359534,
+              18.91234851784274
+            ],
+            [
+              -99.19565150196271,
+              18.912349721693953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19565276325254,
+              18.91343424782228
+            ],
+            [
+              -99.19565402462833,
+              18.914518773824017
+            ],
+            [
+              -99.1967935809536,
+              18.914517569824543
+            ],
+            [
+              -99.19679231223125,
+              18.91343304389694
+            ],
+            [
+              -99.19565276325254,
+              18.91343424782228
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19565402462833,
+              18.914518773824017
+            ],
+            [
+              -99.19565528609003,
+              18.91560329969916
+            ],
+            [
+              -99.19679484976238,
+              18.915602095625555
+            ],
+            [
+              -99.1967935809536,
+              18.914517569824543
+            ],
+            [
+              -99.19565402462833,
+              18.914518773824017
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19565528609003,
+              18.91560329969916
+            ],
+            [
+              -99.19565654763771,
+              18.916687825447696
+            ],
+            [
+              -99.19679611865763,
+              18.916686621299956
+            ],
+            [
+              -99.19679484976238,
+              18.915602095625555
+            ],
+            [
+              -99.19565528609003,
+              18.91560329969916
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1945056918069,
+              18.906928285645233
+            ],
+            [
+              -99.19450694532348,
+              18.908012812480113
+            ],
+            [
+              -99.19564645766276,
+              18.90801161591487
+            ],
+            [
+              -99.1956451968026,
+              18.906927089153687
+            ],
+            [
+              -99.1945056918069,
+              18.906928285645233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19450694532348,
+              18.908012812480113
+            ],
+            [
+              -99.19450819892549,
+              18.90909733918843
+            ],
+            [
+              -99.19564771860885,
+              18.90909614254949
+            ],
+            [
+              -99.19564645766276,
+              18.90801161591487
+            ],
+            [
+              -99.19450694532348,
+              18.908012812480113
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19450819892549,
+              18.90909733918843
+            ],
+            [
+              -99.19450945261293,
+              18.910181865770188
+            ],
+            [
+              -99.19564897964086,
+              18.910180669057553
+            ],
+            [
+              -99.19564771860885,
+              18.90909614254949
+            ],
+            [
+              -99.19450819892549,
+              18.90909733918843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19450945261293,
+              18.910181865770188
+            ],
+            [
+              -99.19451070638583,
+              18.91126639222537
+            ],
+            [
+              -99.19565024075882,
+              18.911265195439043
+            ],
+            [
+              -99.19564897964086,
+              18.910180669057553
+            ],
+            [
+              -99.19450945261293,
+              18.910181865770188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19451070638583,
+              18.91126639222537
+            ],
+            [
+              -99.19451196024414,
+              18.912350918553983
+            ],
+            [
+              -99.19565150196271,
+              18.912349721693953
+            ],
+            [
+              -99.19565024075882,
+              18.911265195439043
+            ],
+            [
+              -99.19451070638583,
+              18.91126639222537
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19451196024414,
+              18.912350918553983
+            ],
+            [
+              -99.1945132141879,
+              18.913435444756008
+            ],
+            [
+              -99.19565276325254,
+              18.91343424782228
+            ],
+            [
+              -99.19565150196271,
+              18.912349721693953
+            ],
+            [
+              -99.19451196024414,
+              18.912350918553983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1945132141879,
+              18.913435444756008
+            ],
+            [
+              -99.1945144682171,
+              18.91451997083145
+            ],
+            [
+              -99.19565402462833,
+              18.914518773824017
+            ],
+            [
+              -99.19565276325254,
+              18.91343424782228
+            ],
+            [
+              -99.1945132141879,
+              18.913435444756008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1945144682171,
+              18.91451997083145
+            ],
+            [
+              -99.19451572233174,
+              18.91560449678029
+            ],
+            [
+              -99.19565528609003,
+              18.91560329969916
+            ],
+            [
+              -99.19565402462833,
+              18.914518773824017
+            ],
+            [
+              -99.1945144682171,
+              18.91451997083145
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19451572233174,
+              18.91560449678029
+            ],
+            [
+              -99.19451697653184,
+              18.916689022602522
+            ],
+            [
+              -99.19565654763771,
+              18.916687825447696
+            ],
+            [
+              -99.19565528609003,
+              18.91560329969916
+            ],
+            [
+              -99.19451572233174,
+              18.91560449678029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19336618672575,
+              18.906929475147745
+            ],
+            [
+              -99.19336743289877,
+              18.90801400205589
+            ],
+            [
+              -99.19450694532348,
+              18.908012812480113
+            ],
+            [
+              -99.1945056918069,
+              18.906928285645233
+            ],
+            [
+              -99.19336618672575,
+              18.906929475147745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19336743289877,
+              18.90801400205589
+            ],
+            [
+              -99.1933686791567,
+              18.909098528837475
+            ],
+            [
+              -99.19450819892549,
+              18.90909733918843
+            ],
+            [
+              -99.19450694532348,
+              18.908012812480113
+            ],
+            [
+              -99.19336743289877,
+              18.90801400205589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.1933686791567,
+              18.909098528837475
+            ],
+            [
+              -99.19336992549957,
+              18.910183055492496
+            ],
+            [
+              -99.19450945261293,
+              18.910181865770188
+            ],
+            [
+              -99.19450819892549,
+              18.90909733918843
+            ],
+            [
+              -99.1933686791567,
+              18.909098528837475
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19336992549957,
+              18.910183055492496
+            ],
+            [
+              -99.19337117192738,
+              18.911267582020944
+            ],
+            [
+              -99.19451070638583,
+              18.91126639222537
+            ],
+            [
+              -99.19450945261293,
+              18.910181865770188
+            ],
+            [
+              -99.19336992549957,
+              18.910183055492496
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19337117192738,
+              18.911267582020944
+            ],
+            [
+              -99.19337241844012,
+              18.912352108422823
+            ],
+            [
+              -99.19451196024414,
+              18.912350918553983
+            ],
+            [
+              -99.19451070638583,
+              18.91126639222537
+            ],
+            [
+              -99.19337117192738,
+              18.911267582020944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19337241844012,
+              18.912352108422823
+            ],
+            [
+              -99.19337366503781,
+              18.91343663469812
+            ],
+            [
+              -99.1945132141879,
+              18.913435444756008
+            ],
+            [
+              -99.19451196024414,
+              18.912350918553983
+            ],
+            [
+              -99.19337241844012,
+              18.912352108422823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19337366503781,
+              18.91343663469812
+            ],
+            [
+              -99.19337491172044,
+              18.914521160846828
+            ],
+            [
+              -99.1945144682171,
+              18.91451997083145
+            ],
+            [
+              -99.1945132141879,
+              18.913435444756008
+            ],
+            [
+              -99.19337366503781,
+              18.91343663469812
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19337491172044,
+              18.914521160846828
+            ],
+            [
+              -99.19337615848801,
+              18.91560568686894
+            ],
+            [
+              -99.19451572233174,
+              18.91560449678029
+            ],
+            [
+              -99.1945144682171,
+              18.91451997083145
+            ],
+            [
+              -99.19337491172044,
+              18.914521160846828
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19222915930298,
+              18.909099711496616
+            ],
+            [
+              -99.19223039830129,
+              18.910184238224478
+            ],
+            [
+              -99.19336992549957,
+              18.910183055492496
+            ],
+            [
+              -99.1933686791567,
+              18.909098528837475
+            ],
+            [
+              -99.19222915930298,
+              18.909099711496616
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19223039830129,
+              18.910184238224478
+            ],
+            [
+              -99.192231637384,
+              18.911268764825767
+            ],
+            [
+              -99.19337117192738,
+              18.911267582020944
+            ],
+            [
+              -99.19336992549957,
+              18.910183055492496
+            ],
+            [
+              -99.19223039830129,
+              18.910184238224478
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.192231637384,
+              18.911268764825767
+            ],
+            [
+              -99.19223287655117,
+              18.912353291300477
+            ],
+            [
+              -99.19337241844012,
+              18.912352108422823
+            ],
+            [
+              -99.19337117192738,
+              18.911267582020944
+            ],
+            [
+              -99.192231637384,
+              18.911268764825767
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19223287655117,
+              18.912353291300477
+            ],
+            [
+              -99.19223411580278,
+              18.91343781764861
+            ],
+            [
+              -99.19337366503781,
+              18.91343663469812
+            ],
+            [
+              -99.19337241844012,
+              18.912352108422823
+            ],
+            [
+              -99.19223287655117,
+              18.912353291300477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nivel": 3,
+        "max_nivel_base": 3,
+        "n_eventos": 1,
+        "n_eventos_ge5": 0,
+        "delitos": [
+          "homicidio"
+        ],
+        "colonias": [
+          "Lázaro Cárdenas del Río"
+        ],
+        "fuentes": [
+          {
+            "title": "Violencia en Cuernavaca: asesinan a joven durante fiesta en la colonia Lázaro Cárdenas | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/violencia-en-cuernavaca-asesinan-joven-durante-fiesta-en-la-colonia-l-zaro-c-rdenas"
+          }
+        ],
+        "info": "1 evento(s) activo(s)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.19223411580278,
+              18.91343781764861
+            ],
+            [
+              -99.19223535513883,
+              18.914522343870157
+            ],
+            [
+              -99.19337491172044,
+              18.914521160846828
+            ],
+            [
+              -99.19337366503781,
+              18.91343663469812
+            ],
+            [
+              -99.19223411580278,
+              18.91343781764861
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

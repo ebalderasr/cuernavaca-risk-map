@@ -8,7 +8,7 @@ Este proyecto es estrictamente informativo y académico. Los datos mostrados se 
 1. **Naturaleza de los Datos:** OVICUE no genera información primaria; solo sistematiza reportes de medios de comunicación.
 2. **Precisión:** Las ubicaciones son aproximadas (basadas en referencias textuales de las noticias) y pueden no representar el lugar exacto de los hechos.
 3. **Oficialidad:** Esta plataforma **NO** es una fuente oficial de seguridad pública ni sustituye las estadísticas del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNRP).
-4. **Uso de la Información:** El usuario asume la responsabilidad total del uso de esta herramienta. Los desarrolladores no se hacen responsables de decisiones tomadas con base en estos datos.
+4. **Oficialidad:** Esta plataforma **NO** es una fuente oficial de seguridad pública ni sustituye las estadísticas del Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP).
 
 ## 🛠️ Metodología Técnica
 - **Radio de Incidencia:** 500 metros por evento.

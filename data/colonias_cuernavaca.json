@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Centro",
+    "aliases": ["Centro", "Cuernavaca Centro", "Colonia Centro", "Col. Centro"],
+    "coords": [18.9218, -99.2347]
+  },
+  {
+    "name": "Santa María Ahuacatitlán",
+    "aliases": ["Santa Maria Ahuacatitlan", "Santa María", "Poblado de Santa María", "Zona boscosa de Santa María", "Santa Maria"],
+    "coords": [18.9798, -99.2505]
+  },
+  {
+    "name": "Ricardo Flores Magón",
+    "aliases": ["Flores Magón", "Flores Magon", "Colonia Flores Magón", "Col. Flores Magón", "Col. Flores Magon"],
+    "coords": [18.9285, -99.1965]
+  },
+  {
+    "name": "Altavista",
+    "aliases": ["Altavista", "Colonia Altavista", "Col. Altavista"],
+    "coords": [18.9320, -99.2450]
+  },
+  {
+    "name": "Antonio Barona",
+    "aliases": ["Antonio Barona", "La Barona", "Colonia Antonio Barona", "Col. Antonio Barona"],
+    "coords": [18.9450, -99.2050]
+  },
+  {
+    "name": "Chipitlán",
+    "aliases": ["Chipitlán", "Chipitlan", "Colonia Chipitlán", "Col. Chipitlán"],
+    "coords": [18.8985, -99.2285]
+  },
+  {
+    "name": "Acapantzingo",
+    "aliases": ["Acapantzingo", "Poblado de Acapantzingo", "Colonia Acapantzingo", "Col. Acapantzingo"],
+    "coords": [18.9105, -99.2230]
+  },
+  {
+    "name": "Lomas de Ahuatlán",
+    "aliases": ["Lomas de Ahuatlan", "Ahuatlán", "Ahuatlan", "Colonia Lomas de Ahuatlán"],
+    "coords": [18.9560, -99.2565]
+  },
+  {
+    "name": "Ocotepec",
+    "aliases": ["Ocotepec", "Poblado de Ocotepec", "Colonia Ocotepec", "Col. Ocotepec"],
+    "coords": [18.9680, -99.2150]
+  },
+  {
+    "name": "Ahuatepec",
+    "aliases": ["Ahuatepec", "Poblado de Ahuatepec", "Colonia Ahuatepec", "Col. Ahuatepec"],
+    "coords": [18.9650, -99.1900]
+  },
+  {
+    "name": "Chamilpa",
+    "aliases": ["Chamilpa", "Poblado de Chamilpa", "Colonia Chamilpa", "Zona UAEM"],
+    "coords": [18.9625, -99.2255]
+  },
+  {
+    "name": "Satélite",
+    "aliases": ["Satélite", "Satelite", "Colonia Satélite", "Col. Satélite"],
+    "coords": [18.9250, -99.1900]
+  },
+  {
+    "name": "Carolina",
+    "aliases": ["Carolina", "Colonia Carolina", "Col. Carolina"],
+    "coords": [18.9300, -99.2400]
+  },
+  {
+    "name": "Teopanzolco",
+    "aliases": ["Teopanzolco", "Colonia Teopanzolco", "Col. Teopanzolco"],
+    "coords": [18.9280, -99.2150]
+  },
+  {
+    "name": "Amatitlán",
+    "aliases": ["Amatitlán", "Amatitlan", "Colonia Amatitlán", "Poblado de Amatitlán"],
+    "coords": [18.9150, -99.2280]
+  },
+  {
+    "name": "Lomas de Cortés",
+    "aliases": ["Lomas de Cortés", "Lomas de Cortes", "Colonia Lomas de Cortés"],
+    "coords": [18.9450, -99.2250]
+  },
+  {
+    "name": "Ejecutivos",
+    "aliases": ["Ejecutivos", "Colonia Ejecutivos", "Col. Ejecutivos"],
+    "coords": [18.9500, -99.2350]
+  },
+  {
+    "name": "Bosques de Cuernavaca",
+    "aliases": ["Bosques de Cuernavaca", "Colonia Bosques de Cuernavaca", "Bosques"],
+    "coords": [18.9580, -99.1950]
+  },
+  {
+    "name": "Nueva Jerusalén",
+    "aliases": ["Nueva Jerusalen", "Colonia Nueva Jerusalén", "Col. Nueva Jerusalén"],
+    "coords": [18.8995, -99.2208]
+  }
+]

@@ -2,45 +2,56 @@ name: OVICUE Daily Update
 
 on:
   schedule:
-    # Se ejecuta todos los días a las 09:00 UTC (aprox 3:00 AM hora Cuernavaca)
-    - cron: '0 9 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente desde la web de GitHub
+    # 17:12 UTC ~= 11:12 AM CDMX (UTC-06:00)
+    - cron: '12 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 20
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libgdal-dev
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgdal-dev gdal-bin
 
-    - name: Install Python dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 google-genai geopy geopandas shapely pyproj
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests beautifulsoup4 google-genai geopy geopandas shapely pyproj
 
-    - name: Run Scraper
-      env:
-        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-      run: python scripts/scraper.py
+      - name: Ensure data directory exists
+        run: mkdir -p data
 
-    - name: Run Geo-Logic
-      run: python scripts/logic.py
+      - name: Run scraper
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: python scripts/scraper.py
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "OVICUE Bot"
-        git config --global user.email "bot@ovicue.local"
-        git add data/events.json data/map_layers.json
-        # Solo hace commit si hay cambios reales en los datos
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Datos de incidencia diaria" && git push)
+      - name: Run geo logic
+        run: python scripts/logic.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "OVICUE Bot"
+          git config --global user.email "bot@ovicue.local"
+          git add data/events.json data/map_layers.json data/geocode_cache.json
+          if git diff --cached --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "Auto-update: datos OVICUE"
+            git push
+          fi
