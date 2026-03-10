@@ -14,7 +14,7 @@ function getColor(nivel) {
 }
 
 // Cargar los datos desde el archivo GeoJSON generado por Python
-fetch('../data/map_layers.json')
+fetch('data/map_layers.json')
     .then(response => response.json())
     .then(data => {
         L.geoJSON(data, {
