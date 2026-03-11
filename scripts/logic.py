@@ -3,29 +3,26 @@ from __future__ import annotations
 """
 OVICUE - logic.py
 
-Este script toma los eventos de entrada y genera la capa geoespacial
-final que consume el mapa web.
+Este script transforma los eventos del proyecto en capas geoespaciales
+listas para el frontend.
 
 Entradas:
-- data/events.json          -> eventos obtenidos automáticamente
-- data/manual_events.json   -> eventos agregados manualmente por el administrador
+- data/events.json
+- data/manual_events.json
 
-Salida:
-- data/map_layers.json      -> GeoJSON con celdas y propiedades agregadas
+Salidas:
+- data/map_layers.json      -> capa caliente (zonas activas)
+- data/archive_points.json  -> puntos archivados (eventos históricos)
 
-Idea general:
-1. Cargar eventos automáticos y manuales
-2. Unificarlos y quitar duplicados
-3. Calcular el nivel actual según el tiempo transcurrido
-4. Convertir eventos puntuales en buffers de 500 m
-5. Construir una grilla regular sobre el área cubierta por los buffers
-6. Para cada celda, calcular:
-   - nivel final
-   - número de eventos
-   - colonias
-   - delitos
-   - fuentes
-7. Exportar el resultado como GeoJSON
+Qué hace:
+1. Carga eventos automáticos y manuales
+2. Los combina y elimina duplicados
+3. Calcula el nivel actual aplicando decaimiento temporal
+4. Separa:
+   - eventos activos (nivel_actual > 0)
+   - eventos archivados (nivel_actual == 0)
+5. Los activos se convierten en buffers y luego en celdas agregadas
+6. Los archivados se exportan como puntos
 """
 
 import json
@@ -51,16 +48,17 @@ DATA_DIR = ROOT / "data"
 EVENTS_PATH = DATA_DIR / "events.json"
 MANUAL_EVENTS_PATH = DATA_DIR / "manual_events.json"
 
-# Archivo de salida
+# Archivos de salida
 OUTPUT_PATH = DATA_DIR / "map_layers.json"
+ARCHIVE_OUTPUT_PATH = DATA_DIR / "archive_points.json"
 
 # Sistemas de referencia
-WGS84 = "EPSG:4326"     # lat/lon para web
-UTM14N = "EPSG:32614"   # metros reales para Cuernavaca
+WGS84 = "EPSG:4326"      # lat/lon para web
+UTM14N = "EPSG:32614"    # metros reales para Cuernavaca
 
-# Parámetros del modelo espacial
-BUFFER_METERS = 500
-CELL_SIZE_METERS = 120
+# Parámetros espaciales
+DEFAULT_BUFFER_METERS = 500
+DEFAULT_CELL_SIZE_METERS = 120
 
 
 # =============================================================================
@@ -70,7 +68,7 @@ CELL_SIZE_METERS = 120
 def load_json_list(path: Path) -> list[dict[str, Any]]:
     """
     Carga un archivo JSON que debe contener una lista.
-    Si el archivo no existe o no contiene una lista, regresa [].
+    Si no existe o es inválido, devuelve [].
     """
     if not path.exists():
         return []
@@ -89,13 +87,8 @@ def load_events() -> list[dict[str, Any]]:
     - eventos automáticos
     - eventos manuales
 
-    También elimina duplicados.
-    La prioridad de deduplicación es:
-    1. fuente (URL)
-    2. id
-
-    Esto permite que una nota manual y una automática no se dupliquen
-    si ambas apuntan a la misma URL.
+    Elimina duplicados priorizando la URL ('fuente').
+    Si no hay URL, usa 'id'.
     """
     scraped = load_json_list(EVENTS_PATH)
     manual = load_json_list(MANUAL_EVENTS_PATH)
@@ -124,26 +117,24 @@ def parse_event_date(value: str | None) -> date:
     """
     Convierte una fecha de texto a objeto date.
 
-    Acepta formatos comunes:
+    Formatos aceptados:
     - YYYY-MM-DD
     - YYYY/MM/DD
     - ISO datetime
 
-    Si no puede interpretar la fecha, usa la fecha actual.
+    Si no puede interpretarla, usa la fecha actual.
     """
     if not value:
         return date.today()
 
     value = str(value).strip()
 
-    # Intento 1: formatos simples de fecha
     for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
         try:
             return datetime.strptime(value[:10], fmt).date()
         except ValueError:
             continue
 
-    # Intento 2: formato ISO completo
     try:
         return datetime.fromisoformat(value.replace("Z", "+00:00")).date()
     except Exception:
@@ -152,17 +143,13 @@ def parse_event_date(value: str | None) -> date:
 
 def calculate_decay(event: dict[str, Any], today: date | None = None) -> int:
     """
-    Calcula el nivel actual del evento aplicando decaimiento temporal.
+    Calcula el nivel actual del evento.
 
     Regla:
     nivel_actual = max(0, nivel_inicial - floor(días_transcurridos / 30))
-
-    Ejemplo:
-    - nivel_inicial = 5
-    - pasaron 45 días
-    - nivel_actual = 4
     """
     today = today or date.today()
+
     event_date = parse_event_date(event.get("fecha"))
     days_elapsed = max(0, (today - event_date).days)
 
@@ -182,19 +169,16 @@ def normalize_events(events: list[dict[str, Any]]) -> pd.DataFrame:
     """
     Convierte la lista de eventos en un DataFrame limpio.
 
-    Filtra eventos con problemas como:
-    - coordenadas ausentes
-    - coordenadas mal formadas
-    - nivel actual <= 0
-
-    También convierte cada evento en un punto geográfico.
+    No descarta los eventos archivados:
+    - los activos seguirán al mapa caliente
+    - los archivados se irán a archive_points.json
     """
     rows: list[dict[str, Any]] = []
 
     for event in events:
         coords = event.get("coordenadas")
 
-        # Deben venir como [lat, lon]
+        # Se espera [lat, lon]
         if not isinstance(coords, (list, tuple)) or len(coords) != 2:
             continue
 
@@ -204,15 +188,18 @@ def normalize_events(events: list[dict[str, Any]]) -> pd.DataFrame:
         except Exception:
             continue
 
-        # Nivel actual con decaimiento
         level = calculate_decay(event)
-        if level <= 0:
-            continue
+        is_archived = level <= 0
 
         try:
             nivel_inicial = int(event.get("nivel_inicial", 5))
         except Exception:
             nivel_inicial = 5
+
+        try:
+            buffer_meters = int(event.get("buffer_meters", DEFAULT_BUFFER_METERS))
+        except Exception:
+            buffer_meters = DEFAULT_BUFFER_METERS
 
         rows.append(
             {
@@ -220,6 +207,9 @@ def normalize_events(events: list[dict[str, Any]]) -> pd.DataFrame:
                 "fecha": event.get("fecha"),
                 "hora": event.get("hora"),
                 "colonia": event.get("colonia", "No especificada"),
+                "municipio_detectado": event.get("municipio_detectado"),
+                "location_scope": event.get("location_scope", "colonia"),
+                "location_name": event.get("location_name") or event.get("colonia", "No especificada"),
                 "tipo_delito": event.get("tipo_delito", "No especificado"),
                 "fuente": event.get("fuente"),
                 "source_title": event.get("source_title"),
@@ -228,6 +218,8 @@ def normalize_events(events: list[dict[str, Any]]) -> pd.DataFrame:
                 "geo_confidence": event.get("geo_confidence"),
                 "nivel_inicial": nivel_inicial,
                 "nivel_actual": level,
+                "archived": is_archived,
+                "buffer_meters": buffer_meters,
                 "geometry": Point(lon, lat),  # shapely usa (x, y) = (lon, lat)
             }
         )
@@ -236,15 +228,56 @@ def normalize_events(events: list[dict[str, Any]]) -> pd.DataFrame:
 
 
 # =============================================================================
+# EXPORTACIÓN DE EVENTOS ARCHIVADOS
+# =============================================================================
+
+def export_archive_points(df: pd.DataFrame) -> dict[str, Any]:
+    """
+    Exporta los eventos archivados (nivel_actual == 0) como puntos GeoJSON.
+
+    El frontend los puede mostrar como pequeños cuadrados negros.
+    """
+    if df.empty or "archived" not in df.columns:
+        archive_geojson = {"type": "FeatureCollection", "features": []}
+        ARCHIVE_OUTPUT_PATH.write_text(
+            json.dumps(archive_geojson, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        return archive_geojson
+
+    archived_df = df[df["archived"]].copy()
+
+    if archived_df.empty:
+        archive_geojson = {"type": "FeatureCollection", "features": []}
+        ARCHIVE_OUTPUT_PATH.write_text(
+            json.dumps(archive_geojson, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        return archive_geojson
+
+    archive_gdf = gpd.GeoDataFrame(archived_df, geometry="geometry", crs=WGS84)
+    archive_gdf["marker_type"] = "archived_square"
+
+    geojson = json.loads(archive_gdf.to_json(drop_id=True))
+
+    ARCHIVE_OUTPUT_PATH.write_text(
+        json.dumps(geojson, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    return geojson
+
+
+# =============================================================================
 # CONSTRUCCIÓN DE GRILLA
 # =============================================================================
 
 def make_grid(bounds: tuple[float, float, float, float], cell_size: int) -> list:
     """
-    Construye una grilla rectangular regular sobre el bounding box.
+    Construye una grilla rectangular regular.
 
     bounds = (minx, miny, maxx, maxy)
-    cell_size = tamaño de lado de la celda en metros
+    cell_size = tamaño de celda en metros
     """
     minx, miny, maxx, maxy = bounds
 
@@ -260,39 +293,35 @@ def make_grid(bounds: tuple[float, float, float, float], cell_size: int) -> list
 
 
 # =============================================================================
-# AGREGACIÓN POR CELDA
+# RESUMEN POR CELDA
 # =============================================================================
 
 def summarize_covering_events(covering: pd.DataFrame) -> dict[str, Any]:
     """
-    Resume los eventos que intersectan una celda.
+    Resume los eventos activos que cubren una celda.
 
-    Reglas:
-    - nivel base de la celda = máximo nivel_actual de los eventos que la tocan
-    - sinergia pública por celda:
-      +1 por cada evento adicional con nivel >= 5
-    - tope máximo = 10
-
-    También compila:
-    - delitos
-    - colonias
-    - fuentes
+    Nivel final:
+    - base = máximo nivel_actual
+    - sinergia = +1 por cada evento adicional con nivel >= 5
+    - tope = 10
     """
     levels = covering["nivel_actual"].astype(int).tolist()
     max_level = max(levels)
     high_risk_count = sum(level >= 5 for level in levels)
 
-    # Sinergia estable y pública
     final_level = min(10, max_level + max(0, high_risk_count - 1))
 
     delitos = sorted({str(x) for x in covering["tipo_delito"].dropna().tolist()})
-    colonias = sorted({str(x) for x in covering["colonia"].dropna().tolist()})
+    colonias = sorted({str(x) for x in covering["colonia"].dropna().tolist() if str(x).strip()})
+    municipios = sorted({str(x) for x in covering["municipio_detectado"].dropna().tolist() if str(x).strip()})
+    location_scopes = sorted({str(x) for x in covering["location_scope"].dropna().tolist()})
+    location_names = sorted({str(x) for x in covering["location_name"].dropna().tolist() if str(x).strip()})
 
-    # Guardamos hasta 5 fuentes únicas para la celda
+    # Guardar hasta 5 fuentes únicas
     fuentes: list[dict[str, str]] = []
     seen_urls: set[str] = set()
 
-    for _, row in covering.head(5).iterrows():
+    for _, row in covering.iterrows():
         url = row.get("fuente")
         if not url or url in seen_urls:
             continue
@@ -305,7 +334,13 @@ def summarize_covering_events(covering: pd.DataFrame) -> dict[str, Any]:
             }
         )
 
-    info = f"{len(covering)} evento(s) activo(s)"
+        if len(fuentes) >= 5:
+            break
+
+    if municipios:
+        info = f"{len(covering)} evento(s) activo(s) · área conurbada / municipio"
+    else:
+        info = f"{len(covering)} evento(s) activo(s) · referencia por colonia"
 
     return {
         "nivel": int(final_level),
@@ -314,62 +349,72 @@ def summarize_covering_events(covering: pd.DataFrame) -> dict[str, Any]:
         "n_eventos_ge5": int(high_risk_count),
         "delitos": delitos,
         "colonias": colonias,
+        "municipios": municipios,
+        "location_scopes": location_scopes,
+        "location_names": location_names,
         "fuentes": fuentes,
         "info": info,
     }
 
 
 # =============================================================================
-# PROCESAMIENTO PRINCIPAL
+# PIPELINE PRINCIPAL
 # =============================================================================
 
 def process_risk_zones() -> dict[str, Any]:
     """
-    Función principal del pipeline geoespacial.
+    Flujo principal:
 
-    Flujo:
     1. Carga eventos
-    2. Normaliza y filtra
-    3. Convierte a GeoDataFrame
-    4. Genera buffers de 500 m
-    5. Une geometrías para obtener el área total cubierta
-    6. Crea grilla
-    7. Evalúa qué eventos cubren cada celda
-    8. Exporta GeoJSON final
+    2. Calcula niveles y banderas de archivo
+    3. Exporta los eventos archivados como puntos
+    4. Procesa solo los activos para construir el mapa caliente
+    5. Exporta el GeoJSON final de celdas
     """
     events = load_events()
     df = normalize_events(events)
 
+    # Exportar archivados siempre, aunque no haya activos
+    export_archive_points(df)
+
+    # Filtrar activos para el mapa caliente
+    active_df = df[~df["archived"]].copy() if not df.empty else df
+
     # Caso 1: no hay eventos activos
-    if df.empty:
+    if active_df.empty:
         feature_collection = {"type": "FeatureCollection", "features": []}
         OUTPUT_PATH.write_text(
             json.dumps(feature_collection, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        print("ℹ️ No hay eventos activos. Se generó un GeoJSON vacío.")
+        print("ℹ️ No hay eventos activos. Se generó un GeoJSON caliente vacío.")
+        print(f"🗃️ Eventos archivados exportados a {ARCHIVE_OUTPUT_PATH}")
         return feature_collection
 
-    # Convertimos de DataFrame a GeoDataFrame y pasamos a sistema métrico
-    gdf = gpd.GeoDataFrame(df, geometry="geometry", crs=WGS84).to_crs(UTM14N)
+    # Convertir a GeoDataFrame y proyectar a sistema métrico
+    gdf = gpd.GeoDataFrame(active_df, geometry="geometry", crs=WGS84).to_crs(UTM14N)
 
-    # Cada evento se vuelve un buffer de 500 metros
-    gdf["geometry"] = gdf.geometry.buffer(BUFFER_METERS)
+    # Cada evento usa su propio buffer:
+    # - colonia = 500 m
+    # - municipio/conurbado = 1000 m
+    gdf["geometry"] = gdf.apply(
+        lambda row: row.geometry.buffer(int(row["buffer_meters"])),
+        axis=1,
+    )
 
-    # Geometría total cubierta por todos los buffers
+    # Unión de todas las áreas activas
     union_geom = unary_union(list(gdf.geometry))
 
-    # Construimos grilla sobre toda el área cubierta
-    grid_cells = make_grid(union_geom.bounds, CELL_SIZE_METERS)
+    # Crear grilla regular
+    grid_cells = make_grid(union_geom.bounds, DEFAULT_CELL_SIZE_METERS)
     grid = gpd.GeoDataFrame({"geometry": grid_cells}, crs=UTM14N)
 
-    # Nos quedamos solo con celdas que tocan al menos una zona de riesgo
+    # Solo celdas que tocan alguna zona activa
     grid = grid[grid.intersects(union_geom)].copy()
 
     features: list[dict[str, Any]] = []
 
     for cell in grid.geometry:
-        # Eventos cuyos buffers intersectan esta celda
         covering = gdf[gdf.geometry.intersects(cell)]
         if covering.empty:
             continue
@@ -382,7 +427,7 @@ def process_risk_zones() -> dict[str, Any]:
             }
         )
 
-    # Caso 2: hubo eventos, pero ninguna celda quedó con cobertura útil
+    # Caso 2: había activos, pero no quedaron celdas útiles
     if not features:
         feature_collection = {"type": "FeatureCollection", "features": []}
         OUTPUT_PATH.write_text(
@@ -390,19 +435,20 @@ def process_risk_zones() -> dict[str, Any]:
             encoding="utf-8",
         )
         print("ℹ️ No se generaron celdas con cobertura.")
+        print(f"🗃️ Eventos archivados exportados a {ARCHIVE_OUTPUT_PATH}")
         return feature_collection
 
-    # Convertimos las celdas de vuelta a WGS84 para uso web
+    # Regresar a WGS84 para uso web
     result = gpd.GeoDataFrame(features, geometry="geometry", crs=UTM14N).to_crs(WGS84)
 
-    # Exportamos como GeoJSON estándar
     geojson = json.loads(result.to_json(drop_id=True))
     OUTPUT_PATH.write_text(
         json.dumps(geojson, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
-    print(f"✅ {len(geojson['features'])} celdas exportadas a {OUTPUT_PATH}")
+    print(f"✅ {len(geojson['features'])} celdas calientes exportadas a {OUTPUT_PATH}")
+    print(f"🗃️ Eventos archivados exportados a {ARCHIVE_OUTPUT_PATH}")
     return geojson
 
 

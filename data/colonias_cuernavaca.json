@@ -1519,5 +1519,211 @@
       18.9443013,
       -99.2272939
     ]
+  },
+  {
+    "name": "Yautepec",
+    "aliases": [
+      "YAUTEPEC",
+      "COL YAUTEPEC",
+      "COL. YAUTEPEC",
+      "COLONIA YAUTEPEC",
+      "Col Yautepec",
+      "Col. Yautepec",
+      "Colonia Yautepec",
+      "yautepec",
+      "col yautepec",
+      "col. yautepec",
+      "colonia yautepec",
+      "MUNICIPIO DE YAUTEPEC"
+    ],
+    "coords": [
+      18.8891562,
+      -99.0626377
+    ]
+  },
+  {
+    "name": "Civac",
+    "aliases": [
+      "CIVAC",
+      "COL CIVAC",
+      "COL. CIVAC",
+      "COLONIA CIVAC",
+      "Col Civac",
+      "Col. Civac",
+      "Colonia Civac",
+      "civac",
+      "col civac",
+      "col. civac",
+      "colonia civac",
+      "FRACC CIVAC",
+      "FRACCIONAMIENTO CIVAC"
+    ],
+    "coords": [
+      18.9117408,
+      -99.1719095
+    ]
+  },
+  {
+    "name": "Emiliano Zapata",
+    "aliases": [
+      "EMILIANO ZAPATA",
+      "ZAPATA",
+      "Zapata",
+      "COL EMILIANO ZAPATA",
+      "COL. EMILIANO ZAPATA",
+      "COLONIA EMILIANO ZAPATA",
+      "Col Emiliano Zapata",
+      "Col. Emiliano Zapata",
+      "Colonia Emiliano Zapata",
+      "emiliano zapata",
+      "col emiliano zapata",
+      "col. emiliano zapata",
+      "colonia emiliano zapata",
+      "zapata"
+    ],
+    "coords": [
+      18.8478608,
+      -99.1843676
+    ]
+  },
+  {
+    "name": "Temixco",
+    "aliases": [
+      "TEMIXCO",
+      "COL TEMIXCO",
+      "COL. TEMIXCO",
+      "COLONIA TEMIXCO",
+      "Col Temixco",
+      "Col. Temixco",
+      "Colonia Temixco",
+      "temixco",
+      "col temixco",
+      "col. temixco",
+      "colonia temixco",
+      "MUNICIPIO DE TEMIXCO"
+    ],
+    "coords": [
+      18.8593026,
+      -99.2393666
+    ]
+  },
+  {
+    "name": "Lienzo del Charro",
+    "aliases": [
+      "LIENZO DEL CHARRO",
+      "COL LIENZO DEL CHARRO",
+      "COL. LIENZO DEL CHARRO",
+      "COLONIA LIENZO DEL CHARRO",
+      "Col Lienzo Del Charro",
+      "Col Lienzo del Charro",
+      "Col. Lienzo Del Charro",
+      "Col. Lienzo del Charro",
+      "Colonia Lienzo Del Charro",
+      "Colonia Lienzo del Charro",
+      "LIENZO CHARRO",
+      "Lienzo Charro",
+      "lienzo del charro",
+      "col lienzo del charro",
+      "col. lienzo del charro",
+      "colonia lienzo del charro"
+    ],
+    "coords": [
+      18.97065,
+      -99.2446
+    ]
+  },
+  {
+    "name": "Ocotera",
+    "aliases": [
+      "OCOTERA",
+      "COL OCOTERA",
+      "COL. OCOTERA",
+      "COLONIA OCOTERA",
+      "Col Ocotera",
+      "Col. Ocotera",
+      "Colonia Ocotera",
+      "ocotera",
+      "col ocotera",
+      "col. ocotera",
+      "colonia ocotera"
+    ],
+    "coords": [
+      18.98708,
+      -99.24703
+    ]
+  },
+  {
+    "name": "Morelos",
+    "aliases": [
+      "MORELOS",
+      "COL MORELOS",
+      "COL. MORELOS",
+      "COLONIA MORELOS",
+      "Col Morelos",
+      "Col. Morelos",
+      "Colonia Morelos",
+      "morelos",
+      "col morelos",
+      "col. morelos",
+      "colonia morelos"
+    ],
+    "coords": [
+      18.98,
+      -99.24149
+    ]
+  },
+  {
+    "name": "Vicente Estrada Cajigal",
+    "aliases": [
+      "VICENTE ESTRADA CAJIGAL",
+      "ESTRADA CAJIGAL",
+      "COL VICENTE ESTRADA CAJIGAL",
+      "COL. VICENTE ESTRADA CAJIGAL",
+      "COLONIA VICENTE ESTRADA CAJIGAL",
+      "Col Vicente Estrada Cajigal",
+      "Col. Vicente Estrada Cajigal",
+      "Colonia Vicente Estrada Cajigal",
+      "vicente estrada cajigal",
+      "estrada cajigal",
+      "col vicente estrada cajigal",
+      "col. vicente estrada cajigal",
+      "colonia vicente estrada cajigal"
+    ],
+    "coords": [
+      18.917414,
+      -99.197793
+    ]
+  },
+  {
+    "name": "Ricardo Flores Magon",
+    "aliases": [
+      "RICARDO FLORES MAGON",
+      "RICARDO FLORES MAGÓN",
+      "FLORES MAGON",
+      "FLORES MAGÓN",
+      "COL RICARDO FLORES MAGON",
+      "COL RICARDO FLORES MAGÓN",
+      "COL. RICARDO FLORES MAGON",
+      "COL. RICARDO FLORES MAGÓN",
+      "COLONIA RICARDO FLORES MAGON",
+      "COLONIA RICARDO FLORES MAGÓN",
+      "Col Ricardo Flores Magon",
+      "Col Ricardo Flores Magón",
+      "Col. Ricardo Flores Magon",
+      "Col. Ricardo Flores Magón",
+      "Colonia Ricardo Flores Magon",
+      "Colonia Ricardo Flores Magón",
+      "ricardo flores magon",
+      "ricardo flores magón",
+      "flores magon",
+      "flores magón",
+      "col ricardo flores magon",
+      "col ricardo flores magón",
+      "colonia ricardo flores magon"
+    ],
+    "coords": [
+      18.927163,
+      -99.199392
+    ]
   }
 ]

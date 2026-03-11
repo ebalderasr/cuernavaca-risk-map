@@ -31,14 +31,12 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy requests beautifulsoup4 google-genai geopy geopandas shapely pyproj
+          pip install pandas numpy requests beautifulsoup4 geopy geopandas shapely pyproj
 
       - name: Ensure data directory exists
         run: mkdir -p data
 
       - name: Run scraper
-        env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         run: python scripts/scraper.py
 
       - name: Run geo logic

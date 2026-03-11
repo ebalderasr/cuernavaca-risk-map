@@ -1,1 +1,23 @@
-{}
+{
+  "lienzo del charro": {
+    "coords": [
+      18.9707554,
+      -99.2447806
+    ],
+    "geo_confidence": "nominatim"
+  },
+  "lazaro cardenas del rio": {
+    "coords": [
+      18.911444,
+      -99.1974929
+    ],
+    "geo_confidence": "nominatim"
+  },
+  "tres de mayo": {
+    "coords": [
+      18.9346231,
+      -99.2040001
+    ],
+    "geo_confidence": "nominatim"
+  }
+}

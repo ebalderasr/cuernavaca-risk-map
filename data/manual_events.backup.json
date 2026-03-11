@@ -1,0 +1,22 @@
+[
+  {
+    "id": "00b208df4ff13178",
+    "fecha": "2026-03-02",
+    "hora": null,
+    "colonia": "Nueva Jerusalén",
+    "coordenadas": [
+      18.9894, -99.2460
+    ],
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca",
+    "resumen": "Joven estudiante de 18 años, Kimberly, localizada sin vida en una zona boscosa de Cuernavaca tras ser reportada como desaparecida.",
+    "source_name": "Manual",
+    "source_title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+    "published_at": "2026-03-02 19:12:22",
+    "scraped_at": "2026-03-10T23:08:36Z",
+    "geo_confidence": "nominatim",
+    "extraction_confidence": 0.95,
+    "source_type": "manual"
+  }
+]

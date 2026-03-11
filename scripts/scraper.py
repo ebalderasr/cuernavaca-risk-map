@@ -1,8 +1,31 @@
 from __future__ import annotations
 
+"""
+OVICUE - scraper.py
+
+Versión sin IA.
+
+Qué hace:
+1. Entra a la sección de seguridad de Diario de Morelos
+2. Toma solo las primeras 12 notas
+3. Descarga cada nota
+4. Usa reglas basadas en palabras clave para decidir si:
+   - es un hecho violento
+   - pertenece al área objetivo
+5. Detecta si el hecho ocurrió en:
+   - Cuernavaca
+   - o un municipio / zona conurbada configurada
+6. Resuelve ubicación usando el gazetteer local
+7. Construye eventos y los guarda en data/events.json
+
+Sin IA:
+- no usa Gemini
+- no requiere GOOGLE_API_KEY
+- no consume cuota de modelos
+"""
+
 import hashlib
 import json
-import os
 import re
 import time
 import unicodedata
@@ -14,27 +37,30 @@ import requests
 from bs4 import BeautifulSoup
 from geopy.exc import GeocoderTimedOut
 from geopy.geocoders import Nominatim
-from google import genai
+
+
+# =============================================================================
+# RUTAS Y CONFIGURACIÓN
+# =============================================================================
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
+
 EVENTS_PATH = DATA_DIR / "events.json"
 GEOCODE_CACHE_PATH = DATA_DIR / "geocode_cache.json"
 GAZETTEER_PATH = DATA_DIR / "colonias_cuernavaca.json"
 UNRESOLVED_PATH = DATA_DIR / "unresolved_events.json"
 
-API_KEY = os.environ.get("GOOGLE_API_KEY")
-if not API_KEY:
-    raise RuntimeError("Falta GOOGLE_API_KEY en variables de entorno")
-
-client = genai.Client(api_key=API_KEY)
-GEMINI_MODEL = "models/gemini-2.5-flash"
-
 HEADERS = {
-    "User-Agent": "OVICUE/0.3 (academic civic project; contacto local)"
+    "User-Agent": "OVICUE/0.5 (deterministic keyword pipeline)"
 }
 
-geolocator = Nominatim(user_agent="ovicue/0.3-academic-project")
+geolocator = Nominatim(user_agent="ovicue/0.5-deterministic-pipeline")
+
+
+# =============================================================================
+# FUENTES
+# =============================================================================
 
 SOURCES = [
     {
@@ -45,8 +71,32 @@ SOURCES = [
     }
 ]
 
-# Raíces / stems: más tolerantes a género, número y conjugación.
-STEM_PATTERNS = [
+# Solo procesar las primeras 12 notas visibles
+MAX_ARTICLES_PER_RUN = 12
+
+
+# =============================================================================
+# ÁREA OBJETIVO
+# =============================================================================
+
+CONURBADO_AREAS = {
+    "jiutepec": "Jiutepec",
+    "yautepec": "Yautepec",
+    "emiliano zapata": "Emiliano Zapata",
+    "temixco": "Temixco",
+    "civac": "CIVAC",
+}
+
+DEFAULT_BUFFER_METERS = 500
+CONURBADO_BUFFER_METERS = 1000
+
+
+# =============================================================================
+# PALABRAS CLAVE Y HEURÍSTICAS
+# =============================================================================
+
+# Raíces para detectar violencia en texto normalizado
+VIOLENT_STEMS = [
     "homicid",
     "asesin",
     "ejecut",
@@ -62,14 +112,15 @@ STEM_PATTERNS = [
     "sin vida",
     "hallan",
     "hallazg",
-    "apuñal",
+    "apunal",
     "arma de fuego",
     "muert",
     "violenc",
+    "ataque armado",
 ]
 
-# Términos que suelen meter ruido; NO bloquean solos, solo ayudan a priorizar.
-NOISE_HINTS = [
+# Términos que suelen corresponder a otros temas
+NEGATIVE_HINTS = [
     "volcadura",
     "choque",
     "accidente",
@@ -80,9 +131,18 @@ NOISE_HINTS = [
 ]
 
 
+# =============================================================================
+# UTILIDADES BÁSICAS
+# =============================================================================
+
 def load_json(path: Path, default: Any):
+    """
+    Carga JSON desde disco.
+    Si no existe o falla, regresa `default`.
+    """
     if not path.exists():
         return default
+
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
@@ -90,24 +150,44 @@ def load_json(path: Path, default: Any):
 
 
 def save_json(path: Path, data: Any) -> None:
+    """
+    Guarda un objeto como JSON UTF-8 con indentación.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def stable_id(text: str) -> str:
+    """
+    Genera un ID estable a partir de texto.
+    """
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
 
 def normalize_text(text: str | None) -> str:
+    """
+    Normaliza texto para matching:
+    - quita acentos
+    - pasa a minúsculas
+    - elimina puntuación
+    - colapsa espacios
+    """
     text = text or ""
     text = unicodedata.normalize("NFKD", text)
     text = text.encode("ascii", "ignore").decode("ascii")
     text = text.lower()
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
 def normalize_url(url: str, base_url: str) -> str:
+    """
+    Convierte una URL relativa en absoluta.
+    """
     if not url:
         return ""
     if url.startswith("http"):
@@ -115,34 +195,10 @@ def normalize_url(url: str, base_url: str) -> str:
     return base_url.rstrip("/") + "/" + url.lstrip("/")
 
 
-def is_candidate_title(title: str) -> bool:
-    t = normalize_text(title)
-    return any(stem in t for stem in STEM_PATTERNS)
-
-
-def looks_mostly_noise(title: str) -> bool:
-    t = normalize_text(title)
-    return any(hint in t for hint in NOISE_HINTS)
-
-
-def extract_json_object(raw_text: str) -> dict[str, Any]:
-    if not raw_text:
-        return {}
-
-    text = raw_text.strip()
-    text = text.replace("```json", "").replace("```", "").strip()
-    match = re.search(r"\{.*\}", text, re.DOTALL)
-
-    if not match:
-        return {}
-
-    try:
-        return json.loads(match.group(0))
-    except Exception:
-        return {}
-
-
 def normalize_date_str(value: str | None) -> str | None:
+    """
+    Convierte múltiples formatos de fecha a YYYY-MM-DD.
+    """
     if not value:
         return None
 
@@ -169,14 +225,54 @@ def normalize_date_str(value: str | None) -> str | None:
     return None
 
 
+# =============================================================================
+# SELECCIÓN DE NOTAS
+# =============================================================================
+
+def first_n_unique_note_links(links, base_url: str, limit: int) -> list[tuple[str, str]]:
+    """
+    Toma nodos <a>, normaliza URLs, elimina duplicados
+    y devuelve solo las primeras N notas.
+    """
+    selected: list[tuple[str, str]] = []
+    seen: set[str] = set()
+
+    for link in links:
+        href = link.get("href", "")
+        url = normalize_url(href, base_url)
+        title = link.get_text(" ", strip=True)
+
+        if not url or url in seen:
+            continue
+        if "/noticias/" not in url:
+            continue
+
+        seen.add(url)
+        selected.append((url, title))
+
+        if len(selected) >= limit:
+            break
+
+    return selected
+
+
+# =============================================================================
+# EXTRACCIÓN DE ARTÍCULO
+# =============================================================================
+
 def extract_article(url: str) -> dict[str, Any]:
+    """
+    Descarga una nota y extrae:
+    - título
+    - fecha publicada
+    - cuerpo aproximado (primeros párrafos útiles)
+    """
     response = requests.get(url, headers=HEADERS, timeout=20)
     response.raise_for_status()
+
     soup = BeautifulSoup(response.text, "html.parser")
 
-    title = ""
-    if soup.title:
-        title = soup.title.get_text(" ", strip=True)
+    title = soup.title.get_text(" ", strip=True) if soup.title else ""
 
     published_at = None
     meta_candidates = [
@@ -185,6 +281,7 @@ def extract_article(url: str) -> dict[str, Any]:
         soup.find("meta", attrs={"name": "publish-date"}),
         soup.find("meta", attrs={"itemprop": "datePublished"}),
     ]
+
     for tag in meta_candidates:
         if tag and tag.get("content"):
             published_at = tag.get("content")
@@ -195,7 +292,7 @@ def extract_article(url: str) -> dict[str, Any]:
         if time_tag:
             published_at = time_tag.get("datetime") or time_tag.get_text(" ", strip=True)
 
-    paragraphs = []
+    paragraphs: list[str] = []
     for selector in ["article p", ".field-items p", ".node p", "main p"]:
         found = [p.get_text(" ", strip=True) for p in soup.select(selector)]
         found = [p for p in found if len(p) > 40]
@@ -212,77 +309,112 @@ def extract_article(url: str) -> dict[str, Any]:
     }
 
 
-def validate_and_extract(title: str, article_text: str) -> dict[str, Any]:
-    prompt = f"""
-Analiza la siguiente nota periodística y responde ÚNICAMENTE con un objeto JSON válido.
+# =============================================================================
+# DETECCIÓN DELITOS / HORA / ÁREA
+# =============================================================================
 
-Objetivo:
-- Identificar si es un hecho violento relevante para un mapa cívico basado en prensa.
-- Confirmar si ocurrió en Cuernavaca.
-- Extraer colonia, hora aproximada y un resumen breve.
-- Si falta algo, usa null.
-- confidence debe ser un número entre 0 y 1.
+def is_candidate_text(text: str) -> bool:
+    """
+    Decide si el texto contiene señales de violencia.
+    """
+    t = normalize_text(text)
 
-JSON esperado:
-{{
-  "es_violento": true,
-  "es_en_cuernavaca": true,
-  "delito": "homicidio",
-  "colonia": "Nueva Jerusalen",
-  "hora_aprox": "18:02",
-  "resumen": "Joven asesinada localizada en zona boscosa",
-  "confidence": 0.91
-}}
+    if not any(stem in t for stem in VIOLENT_STEMS):
+        return False
 
-Título:
-{title}
+    # Si solo hay ruido y ninguna señal violenta fuerte, lo descartamos
+    if any(h in t for h in NEGATIVE_HINTS) and not any(stem in t for stem in VIOLENT_STEMS):
+        return False
 
-Texto:
-{article_text}
-""".strip()
+    return True
 
-    try:
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt,
-        )
-        data = extract_json_object(response.text)
 
-        data.setdefault("es_violento", False)
-        data.setdefault("es_en_cuernavaca", False)
-        data.setdefault("delito", None)
-        data.setdefault("colonia", None)
-        data.setdefault("hora_aprox", None)
-        data.setdefault("resumen", None)
-        data.setdefault("confidence", 0.0)
+def detect_conurbado_area(text: str | None) -> str | None:
+    """
+    Busca municipios/zonas conurbadas en el texto.
+    """
+    t = normalize_text(text)
 
-        return data
-    except Exception as e:
-        print(f"⚠️ Error en IA: {e}")
-        return {
-            "es_violento": False,
-            "es_en_cuernavaca": False,
-            "delito": None,
-            "colonia": None,
-            "hora_aprox": None,
-            "resumen": None,
-            "confidence": 0.0,
-        }
+    for needle, canonical in CONURBADO_AREAS.items():
+        if needle in t:
+            return canonical
 
+    return None
+
+
+def infer_delito(text: str) -> str:
+    """
+    Infere un tipo de delito aproximado usando reglas simples.
+    """
+    t = normalize_text(text)
+
+    if "feminicid" in t:
+        return "feminicidio"
+    if "secuestr" in t:
+        return "secuestro"
+    if "asalto" in t and ("balaz" in t or "arma de fuego" in t or "balea" in t):
+        return "asalto con violencia"
+    if any(x in t for x in ["homicid", "asesin", "ejecut", "ultim", "sin vida", "muert"]):
+        return "homicidio"
+    if any(x in t for x in ["balacer", "balaz", "dispar", "ataque armado", "arma de fuego", "balea"]):
+        return "ataque armado"
+
+    return "violencia"
+
+
+def extract_hour(text: str) -> str | None:
+    """
+    Busca una hora explícita tipo 18:02 o 6.30.
+    Si no encuentra, intenta inferir una aproximada por frases.
+    """
+    # Horas tipo 18:02 o 18.02
+    match = re.search(r"\b([01]?\d|2[0-3])[:.]([0-5]\d)\b", text)
+    if match:
+        hh = int(match.group(1))
+        mm = int(match.group(2))
+        return f"{hh:02d}:{mm:02d}"
+
+    t = normalize_text(text)
+
+    # Heurísticas simples
+    if "madrugada" in t:
+        return "02:00"
+    if "anoche" in t or "por la noche" in t or "durante la noche" in t:
+        return "23:00"
+    if "por la tarde" in t or "durante la tarde" in t:
+        return "18:00"
+    if "por la manana" in t or "durante la manana" in t:
+        return "08:00"
+
+    return None
+
+
+# =============================================================================
+# GAZETTEER Y GEOCODIFICACIÓN
+# =============================================================================
 
 def load_gazetteer() -> list[dict[str, Any]]:
+    """
+    Carga el catálogo local de colonias / municipios / aliases.
+    """
     return load_json(GAZETTEER_PATH, [])
 
 
-def gazetteer_lookup(colonia: str, gazetteer: list[dict[str, Any]]) -> tuple[list[float] | None, str]:
-    target = normalize_text(colonia)
-    if not target:
+def resolve_gazetteer_name(name: str | None, gazetteer: list[dict[str, Any]]) -> tuple[list[float] | None, str]:
+    """
+    Busca una entrada exacta por nombre o alias en el gazetteer.
+    Ideal para municipios y zonas conurbadas.
+    """
+    if not name:
         return None, "none"
 
+    target = normalize_text(name)
+
     for item in gazetteer:
-        name = normalize_text(item.get("name"))
+        canonical = normalize_text(item.get("name"))
         aliases = [normalize_text(x) for x in item.get("aliases", [])]
-        if target == name or target in aliases:
+
+        if target == canonical or target in aliases:
             coords = item.get("coords")
             if isinstance(coords, list) and len(coords) == 2:
                 return coords, "gazetteer"
@@ -290,15 +422,74 @@ def gazetteer_lookup(colonia: str, gazetteer: list[dict[str, Any]]) -> tuple[lis
     return None, "none"
 
 
-def nominatim_lookup(colonia: str, cache: dict[str, Any]) -> tuple[list[float] | None, str]:
-    if not colonia:
+def find_best_gazetteer_match_in_text(
+    text: str,
+    gazetteer: list[dict[str, Any]],
+    excluded_names: set[str] | None = None,
+) -> tuple[str | None, list[float] | None, str]:
+    """
+    Busca la mejor coincidencia de colonia dentro del texto completo,
+    usando nombres y aliases del gazetteer.
+
+    Estrategia:
+    - normaliza texto
+    - busca matches exactos por frase
+    - elige la coincidencia más larga
+    - permite excluir municipios/zona conurbada para no confundirlos con colonias
+    """
+    text_norm = normalize_text(text)
+    padded_text = f" {text_norm} "
+
+    excluded_norm = {normalize_text(x) for x in (excluded_names or set())}
+
+    best_name = None
+    best_coords = None
+    best_score = -1
+
+    for item in gazetteer:
+        canonical_name = item.get("name")
+        canonical_norm = normalize_text(canonical_name)
+
+        if canonical_norm in excluded_norm:
+            continue
+
+        variants = [canonical_name, *(item.get("aliases", []) or [])]
+
+        for variant in variants:
+            variant_norm = normalize_text(variant)
+            if not variant_norm:
+                continue
+
+            # Match por frase completa en texto normalizado
+            if f" {variant_norm} " in padded_text:
+                coords = item.get("coords")
+                if isinstance(coords, list) and len(coords) == 2:
+                    score = len(variant_norm)
+                    if score > best_score:
+                        best_name = canonical_name
+                        best_coords = coords
+                        best_score = score
+
+    if best_name and best_coords:
+        return best_name, best_coords, "gazetteer_text"
+
+    return None, None, "none"
+
+
+def nominatim_lookup(name: str, cache: dict[str, Any]) -> tuple[list[float] | None, str]:
+    """
+    Respaldo con Nominatim cuando una colonia concreta no aparece
+    en el gazetteer local.
+    """
+    if not name:
         return None, "none"
 
-    key = normalize_text(colonia)
+    key = normalize_text(name)
+
     if key in cache:
         return cache[key]["coords"], cache[key]["geo_confidence"]
 
-    query = f"{colonia}, Cuernavaca, Morelos, Mexico"
+    query = f"{name}, Cuernavaca, Morelos, Mexico"
 
     try:
         location = geolocator.geocode(query, timeout=10)
@@ -317,11 +508,20 @@ def nominatim_lookup(colonia: str, cache: dict[str, Any]) -> tuple[list[float] |
         return None, "none"
 
 
-def resolve_location(colonia: str | None, gazetteer: list[dict[str, Any]], cache: dict[str, Any]) -> tuple[list[float] | None, str]:
+def resolve_location(
+    colonia: str | None,
+    gazetteer: list[dict[str, Any]],
+    cache: dict[str, Any],
+) -> tuple[list[float] | None, str]:
+    """
+    Resuelve una colonia usando:
+    1. gazetteer local
+    2. Nominatim
+    """
     if not colonia:
         return None, "none"
 
-    coords, source = gazetteer_lookup(colonia, gazetteer)
+    coords, source = resolve_gazetteer_name(colonia, gazetteer)
     if coords:
         return coords, source
 
@@ -332,13 +532,96 @@ def resolve_location(colonia: str | None, gazetteer: list[dict[str, Any]], cache
     return None, "none"
 
 
+# =============================================================================
+# CLASIFICACIÓN DETERMINISTA
+# =============================================================================
+
+def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+    """
+    Sustituto determinista de la antigua extracción con IA.
+
+    Regresa un diccionario compatible con el resto del proyecto:
+    {
+      es_violento,
+      es_en_cuernavaca,
+      delito,
+      colonia,
+      hora_aprox,
+      resumen,
+      confidence
+    }
+
+    Aquí, `es_en_cuernavaca` debe entenderse como:
+    "el hecho pertenece al área objetivo principal del proyecto"
+    y se activa si el texto menciona Cuernavaca.
+    Los conurbados se detectan aparte.
+    """
+    combined_text = f"{title}\n{article_text}"
+    text_norm = normalize_text(combined_text)
+
+    es_violento = is_candidate_text(combined_text)
+    es_en_cuernavaca = "cuernavaca" in text_norm
+    delito = infer_delito(combined_text)
+    hora_aprox = extract_hour(article_text)
+
+    colonia = None
+    if gazetteer:
+        excluded = set(CONURBADO_AREAS.values())
+        matched_name, _, _ = find_best_gazetteer_match_in_text(
+            combined_text,
+            gazetteer,
+            excluded_names=excluded,
+        )
+        colonia = matched_name
+
+    # Resumen simple: usar título limpio
+    resumen = title.strip() if title else None
+
+    # Confianza simple basada en señales
+    confidence = 0.0
+    if es_violento:
+        confidence += 0.4
+    if es_en_cuernavaca:
+        confidence += 0.2
+    if colonia:
+        confidence += 0.2
+    if hora_aprox:
+        confidence += 0.1
+    if delito and delito != "violencia":
+        confidence += 0.1
+
+    confidence = min(1.0, round(confidence, 2))
+
+    return {
+        "es_violento": es_violento,
+        "es_en_cuernavaca": es_en_cuernavaca,
+        "delito": delito,
+        "colonia": colonia,
+        "hora_aprox": hora_aprox,
+        "resumen": resumen,
+        "confidence": confidence,
+    }
+
+
+# =============================================================================
+# UTILIDADES DE EVENTOS
+# =============================================================================
+
 def register_unresolved(event_stub: dict[str, Any]) -> None:
+    """
+    Guarda un caso no resuelto para revisión manual posterior.
+    """
     unresolved = load_json(UNRESOLVED_PATH, [])
     unresolved.append(event_stub)
     save_json(UNRESOLVED_PATH, unresolved)
 
 
 def event_level(hour_text: str | None) -> int:
+    """
+    Asigna nivel inicial:
+    - 6 si cae entre 22:00 y 06:00
+    - 5 en otro caso o si no hay hora
+    """
     if not hour_text:
         return 5
 
@@ -350,13 +633,30 @@ def event_level(hour_text: str | None) -> int:
     return 6 if (hour >= 22 or hour < 6) else 5
 
 
-def dedupe_group_id(delito: str | None, colonia: str | None, fecha: str | None) -> str:
-    payload = f"{normalize_text(delito)}|{normalize_text(colonia)}|{(fecha or '').strip()}"
+def dedupe_group_id(delito: str | None, location_name: str | None, fecha: str | None) -> str:
+    """
+    ID de deduplicación por:
+    - delito
+    - ubicación efectiva (colonia o municipio)
+    - fecha
+    """
+    payload = f"{normalize_text(delito)}|{normalize_text(location_name)}|{(fecha or '').strip()}"
     return stable_id(payload)
 
 
+# =============================================================================
+# PIPELINE PRINCIPAL
+# =============================================================================
+
 def run_scraper() -> None:
-    print("🚀 OVICUE: iniciando scraping...")
+    """
+    Flujo principal:
+    - descarga primeras 12 notas
+    - clasifica por reglas
+    - resuelve ubicación
+    - guarda eventos nuevos
+    """
+    print("🚀 OVICUE: iniciando scraping determinista...")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -378,38 +678,52 @@ def run_scraper() -> None:
             links = soup.select(source["selector"])
             print(f"📊 {source['name']}: {len(links)} enlaces detectados")
 
-            for link in links:
-                href = link.get("href", "")
-                url = normalize_url(href, source["base_url"])
-                title = link.get_text(" ", strip=True)
+            top_notes = first_n_unique_note_links(
+                links=links,
+                base_url=source["base_url"],
+                limit=MAX_ARTICLES_PER_RUN,
+            )
+            print(f"🧾 Se procesarán solo las primeras {len(top_notes)} notas")
 
+            for url, title in top_notes:
                 if not url or url in existing_urls:
                     continue
-
-                if not is_candidate_title(title):
-                    continue
-
-                print(f"🎯 Candidata: {title[:100]}")
-                if looks_mostly_noise(title):
-                    print("   · título potencialmente ruidoso, pasa a IA de todos modos")
 
                 try:
                     article = extract_article(url)
                     if not article["text"]:
                         continue
 
+                    # Clasificación determinista basada en keywords + gazetteer
                     extracted = validate_and_extract(
                         title=article["title"] or title,
                         article_text=article["text"],
+                        gazetteer=gazetteer,
                     )
 
                     if not extracted.get("es_violento"):
                         continue
-                    if not extracted.get("es_en_cuernavaca"):
+
+                    full_text_for_scope = f"{title}\n{article['text']}"
+                    conurbado = detect_conurbado_area(full_text_for_scope)
+
+                    # Aceptamos si está en Cuernavaca o en conurbado configurado
+                    if not extracted.get("es_en_cuernavaca") and not conurbado:
                         continue
 
-                    colonia = extracted.get("colonia")
-                    coords, geo_source = resolve_location(colonia, gazetteer, geocode_cache)
+                    raw_colonia = extracted.get("colonia")
+                    location_scope = "colonia"
+                    location_name = raw_colonia
+                    buffer_meters = DEFAULT_BUFFER_METERS
+
+                    if conurbado:
+                        coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
+                        location_scope = "municipio"
+                        location_name = conurbado
+                        buffer_meters = CONURBADO_BUFFER_METERS
+                    else:
+                        # Si no hay conurbado, usamos la colonia detectada
+                        coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
 
                     if coords is None:
                         register_unresolved(
@@ -417,12 +731,14 @@ def run_scraper() -> None:
                                 "source_name": source["name"],
                                 "source_title": title,
                                 "fuente": url,
-                                "colonia": colonia,
+                                "colonia": raw_colonia,
+                                "location_scope": location_scope,
+                                "location_name": location_name,
                                 "published_at": article.get("published_at"),
                                 "scraped_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
                             }
                         )
-                        print(f"⚠️ Sin geocodificación confiable para: {colonia!r}. Se manda a unresolved_events.json")
+                        print(f"⚠️ Sin geocodificación confiable para: {location_name!r}")
                         continue
 
                     fecha_evento = normalize_date_str(article.get("published_at")) or datetime.now().strftime("%Y-%m-%d")
@@ -430,17 +746,21 @@ def run_scraper() -> None:
                     hora_aprox = extracted.get("hora_aprox")
                     resumen = extracted.get("resumen") or title
 
-                    group_id = dedupe_group_id(delito, colonia, fecha_evento)
+                    group_id = dedupe_group_id(delito, location_name, fecha_evento)
                     if group_id in existing_groups:
-                        print("ℹ️ Evento deduplicado por delito + colonia + fecha")
+                        print("ℹ️ Evento deduplicado por delito + ubicación + fecha")
                         continue
 
                     event = {
                         "id": stable_id(url),
                         "fecha": fecha_evento,
                         "hora": hora_aprox,
-                        "colonia": colonia,
+                        "colonia": raw_colonia,
+                        "municipio_detectado": conurbado,
+                        "location_scope": location_scope,
+                        "location_name": location_name,
                         "coordenadas": coords,
+                        "buffer_meters": buffer_meters,
                         "tipo_delito": delito,
                         "nivel_inicial": event_level(hora_aprox),
                         "fuente": url,
@@ -454,6 +774,7 @@ def run_scraper() -> None:
                         "dedupe_group_id": group_id,
                     }
 
+                    print(f"✅ Evento nuevo: {title[:80]}")
                     new_events.append(event)
                     existing_urls.add(url)
                     existing_groups.add(group_id)
@@ -472,6 +793,10 @@ def run_scraper() -> None:
 
     save_json(GEOCODE_CACHE_PATH, geocode_cache)
 
+
+# =============================================================================
+# PUNTO DE ENTRADA
+# =============================================================================
 
 if __name__ == "__main__":
     run_scraper()
