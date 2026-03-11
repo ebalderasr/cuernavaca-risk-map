@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": "4f6dddb016cf177d",
+    "fecha": "2026-03-10",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tablean-estudiantes-en-tlayacapan-por-resistirse-al-reclutamiento-del-narco",
+    "resumen": "\"Tablean\" a estudiantes en Tlayacapan por resistirse al reclutamiento del narco | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "\"Tablean\" a estudiantes en Tlayacapan por resistirse al reclutamiento del narco",
+    "published_at": "2026-03-10 18:38:16",
+    "scraped_at": "2026-03-11T18:04:44Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "f499f1f016c2aa5c"
+  },
+  {
+    "id": "b4a10401c4e01ae5",
+    "fecha": "2026-03-10",
+    "hora": null,
+    "colonia": "Tejalpa",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hombre-es-asesinado-tiros-en-la-colonia-vicente-guerrero-de-jiutepec",
+    "resumen": "Hombre es asesinado a tiros en la colonia Vicente Guerrero de Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre es asesinado a tiros en la colonia Vicente Guerrero de Jiutepec",
+    "published_at": "2026-03-10 12:00:36",
+    "scraped_at": "2026-03-11T18:04:46Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "ac5d79e73c032cce"
+  }
+]
