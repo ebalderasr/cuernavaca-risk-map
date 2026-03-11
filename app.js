@@ -43,15 +43,7 @@ function safeUrl(url) {
 function archivedSquareIcon() {
   return L.divIcon({
     className: "",
-    html: `
-      <div style="
-        width: 10px;
-        height: 10px;
-        background: #111111;
-        border: 1px solid #000000;
-        box-shadow: 0 0 0 1px rgba(255,255,255,0.45);
-      "></div>
-    `,
+    html: `<div class="archived-square-marker"></div>`,
     iconSize: [10, 10],
     iconAnchor: [5, 5],
   });
@@ -59,31 +51,15 @@ function archivedSquareIcon() {
 
 function metricCard(label, value) {
   return `
-    <div style="
-      padding: 12px;
-      border: 1px solid #e2e8f0;
-      border-radius: 14px;
-      background: #f8fafc;
-    ">
-      <div style="
-        font-size: 12px;
-        color: #64748b;
-        text-transform: uppercase;
-        letter-spacing: .06em;
-        font-weight: 700;
-      ">
-        ${escapeHtml(label)}
-      </div>
-      <div style="
-        margin-top: 6px;
-        font-size: 22px;
-        font-weight: 700;
-        color: #0f172a;
-      ">
-        ${escapeHtml(value)}
-      </div>
+    <div class="metric-card">
+      <div class="metric-label">${escapeHtml(label)}</div>
+      <div class="metric-value">${escapeHtml(value)}</div>
     </div>
   `;
+}
+
+function isMobileViewport() {
+  return window.matchMedia("(max-width: 768px)").matches;
 }
 
 // =============================================================================
@@ -96,162 +72,162 @@ function ensurePanel() {
 
   panel = document.createElement("aside");
   panel.id = "info-panel";
-  panel.style.position = "absolute";
-  panel.style.top = "16px";
-  panel.style.left = "16px";
-  panel.style.zIndex = "1000";
-  panel.style.width = "380px";
-  panel.style.maxWidth = "calc(100vw - 32px)";
-  panel.style.maxHeight = "calc(100vh - 32px)";
-  panel.style.overflowY = "auto";
-  panel.style.background = "rgba(255,255,255,0.94)";
-  panel.style.backdropFilter = "blur(12px)";
-  panel.style.border = "1px solid rgba(15,23,42,0.08)";
-  panel.style.borderRadius = "18px";
-  panel.style.padding = "16px";
-  panel.style.boxShadow = "0 16px 40px rgba(15,23,42,0.12)";
-  panel.style.color = "#0f172a";
-  panel.style.fontFamily = "Inter, system-ui, sans-serif";
+  panel.className = isMobileViewport() ? "panel-collapsed" : "";
+  panel.innerHTML = `
+    <div class="panel-header">
+      <div class="panel-header-text">
+        <div class="panel-eyebrow">OVICUE</div>
+        <h1 class="panel-title">Observatorio de Violencia e Incidencia en Cuernavaca</h1>
+      </div>
+
+      <div class="panel-header-actions">
+        <span class="panel-badge">Beta</span>
+        <button id="panel-collapse-btn" class="panel-icon-btn" type="button" aria-label="Minimizar panel" title="Minimizar panel">—</button>
+        <button id="panel-hide-btn" class="panel-icon-btn" type="button" aria-label="Ocultar panel" title="Ocultar panel">✕</button>
+      </div>
+    </div>
+
+    <div id="panel-body" class="panel-body">
+      <p class="panel-lead">
+        Visualización aproximada de reportes periodísticos recientes de violencia con ubicación referencial.
+      </p>
+
+      <div id="panel-status" class="panel-status">Cargando datos…</div>
+
+      <div id="panel-summary" class="panel-summary"></div>
+
+      <div class="panel-section">
+        <div class="panel-section-title">Leyenda</div>
+
+        <div class="legend-card">
+          <div class="legend-row">
+            <span class="legend-dot legend-red"></span>
+            <div>
+              <strong>Nivel 7–10</strong>
+              <div>Incidencia reciente alta</div>
+            </div>
+          </div>
+
+          <div class="legend-row">
+            <span class="legend-dot legend-orange"></span>
+            <div>
+              <strong>Nivel 4–6</strong>
+              <div>Incidencia reciente media</div>
+            </div>
+          </div>
+
+          <div class="legend-row">
+            <span class="legend-dot legend-yellow"></span>
+            <div>
+              <strong>Nivel 1–3</strong>
+              <div>Incidencia reciente baja</div>
+            </div>
+          </div>
+
+          <div class="legend-row">
+            <span class="legend-square"></span>
+            <div>
+              <strong>Evento archivado</strong>
+              <div>Hecho histórico que ya no forma parte del “calor” actual</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <div class="panel-section-title">Cómo leer el mapa</div>
+        <div class="panel-note">
+          <strong>Marcas de color:</strong> representan zonas activas construidas a partir de eventos recientes que aún conservan peso temporal.
+        </div>
+        <div class="panel-note">
+          <strong>Cuadrados negros:</strong> representan eventos archivados. Se conservan como memoria histórica, pero ya no cuentan como incidencia reciente.
+        </div>
+      </div>
+
+      <div id="panel-selected" class="panel-section">
+        <div class="panel-section-title">Selección</div>
+        <div class="panel-note">
+          Haz click en una zona o en un evento archivado para ver detalles.
+        </div>
+      </div>
+
+      <div class="panel-footer-note">
+        Este mapa es informativo. Se basa en notas periodísticas y geolocalización aproximada. No sustituye fuentes oficiales.
+      </div>
+    </div>
+  `;
 
   document.body.appendChild(panel);
   return panel;
 }
 
+function ensurePanelFab() {
+  let fab = document.getElementById("panel-fab");
+  if (fab) return fab;
+
+  fab = document.createElement("button");
+  fab.id = "panel-fab";
+  fab.type = "button";
+  fab.className = "panel-fab hidden";
+  fab.setAttribute("aria-label", "Mostrar panel de información");
+  fab.title = "Mostrar información";
+  fab.textContent = "ℹ";
+  document.body.appendChild(fab);
+  return fab;
+}
+
 const infoPanel = ensurePanel();
+const panelFab = ensurePanelFab();
 
-infoPanel.innerHTML = `
-  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
-    <div>
-      <div style="
-        font-size:12px;
-        letter-spacing:.14em;
-        text-transform:uppercase;
-        font-weight:700;
-        color:#2563eb;
-        margin-bottom:6px;
-      ">
-        OVICUE
-      </div>
-      <h1 style="
-        margin:0;
-        font-size:18px;
-        line-height:1.15;
-        color:#0f172a;
-      ">
-        Observatorio de Violencia e Incidencia en Cuernavaca
-      </h1>
-    </div>
-    <div style="
-      font-size:12px;
-      padding:6px 10px;
-      border-radius:999px;
-      background:#eff6ff;
-      color:#1d4ed8;
-      border:1px solid #bfdbfe;
-    ">
-      Beta
-    </div>
-  </div>
-
-  <p style="
-    margin:12px 0 0;
-    color:#475569;
-    font-size:14px;
-    line-height:1.5;
-  ">
-    Visualización aproximada de reportes periodísticos recientes de violencia con ubicación referencial.
-  </p>
-
-  <div id="panel-status" style="
-    margin-top:12px;
-    font-size:13px;
-    color:#475569;
-  ">
-    Cargando datos…
-  </div>
-
-  <div id="panel-summary" style="
-    margin-top:14px;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:10px;
-  "></div>
-
-  <div style="
-    margin-top:16px;
-    padding-top:14px;
-    border-top:1px solid #e2e8f0;
-  ">
-    <div style="
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      color:#64748b;
-      margin-bottom:8px;
-    ">
-      Leyenda
-    </div>
-
-    <div style="display:grid;gap:8px;">
-      <div style="display:flex;align-items:center;gap:10px;">
-        <span style="width:12px;height:12px;border-radius:999px;background:#dc2626;display:inline-block;"></span>
-        <span style="font-size:14px;color:#334155;">Nivel 7–10 · Crítico</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:10px;">
-        <span style="width:12px;height:12px;border-radius:999px;background:#f97316;display:inline-block;"></span>
-        <span style="font-size:14px;color:#334155;">Nivel 4–6 · Riesgo</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:10px;">
-        <span style="width:12px;height:12px;border-radius:999px;background:#eab308;display:inline-block;"></span>
-        <span style="font-size:14px;color:#334155;">Nivel 1–3 · Precaución</span>
-      </div>
-      <div style="display:flex;align-items:center;gap:10px;">
-        <span style="width:10px;height:10px;background:#111111;display:inline-block;border:1px solid #000;"></span>
-        <span style="font-size:14px;color:#334155;">Evento archivado</span>
-      </div>
-    </div>
-  </div>
-
-  <div id="panel-selected" style="
-    margin-top:16px;
-    padding-top:14px;
-    border-top:1px solid #e2e8f0;
-  ">
-    <div style="
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      color:#64748b;
-      margin-bottom:8px;
-    ">
-      Selección
-    </div>
-    <div style="
-      font-size:14px;
-      color:#64748b;
-      line-height:1.5;
-    ">
-      Haz click en una zona o en un evento archivado para ver detalles.
-    </div>
-  </div>
-
-  <div style="
-    margin-top:16px;
-    padding-top:14px;
-    border-top:1px solid #e2e8f0;
-    font-size:12px;
-    line-height:1.5;
-    color:#64748b;
-  ">
-    Este mapa es informativo. Se basa en notas periodísticas y geolocalización aproximada. No sustituye fuentes oficiales.
-  </div>
-`;
-
+const panelBody = document.getElementById("panel-body");
 const statusEl = document.getElementById("panel-status");
 const summaryEl = document.getElementById("panel-summary");
 const selectedEl = document.getElementById("panel-selected");
+const collapseBtn = document.getElementById("panel-collapse-btn");
+const hideBtn = document.getElementById("panel-hide-btn");
+
+function collapsePanel() {
+  infoPanel.classList.add("panel-collapsed");
+}
+
+function expandPanel() {
+  infoPanel.classList.remove("panel-collapsed");
+  infoPanel.classList.remove("panel-hidden");
+  panelFab.classList.add("hidden");
+}
+
+function hidePanel() {
+  infoPanel.classList.add("panel-hidden");
+  panelFab.classList.remove("hidden");
+}
+
+function toggleCollapsePanel() {
+  if (infoPanel.classList.contains("panel-collapsed")) {
+    expandPanel();
+  } else {
+    collapsePanel();
+  }
+}
+
+collapseBtn.addEventListener("click", () => {
+  toggleCollapsePanel();
+});
+
+hideBtn.addEventListener("click", () => {
+  hidePanel();
+});
+
+panelFab.addEventListener("click", () => {
+  expandPanel();
+});
+
+window.addEventListener("resize", () => {
+  if (isMobileViewport()) {
+    if (!infoPanel.classList.contains("panel-hidden")) {
+      infoPanel.classList.add("panel-collapsed");
+    }
+  }
+});
 
 // =============================================================================
 // POPUPS Y PANEL DE DETALLE
@@ -319,56 +295,37 @@ function renderSelectedHot(props) {
   const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
 
   selectedEl.innerHTML = `
-    <div style="
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      color:#64748b;
-      margin-bottom:8px;
-    ">
-      Zona activa
-    </div>
+    <div class="panel-section-title">Zona activa</div>
 
-    <div style="display:grid;gap:10px;">
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Nivel final</div>
-        <div style="font-size:28px;font-weight:800;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.nivel)}
-        </div>
+    <div class="selected-grid">
+      <div class="selected-card">
+        <div class="selected-label">Nivel final</div>
+        <div class="selected-big-value">${escapeHtml(props.nivel)}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Eventos activos</div>
-        <div style="font-size:22px;font-weight:700;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.n_eventos)}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Eventos activos</div>
+        <div class="selected-value">${escapeHtml(props.n_eventos)}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Colonias</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.5;color:#0f172a;">
-          ${joinList(props.colonias)}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Colonias</div>
+        <div class="selected-text">${joinList(props.colonias)}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Municipios</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.5;color:#0f172a;">
-          ${joinList(props.municipios, "No aplica")}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Municipios</div>
+        <div class="selected-text">${joinList(props.municipios, "No aplica")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Delitos</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.5;color:#0f172a;">
-          ${joinList(props.delitos)}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Delitos</div>
+        <div class="selected-text">${joinList(props.delitos)}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Fuentes</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.6;">
+      <div class="selected-card">
+        <div class="selected-label">Fuentes</div>
+        <div class="selected-text">
           ${
             fuentes.length
               ? fuentes.map((f) => {
@@ -376,7 +333,7 @@ function renderSelectedHot(props) {
                   const url = safeUrl((f && f.url) || "#");
                   return `<div><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></div>`;
                 }).join("")
-              : '<span style="color:#64748b;">Sin fuentes enlazadas.</span>'
+              : '<span class="muted-text">Sin fuentes enlazadas.</span>'
           }
         </div>
       </div>
@@ -386,60 +343,41 @@ function renderSelectedHot(props) {
 
 function renderSelectedArchived(props) {
   selectedEl.innerHTML = `
-    <div style="
-      font-size:12px;
-      font-weight:700;
-      letter-spacing:.08em;
-      text-transform:uppercase;
-      color:#64748b;
-      margin-bottom:8px;
-    ">
-      Evento archivado
-    </div>
+    <div class="panel-section-title">Evento archivado</div>
 
-    <div style="display:grid;gap:10px;">
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Ubicación</div>
-        <div style="font-size:20px;font-weight:700;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.location_name || props.colonia || "No disponible")}
-        </div>
+    <div class="selected-grid">
+      <div class="selected-card">
+        <div class="selected-label">Ubicación</div>
+        <div class="selected-value">${escapeHtml(props.location_name || props.colonia || "No disponible")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Ámbito</div>
-        <div style="font-size:16px;font-weight:600;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.location_scope || "No disponible")}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Ámbito</div>
+        <div class="selected-value">${escapeHtml(props.location_scope || "No disponible")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Delito</div>
-        <div style="font-size:16px;font-weight:600;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.tipo_delito || "No disponible")}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Delito</div>
+        <div class="selected-value">${escapeHtml(props.tipo_delito || "No disponible")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Fecha</div>
-        <div style="font-size:16px;font-weight:600;color:#0f172a;margin-top:4px;">
-          ${escapeHtml(props.fecha || "No disponible")}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Fecha</div>
+        <div class="selected-value">${escapeHtml(props.fecha || "No disponible")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Resumen</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.5;color:#0f172a;">
-          ${escapeHtml(props.resumen || "Sin resumen")}
-        </div>
+      <div class="selected-card">
+        <div class="selected-label">Resumen</div>
+        <div class="selected-text">${escapeHtml(props.resumen || "Sin resumen")}</div>
       </div>
 
-      <div style="padding:12px;border:1px solid #e2e8f0;border-radius:14px;background:#fff;">
-        <div style="font-size:14px;color:#64748b;">Fuente</div>
-        <div style="margin-top:6px;font-size:14px;line-height:1.6;">
+      <div class="selected-card">
+        <div class="selected-label">Fuente</div>
+        <div class="selected-text">
           ${
             props.fuente
               ? `<a href="${safeUrl(props.fuente)}" target="_blank" rel="noopener noreferrer">Abrir fuente</a>`
-              : '<span style="color:#64748b;">Sin fuente</span>'
+              : '<span class="muted-text">Sin fuente</span>'
           }
         </div>
       </div>
@@ -465,42 +403,31 @@ Promise.all([
     const hotFeatures = Array.isArray(hotData.features) ? hotData.features : [];
     const archiveFeatures = Array.isArray(archiveData.features) ? archiveData.features : [];
 
-    // -------------------------------------------------------------------------
-    // Resumen general
-    // -------------------------------------------------------------------------
     let maxNivel = 0;
     let totalEventosHot = 0;
-    const coloniasSet = new Set();
-    const municipiosSet = new Set();
 
     hotFeatures.forEach((feature) => {
       const p = feature.properties || {};
       maxNivel = Math.max(maxNivel, Number(p.nivel || 0));
       totalEventosHot += Number(p.n_eventos || 0);
-
-      (p.colonias || []).forEach((c) => coloniasSet.add(c));
-      (p.municipios || []).forEach((m) => municipiosSet.add(m));
     });
 
     summaryEl.innerHTML = [
-      metricCard("Zonas activas", hotFeatures.length),
+      metricCard("Zonas recientes", hotFeatures.length),
       metricCard("Nivel máximo", maxNivel),
-      metricCard("Eventos activos", totalEventosHot),
+      metricCard("Eventos recientes", totalEventosHot),
       metricCard("Archivados", archiveFeatures.length),
     ].join("");
 
     if (hotFeatures.length === 0 && archiveFeatures.length === 0) {
       statusEl.textContent = "No hay datos visibles en este momento.";
     } else if (hotFeatures.length === 0 && archiveFeatures.length > 0) {
-      statusEl.textContent = "No hay zonas activas. Solo se muestran eventos archivados.";
+      statusEl.textContent = "No hay zonas recientes activas. Solo se muestran eventos archivados.";
     } else {
       statusEl.textContent =
-        `Datos cargados correctamente. ${hotFeatures.length} zonas activas y ${archiveFeatures.length} eventos archivados.`;
+        `Datos cargados correctamente. ${hotFeatures.length} zonas recientes y ${archiveFeatures.length} eventos archivados.`;
     }
 
-    // -------------------------------------------------------------------------
-    // Capa caliente
-    // -------------------------------------------------------------------------
     let hotLayer = null;
 
     if (hotFeatures.length > 0) {
@@ -521,6 +448,7 @@ Promise.all([
 
           layer.on("click", () => {
             renderSelectedHot(props);
+            if (isMobileViewport()) infoPanel.classList.add("panel-collapsed");
           });
 
           layer.on("mouseover", () => {
@@ -537,9 +465,6 @@ Promise.all([
       }).addTo(map);
     }
 
-    // -------------------------------------------------------------------------
-    // Capa archivada
-    // -------------------------------------------------------------------------
     let archiveLayer = null;
 
     if (archiveFeatures.length > 0) {
@@ -555,14 +480,12 @@ Promise.all([
 
           layer.on("click", () => {
             renderSelectedArchived(props);
+            if (isMobileViewport()) infoPanel.classList.add("panel-collapsed");
           });
         },
       }).addTo(map);
     }
 
-    // -------------------------------------------------------------------------
-    // Ajuste automático del mapa
-    // -------------------------------------------------------------------------
     let bounds = null;
 
     if (hotLayer && hotLayer.getBounds && hotLayer.getBounds().isValid()) {
@@ -585,9 +508,9 @@ Promise.all([
 
     statusEl.textContent = "No se pudieron cargar los datos del mapa.";
     summaryEl.innerHTML = [
-      metricCard("Zonas activas", "—"),
+      metricCard("Zonas recientes", "—"),
       metricCard("Nivel máximo", "—"),
-      metricCard("Eventos activos", "—"),
+      metricCard("Eventos recientes", "—"),
       metricCard("Archivados", "—"),
     ].join("");
   });
