@@ -48,5 +48,80 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "ac5d79e73c032cce"
+  },
+  {
+    "id": "48fdbb589cd81479",
+    "fecha": "2026-03-12",
+    "hora": "18:00",
+    "colonia": "Morelos",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-sin-vida-hombre-de-88-os-dentro-de-su-casa-en-el-barrio-santiago",
+    "resumen": "Hallan sin vida a hombre de 88 años dentro de su casa en el barrio Santiago | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan sin vida a hombre de 88 años dentro de su casa en el barrio Santiago",
+    "published_at": "2026-03-12 09:29:07",
+    "scraped_at": "2026-03-12T18:02:16Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "933cac6ea7590719"
+  },
+  {
+    "id": "1ae810e20529e940",
+    "fecha": "2026-03-12",
+    "hora": "16:30",
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/lesionan-tres-hombres-en-peluquer-durante-un-asalto",
+    "resumen": "Lesionan a tres hombres en peluquería durante un asalto | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Lesionan a tres hombres en peluquería durante un asalto",
+    "published_at": "2026-03-12 09:19:36",
+    "scraped_at": "2026-03-12T18:02:17Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "12ad3d6fc10d2ea5"
+  },
+  {
+    "id": "152f4d6d297aadf4",
+    "fecha": "2026-03-11",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca",
+    "resumen": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
+    "published_at": "2026-03-11 17:02:37",
+    "scraped_at": "2026-03-12T18:02:19Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "e2f5385df3dbe87d"
   }
 ]
