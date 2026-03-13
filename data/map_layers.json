@@ -1292,13 +1292,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -1318,9 +1319,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -1353,13 +1362,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -1379,9 +1389,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -1974,13 +1992,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2000,9 +2019,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2035,13 +2062,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2061,9 +2089,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2096,13 +2132,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2122,9 +2159,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2157,13 +2202,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2183,9 +2229,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2218,13 +2272,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2244,9 +2299,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2279,13 +2342,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2305,9 +2369,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2900,13 +2972,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2926,9 +2999,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -2961,13 +3042,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -2987,9 +3069,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3022,13 +3112,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3048,9 +3139,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3083,13 +3182,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3109,9 +3209,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3144,13 +3252,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3170,9 +3279,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3205,13 +3322,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3231,9 +3349,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3266,13 +3392,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3292,9 +3419,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3327,13 +3462,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3353,9 +3489,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3892,13 +4036,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3918,9 +4063,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -3953,13 +4106,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -3979,9 +4133,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4014,13 +4176,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4040,9 +4203,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4075,13 +4246,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4101,9 +4273,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4136,13 +4316,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4162,9 +4343,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4197,13 +4386,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4223,9 +4413,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4258,13 +4456,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4284,9 +4483,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4319,13 +4526,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4345,9 +4553,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4380,13 +4596,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4406,9 +4623,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4889,13 +5114,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4915,9 +5141,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -4950,13 +5184,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -4976,9 +5211,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5011,13 +5254,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5037,9 +5281,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5072,13 +5324,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5098,9 +5351,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5133,13 +5394,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5159,9 +5421,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5194,13 +5464,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5220,9 +5491,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5255,13 +5534,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5281,9 +5561,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5316,13 +5604,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5342,9 +5631,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5377,13 +5674,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5403,9 +5701,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5830,13 +6136,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5856,9 +6163,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5891,13 +6206,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5917,9 +6233,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -5952,13 +6276,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -5978,9 +6303,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6013,13 +6346,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6039,9 +6373,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6074,13 +6416,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6100,9 +6443,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6135,13 +6486,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6161,9 +6513,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6196,13 +6556,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6222,9 +6583,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6257,13 +6626,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6283,9 +6653,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6318,13 +6696,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6344,9 +6723,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6603,13 +6990,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6629,9 +7017,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6664,13 +7060,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6690,9 +7087,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6725,13 +7130,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6751,9 +7157,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6786,13 +7200,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6812,9 +7227,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6847,13 +7270,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6873,9 +7297,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6908,13 +7340,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6934,9 +7367,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -6969,13 +7410,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -6995,9 +7437,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7030,13 +7480,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7056,9 +7507,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7091,13 +7550,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7117,9 +7577,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7152,13 +7620,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7178,9 +7647,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7213,13 +7690,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7239,9 +7717,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7274,13 +7760,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7300,9 +7787,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7335,13 +7830,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7361,9 +7857,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7396,13 +7900,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7422,9 +7927,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7457,13 +7970,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7483,9 +7997,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7518,13 +8040,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7544,9 +8067,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7579,13 +8110,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7605,9 +8137,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7640,13 +8180,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7666,9 +8207,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7701,13 +8250,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7727,9 +8277,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7762,13 +8320,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7788,9 +8347,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7823,13 +8390,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7849,9 +8417,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7884,13 +8460,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7910,9 +8487,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -7945,13 +8530,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -7971,9 +8557,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8006,13 +8600,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -8032,9 +8627,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8067,13 +8670,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -8093,9 +8697,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8128,13 +8740,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -8154,9 +8767,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8189,13 +8810,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -8215,9 +8837,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",
@@ -8250,13 +8880,14 @@
     {
       "type": "Feature",
       "properties": {
-        "nivel": 6,
+        "nivel": 8,
         "max_nivel_base": 5,
-        "n_eventos": 2,
-        "n_eventos_ge5": 2,
+        "n_eventos": 4,
+        "n_eventos_ge5": 4,
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "feminicidio"
         ],
         "colonias": [
           "Morelos"
@@ -8276,9 +8907,17 @@
           {
             "title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
+          },
+          {
+            "title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+            "url": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos"
+          },
+          {
+            "title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos"
           }
         ],
-        "info": "2 evento(s) activo(s) · referencia por colonia"
+        "info": "4 evento(s) activo(s) · referencia por colonia"
       },
       "geometry": {
         "type": "Polygon",

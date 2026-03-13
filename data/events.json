@@ -123,5 +123,55 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "e2f5385df3dbe87d"
+  },
+  {
+    "id": "70ae66c15aa5c597",
+    "fecha": "2026-03-12",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cateo-en-cuernavaca-deja-agente-de-la-aic-lesionado-y-tres-detenidos",
+    "resumen": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
+    "published_at": "2026-03-12 12:54:25",
+    "scraped_at": "2026-03-13T17:52:38Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "68fcaffd41588c98"
+  },
+  {
+    "id": "5cc57535a68d41cb",
+    "fecha": "2026-03-12",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/se-hace-justicia-vinculan-proceso-presunto-feminicida-en-morelos",
+    "resumen": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Se hace justicia!: vinculan a proceso a presunto feminicida en Morelos",
+    "published_at": "2026-03-12 12:33:35",
+    "scraped_at": "2026-03-13T17:52:38Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "7c0a262f20ff88f9"
   }
 ]
