@@ -173,5 +173,30 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "7c0a262f20ff88f9"
+  },
+  {
+    "id": "fb68307c97ae3be7",
+    "fecha": "2026-03-14",
+    "hora": "19:30",
+    "colonia": "Morelos",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/matan-balazos-hombre-dentro-del-pante-n-de-cocoyoc",
+    "resumen": "Matan a balazos a hombre dentro del panteón de Cocoyoc | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Matan a balazos a hombre dentro del panteón de Cocoyoc",
+    "published_at": "2026-03-14 09:37:39",
+    "scraped_at": "2026-03-14T17:44:03Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "480ec37533c19672"
   }
 ]
