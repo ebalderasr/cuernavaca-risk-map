@@ -198,5 +198,30 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "480ec37533c19672"
+  },
+  {
+    "id": "8715d8382b38f85d",
+    "fecha": "2026-03-14",
+    "hora": "13:00",
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-un-menor-en-volcadura-en-la-autopista-cuernavaca-acapulco",
+    "resumen": "Muere un menor en volcadura en la autopista Cuernavaca-Acapulco | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere un menor en volcadura en la autopista Cuernavaca-Acapulco",
+    "published_at": "2026-03-14 20:38:46",
+    "scraped_at": "2026-03-15T17:46:06Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "59c023db9be648e0"
   }
 ]
