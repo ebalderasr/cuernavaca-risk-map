@@ -398,5 +398,55 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "6d3ef251225b0066"
+  },
+  {
+    "id": "b2bafb29894d67f5",
+    "fecha": "2026-03-18",
+    "hora": "09:30",
+    "colonia": "Morelos",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ultiman-hombre-en-calles-de-cuernavaca",
+    "resumen": "Ultiman a hombre en calles de Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ultiman a hombre en calles de Cuernavaca",
+    "published_at": "2026-03-18 08:34:37",
+    "scraped_at": "2026-03-18T18:10:23Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "745bcd7990cd55ec"
+  },
+  {
+    "id": "8e01f56bbaac3c36",
+    "fecha": "2026-03-18",
+    "hora": "02:00",
+    "colonia": "Morelos",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "secuestro",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-joven-secuestrada-horas-antes-en-barrio-santiago",
+    "resumen": "Localizan sin vida a joven secuestrada horas antes en barrio Santiago | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Localizan sin vida a joven secuestrada horas antes en barrio Santiago",
+    "published_at": "2026-03-18 07:27:18",
+    "scraped_at": "2026-03-18T18:10:24Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "2716a4f73f6ef27a"
   }
 ]
