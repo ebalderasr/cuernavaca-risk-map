@@ -274,5 +274,31 @@
     "extraction_confidence": 0.8,
     "dedupe_group_id": "2716a4f73f6ef27a",
     "source_type": "manual"
+  },
+  {
+    "id": "cd340c4ccb63a930",
+    "fecha": "2026-03-17",
+    "hora": null,
+    "colonia": "Vista Hermosa",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vista Hermosa",
+    "coordenadas": [
+      18.9360255,
+      -99.2162139
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/disparan-contra-camioneta-en-r-o-mayo-cuernavaca-hay-tres-lesionados",
+    "resumen": "Disparan contra camioneta en Río Mayo, Cuernavaca; hay tres lesionados | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Disparan contra camioneta en Río Mayo, Cuernavaca; hay tres lesionados",
+    "published_at": "2026-03-17 10:41:04",
+    "scraped_at": "2026-03-17T18:09:13Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "c9a941d5c53d4df2",
+    "source_type": "manual"
   }
 ]
