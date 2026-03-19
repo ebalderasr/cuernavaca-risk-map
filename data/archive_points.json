@@ -3,122 +3,176 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "id": "2bcb81d1d492df24",
-        "fecha": "2025-08-08",
-        "hora": "02:00",
-        "colonia": "Lienzo del Charro",
-        "municipio_detectado": null,
-        "location_scope": "colonia",
-        "location_name": "Lienzo del Charro",
-        "tipo_delito": "homicidio",
-        "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-cuernavaca-deja-un-muerto-y-un-taxista-grave-en-avenida-universidad",
-        "source_title": "Ataque armado en Cuernavaca deja un muerto y un taxista grave en Avenida Universidad | Diario de Morelos - Noticias |",
-        "source_name": "Manual",
-        "resumen": "Ataque armado en Cuernavaca deja un muerto y un taxista grave en Avenida Universidad | Diario de Morelos - Noticias |",
-        "geo_confidence": "gazetteer",
-        "nivel_inicial": 6,
-        "nivel_actual": 0,
-        "archived": true,
-        "buffer_meters": 500,
-        "marker_type": "archived_square"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -99.2446,
           18.97065
         ]
+      },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 222,
+        "last_incident_date": "2025-08-08",
+        "first_incident_date": "2025-08-08",
+        "location_scope": "colonia",
+        "location_name": "Lienzo del Charro",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Ataque armado en Cuernavaca deja un muerto y un taxista grave en Avenida Universidad | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-cuernavaca-deja-un-muerto-y-un-taxista-grave-en-avenida-universidad"
+          }
+        ],
+        "marker_type": "archived_square"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "id": "49691218d4a29ef0",
-        "fecha": "2025-04-04",
-        "hora": "14:00",
-        "colonia": "Morelos",
-        "municipio_detectado": "Jiutepec",
-        "location_scope": "municipio",
-        "location_name": "Jiutepec",
-        "tipo_delito": "feminicidio",
-        "fuente": "https://www.diariodemorelos.com/noticias/aylin-rodr-guez-estudiante-de-la-uaem-fue-localizada-sin-vida-en-jiutepec",
-        "source_title": "Aylin Rodríguez, estudiante de la UAEM, fue localizada sin vida en Jiutepec | Noticias | Diario de Morelos",
-        "source_name": "Manual",
-        "resumen": "Aylin Rodríguez, estudiante de la UAEM, fue localizada sin vida en Jiutepec | Noticias | Diario de Morelos",
-        "geo_confidence": "gazetteer",
-        "nivel_inicial": 5,
-        "nivel_actual": 0,
-        "archived": true,
-        "buffer_meters": 1000,
-        "marker_type": "archived_square"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2210612,
+          18.9276918
+        ]
       },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 116,
+        "last_incident_date": "2025-11-22",
+        "first_incident_date": "2025-11-22",
+        "location_scope": "colonia",
+        "location_name": "Teopanzolco",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Asesinan a joven en Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/asesinan-joven-en-cuernavaca"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
           -99.1732936,
           18.8954874
         ]
+      },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 348,
+        "last_incident_date": "2025-04-04",
+        "first_incident_date": "2025-04-04",
+        "location_scope": "municipio",
+        "location_name": "Jiutepec",
+        "delitos": [
+          "feminicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Aylin Rodríguez, estudiante de la UAEM, fue localizada sin vida en Jiutepec | Noticias | Diario de Morelos",
+            "url": "https://www.diariodemorelos.com/noticias/aylin-rodr-guez-estudiante-de-la-uaem-fue-localizada-sin-vida-en-jiutepec"
+          }
+        ],
+        "marker_type": "archived_square"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "id": "173c014292f599b0",
-        "fecha": "2018-11-20",
-        "hora": null,
-        "colonia": "La Pradera",
-        "municipio_detectado": null,
-        "location_scope": "colonia",
-        "location_name": "La Pradera",
-        "tipo_delito": "ataque armado",
-        "fuente": "https://www.diariodemorelos.com/noticias/balean-due-o-de-taquer-en-cuernavaca-por-no-pagar-piso",
-        "source_title": "Balean a dueño de taquería en Cuernavaca por no pagar piso | Diario de Morelos - Noticias |",
-        "source_name": "Manual",
-        "resumen": "Balean a dueño de taquería en Cuernavaca por no pagar piso | Diario de Morelos - Noticias |",
-        "geo_confidence": "gazetteer",
-        "nivel_inicial": 5,
-        "nivel_actual": 0,
-        "archived": true,
-        "buffer_meters": 500,
-        "marker_type": "archived_square"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -99.2432239,
           18.9398277
         ]
+      },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 2675,
+        "last_incident_date": "2018-11-20",
+        "first_incident_date": "2018-11-20",
+        "location_scope": "colonia",
+        "location_name": "La Pradera",
+        "delitos": [
+          "ataque armado"
+        ],
+        "fuentes": [
+          {
+            "title": "Balean a dueño de taquería en Cuernavaca por no pagar piso | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/balean-due-o-de-taquer-en-cuernavaca-por-no-pagar-piso"
+          }
+        ],
+        "marker_type": "archived_square"
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "id": "ef25079cddab4bbf",
-        "fecha": "2025-07-26",
-        "hora": "06:00",
-        "colonia": "Antonio Barona",
-        "municipio_detectado": null,
-        "location_scope": "colonia",
-        "location_name": "Antonio Barona",
-        "tipo_delito": "ataque armado",
-        "fuente": "https://www.diariodemorelos.com/noticias/balean-gimnasio-en-cuernavaca",
-        "source_title": "Balean gimnasio en Cuernavaca | Diario de Morelos - Noticias |",
-        "source_name": "Manual",
-        "resumen": "Balean gimnasio en Cuernavaca | Diario de Morelos - Noticias |",
-        "geo_confidence": "gazetteer",
-        "nivel_inicial": 5,
-        "nivel_actual": 0,
-        "archived": true,
-        "buffer_meters": 500,
-        "marker_type": "archived_square"
-      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -99.1968277,
           18.9517043
         ]
+      },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 235,
+        "last_incident_date": "2025-07-26",
+        "first_incident_date": "2025-07-26",
+        "location_scope": "colonia",
+        "location_name": "Antonio Barona",
+        "delitos": [
+          "ataque armado"
+        ],
+        "fuentes": [
+          {
+            "title": "Balean gimnasio en Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/balean-gimnasio-en-cuernavaca"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.197793,
+          18.917414
+        ]
+      },
+      "properties": {
+        "level": "archivado",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 135,
+        "last_incident_date": "2025-11-03",
+        "first_incident_date": "2025-11-03",
+        "location_scope": "colonia",
+        "location_name": "Vicente Estrada Cajigal",
+        "delitos": [
+          "ataque armado"
+        ],
+        "fuentes": [
+          {
+            "title": "Balean fachada de distribuidora de abarrotes en Cuernavaca; esto se sabe | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/balean-fachada-de-distribuidora-de-abarrotes-en-cuernavaca-esto-se-sabe"
+          }
+        ],
+        "marker_type": "archived_square"
       }
     }
   ]

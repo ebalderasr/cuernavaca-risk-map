@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.name "OVICUE Bot"
           git config --global user.email "bot@ovicue.local"
-          git add data/events.json data/map_layers.json data/geocode_cache.json
+          git add data/events.json data/map_layers.json data/archive_points.json data/geocode_cache.json
           if git diff --cached --quiet; then
             echo "No hay cambios para commitear"
           else

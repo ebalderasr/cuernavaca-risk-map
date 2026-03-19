@@ -12,10 +12,27 @@ L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
 // HELPERS
 // =============================================================================
 
-function getColor(nivel) {
-  return nivel >= 7 ? "#dc2626" :
-         nivel >= 4 ? "#f97316" :
-                      "#eab308";
+function getColor(level) {
+  if (level === "rojo")     return "#dc2626";
+  if (level === "naranja")  return "#f97316";
+  if (level === "amarillo") return "#eab308";
+  return "#eab308";
+}
+
+function levelLabel(level) {
+  if (level === "rojo")     return "Muy peligroso";
+  if (level === "naranja")  return "Peligroso";
+  if (level === "amarillo") return "Peligro moderado";
+  return "—";
+}
+
+function diasSinHechosText(dias) {
+  if (dias === null || dias === undefined) return "";
+  const n = Number(dias);
+  if (isNaN(n)) return "";
+  if (n === 0) return "Hecho violento hoy";
+  if (n === 1) return "1 día sin hechos violentos";
+  return `${n} días sin hechos violentos`;
 }
 
 function escapeHtml(value) {
@@ -103,44 +120,62 @@ function ensurePanel() {
           <div class="legend-row">
             <span class="legend-dot legend-red"></span>
             <div>
-              <strong>Nivel 7–10</strong>
-              <div>Incidencia reciente alta</div>
+              <strong>Muy peligroso</strong>
+              <div>2 hechos violentos en menos de 3 días, o 3 o más hechos en la zona</div>
             </div>
           </div>
 
           <div class="legend-row">
             <span class="legend-dot legend-orange"></span>
             <div>
-              <strong>Nivel 4–6</strong>
-              <div>Incidencia reciente media</div>
+              <strong>Peligroso</strong>
+              <div>Un hecho violento registrado recientemente</div>
             </div>
           </div>
 
           <div class="legend-row">
             <span class="legend-dot legend-yellow"></span>
             <div>
-              <strong>Nivel 1–3</strong>
-              <div>Incidencia reciente baja</div>
+              <strong>Peligro moderado</strong>
+              <div>Entre 30 y 60 días sin nuevos hechos en la zona</div>
             </div>
           </div>
 
           <div class="legend-row">
             <span class="legend-square"></span>
             <div>
-              <strong>Evento archivado</strong>
-              <div>Hecho histórico que ya no forma parte del “calor” actual</div>
+              <strong>Zona histórica</strong>
+              <div>Más de 60 días sin hechos; ya no se considera peligrosa</div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="panel-section">
-        <div class="panel-section-title">Cómo leer el mapa</div>
+        <div class="panel-section-title">Cómo se calcula la peligrosidad</div>
+
         <div class="panel-note">
-          <strong>Marcas de color:</strong> representan zonas activas construidas a partir de eventos recientes que aún conservan peso temporal.
+          <strong>Paso 1 — Primer hecho:</strong>
+          Cuando se registra un hecho violento en una colonia, aparece una zona <span class="inline-dot inline-orange"></span> <strong>naranja</strong> (Peligroso) y comienza un contador de días.
         </div>
+
         <div class="panel-note">
-          <strong>Cuadrados negros:</strong> representan eventos archivados. Se conservan como memoria histórica, pero ya no cuentan como incidencia reciente.
+          <strong>Paso 2 — Segundo hecho en 3 días:</strong>
+          Si ocurre un segundo hecho dentro de los primeros 3 días, la zona escala a <span class="inline-dot inline-red"></span> <strong>rojo</strong> (Muy peligroso) y el contador se reinicia.
+        </div>
+
+        <div class="panel-note">
+          <strong>Paso 3 — Hechos adicionales:</strong>
+          Cada nuevo hecho en la misma zona mantiene el nivel rojo, reinicia el contador y amplía el diámetro de la zona en 50 m.
+        </div>
+
+        <div class="panel-note">
+          <strong>Enfriamiento:</strong>
+          Si pasan <strong>30 días</strong> sin hechos, la zona baja a <span class="inline-dot inline-yellow"></span> <strong>amarillo</strong> (Peligro moderado). Si pasan <strong>30 días más</strong> sin hechos, se convierte en un <span class="inline-square"></span> cuadrado negro de registro histórico.
+        </div>
+
+        <div class="panel-note panel-note-muted">
+          Los datos provienen de notas periodísticas. La ubicación es aproximada (nivel colonia o municipio). No sustituye fuentes oficiales.
         </div>
       </div>
 
@@ -235,6 +270,7 @@ window.addEventListener("resize", () => {
 
 function buildHotPopup(props) {
   const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
+  const dias = props.dias_sin_hechos_violentos;
 
   const fuentesHtml = fuentes.length
     ? `<ul style="padding-left:18px;margin:8px 0 0;">
@@ -248,17 +284,16 @@ function buildHotPopup(props) {
 
   return `
     <div style="min-width:240px;line-height:1.45;">
-      <div style="font-size:16px;font-weight:700;margin-bottom:8px;color:#0f172a;">
-        Nivel ${escapeHtml(props.nivel)}
+      <div style="font-size:16px;font-weight:700;margin-bottom:4px;color:#0f172a;">
+        ${escapeHtml(levelLabel(props.level))}
       </div>
-      <div><strong>Eventos activos:</strong> ${escapeHtml(props.n_eventos)}</div>
-      <div><strong>Eventos ≥ 5:</strong> ${escapeHtml(props.n_eventos_ge5)}</div>
-      <div><strong>Colonias:</strong> ${joinList(props.colonias)}</div>
-      <div><strong>Municipios:</strong> ${joinList(props.municipios, "No aplica")}</div>
+      <div style="font-size:12px;font-weight:600;color:#64748b;margin-bottom:8px;">
+        ${escapeHtml(diasSinHechosText(dias))}
+      </div>
+      <div><strong>Zona:</strong> ${escapeHtml(props.location_name || "No disponible")}</div>
+      <div><strong>Hechos registrados:</strong> ${escapeHtml(props.n_incidents)}</div>
+      <div><strong>Radio:</strong> ${escapeHtml(props.radius_meters)} m</div>
       <div><strong>Delitos:</strong> ${joinList(props.delitos)}</div>
-      <div style="margin-top:8px;color:#475569;">
-        ${escapeHtml(props.info || "")}
-      </div>
       <div style="margin-top:10px;">
         <strong>Fuentes:</strong>
         ${fuentesHtml}
@@ -268,24 +303,31 @@ function buildHotPopup(props) {
 }
 
 function buildArchivedPopup(props) {
+  const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
+
+  const fuentesHtml = fuentes.length
+    ? fuentes.map((f) => {
+        const title = escapeHtml((f && f.title) || "Fuente");
+        const url = safeUrl((f && f.url) || "#");
+        return `<div><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></div>`;
+      }).join("")
+    : "<div>Sin fuentes enlazadas.</div>";
+
   return `
     <div style="min-width:240px;line-height:1.45;">
       <div style="font-size:15px;font-weight:700;margin-bottom:8px;color:#111827;">
-        Evento archivado
+        Zona histórica
       </div>
-      <div><strong>Ubicación:</strong> ${escapeHtml(props.location_name || props.colonia || "No disponible")}</div>
-      <div><strong>Ámbito:</strong> ${escapeHtml(props.location_scope || "No disponible")}</div>
-      <div><strong>Tipo:</strong> ${escapeHtml(props.tipo_delito || "No disponible")}</div>
-      <div><strong>Fecha:</strong> ${escapeHtml(props.fecha || "No disponible")}</div>
-      <div style="margin-top:8px;color:#475569;">
-        ${escapeHtml(props.resumen || "")}
+      <div><strong>Zona:</strong> ${escapeHtml(props.location_name || "No disponible")}</div>
+      <div><strong>Hechos registrados:</strong> ${escapeHtml(props.n_incidents)}</div>
+      <div><strong>Delitos:</strong> ${joinList(props.delitos)}</div>
+      <div><strong>Último hecho:</strong> ${escapeHtml(props.last_incident_date || "No disponible")}</div>
+      <div style="font-size:12px;color:#64748b;margin-top:4px;">
+        ${escapeHtml(diasSinHechosText(props.dias_sin_hechos_violentos))}
       </div>
       <div style="margin-top:10px;">
-        ${
-          props.fuente
-            ? `<a href="${safeUrl(props.fuente)}" target="_blank" rel="noopener noreferrer">Abrir fuente</a>`
-            : "<span>Sin fuente</span>"
-        }
+        <strong>Fuentes:</strong>
+        ${fuentesHtml}
       </div>
     </div>
   `;
@@ -293,29 +335,45 @@ function buildArchivedPopup(props) {
 
 function renderSelectedHot(props) {
   const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
+  const dias = props.dias_sin_hechos_violentos;
 
   selectedEl.innerHTML = `
     <div class="panel-section-title">Zona activa</div>
 
     <div class="selected-grid">
       <div class="selected-card">
-        <div class="selected-label">Nivel final</div>
-        <div class="selected-big-value">${escapeHtml(props.nivel)}</div>
+        <div class="selected-label">Nivel</div>
+        <div class="selected-big-value">${escapeHtml(levelLabel(props.level))}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Eventos activos</div>
-        <div class="selected-value">${escapeHtml(props.n_eventos)}</div>
+        <div class="selected-label">Contador</div>
+        <div class="selected-value">${escapeHtml(diasSinHechosText(dias))}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Colonias</div>
-        <div class="selected-text">${joinList(props.colonias)}</div>
+        <div class="selected-label">Zona</div>
+        <div class="selected-text">${escapeHtml(props.location_name || "No disponible")}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Municipios</div>
-        <div class="selected-text">${joinList(props.municipios, "No aplica")}</div>
+        <div class="selected-label">Hechos registrados</div>
+        <div class="selected-value">${escapeHtml(props.n_incidents)}</div>
+      </div>
+
+      <div class="selected-card">
+        <div class="selected-label">Radio de zona</div>
+        <div class="selected-value">${escapeHtml(props.radius_meters)} m</div>
+      </div>
+
+      <div class="selected-card">
+        <div class="selected-label">Primer hecho</div>
+        <div class="selected-value">${escapeHtml(props.first_incident_date || "No disponible")}</div>
+      </div>
+
+      <div class="selected-card">
+        <div class="selected-label">Último hecho</div>
+        <div class="selected-value">${escapeHtml(props.last_incident_date || "No disponible")}</div>
       </div>
 
       <div class="selected-card">
@@ -342,42 +400,53 @@ function renderSelectedHot(props) {
 }
 
 function renderSelectedArchived(props) {
+  const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
+
   selectedEl.innerHTML = `
-    <div class="panel-section-title">Evento archivado</div>
+    <div class="panel-section-title">Zona histórica</div>
 
     <div class="selected-grid">
       <div class="selected-card">
-        <div class="selected-label">Ubicación</div>
-        <div class="selected-value">${escapeHtml(props.location_name || props.colonia || "No disponible")}</div>
+        <div class="selected-label">Zona</div>
+        <div class="selected-value">${escapeHtml(props.location_name || "No disponible")}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Ámbito</div>
-        <div class="selected-value">${escapeHtml(props.location_scope || "No disponible")}</div>
+        <div class="selected-label">Hechos registrados</div>
+        <div class="selected-value">${escapeHtml(props.n_incidents)}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Delito</div>
-        <div class="selected-value">${escapeHtml(props.tipo_delito || "No disponible")}</div>
+        <div class="selected-label">Delitos</div>
+        <div class="selected-text">${joinList(props.delitos)}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Fecha</div>
-        <div class="selected-value">${escapeHtml(props.fecha || "No disponible")}</div>
+        <div class="selected-label">Último hecho</div>
+        <div class="selected-value">${escapeHtml(props.last_incident_date || "No disponible")}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Resumen</div>
-        <div class="selected-text">${escapeHtml(props.resumen || "Sin resumen")}</div>
+        <div class="selected-label">Primer hecho</div>
+        <div class="selected-value">${escapeHtml(props.first_incident_date || "No disponible")}</div>
       </div>
 
       <div class="selected-card">
-        <div class="selected-label">Fuente</div>
+        <div class="selected-label">Días sin hechos</div>
+        <div class="selected-value">${escapeHtml(diasSinHechosText(props.dias_sin_hechos_violentos))}</div>
+      </div>
+
+      <div class="selected-card">
+        <div class="selected-label">Fuentes</div>
         <div class="selected-text">
           ${
-            props.fuente
-              ? `<a href="${safeUrl(props.fuente)}" target="_blank" rel="noopener noreferrer">Abrir fuente</a>`
-              : '<span class="muted-text">Sin fuente</span>'
+            fuentes.length
+              ? fuentes.map((f) => {
+                  const title = escapeHtml((f && f.title) || "Fuente");
+                  const url = safeUrl((f && f.url) || "#");
+                  return `<div><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></div>`;
+                }).join("")
+              : '<span class="muted-text">Sin fuentes enlazadas.</span>'
           }
         </div>
       </div>
@@ -403,29 +472,38 @@ Promise.all([
     const hotFeatures = Array.isArray(hotData.features) ? hotData.features : [];
     const archiveFeatures = Array.isArray(archiveData.features) ? archiveData.features : [];
 
-    let maxNivel = 0;
-    let totalEventosHot = 0;
+    // Calcular estadísticas
+    const levelPriority = { rojo: 3, naranja: 2, amarillo: 1 };
+    let nActivas = 0;
+    let nAmarillas = 0;
+    let maxPriority = 0;
 
     hotFeatures.forEach((feature) => {
-      const p = feature.properties || {};
-      maxNivel = Math.max(maxNivel, Number(p.nivel || 0));
-      totalEventosHot += Number(p.n_eventos || 0);
+      const level = (feature.properties || {}).level;
+      if (level === "naranja" || level === "rojo") nActivas++;
+      else if (level === "amarillo") nAmarillas++;
+      maxPriority = Math.max(maxPriority, levelPriority[level] || 0);
     });
 
+    const maxLevelLabel =
+      maxPriority === 3 ? "Muy peligroso" :
+      maxPriority === 2 ? "Peligroso" :
+      maxPriority === 1 ? "Peligro moderado" : "—";
+
     summaryEl.innerHTML = [
-      metricCard("Zonas recientes", hotFeatures.length),
-      metricCard("Nivel máximo", maxNivel),
-      metricCard("Eventos recientes", totalEventosHot),
-      metricCard("Archivados", archiveFeatures.length),
+      metricCard("Zonas activas", nActivas),
+      metricCard("En vigilancia", nAmarillas),
+      metricCard("Nivel máximo", maxLevelLabel),
+      metricCard("Zonas históricas", archiveFeatures.length),
     ].join("");
 
     if (hotFeatures.length === 0 && archiveFeatures.length === 0) {
       statusEl.textContent = "No hay datos visibles en este momento.";
     } else if (hotFeatures.length === 0 && archiveFeatures.length > 0) {
-      statusEl.textContent = "No hay zonas recientes activas. Solo se muestran eventos archivados.";
+      statusEl.textContent = "No hay zonas recientes activas. Solo se muestran zonas históricas.";
     } else {
       statusEl.textContent =
-        `Datos cargados correctamente. ${hotFeatures.length} zonas recientes y ${archiveFeatures.length} eventos archivados.`;
+        `Datos cargados. ${nActivas} zona(s) activa(s), ${nAmarillas} en vigilancia, ${archiveFeatures.length} histórica(s).`;
     }
 
     let hotLayer = null;
@@ -433,9 +511,9 @@ Promise.all([
     if (hotFeatures.length > 0) {
       hotLayer = L.geoJSON(hotData, {
         style: function (feature) {
-          const nivel = feature.properties.nivel || 0;
+          const level = (feature.properties || {}).level;
           return {
-            fillColor: getColor(nivel),
+            fillColor: getColor(level),
             weight: 1,
             opacity: 1,
             color: "#ffffff",
@@ -508,9 +586,9 @@ Promise.all([
 
     statusEl.textContent = "No se pudieron cargar los datos del mapa.";
     summaryEl.innerHTML = [
-      metricCard("Zonas recientes", "—"),
+      metricCard("Zonas activas", "—"),
+      metricCard("En vigilancia", "—"),
       metricCard("Nivel máximo", "—"),
-      metricCard("Eventos recientes", "—"),
-      metricCard("Archivados", "—"),
+      metricCard("Zonas históricas", "—"),
     ].join("");
   });

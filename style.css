@@ -318,6 +318,39 @@ body {
   border: 1px solid #000000;
 }
 
+/* Indicadores inline en el texto explicativo */
+.inline-dot,
+.inline-square {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.inline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+.inline-red    { background: var(--danger); }
+.inline-orange { background: var(--warning); }
+.inline-yellow { background: var(--caution); }
+
+.inline-square {
+  width: 9px;
+  height: 9px;
+  background: var(--archived);
+  border: 1px solid #000;
+}
+
+.panel-note-muted {
+  color: var(--muted-2);
+  font-size: 13px;
+  border-top: 1px solid var(--card-border);
+  padding-top: 8px;
+  margin-top: 12px;
+}
+
 /* =============================================================================
    DETALLE DE SELECCIÓN
    ============================================================================= */

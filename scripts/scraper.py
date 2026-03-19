@@ -87,6 +87,29 @@ CONURBADO_AREAS = {
     "civac": "CIVAC",
 }
 
+# Municipios de Morelos que NO pertenecen al área conurbada de Cuernavaca.
+# Si aparecen en el texto, descartamos detecciones ambiguas de conurbado
+# (ej: "colonia Emiliano Zapata de Cuautla" no es el municipio conurbado).
+MORELOS_EXCLUDED_MUNICIPALITIES = [
+    "cuautla",
+    "tepoztlan",
+    "yecapixtla",
+    "ayala",
+    "jojutla",
+    "puente de ixtla",
+    "zacatepec",
+    "tlaltizapan",
+    "tlayacapan",
+    "totolapan",
+    "xochitepec",
+    "mazatepec",
+    "miacatlan",
+    "amacuzac",
+    "tetela del volcan",
+    "ocuituco",
+    "temoac",
+]
+
 DEFAULT_BUFFER_METERS = 500
 CONURBADO_BUFFER_METERS = 1000
 
@@ -119,7 +142,26 @@ VIOLENT_STEMS = [
     "ataque armado",
 ]
 
-# Términos que suelen corresponder a otros temas
+# Señales de violencia intencional/criminal (subconjunto fuerte de VIOLENT_STEMS).
+# Si el texto solo contiene stems débiles ("muert", "cuerpo", etc.) y además
+# hay NEGATIVE_HINTS, probablemente es un accidente y lo descartamos.
+STRONG_VIOLENT_STEMS = {
+    "homicid",
+    "asesin",
+    "ejecut",
+    "ultim",
+    "balacer",
+    "balaz",
+    "balea",
+    "dispar",
+    "secuestr",
+    "feminicid",
+    "apunal",
+    "arma de fuego",
+    "ataque armado",
+}
+
+# Términos que suelen corresponder a accidentes / sucesos no violentos
 NEGATIVE_HINTS = [
     "volcadura",
     "choque",
@@ -128,6 +170,8 @@ NEGATIVE_HINTS = [
     "trailer",
     "incendio",
     "caos vial",
+    "atropell",
+    "colision",
 ]
 
 
@@ -315,16 +359,22 @@ def extract_article(url: str) -> dict[str, Any]:
 
 def is_candidate_text(text: str) -> bool:
     """
-    Decide si el texto contiene señales de violencia.
+    Decide si el texto contiene señales de violencia intencional/criminal.
+
+    Lógica:
+    1. Si no hay ningún stem violento → rechazar.
+    2. Si hay NEGATIVE_HINTS (accidente, incendio, etc.) → solo aceptar si
+       hay al menos un STRONG_VIOLENT_STEM (violencia intencional clara).
+       Esto evita que muertes en accidentes ("muert", "cuerpo") pasen el filtro.
+    3. En cualquier otro caso → aceptar.
     """
     t = normalize_text(text)
 
     if not any(stem in t for stem in VIOLENT_STEMS):
         return False
 
-    # Si solo hay ruido y ninguna señal violenta fuerte, lo descartamos
-    if any(h in t for h in NEGATIVE_HINTS) and not any(stem in t for stem in VIOLENT_STEMS):
-        return False
+    if any(h in t for h in NEGATIVE_HINTS):
+        return any(stem in t for stem in STRONG_VIOLENT_STEMS)
 
     return True
 
@@ -332,8 +382,23 @@ def is_candidate_text(text: str) -> bool:
 def detect_conurbado_area(text: str | None) -> str | None:
     """
     Busca municipios/zonas conurbadas en el texto.
+
+    Antes de detectar un conurbado, verifica que el texto no mencione
+    explícitamente un municipio fuera del área de interés. Esto evita
+    falsos positivos como "colonia Emiliano Zapata, Cuautla" o eventos
+    de Tepoztlán que se cuelen como si fueran del municipio Emiliano Zapata.
+
+    Nota: este filtro solo aplica cuando el texto NO menciona Cuernavaca
+    directamente (la detección de `es_en_cuernavaca` es independiente).
     """
     t = normalize_text(text)
+
+    # Si el texto menciona un municipio excluido, descartamos el conurbado.
+    # Un artículo de Cuautla que diga "colonia Emiliano Zapata" no debe
+    # confundirse con el municipio conurbado Emiliano Zapata.
+    for excl in MORELOS_EXCLUDED_MUNICIPALITIES:
+        if excl in t:
+            return None
 
     for needle, canonical in CONURBADO_AREAS.items():
         if needle in t:
