@@ -121,7 +121,7 @@ function ensurePanel() {
             <span class="legend-dot legend-red"></span>
             <div>
               <strong>Muy peligroso</strong>
-              <div>2 hechos violentos en menos de 3 días, o 3 o más hechos en la zona</div>
+              <div>2 hechos violentos en menos de 30 días, o 3 o más hechos en la zona</div>
             </div>
           </div>
 
@@ -144,7 +144,7 @@ function ensurePanel() {
           <div class="legend-row">
             <span class="legend-square"></span>
             <div>
-              <strong>Zona histórica</strong>
+              <strong>Delito violento archivado</strong>
               <div>Más de 60 días sin hechos; ya no se considera peligrosa</div>
             </div>
           </div>
@@ -316,15 +316,12 @@ function buildArchivedPopup(props) {
   return `
     <div style="min-width:240px;line-height:1.45;">
       <div style="font-size:15px;font-weight:700;margin-bottom:8px;color:#111827;">
-        Zona histórica
+        Delito violento archivado
       </div>
       <div><strong>Zona:</strong> ${escapeHtml(props.location_name || "No disponible")}</div>
       <div><strong>Hechos registrados:</strong> ${escapeHtml(props.n_incidents)}</div>
       <div><strong>Delitos:</strong> ${joinList(props.delitos)}</div>
       <div><strong>Último hecho:</strong> ${escapeHtml(props.last_incident_date || "No disponible")}</div>
-      <div style="font-size:12px;color:#64748b;margin-top:4px;">
-        ${escapeHtml(diasSinHechosText(props.dias_sin_hechos_violentos))}
-      </div>
       <div style="margin-top:10px;">
         <strong>Fuentes:</strong>
         ${fuentesHtml}
@@ -403,7 +400,7 @@ function renderSelectedArchived(props) {
   const fuentes = Array.isArray(props.fuentes) ? props.fuentes : [];
 
   selectedEl.innerHTML = `
-    <div class="panel-section-title">Zona histórica</div>
+    <div class="panel-section-title">Delito violento archivado</div>
 
     <div class="selected-grid">
       <div class="selected-card">
@@ -429,11 +426,6 @@ function renderSelectedArchived(props) {
       <div class="selected-card">
         <div class="selected-label">Primer hecho</div>
         <div class="selected-value">${escapeHtml(props.first_incident_date || "No disponible")}</div>
-      </div>
-
-      <div class="selected-card">
-        <div class="selected-label">Días sin hechos</div>
-        <div class="selected-value">${escapeHtml(diasSinHechosText(props.dias_sin_hechos_violentos))}</div>
       </div>
 
       <div class="selected-card">
@@ -494,16 +486,16 @@ Promise.all([
       metricCard("Zonas activas", nActivas),
       metricCard("En vigilancia", nAmarillas),
       metricCard("Nivel máximo", maxLevelLabel),
-      metricCard("Zonas históricas", archiveFeatures.length),
+      metricCard("Delitos archivados",archiveFeatures.length),
     ].join("");
 
     if (hotFeatures.length === 0 && archiveFeatures.length === 0) {
       statusEl.textContent = "No hay datos visibles en este momento.";
     } else if (hotFeatures.length === 0 && archiveFeatures.length > 0) {
-      statusEl.textContent = "No hay zonas recientes activas. Solo se muestran zonas históricas.";
+      statusEl.textContent = "No hay zonas recientes activas. Solo se muestran delitos violentos archivados.";
     } else {
       statusEl.textContent =
-        `Datos cargados. ${nActivas} zona(s) activa(s), ${nAmarillas} en vigilancia, ${archiveFeatures.length} histórica(s).`;
+        `Datos cargados. ${nActivas} zona(s) activa(s), ${nAmarillas} en vigilancia, ${archiveFeatures.length} archivado(s).`;
     }
 
     let hotLayer = null;
@@ -589,6 +581,6 @@ Promise.all([
       metricCard("Zonas activas", "—"),
       metricCard("En vigilancia", "—"),
       metricCard("Nivel máximo", "—"),
-      metricCard("Zonas históricas", "—"),
+      metricCard("Delitos archivados","—"),
     ].join("");
   });
