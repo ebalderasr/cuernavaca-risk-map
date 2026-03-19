@@ -11,13 +11,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 222,
-        "last_incident_date": "2025-08-08",
-        "first_incident_date": "2025-08-08",
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 223,
+        "last_incident_date": "2025-08-08",
+        "first_incident_date": "2025-08-08",
         "delitos": [
           "homicidio"
         ],
@@ -40,13 +39,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 116,
-        "last_incident_date": "2025-11-22",
-        "first_incident_date": "2025-11-22",
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 117,
+        "last_incident_date": "2025-11-22",
+        "first_incident_date": "2025-11-22",
         "delitos": [
           "homicidio"
         ],
@@ -69,13 +67,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 348,
-        "last_incident_date": "2025-04-04",
-        "first_incident_date": "2025-04-04",
         "location_scope": "municipio",
         "location_name": "Jiutepec",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 349,
+        "last_incident_date": "2025-04-04",
+        "first_incident_date": "2025-04-04",
         "delitos": [
           "feminicidio"
         ],
@@ -98,13 +95,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2675,
-        "last_incident_date": "2018-11-20",
-        "first_incident_date": "2018-11-20",
         "location_scope": "colonia",
         "location_name": "La Pradera",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 2676,
+        "last_incident_date": "2018-11-20",
+        "first_incident_date": "2018-11-20",
         "delitos": [
           "ataque armado"
         ],
@@ -127,13 +123,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 235,
-        "last_incident_date": "2025-07-26",
-        "first_incident_date": "2025-07-26",
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 236,
+        "last_incident_date": "2025-07-26",
+        "first_incident_date": "2025-07-26",
         "delitos": [
           "ataque armado"
         ],
@@ -156,13 +151,12 @@
         ]
       },
       "properties": {
-        "level": "archivado",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 135,
-        "last_incident_date": "2025-11-03",
-        "first_incident_date": "2025-11-03",
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 136,
+        "last_incident_date": "2025-11-03",
+        "first_incident_date": "2025-11-03",
         "delitos": [
           "ataque armado"
         ],
