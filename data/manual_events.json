@@ -21,7 +21,7 @@
     "published_at": "2025-08-08 11:32:33",
     "scraped_at": "2026-03-11T02:11:05Z",
     "geo_confidence": "gazetteer",
-    "extraction_confidence": 1.0,
+    "extraction_confidence": 1,
     "source_type": "manual"
   },
   {
@@ -46,7 +46,7 @@
     "published_at": "2025-11-22 13:57:13",
     "scraped_at": "2026-03-11T02:11:06Z",
     "geo_confidence": "gazetteer",
-    "extraction_confidence": 1.0,
+    "extraction_confidence": 1,
     "source_type": "manual"
   },
   {
@@ -146,7 +146,7 @@
     "published_at": "2026-03-02 19:12:22",
     "scraped_at": "2026-03-11T02:11:09Z",
     "geo_confidence": "gazetteer",
-    "extraction_confidence": 1.0,
+    "extraction_confidence": 1,
     "source_type": "manual"
   },
   {
@@ -221,7 +221,7 @@
     "published_at": "2025-07-26 11:03:15",
     "scraped_at": "2026-03-11T02:36:50Z",
     "geo_confidence": "gazetteer",
-    "extraction_confidence": 1.0,
+    "extraction_confidence": 1,
     "source_type": "manual"
   },
   {
@@ -246,7 +246,33 @@
     "published_at": "2025-11-03 10:57:00",
     "scraped_at": "2026-03-11T02:36:51Z",
     "geo_confidence": "gazetteer",
-    "extraction_confidence": 1.0,
+    "extraction_confidence": 1,
+    "source_type": "manual"
+  },
+  {
+    "id": "8e01f56bbaac3c36",
+    "fecha": "2026-03-18",
+    "hora": "02:00",
+    "colonia": "Vista Hermosa",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "colonia",
+    "location_name": "Vista Hermosa",
+    "coordenadas": [
+      18.9360255,
+      -99.2162139
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "secuestro",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-joven-secuestrada-horas-antes-en-barrio-santiago",
+    "resumen": "Localizan sin vida a joven secuestrada horas antes en barrio Santiago | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Localizan sin vida a joven secuestrada horas antes en barrio Santiago",
+    "published_at": "2026-03-18 07:27:18",
+    "scraped_at": "2026-03-18T18:10:24Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "2716a4f73f6ef27a",
     "source_type": "manual"
   }
 ]
