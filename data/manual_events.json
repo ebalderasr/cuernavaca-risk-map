@@ -255,13 +255,13 @@
     "hora": "02:00",
     "colonia": "Vista Hermosa",
     "municipio_detectado": "Yautepec",
-    "location_scope": "colonia",
-    "location_name": "Vista Hermosa",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
     "coordenadas": [
       18.9360255,
       -99.2162139
     ],
-    "buffer_meters": 500,
+    "buffer_meters": 1000,
     "tipo_delito": "secuestro",
     "nivel_inicial": 6,
     "fuente": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-joven-secuestrada-horas-antes-en-barrio-santiago",
