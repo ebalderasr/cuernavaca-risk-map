@@ -48,6 +48,7 @@ DATA_DIR = ROOT / "data"
 
 EVENTS_PATH = DATA_DIR / "events.json"
 MANUAL_EVENTS_PATH = DATA_DIR / "manual_events.json"
+BLACKLIST_PATH = DATA_DIR / "blacklist.json"
 OUTPUT_PATH = DATA_DIR / "map_layers.json"
 ARCHIVE_OUTPUT_PATH = DATA_DIR / "archive_points.json"
 
@@ -77,17 +78,34 @@ def load_json_list(path: Path) -> list[dict[str, Any]]:
         return []
 
 
+def load_blacklist() -> set[str]:
+    """Carga URLs excluidas por el admin."""
+    if not BLACKLIST_PATH.exists():
+        return set()
+    try:
+        with BLACKLIST_PATH.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+        return set(data.get("urls", []))
+    except Exception:
+        return set()
+
+
 def load_events() -> list[dict[str, Any]]:
-    """Carga y combina eventos automáticos y manuales, eliminando duplicados."""
+    """Carga y combina eventos manuales y automáticos, eliminando duplicados y blacklisted.
+    Los eventos manuales tienen precedencia sobre los automáticos con la misma URL."""
     scraped = load_json_list(EVENTS_PATH)
     manual = load_json_list(MANUAL_EVENTS_PATH)
+    blacklist = load_blacklist()
 
     merged: list[dict[str, Any]] = []
     seen: set[str] = set()
 
-    for event in scraped + manual:
+    # Manuales primero para que sobreescriban versiones scrapeadas con la misma URL
+    for event in manual + scraped:
         key = event.get("fuente") or event.get("id")
         if not key or key in seen:
+            continue
+        if key in blacklist:
             continue
         seen.add(key)
         merged.append(event)

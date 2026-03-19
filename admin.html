@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OVICUE — Admin</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f4f5f7;
+      --surface: #ffffff;
+      --border: #e2e4e9;
+      --text: #1a1d23;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --danger: #dc2626;
+      --danger-hover: #b91c1c;
+      --success: #16a34a;
+      --warning: #d97706;
+      --badge-auto: #dbeafe;
+      --badge-auto-text: #1e40af;
+      --badge-manual: #dcfce7;
+      --badge-manual-text: #166534;
+      --badge-black: #f1f0ef;
+      --badge-black-text: #374151;
+      --rojo: #fee2e2;
+      --rojo-text: #991b1b;
+      --naranja: #ffedd5;
+      --naranja-text: #92400e;
+      --amarillo: #fef9c3;
+      --amarillo-text: #854d0e;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 14px;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 { font-size: 16px; font-weight: 600; }
+    header h1 span { color: var(--muted); font-weight: 400; }
+
+    #auth-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--border);
+    }
+    .dot.ok { background: var(--success); }
+
+    main { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+
+    .card h2 { font-size: 14px; font-weight: 600; margin-bottom: 14px; }
+
+    .row {
+      display: flex;
+      gap: 8px;
+      align-items: flex-end;
+    }
+
+    .field { display: flex; flex-direction: column; gap: 5px; flex: 1; }
+    .field label { font-size: 12px; font-weight: 500; color: var(--muted); }
+
+    input[type="text"], input[type="password"], select {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 14px;
+      background: var(--surface);
+      color: var(--text);
+      width: 100%;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    input:focus, select:focus { border-color: var(--primary); }
+
+    input[type="number"] {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 14px;
+      background: var(--surface);
+      color: var(--text);
+      width: 100%;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    input[type="number"]:focus { border-color: var(--primary); }
+
+    textarea {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      background: var(--surface);
+      color: var(--text);
+      width: 100%;
+      outline: none;
+      resize: vertical;
+      font-family: inherit;
+      line-height: 1.5;
+      transition: border-color 0.15s;
+    }
+    textarea:focus { border-color: var(--primary); }
+
+    .coords-row { display: flex; gap: 8px; }
+    .coords-row .field { flex: 1; }
+
+    .alias-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      max-height: 48px;
+      overflow: hidden;
+    }
+    .alias-chip {
+      background: var(--badge-black);
+      color: var(--badge-black-text);
+      border-radius: 3px;
+      padding: 1px 6px;
+      font-size: 11px;
+    }
+
+    .btn-success { background: var(--success); color: #fff; }
+    .btn-success:hover:not(:disabled) { background: #15803d; }
+
+    button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, opacity 0.15s;
+    }
+
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-primary:hover:not(:disabled) { background: var(--primary-hover); }
+
+    .btn-danger { background: var(--danger); color: #fff; }
+    .btn-danger:hover:not(:disabled) { background: var(--danger-hover); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover:not(:disabled) { background: var(--bg); }
+
+    .btn-sm { padding: 5px 10px; font-size: 12px; }
+
+    #msg {
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      margin-bottom: 16px;
+      display: none;
+    }
+    #msg.ok { background: #dcfce7; color: #166534; display: block; }
+    #msg.err { background: #fee2e2; color: #991b1b; display: block; }
+    #msg.info { background: #dbeafe; color: #1e40af; display: block; }
+
+    /* Events table */
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      align-items: center;
+    }
+
+    .toolbar input { max-width: 280px; }
+
+    .count { font-size: 13px; color: var(--muted); margin-left: auto; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th {
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--bg); }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    .badge-auto { background: var(--badge-auto); color: var(--badge-auto-text); }
+    .badge-manual { background: var(--badge-manual); color: var(--badge-manual-text); }
+    .badge-rojo { background: var(--rojo); color: var(--rojo-text); }
+    .badge-naranja { background: var(--naranja); color: var(--naranja-text); }
+    .badge-amarillo { background: var(--amarillo); color: var(--amarillo-text); }
+    .badge-archivado { background: var(--badge-black); color: var(--badge-black-text); }
+
+    .actions { display: flex; gap: 6px; flex-wrap: wrap; }
+
+    a.src-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 12px;
+      word-break: break-all;
+    }
+    a.src-link:hover { text-decoration: underline; }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 24px;
+      width: 100%;
+      max-width: 460px;
+      margin: 16px;
+    }
+
+    .modal h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .modal .sub { font-size: 12px; color: var(--muted); margin-bottom: 18px; }
+
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 20px;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 14px; height: 14px;
+      border: 2px solid currentColor;
+      border-top-color: transparent;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #loading-row td {
+      text-align: center;
+      color: var(--muted);
+      padding: 32px;
+    }
+
+    #auth-section { display: block; }
+    #main-section { display: none; }
+
+    .workflow-link {
+      font-size: 12px;
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .workflow-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>OVICUE <span>/ Admin</span></h1>
+  <div id="auth-status">
+    <div class="dot" id="auth-dot"></div>
+    <span id="auth-label">No conectado</span>
+    <button class="btn-ghost btn-sm" id="btn-logout" style="display:none" onclick="logout()">Salir</button>
+  </div>
+</header>
+
+<main>
+  <div id="msg"></div>
+
+  <!-- Auth -->
+  <div class="card" id="auth-section">
+    <h2>Conectar con GitHub</h2>
+    <div class="row">
+      <div class="field">
+        <label>Token de acceso personal (repo scope)</label>
+        <input type="password" id="token-input" placeholder="ghp_…" autocomplete="off">
+      </div>
+      <button class="btn-primary" onclick="connect()">Conectar</button>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-top:10px">
+      El token se guarda solo en memoria de la pestaña (sessionStorage) y nunca sale de tu navegador.
+      Necesita permisos <code>repo</code> y <code>workflow</code>.
+    </p>
+  </div>
+
+  <!-- Main panel -->
+  <div id="main-section">
+
+    <!-- Add news -->
+    <div class="card">
+      <h2>Agregar noticia por URL</h2>
+      <div class="row">
+        <div class="field">
+          <label>URL de la nota</label>
+          <input type="text" id="news-url" placeholder="https://www.diariodemorelos.com/noticias/…">
+        </div>
+        <button class="btn-primary" id="btn-add-news" onclick="addNews()">Agregar</button>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin-top:10px">
+        Lanza el workflow <code>add_news.yml</code> en GitHub Actions. La noticia aparecerá en el mapa
+        en cuanto el workflow termine (~3 min). Puedes ver el progreso en
+        <a class="workflow-link" href="https://github.com/ebalderasr/cuernavaca-risk-map/actions/workflows/add_news.yml" target="_blank">Actions</a>.
+      </p>
+    </div>
+
+    <!-- Events list -->
+    <div class="card">
+      <h2>Noticias en el mapa</h2>
+      <div class="toolbar">
+        <input type="text" id="search" placeholder="Buscar por lugar, delito o URL…" oninput="filterTable()">
+        <span class="count" id="event-count"></span>
+        <button class="btn-ghost btn-sm" onclick="loadAll()">↺ Recargar</button>
+      </div>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Lugar</th>
+              <th>Delito</th>
+              <th>Fuente</th>
+              <th>Origen</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="events-body">
+            <tr id="loading-row"><td colspan="6"><span class="spinner"></span> Cargando…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Colonias / Gazetteer -->
+    <div class="card">
+      <h2>Base de datos de colonias</h2>
+      <div class="toolbar">
+        <input type="text" id="colonia-search" placeholder="Buscar colonia o seudónimo…" oninput="filterColoniasTable()">
+        <span class="count" id="colonia-count"></span>
+        <button class="btn-success btn-sm" onclick="openColoniaModal(-1)">+ Nueva colonia</button>
+        <button class="btn-primary btn-sm" id="btn-regen-map" onclick="regenMap()">↺ Actualizar mapa</button>
+      </div>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Lat</th>
+              <th>Lon</th>
+              <th>Seudónimos</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="colonias-body">
+            <tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Cargando…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!-- /main-section -->
+</main>
+
+<!-- Edit modal -->
+<div class="modal-overlay" id="edit-modal">
+  <div class="modal">
+    <h3>Editar ubicación</h3>
+    <p class="sub" id="edit-modal-sub">Cambia la colonia o municipio al que pertenece esta noticia.</p>
+    <div class="field" style="margin-bottom:12px">
+      <label>Colonia / Municipio</label>
+      <select id="edit-colonia-select">
+        <option value="">Cargando opciones…</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>O escribe manualmente</label>
+      <input type="text" id="edit-colonia-manual" placeholder="Nombre exacto del lugar">
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" onclick="closeModal()">Cancelar</button>
+      <button class="btn-primary" id="btn-save-edit" onclick="saveEdit()">Guardar y regenerar mapa</button>
+    </div>
+  </div>
+</div>
+
+<!-- Colonia modal -->
+<div class="modal-overlay" id="colonia-modal">
+  <div class="modal" style="max-width:520px">
+    <h3 id="colonia-modal-title">Nueva colonia</h3>
+    <p class="sub" id="colonia-modal-sub">Los cambios se guardan en colonias_cuernavaca.json vía GitHub.</p>
+    <div class="field" style="margin-bottom:12px">
+      <label>Nombre canónico</label>
+      <input type="text" id="col-name" placeholder="Ej: Vista Hermosa">
+    </div>
+    <div class="coords-row" style="margin-bottom:12px">
+      <div class="field">
+        <label>Latitud</label>
+        <input type="number" id="col-lat" step="0.000001" placeholder="18.9218">
+      </div>
+      <div class="field">
+        <label>Longitud</label>
+        <input type="number" id="col-lon" step="0.000001" placeholder="-99.2347">
+      </div>
+    </div>
+    <div class="field">
+      <label>Seudónimos (uno por línea)</label>
+      <textarea id="col-aliases" rows="5" placeholder="VISTA HERMOSA&#10;Col. Vista Hermosa&#10;col vista hermosa"></textarea>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost" onclick="closeColoniaModal()">Cancelar</button>
+      <button class="btn-primary" id="btn-save-colonia" onclick="saveColonia()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const OWNER = 'ebalderasr'
+const REPO  = 'cuernavaca-risk-map'
+const API   = 'https://api.github.com'
+
+let token = sessionStorage.getItem('ovicue_token') || ''
+let allEvents    = []   // merged events with source tag
+let gazetteer    = []   // colonias list (quick lookup)
+let gazetteData  = { colonias: [], sha: '' }  // full gazette with sha
+let blacklistData = { urls: [], sha: '' }
+let manualData    = { events: [], sha: '' }
+let editingEvent  = null
+let editingColoniaIdx = -1  // -1 = nueva colonia
+
+// ── Helpers ──────────────────────────────────────────────
+
+function gh(path, opts = {}) {
+  return fetch(`${API}${path}`, {
+    ...opts,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      ...(opts.headers || {}),
+    },
+  })
+}
+
+function b64decode(str) {
+  const binary = atob(str.replace(/\n/g, ''))
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0))
+  return new TextDecoder().decode(bytes)
+}
+
+function b64encode(str) {
+  const bytes = new TextEncoder().encode(str)
+  let binary = ''
+  bytes.forEach(b => binary += String.fromCharCode(b))
+  return btoa(binary)
+}
+
+async function readGHFile(path) {
+  const res = await gh(`/repos/${OWNER}/${REPO}/contents/${path}`)
+  if (!res.ok) throw new Error(`No se pudo leer ${path}: ${res.status}`)
+  const data = await res.json()
+  return { content: JSON.parse(b64decode(data.content)), sha: data.sha }
+}
+
+async function writeGHFile(path, content, sha, message) {
+  const body = { message, content: b64encode(JSON.stringify(content, null, 2) + '\n'), sha }
+  const res = await gh(`/repos/${OWNER}/${REPO}/contents/${path}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}))
+    throw new Error(err.message || `Error ${res.status}`)
+  }
+  return res.json()
+}
+
+async function triggerWorkflow(workflowFile, inputs = {}) {
+  const res = await gh(`/repos/${OWNER}/${REPO}/actions/workflows/${workflowFile}/dispatches`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ref: 'main', inputs }),
+  })
+  if (!res.ok && res.status !== 204) {
+    const err = await res.json().catch(() => ({}))
+    throw new Error(err.message || `Error ${res.status}`)
+  }
+}
+
+function showMsg(text, type = 'info') {
+  const el = document.getElementById('msg')
+  el.textContent = text
+  el.className = type
+  el.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+}
+
+function hideMsg() {
+  document.getElementById('msg').className = ''
+}
+
+function setLoading(btnId, loading, label) {
+  const btn = document.getElementById(btnId)
+  if (!btn) return
+  btn.disabled = loading
+  btn.innerHTML = loading ? `<span class="spinner"></span>${label}` : label
+}
+
+// ── Auth ─────────────────────────────────────────────────
+
+async function connect() {
+  token = document.getElementById('token-input').value.trim()
+  if (!token) { showMsg('Ingresa un token.', 'err'); return }
+
+  try {
+    const res = await gh('/user')
+    if (!res.ok) throw new Error('Token inválido o sin permisos.')
+    const user = await res.json()
+    sessionStorage.setItem('ovicue_token', token)
+    setAuthOk(user.login)
+    await loadAll()
+  } catch (e) {
+    showMsg(e.message, 'err')
+    token = ''
+  }
+}
+
+function setAuthOk(login) {
+  document.getElementById('auth-dot').className   = 'dot ok'
+  document.getElementById('auth-label').textContent = `@${login}`
+  document.getElementById('btn-logout').style.display = ''
+  document.getElementById('auth-section').style.display = 'none'
+  document.getElementById('main-section').style.display = 'block'
+  hideMsg()
+}
+
+function logout() {
+  sessionStorage.removeItem('ovicue_token')
+  token = ''
+  allEvents = []
+  document.getElementById('auth-dot').className    = 'dot'
+  document.getElementById('auth-label').textContent = 'No conectado'
+  document.getElementById('btn-logout').style.display = 'none'
+  document.getElementById('auth-section').style.display = ''
+  document.getElementById('main-section').style.display = 'none'
+  document.getElementById('token-input').value = ''
+  document.getElementById('events-body').innerHTML =
+    '<tr id="loading-row"><td colspan="6"><span class="spinner"></span> Cargando…</td></tr>'
+}
+
+// ── Load data ─────────────────────────────────────────────
+
+async function loadAll() {
+  document.getElementById('events-body').innerHTML =
+    '<tr id="loading-row"><td colspan="6"><span class="spinner"></span> Cargando datos…</td></tr>'
+  hideMsg()
+
+  try {
+    const [scraped, manual, blacklist, gazette] = await Promise.all([
+      readGHFile('data/events.json'),
+      readGHFile('data/manual_events.json').catch(() => ({ content: [], sha: null })),
+      readGHFile('data/blacklist.json').catch(() => ({ content: { urls: [] }, sha: null })),
+      readGHFile('data/colonias_cuernavaca.json').catch(() => ({ content: [], sha: null })),
+    ])
+
+    blacklistData = { urls: blacklist.content.urls || [], sha: blacklist.sha }
+    manualData    = { events: manual.content || [], sha: manual.sha }
+    gazetteData   = { colonias: gazette.content || [], sha: gazette.sha }
+    gazetteer     = gazetteData.colonias
+
+    const blackSet = new Set(blacklistData.urls)
+    const manualUrls = new Set((manualData.events).map(e => e.fuente).filter(Boolean))
+
+    // Merge: manual first (takes precedence), then scraped
+    const seen = new Set()
+    allEvents = []
+
+    for (const ev of [...manualData.events, ...(scraped.content || [])]) {
+      const key = ev.fuente || ev.id
+      if (!key || seen.has(key) || blackSet.has(key)) continue
+      seen.add(key)
+      allEvents.push({ ...ev, _source: manualUrls.has(ev.fuente) ? 'manual' : 'auto' })
+    }
+
+    // Sort by date desc
+    allEvents.sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''))
+
+    populateGazeteerSelect()
+    renderTable(allEvents)
+    renderColoniasTable(gazetteData.colonias)
+  } catch (e) {
+    showMsg('Error cargando datos: ' + e.message, 'err')
+    document.getElementById('events-body').innerHTML =
+      `<tr><td colspan="6" style="color:var(--danger);padding:20px">${e.message}</td></tr>`
+  }
+}
+
+// ── Render ────────────────────────────────────────────────
+
+function renderTable(events) {
+  const tbody = document.getElementById('events-body')
+  document.getElementById('event-count').textContent = `${events.length} noticias`
+
+  if (!events.length) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--muted);padding:32px">Sin resultados</td></tr>'
+    return
+  }
+
+  tbody.innerHTML = events.map((ev, i) => {
+    const srcBadge = ev._source === 'manual'
+      ? '<span class="badge badge-manual">manual</span>'
+      : '<span class="badge badge-auto">auto</span>'
+
+    const lugar = ev.location_name || ev.colonia || '–'
+    const scope = ev.location_scope === 'municipio' ? ' (mpio.)' : ''
+    const delito = ev.tipo_delito || '–'
+    const fecha  = ev.fecha || '–'
+    const url    = ev.fuente || ''
+    const shortUrl = url ? url.replace(/^https?:\/\/(www\.)?/, '').substring(0, 55) + (url.length > 60 ? '…' : '') : '–'
+
+    return `<tr data-idx="${i}">
+      <td>${fecha}</td>
+      <td>${escHtml(lugar)}${scope}</td>
+      <td>${escHtml(delito)}</td>
+      <td>${url ? `<a class="src-link" href="${escHtml(url)}" target="_blank">${escHtml(shortUrl)}</a>` : '–'}</td>
+      <td>${srcBadge}</td>
+      <td>
+        <div class="actions">
+          <button class="btn-ghost btn-sm" onclick="openEditModal(${i})">✏ Editar</button>
+          <button class="btn-danger btn-sm" onclick="blacklistEvent(${i})">✕ Quitar</button>
+        </div>
+      </td>
+    </tr>`
+  }).join('')
+}
+
+function filterTable() {
+  const q = document.getElementById('search').value.toLowerCase()
+  const filtered = allEvents.filter(ev => {
+    const haystack = [ev.fecha, ev.location_name, ev.colonia, ev.tipo_delito, ev.fuente]
+      .join(' ').toLowerCase()
+    return haystack.includes(q)
+  })
+  renderTable(filtered)
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
+}
+
+// ── Blacklist ─────────────────────────────────────────────
+
+async function blacklistEvent(idx) {
+  const ev = allEvents[idx]
+  const url = ev.fuente
+  if (!url) { showMsg('Esta noticia no tiene URL, no se puede quitar por URL.', 'err'); return }
+  if (!confirm(`¿Quitar esta noticia del mapa?\n\n${ev.fecha} — ${ev.location_name || ev.colonia}\n${url}`)) return
+
+  try {
+    showMsg('Quitando noticia…', 'info')
+
+    // Update blacklist
+    const newUrls = [...new Set([...blacklistData.urls, url])]
+    const newBlacklist = { urls: newUrls }
+
+    // We need current sha; if null, file doesn't exist yet, handle create
+    let res
+    if (!blacklistData.sha) {
+      // Create file
+      const createRes = await gh(`/repos/${OWNER}/${REPO}/contents/data/blacklist.json`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: 'Admin: quitar noticia del mapa',
+          content: b64encode(JSON.stringify(newBlacklist, null, 2) + '\n'),
+        }),
+      })
+      if (!createRes.ok) throw new Error('No se pudo crear blacklist.json')
+      res = await createRes.json()
+      blacklistData.sha = res.content.sha
+    } else {
+      res = await writeGHFile('data/blacklist.json', newBlacklist, blacklistData.sha, 'Admin: quitar noticia del mapa')
+      blacklistData.sha = res.content.sha
+    }
+    blacklistData.urls = newUrls
+
+    // Trigger regen
+    await triggerWorkflow('regen_map.yml')
+
+    // Remove from local list
+    allEvents = allEvents.filter(e => e.fuente !== url)
+    filterTable()
+    showMsg('✓ Noticia quitada. El mapa se regenerará en ~3 min.', 'ok')
+  } catch (e) {
+    showMsg('Error: ' + e.message, 'err')
+  }
+}
+
+// ── Edit modal ────────────────────────────────────────────
+
+function populateGazeteerSelect() {
+  const sel = document.getElementById('edit-colonia-select')
+  const municipios = ['Cuernavaca', 'Jiutepec', 'Yautepec', 'Emiliano Zapata', 'Temixco', 'CIVAC']
+
+  const opts = [
+    '<option value="">— Elige una colonia —</option>',
+    '<optgroup label="Municipios conurbados">',
+    ...municipios.map(m => `<option value="municipio:${m}">${m} (municipio)</option>`),
+    '</optgroup>',
+    '<optgroup label="Colonias de Cuernavaca">',
+    ...gazetteer.map(c => `<option value="colonia:${c.name}">${c.name}</option>`),
+    '</optgroup>',
+  ]
+  sel.innerHTML = opts.join('')
+}
+
+function openEditModal(idx) {
+  editingEvent = allEvents[idx]
+  document.getElementById('edit-modal-sub').textContent =
+    `${editingEvent.fecha || ''} — ${editingEvent.resumen || editingEvent.fuente || ''}`
+  document.getElementById('edit-colonia-manual').value = ''
+  document.getElementById('edit-colonia-select').value = ''
+  document.getElementById('edit-modal').classList.add('open')
+}
+
+function closeModal() {
+  document.getElementById('edit-modal').classList.remove('open')
+  editingEvent = null
+}
+
+async function saveEdit() {
+  if (!editingEvent) return
+
+  const selectVal  = document.getElementById('edit-colonia-select').value
+  const manualVal  = document.getElementById('edit-colonia-manual').value.trim()
+
+  let locationScope, locationName, coords, bufferMeters
+
+  if (manualVal) {
+    // Manual text — try to look up in gazetteer
+    const match = gazetteer.find(c =>
+      c.name.toLowerCase() === manualVal.toLowerCase() ||
+      (c.aliases || []).some(a => a.toLowerCase() === manualVal.toLowerCase())
+    )
+    if (match) {
+      locationScope = 'colonia'
+      locationName  = match.name
+      coords        = match.coords
+      bufferMeters  = 500
+    } else {
+      // Not in gazetteer — we still save the name but keep original coords
+      locationScope = 'colonia'
+      locationName  = manualVal
+      coords        = editingEvent.coordenadas
+      bufferMeters  = editingEvent.buffer_meters || 500
+    }
+  } else if (selectVal) {
+    const [scope, name] = selectVal.split(':')
+    locationScope = scope
+    locationName  = name
+    bufferMeters  = scope === 'municipio' ? 1000 : 500
+
+    if (scope === 'colonia') {
+      const match = gazetteer.find(c => c.name === name)
+      coords = match ? match.coords : editingEvent.coordenadas
+    } else {
+      // municipio — keep original coords or use known center
+      coords = editingEvent.coordenadas
+    }
+  } else {
+    showMsg('Selecciona o escribe una ubicación.', 'err')
+    return
+  }
+
+  setLoading('btn-save-edit', true, 'Guardando…')
+
+  try {
+    // Build updated event
+    const updated = {
+      ...editingEvent,
+      colonia:          locationScope === 'colonia' ? locationName : editingEvent.colonia,
+      municipio_detectado: locationScope === 'municipio' ? locationName : editingEvent.municipio_detectado,
+      location_scope:   locationScope,
+      location_name:    locationName,
+      coordenadas:      coords,
+      buffer_meters:    bufferMeters,
+      source_name:      'Manual',
+      source_type:      'manual',
+      _source:          undefined,
+    }
+    delete updated._source
+
+    // Upsert in manual_events
+    const url    = editingEvent.fuente
+    let newManuals = [...manualData.events]
+    const existingIdx = newManuals.findIndex(e => e.fuente === url)
+    if (existingIdx >= 0) {
+      newManuals[existingIdx] = updated
+    } else {
+      newManuals.push(updated)
+    }
+
+    // Save manual_events.json
+    let writeRes
+    if (!manualData.sha) {
+      writeRes = await gh(`/repos/${OWNER}/${REPO}/contents/data/manual_events.json`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: 'Admin: corregir ubicación de noticia',
+          content: b64encode(JSON.stringify(newManuals, null, 2) + '\n'),
+        }),
+      })
+      if (!writeRes.ok) throw new Error('No se pudo crear manual_events.json')
+      writeRes = await writeRes.json()
+    } else {
+      writeRes = await writeGHFile(
+        'data/manual_events.json', newManuals, manualData.sha,
+        'Admin: corregir ubicación de noticia'
+      )
+    }
+    manualData.sha    = writeRes.content.sha
+    manualData.events = newManuals
+
+    // Trigger regen
+    await triggerWorkflow('regen_map.yml')
+
+    // Update local state
+    const localIdx = allEvents.findIndex(e => (e.fuente || e.id) === (editingEvent.fuente || editingEvent.id))
+    if (localIdx >= 0) {
+      allEvents[localIdx] = { ...updated, _source: 'manual' }
+    }
+
+    closeModal()
+    filterTable()
+    showMsg(`✓ Ubicación actualizada a "${locationName}". El mapa se regenerará en ~3 min.`, 'ok')
+  } catch (e) {
+    showMsg('Error: ' + e.message, 'err')
+  } finally {
+    setLoading('btn-save-edit', false, 'Guardar y regenerar mapa')
+  }
+}
+
+// ── Add news ──────────────────────────────────────────────
+
+async function addNews() {
+  const url = document.getElementById('news-url').value.trim()
+  if (!url || !url.startsWith('http')) {
+    showMsg('Ingresa una URL válida.', 'err')
+    return
+  }
+
+  setLoading('btn-add-news', true, 'Lanzando workflow…')
+  try {
+    await triggerWorkflow('add_news.yml', { url })
+    document.getElementById('news-url').value = ''
+    showMsg(
+      '✓ Workflow iniciado. La noticia se procesará en ~3 min. ' +
+      'Revisa Actions para ver el resultado.',
+      'ok'
+    )
+  } catch (e) {
+    showMsg('Error al lanzar workflow: ' + e.message, 'err')
+  } finally {
+    setLoading('btn-add-news', false, 'Agregar')
+  }
+}
+
+// ── Colonias CRUD ─────────────────────────────────────────
+
+function renderColoniasTable(colonias) {
+  const tbody = document.getElementById('colonias-body')
+  document.getElementById('colonia-count').textContent = `${colonias.length} colonias`
+
+  if (!colonias.length) {
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Sin resultados</td></tr>'
+    return
+  }
+
+  tbody.innerHTML = colonias.map((c, i) => {
+    const lat = c.coords ? c.coords[0].toFixed(6) : '–'
+    const lon = c.coords ? c.coords[1].toFixed(6) : '–'
+    const aliases = (c.aliases || [])
+    const chips = aliases.slice(0, 4).map(a =>
+      `<span class="alias-chip">${escHtml(a)}</span>`
+    ).join('') + (aliases.length > 4 ? `<span class="alias-chip">+${aliases.length - 4}</span>` : '')
+
+    // Store original index in full array
+    const origIdx = gazetteData.colonias.indexOf(c)
+
+    return `<tr>
+      <td><strong>${escHtml(c.name)}</strong></td>
+      <td style="font-family:monospace;font-size:12px">${lat}</td>
+      <td style="font-family:monospace;font-size:12px">${lon}</td>
+      <td><div class="alias-chips">${chips || '<span style="color:var(--muted);font-size:12px">—</span>'}</div></td>
+      <td>
+        <div class="actions">
+          <button class="btn-ghost btn-sm" onclick="openColoniaModal(${origIdx})">✏ Editar</button>
+          <button class="btn-danger btn-sm" onclick="deleteColonia(${origIdx})">✕</button>
+        </div>
+      </td>
+    </tr>`
+  }).join('')
+}
+
+function filterColoniasTable() {
+  const q = document.getElementById('colonia-search').value.toLowerCase()
+  const filtered = gazetteData.colonias.filter(c => {
+    const name = (c.name || '').toLowerCase()
+    const aliases = (c.aliases || []).join(' ').toLowerCase()
+    return name.includes(q) || aliases.includes(q)
+  })
+  renderColoniasTable(filtered)
+}
+
+function openColoniaModal(idx) {
+  editingColoniaIdx = idx
+  const isNew = idx === -1
+  document.getElementById('colonia-modal-title').textContent = isNew ? 'Nueva colonia' : 'Editar colonia'
+  document.getElementById('colonia-modal-sub').textContent = isNew
+    ? 'Se agregará al gazetteer colonias_cuernavaca.json.'
+    : `Editando: ${gazetteData.colonias[idx].name}`
+
+  if (isNew) {
+    document.getElementById('col-name').value = ''
+    document.getElementById('col-lat').value = ''
+    document.getElementById('col-lon').value = ''
+    document.getElementById('col-aliases').value = ''
+  } else {
+    const c = gazetteData.colonias[idx]
+    document.getElementById('col-name').value = c.name || ''
+    document.getElementById('col-lat').value = c.coords ? c.coords[0] : ''
+    document.getElementById('col-lon').value = c.coords ? c.coords[1] : ''
+    document.getElementById('col-aliases').value = (c.aliases || []).join('\n')
+  }
+
+  document.getElementById('colonia-modal').classList.add('open')
+}
+
+function closeColoniaModal() {
+  document.getElementById('colonia-modal').classList.remove('open')
+  editingColoniaIdx = -1
+}
+
+async function saveColonia() {
+  const name    = document.getElementById('col-name').value.trim()
+  const latRaw  = document.getElementById('col-lat').value.trim()
+  const lonRaw  = document.getElementById('col-lon').value.trim()
+  const aliasesRaw = document.getElementById('col-aliases').value
+
+  if (!name) { showMsg('El nombre es obligatorio.', 'err'); return }
+  if (!latRaw || !lonRaw) { showMsg('Las coordenadas son obligatorias.', 'err'); return }
+
+  const lat = parseFloat(latRaw)
+  const lon = parseFloat(lonRaw)
+  if (isNaN(lat) || isNaN(lon)) { showMsg('Coordenadas inválidas.', 'err'); return }
+
+  const aliases = aliasesRaw.split('\n').map(s => s.trim()).filter(Boolean)
+
+  const newEntry = { name, aliases, coords: [lat, lon] }
+
+  setLoading('btn-save-colonia', true, 'Guardando…')
+  try {
+    let newColonias = [...gazetteData.colonias]
+
+    if (editingColoniaIdx === -1) {
+      // Check for duplicate name
+      if (newColonias.some(c => c.name.toLowerCase() === name.toLowerCase())) {
+        throw new Error(`Ya existe una colonia llamada "${name}".`)
+      }
+      newColonias.push(newEntry)
+      // Sort alphabetically
+      newColonias.sort((a, b) => a.name.localeCompare(b.name, 'es'))
+    } else {
+      newColonias[editingColoniaIdx] = newEntry
+    }
+
+    const writeRes = await writeGHFile(
+      'data/colonias_cuernavaca.json',
+      newColonias,
+      gazetteData.sha,
+      editingColoniaIdx === -1
+        ? `Admin: agregar colonia "${name}"`
+        : `Admin: editar colonia "${name}"`
+    )
+    gazetteData.sha     = writeRes.content.sha
+    gazetteData.colonias = newColonias
+    gazetteer            = newColonias
+
+    populateGazeteerSelect()
+    filterColoniasTable()
+    closeColoniaModal()
+    showMsg(
+      editingColoniaIdx === -1
+        ? `✓ Colonia "${name}" agregada. Pulsa "Actualizar mapa" cuando hayas terminado tus cambios.`
+        : `✓ Colonia "${name}" actualizada. Pulsa "Actualizar mapa" cuando hayas terminado tus cambios.`,
+      'ok'
+    )
+  } catch (e) {
+    showMsg('Error: ' + e.message, 'err')
+  } finally {
+    setLoading('btn-save-colonia', false, 'Guardar')
+  }
+}
+
+async function deleteColonia(idx) {
+  const c = gazetteData.colonias[idx]
+  if (!confirm(`¿Eliminar la colonia "${c.name}" del gazetteer?\n\nEsto no afecta noticias ya clasificadas con ese nombre.`)) return
+
+  try {
+    showMsg('Eliminando…', 'info')
+    const newColonias = gazetteData.colonias.filter((_, i) => i !== idx)
+
+    const writeRes = await writeGHFile(
+      'data/colonias_cuernavaca.json',
+      newColonias,
+      gazetteData.sha,
+      `Admin: eliminar colonia "${c.name}"`
+    )
+    gazetteData.sha      = writeRes.content.sha
+    gazetteData.colonias = newColonias
+    gazetteer             = newColonias
+
+    populateGazeteerSelect()
+    filterColoniasTable()
+    showMsg(`✓ Colonia "${c.name}" eliminada del gazetteer.`, 'ok')
+  } catch (e) {
+    showMsg('Error: ' + e.message, 'err')
+  }
+}
+
+async function regenMap() {
+  setLoading('btn-regen-map', true, 'Lanzando…')
+  try {
+    await triggerWorkflow('regen_map.yml')
+    showMsg('✓ Workflow de regeneración iniciado. El mapa se actualizará en ~3 min.', 'ok')
+  } catch (e) {
+    showMsg('Error al lanzar workflow: ' + e.message, 'err')
+  } finally {
+    setLoading('btn-regen-map', false, '↺ Actualizar mapa')
+  }
+}
+
+// ── Close modal on overlay click ──────────────────────────
+document.getElementById('edit-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal()
+})
+document.getElementById('colonia-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeColoniaModal()
+})
+
+// ── Auto-login if token in session ───────────────────────
+;(async () => {
+  if (!token) return
+  try {
+    const res = await gh('/user')
+    if (!res.ok) { sessionStorage.removeItem('ovicue_token'); token = ''; return }
+    const user = await res.json()
+    setAuthOk(user.login)
+    await loadAll()
+  } catch (_) {
+    sessionStorage.removeItem('ovicue_token')
+    token = ''
+  }
+})()
+</script>
+</body>
+</html>

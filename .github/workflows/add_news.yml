@@ -1,0 +1,54 @@
+name: Agregar noticia manual
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'URL de la noticia a agregar'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgdal-dev gdal-bin
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests beautifulsoup4 geopy geopandas shapely pyproj
+
+      - name: Agregar noticia
+        run: python scripts/add_manual_note.py "${{ inputs.url }}"
+
+      - name: Run geo logic
+        run: python scripts/logic.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "OVICUE Bot"
+          git config --global user.email "bot@ovicue.local"
+          git add data/manual_events.json data/events.json data/map_layers.json data/archive_points.json data/geocode_cache.json
+          if git diff --cached --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "Admin: agregar noticia manual"
+            git push
+          fi
