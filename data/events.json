@@ -448,5 +448,80 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "2716a4f73f6ef27a"
+  },
+  {
+    "id": "ebf9bfd20c1fb6cf",
+    "fecha": "2026-03-19",
+    "hora": "22:00",
+    "colonia": "Morelos",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/raptan-una-mujer-y-aparece-sin-vida-en-yautepec",
+    "resumen": "Raptan a una mujer y aparece sin vida en Yautepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Raptan a una mujer y aparece sin vida en Yautepec",
+    "published_at": "2026-03-19 08:42:25",
+    "scraped_at": "2026-03-19T18:02:57Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "001af4a2fb12c7d3"
+  },
+  {
+    "id": "b6f0eeb4aaa2512c",
+    "fecha": "2026-03-19",
+    "hora": "15:30",
+    "colonia": "Plan de Ayala",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Plan de Ayala",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-comerciante-en-calles-de-jiutepec",
+    "resumen": "Atacan a comerciante en calles de Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a comerciante en calles de Jiutepec",
+    "published_at": "2026-03-19 08:37:41",
+    "scraped_at": "2026-03-19T18:02:57Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "9f16028fbdca62fc"
+  },
+  {
+    "id": "1ca379727f4bdc6a",
+    "fecha": "2026-03-18",
+    "hora": "15:10",
+    "colonia": "Cuauhtémoc",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-un-hombre-en-tejalpa-jiutepec",
+    "resumen": "Atacan a balazos a un hombre en Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a balazos a un hombre en Tejalpa, Jiutepec",
+    "published_at": "2026-03-18 17:49:00",
+    "scraped_at": "2026-03-19T18:02:58Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "b8b2b9ec9a9eb6bf"
   }
 ]
