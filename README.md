@@ -4,9 +4,14 @@
 
 ### Observatory of Violence and Incident Reporting in Cuernavaca
 
+<br>
+
+**[→ Open the live map](https://ebalderasr.github.io/cuernavaca-risk-map/)**
+
+<br>
+
 [![Status](https://img.shields.io/badge/Status-Public_Beta-orange?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-See_LICENSE-blue?style=for-the-badge)](./LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Live_Map-GitHub_Pages-2EA44F?style=for-the-badge&logo=github)](https://ebalderasr.github.io/cuernavaca-risk-map/)
 [![Data Source](https://img.shields.io/badge/Source-Diario_de_Morelos-555555?style=for-the-badge)]()
 
 </div>
