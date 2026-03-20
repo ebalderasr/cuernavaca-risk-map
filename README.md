@@ -1,374 +1,244 @@
-# OVICUE  
-## Observatorio de Violencia e Incidencia en Cuernavaca
+<div align="center">
 
-OVICUE es una aplicación web estática de visualización geoespacial que muestra **zonas de incidencia reciente de hechos violentos reportados por la prensa** en Cuernavaca, Morelos.
+# OVICUE
 
-Su objetivo es ofrecer una **herramienta informativa y exploratoria** para observar patrones espaciales aproximados de reportes periodísticos recientes, sin pretender sustituir fuentes oficiales, investigación de campo, peritajes, denuncias formales o sistemas institucionales de seguridad pública.
+### Observatory of Violence and Incident Reporting in Cuernavaca
 
----
+[![Status](https://img.shields.io/badge/Status-Public_Beta-orange?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-See_LICENSE-blue?style=for-the-badge)](./LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Live_Map-GitHub_Pages-2EA44F?style=for-the-badge&logo=github)](https://ebalderasr.github.io/cuernavaca-risk-map/)
+[![Data Source](https://img.shields.io/badge/Source-Diario_de_Morelos-555555?style=for-the-badge)]()
 
-## Estado del proyecto
-
-**Beta pública**  
-El proyecto se encuentra en desarrollo activo y su metodología puede cambiar conforme se mejore la calidad del pipeline, la georreferenciación, el filtrado de notas y la presentación visual de resultados.
-
----
-
-## ¿Qué hace la app?
-
-OVICUE toma notas periodísticas recientes sobre hechos violentos ocurridos en Cuernavaca, extrae información estructurada, estima una ubicación referencial a nivel de colonia y genera una visualización espacial de intensidad reciente.
-
-La aplicación:
-
-- consulta automáticamente una fuente periodística configurada,
-- identifica notas candidatas relacionadas con violencia,
-- usa extracción asistida por IA para clasificar y estructurar los datos,
-- georreferencia la colonia mencionada,
-- asigna un nivel inicial de incidencia,
-- aplica un decaimiento temporal,
-- construye una capa geoespacial agregada,
-- y publica el resultado como un mapa interactivo.
-
-Además del flujo automático, el administrador puede agregar **notas manuales** al sistema para corregir o complementar eventos no capturados por el scraper.
+</div>
 
 ---
 
-## Qué **no** hace la app
+## What is OVICUE?
 
-OVICUE **no**:
+OVICUE is a static, serverless web application that aggregates and maps **recent violent incident reports published by local press** in Cuernavaca, Morelos, Mexico.
 
-- representa estadísticas oficiales de criminalidad,
-- muestra ubicaciones exactas de víctimas, domicilios o escenas del hecho,
-- verifica judicialmente la verdad de cada nota,
-- sustituye reportes a autoridades o servicios de emergencia,
-- produce predicción criminal individual,
-- ni debe usarse como base única para decisiones de seguridad, inversión, movilidad o reputación territorial.
+> **This project does not generate, produce, or verify information.**
+> It collects publicly available news articles and visualizes their geographic content on an interactive map. All underlying data comes from third-party journalism sources.
+
+The goal is to provide an **informative and exploratory tool** for observing approximate spatial patterns in recent press coverage — not to replace official sources, field investigations, legal proceedings, or public safety institutions.
 
 ---
 
-## Metodología general
+## Why it matters
 
-### 1. Fuente de información
-La app consulta notas periodísticas de la sección de seguridad de una fuente configurada, actualmente:
+Cuernavaca lacks publicly accessible, neighborhood-level visualizations of press-reported security incidents. OVICUE fills that gap by:
 
-- **Diario de Morelos**  
-  `https://www.diariodemorelos.com/noticias/categories/sos`
+- transforming unstructured news text into structured, mappable data,
+- applying transparent spatial and temporal weighting,
+- publishing results as a freely accessible interactive map.
 
-### 2. Selección de notas candidatas
-El sistema filtra encabezados usando raíces léxicas y términos asociados con violencia, por ejemplo:
-
-- `homicid`
-- `asesin`
-- `ejecut`
-- `balacer`
-- `dispar`
-- `secuestr`
-- `feminicid`
-- `sin vida`
-- `hallazg`
-- `cadaver`
-- `muert`
-
-Este filtro inicial sirve para reducir ruido y limitar el número de notas enviadas al paso de extracción estructurada.
-
-### 3. Clasificación y extracción asistida por IA
-Las notas candidatas se procesan con un modelo de IA para responder preguntas estructuradas como:
-
-- si el hecho es violento,
-- si ocurrió en Cuernavaca,
-- tipo de delito aproximado,
-- colonia mencionada,
-- hora aproximada,
-- resumen breve.
-
-La IA **no se considera fuente primaria de verdad**, sino una herramienta de apoyo para estructurar datos de notas periodísticas.
-
-### 4. Georreferenciación
-La app intenta resolver la colonia mencionada mediante este orden:
-
-1. un catálogo local de colonias (`colonias_cuernavaca.json`),
-2. caché local de geocodificación,
-3. geocodificación externa cuando es necesario.
-
-Si una colonia no puede resolverse de forma razonable, el evento puede quedar fuera del mapa o almacenarse para revisión manual. El sistema está diseñado para **evitar coordenadas inventadas por defecto**.
-
-### 5. Asignación de nivel inicial
-Cada evento recibe un nivel inicial base:
-
-- **5** por defecto,
-- **6** si el evento ocurrió entre las **22:00 y las 06:00**.
-
-### 6. Decaimiento temporal
-El nivel disminuye con el tiempo usando una regla simple:
-
-```text
-nivel_actual = max(0, nivel_inicial - floor(días_transcurridos / 30))
-````
-
-Esto permite que eventos antiguos pierdan peso progresivamente hasta desaparecer de la visualización activa.
-
-### 7. Agregación espacial
-
-Cada evento se convierte en un buffer de **500 metros** y se proyecta a un sistema métrico adecuado para la zona.
-
-Después, la app construye una **grilla regular** sobre el área cubierta por los eventos y calcula, para cada celda:
-
-* nivel final,
-* número de eventos activos,
-* número de eventos de mayor intensidad,
-* colonias relacionadas,
-* delitos relacionados,
-* fuentes visibles en el popup.
-
-La “sinergia” espacial se aproxima por celda, elevando el nivel cuando múltiples eventos intensos convergen en la misma zona.
+This gives residents, researchers, and journalists a low-cost reference layer for situational awareness based on what the press is already reporting.
 
 ---
 
-## Arquitectura del proyecto
+## How it works
 
-OVICUE usa una arquitectura **serverless / flat-data**, diseñada para minimizar costos y complejidad operativa.
+### 1. News collection
+A Python scraper fetches headlines from the security section of a configured press source:
 
-### Frontend
+- **Diario de Morelos** — `https://www.diariodemorelos.com/noticias/categories/sos`
 
-* HTML
-* CSS
-* JavaScript
-* Leaflet.js
+### 2. Candidate filtering
+Headlines are filtered using lexical roots associated with violent incidents (e.g., `homicid`, `balacer`, `feminicid`, `hallazg`, `cadaver`). This reduces noise before structured extraction.
 
-### Procesamiento
+### 3. AI-assisted structured extraction
+Candidate articles are processed by an AI model that extracts:
 
-* Python
-* GeoPandas
-* Shapely
-* Pandas
-* NumPy
+| Field | Description |
+|-------|-------------|
+| Incident type | Approximate crime category |
+| Location | Neighborhood (*colonia*) mentioned |
+| Time | Approximate time of day |
+| Summary | Brief description |
 
-### Automatización
+> The AI model is a processing aid, not a source of truth. It structures information already present in the news article.
 
-* GitHub Actions
+### 4. Geocoding
+The mentioned neighborhood is resolved using:
+1. A local catalog of Cuernavaca *colonias* (`colonias_cuernavaca.json`)
+2. A local geocoding cache
+3. External geocoding as a fallback
 
-### Publicación
+If a location cannot be resolved reliably, the event is excluded from the map or held for manual review. **Coordinates are never invented.**
 
-* GitHub Pages
+### 5. Temporal weighting & decay
+Each event receives an initial severity level (default: **5**, or **6** if it occurred between 22:00–06:00). This level decays over time:
 
-### Datos
-
-* `data/events.json` → eventos capturados automáticamente
-* `data/manual_events.json` → eventos agregados manualmente
-* `data/map_layers.json` → capa geoespacial final que consume el frontend
-* `data/colonias_cuernavaca.json` → catálogo local de colonias y alias
-* `data/geocode_cache.json` → caché local de geocodificación
-* `data/unresolved_events.json` → eventos no resueltos o pendientes de revisión
-
----
-
-## Flujo diario de actualización
-
-El mapa se actualiza automáticamente mediante GitHub Actions.
-
-### Pipeline
-
-1. el workflow se ejecuta diariamente,
-2. corre `scripts/scraper.py`,
-3. actualiza `events.json` y la caché de geocodificación,
-4. corre `scripts/logic.py`,
-5. genera un nuevo `map_layers.json`,
-6. y publica los cambios en el repositorio.
-
-### Flujo manual
-
-El administrador también puede agregar una nota manualmente mediante:
-
-```bash
-python scripts/add_manual_note.py "URL_DE_LA_NOTA"
-python scripts/logic.py
+```
+current_level = max(0, initial_level - floor(days_elapsed / 30))
 ```
 
+Events gradually lose weight until they disappear from the active visualization.
+
+### 6. Spatial aggregation
+Each event is buffered to **500 meters** and projected into a metric coordinate system. A regular grid is built over the covered area; each cell aggregates:
+
+- final level
+- active event count
+- high-intensity event count
+- related *colonias* and crime types
+- source links
+
 ---
 
-## Estructura del repositorio
+## Tech stack
+
+**Frontend**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Leaflet](https://img.shields.io/badge/Leaflet.js-199900?style=flat-square&logo=leaflet&logoColor=white)
+
+**Data pipeline**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Shapely](https://img.shields.io/badge/Shapely-2C7BB6?style=flat-square&logo=python&logoColor=white)
+
+**Automation & publishing**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)
+
+---
+
+## Architecture
+
+OVICUE uses a **flat-data / serverless** architecture — no backend server, no database. All data lives as static JSON files committed to the repository and served via GitHub Pages.
 
 ```text
 .
-├── .github/
-│   └── workflows/
-│       └── update.yml
+├── .github/workflows/update.yml     ← Daily automation (GitHub Actions)
 ├── data/
-│   ├── colonias_cuernavaca.json
-│   ├── events.json
-│   ├── geocode_cache.json
-│   ├── manual_events.json
-│   ├── map_layers.json
-│   └── unresolved_events.json
+│   ├── events.json                  ← Automatically captured events
+│   ├── manual_events.json           ← Manually curated events
+│   ├── map_layers.json              ← Final geospatial layer (consumed by frontend)
+│   ├── colonias_cuernavaca.json     ← Local neighborhood catalog
+│   ├── geocode_cache.json           ← Geocoding cache
+│   └── unresolved_events.json       ← Events pending review
 ├── scripts/
-│   ├── add_manual_note.py
-│   ├── logic.py
-│   └── scraper.py
+│   ├── scraper.py                   ← News scraper + extractor
+│   ├── logic.py                     ← Spatial aggregation pipeline
+│   └── add_manual_note.py           ← Manual event ingestion
 ├── app.js
 ├── index.html
 ├── style.css
-├── README.md
 └── LICENSE
 ```
 
 ---
 
-## Ejecución local
+## Daily update pipeline
 
-### 1. Crear entorno virtual
+The map updates automatically via GitHub Actions:
+
+1. Workflow triggers daily
+2. `scripts/scraper.py` runs → updates `events.json` and geocoding cache
+3. `scripts/logic.py` runs → generates a new `map_layers.json`
+4. Changes are committed and published to GitHub Pages
+
+### Manual ingestion
+
+An administrator can also add a note manually:
 
 ```bash
+python scripts/add_manual_note.py "ARTICLE_URL"
+python scripts/logic.py
+```
+
+---
+
+## Local setup
+
+```bash
+# 1. Create virtual environment
 python -m venv venv
 source venv/bin/activate
-```
 
-### 2. Instalar dependencias
-
-```bash
+# 2. Install dependencies
 pip install pandas numpy requests beautifulsoup4 google-genai geopy geopandas shapely pyproj
-```
 
-### 3. Configurar variable de entorno
+# 3. Set API key
+export GOOGLE_API_KEY="YOUR_API_KEY"
 
-```bash
-export GOOGLE_API_KEY="TU_API_KEY"
-```
-
-### 4. Correr pipeline
-
-```bash
+# 4. Run pipeline and serve
 python scripts/scraper.py
 python scripts/logic.py
 python -m http.server 8000
-```
-
-Luego abre:
-
-```text
-http://localhost:8000
+# Open: http://localhost:8000
 ```
 
 ---
 
-## Limitaciones metodológicas
+## Known limitations
 
-OVICUE tiene limitaciones importantes que deben entenderse antes de interpretar el mapa:
-
-1. **Sesgo de fuente**
-   El mapa depende de lo que publica un medio concreto. No representa todos los hechos ocurridos ni todos los reportados oficialmente.
-
-2. **Sesgo de cobertura periodística**
-   Hay colonias, tipos de hecho o contextos que pueden recibir más o menos cobertura mediática.
-
-3. **Georreferenciación aproximada**
-   La ubicación corresponde normalmente a una colonia o referencia general, no al punto real del evento.
-
-4. **Clasificación imperfecta**
-   El pipeline puede cometer errores al filtrar, clasificar o resumir notas.
-
-5. **Temporalidad simplificada**
-   El modelo de decaimiento es una regla operativa, no una validación criminológica exhaustiva.
-
-6. **No equivale a riesgo real**
-   La visualización debe entenderse como una representación aproximada de **intensidad reciente de reportes periodísticos**, no como una medición definitiva de peligrosidad.
+| Limitation | Description |
+|------------|-------------|
+| **Source bias** | The map reflects what a single outlet publishes — not all incidents, nor all official records |
+| **Coverage bias** | Some neighborhoods or crime types receive more media attention than others |
+| **Approximate location** | Coordinates correspond to a neighborhood centroid, not the exact incident location |
+| **Imperfect classification** | The pipeline may misclassify or miss some articles |
+| **Simplified temporality** | The decay model is an operational heuristic, not a criminological model |
+| **Not a risk score** | The visualization represents **intensity of recent press coverage**, not actual danger |
 
 ---
 
-## Aviso legal y de responsabilidad
+## Legal disclaimer
 
-### Naturaleza informativa
+### Nature of this project
 
-OVICUE es una herramienta de visualización informativa y experimental basada en fuentes periodísticas de acceso público y procesamiento automatizado.
+OVICUE is an **informational and experimental visualization tool**. It collects publicly available news articles and maps their geographic content. **It does not produce, generate, verify, or validate any information** — all data originates from third-party journalism sources that are publicly accessible.
 
-### No oficialidad
+### Not an official source
 
-OVICUE **no es una fuente oficial de seguridad pública** y no sustituye la información emitida por autoridades, fiscalías, instancias municipales, estatales o federales, ni por el Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública.
+OVICUE is **not affiliated with** and does not substitute information from public security authorities, prosecutors (*fiscalías*), municipal or state governments, or the *Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)*.
 
-### No exactitud garantizada
+### No accuracy guarantee
 
-Aunque se realizan esfuerzos razonables para estructurar y visualizar los datos de manera consistente, **no se garantiza la exactitud, integridad, actualidad, exhaustividad o precisión geográfica** de la información mostrada.
+While reasonable efforts are made to structure and present data consistently, **no guarantee is made regarding accuracy, completeness, timeliness, or geographic precision** of the displayed information.
 
-### Sin imputación individual
+### No individual imputation
 
-La app no tiene por objeto imputar responsabilidad penal, civil o administrativa a persona alguna, ni afirmar hechos jurídicamente probados. La información visualizada deriva de reportes periodísticos y procesos automatizados de extracción y agregación.
+This application does not impute criminal, civil, or administrative liability to any person. Visualized information derives from press reports and automated extraction and aggregation processes.
 
-### Sin uso para emergencia
+### Not for emergencies
 
-OVICUE **no debe utilizarse para atención de emergencias** ni como sustituto de llamadas a servicios de emergencia, denuncia formal o contacto con autoridades competentes.
+**OVICUE must not be used for emergency response.** In any emergency, contact the appropriate authorities directly (911 or equivalent).
 
-### Sin garantía de aptitud para decisiones
+### No liability for decisions
 
-Los desarrolladores y administradores no asumen responsabilidad por decisiones personales, comerciales, patrimoniales, territoriales, de movilidad, reputación o seguridad tomadas con base exclusiva o principal en esta herramienta.
+The developers and administrators assume no responsibility for personal, commercial, property, mobility, or safety decisions made based solely or primarily on this tool.
 
-### Ubicación aproximada y protección de terceros
+### Privacy and approximate location
 
-La plataforma emplea ubicaciones aproximadas y agregación espacial deliberada con el fin de reducir precisión puntual y evitar exposición innecesaria de víctimas, domicilios o terceros.
+The platform deliberately uses approximate locations and spatial aggregation to reduce point-level precision and minimize unnecessary exposure of victims, addresses, or third parties.
 
-### Correcciones y retiro
+### Corrections and takedowns
 
-Si una nota, geolocalización o representación requiere corrección, revisión o retiro, el proyecto podrá modificar, reclasificar o eliminar registros cuando resulte procedente.
-
----
-
-## Privacidad y datos sensibles
-
-OVICUE busca evitar la publicación de datos personales sensibles o ubicaciones puntuales exactas.
-La aplicación está diseñada para mostrar información agregada o referencial a nivel de zona/celda, y no para exponer datos privados de víctimas, testigos o domicilios particulares.
-
-Si detectas contenido sensible, información errónea o una representación que deba corregirse, se recomienda solicitar revisión mediante el canal de contacto del proyecto.
+If a specific report, geolocation, or representation requires correction or removal, the project may modify, reclassify, or delete records when appropriate. Contact the project administrator to request a review.
 
 ---
 
-## Propiedad intelectual y fuentes
+## Intellectual property
 
-Las notas periodísticas enlazadas pertenecen a sus respectivos medios y autores.
-OVICUE **no reproduce íntegramente** el contenido de las notas como producto principal, sino que enlaza la fuente original y usa metadatos o resúmenes operativos para fines de visualización e investigación aplicada.
-
-Todas las marcas, nombres comerciales y contenidos enlazados pertenecen a sus titulares respectivos.
+Linked news articles belong to their respective outlets and authors. OVICUE **does not reproduce article content in full** as its primary output — it links to original sources and uses operational summaries and metadata for visualization and applied research purposes. All trademarks and linked content belong to their respective owners.
 
 ---
 
-## Gobernanza editorial
+## Contact
 
-Los eventos pueden entrar al mapa por dos rutas:
-
-1. **Automática**
-   Cuando son detectados y estructurados por el pipeline.
-
-2. **Manual**
-   Cuando el administrador los agrega directamente para corrección, validación o incorporación puntual.
-
-La existencia de revisión manual no implica validación forense o judicial del hecho, sino curaduría operativa del dataset.
+**Project administrator:** Emiliano Balderas Ramírez
+- GitHub: [@ebalderasr](https://github.com/ebalderasr)
+- Email: [ebalderas@live.com.mx](mailto:ebalderas@live.com.mx)
 
 ---
 
-## Roadmap
-
-Líneas de mejora previstas:
-
-* ampliar y depurar catálogo de colonias,
-* fortalecer deduplicación temporal y espacial,
-* mejorar el diseño del frontend,
-* añadir metadata de actualización visible,
-* incorporar más fuentes,
-* refinar el modelo de extracción y clasificación,
-* documentar mejor trazabilidad y métricas de calidad del pipeline.
-
----
-
-## Contacto
-
-**Administrador / responsable del proyecto:**
-Emiliano Balderas Ramírez
-
----
-
-## Licencia
-
-Este repositorio se distribuye bajo la licencia incluida en `LICENSE`.
-
----
-
-## Descargo final
-
-El uso de este repositorio, del sitio publicado y de sus datos implica la aceptación de que se trata de una herramienta informativa, experimental y no oficial, basada en agregación automatizada de reportes periodísticos con geolocalización aproximada.
+<div align="center"><i>OVICUE visualizes what the press reports — it does not create, verify, or certify any information.</i></div>
