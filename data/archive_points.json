@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 223,
+        "dias_sin_hechos_violentos": 224,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 117,
+        "dias_sin_hechos_violentos": 118,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 349,
+        "dias_sin_hechos_violentos": 350,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -98,7 +98,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2676,
+        "dias_sin_hechos_violentos": 2677,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -118,6 +118,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.1732936,
+          18.8954874
+        ]
+      },
+      "properties": {
+        "location_scope": "municipio",
+        "location_name": "Jiutepec",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-01-19",
+        "first_incident_date": "2026-01-19",
+        "delitos": [
+          "asalto con violencia"
+        ],
+        "fuentes": [
+          {
+            "title": "Balean en asalto a conductor de taxi por aplicación en Jiutepec; llega a pedir ayuda a Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/balean-en-asalto-conductor-de-taxi-por-aplicaci-n-en-cuernavaca-llega-plaza-pedir-ayuda"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -99.1968277,
           18.9517043
         ]
@@ -126,7 +154,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 236,
+        "dias_sin_hechos_violentos": 237,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -154,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 136,
+        "dias_sin_hechos_violentos": 137,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
