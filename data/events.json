@@ -523,5 +523,80 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "b8b2b9ec9a9eb6bf"
+  },
+  {
+    "id": "6b946478e90520a6",
+    "fecha": "2026-03-21",
+    "hora": "18:30",
+    "colonia": "Centro",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-futbolista-tras-ser-baleado-en-campo-de-la-colonia-lagunilla-cuernavaca",
+    "resumen": "Muere futbolista tras ser baleado en campo de la colonia Lagunilla, Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere futbolista tras ser baleado en campo de la colonia Lagunilla, Cuernavaca",
+    "published_at": "2026-03-21 17:08:51",
+    "scraped_at": "2026-03-22T17:42:10Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "c9d485e05566b995"
+  },
+  {
+    "id": "84fcbe0b9f685194",
+    "fecha": "2026-03-20",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-mujer-tras-ataque-armado-en-la-colonia-benito-ju-rez",
+    "resumen": "Muere mujer tras ataque armado en la colonia Benito Juárez | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere mujer tras ataque armado en la colonia Benito Juárez",
+    "published_at": "2026-03-20 20:27:55",
+    "scraped_at": "2026-03-22T17:42:11Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "6bd77aaef9ad84de"
+  },
+  {
+    "id": "44ecc6e58c3f4c7b",
+    "fecha": "2026-03-20",
+    "hora": null,
+    "colonia": "Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/balean-2-hombres-durante-un-partido-de-futbol-en-la-lagunilla-cuernavaca",
+    "resumen": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca",
+    "published_at": "2026-03-20 20:09:29",
+    "scraped_at": "2026-03-22T17:42:11Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "9307735ef5304856"
   }
 ]
