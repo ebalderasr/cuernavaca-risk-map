@@ -113,6 +113,31 @@ MORELOS_EXCLUDED_MUNICIPALITIES = [
 DEFAULT_BUFFER_METERS = 500
 CONURBADO_BUFFER_METERS = 1000
 
+AMBIGUOUS_COLONIA_NAMES = {
+    "centro",
+    "civac",
+    "emiliano zapata",
+    "jiutepec",
+    "morelos",
+    "temixco",
+    "yautepec",
+}
+
+LOCATION_CONTEXT_PREFIXES = (
+    "ampliacion",
+    "barrio",
+    "col",
+    "colonia",
+    "delegacion",
+    "ejido",
+    "fracc",
+    "fraccionamiento",
+    "privada",
+    "pueblo",
+    "unidad",
+    "unidad habitacional",
+)
+
 
 # =============================================================================
 # PALABRAS CLAVE Y HEURÍSTICAS
@@ -527,6 +552,11 @@ def find_best_gazetteer_match_in_text(
 
             # Match por frase completa en texto normalizado
             if f" {variant_norm} " in padded_text:
+                if canonical_norm in AMBIGUOUS_COLONIA_NAMES and not has_explicit_location_context(
+                    text_norm,
+                    variant_norm,
+                ):
+                    continue
                 coords = item.get("coords")
                 if isinstance(coords, list) and len(coords) == 2:
                     score = len(variant_norm)
@@ -539,6 +569,23 @@ def find_best_gazetteer_match_in_text(
         return best_name, best_coords, "gazetteer_text"
 
     return None, None, "none"
+
+
+def has_explicit_location_context(text_norm: str, place_norm: str) -> bool:
+    """
+    Exige pistas como "colonia Morelos" para nombres demasiado ambiguos.
+    """
+    for prefix in LOCATION_CONTEXT_PREFIXES:
+        pattern = rf"\b{re.escape(prefix)}\s+{re.escape(place_norm)}\b"
+        if re.search(pattern, text_norm):
+            return True
+
+    # Caso útil para "Centro de Cuernavaca", pero evita aceptar "Morelos"
+    # solo por referencia al estado.
+    if place_norm == "centro" and re.search(r"\bcentro\s+de\s+cuernavaca\b", text_norm):
+        return True
+
+    return False
 
 
 def nominatim_lookup(name: str, cache: dict[str, Any]) -> tuple[list[float] | None, str]:
@@ -771,24 +818,18 @@ def run_scraper() -> None:
 
                     full_text_for_scope = f"{title}\n{article['text']}"
                     conurbado = detect_conurbado_area(full_text_for_scope)
+                    raw_colonia = extracted.get("colonia")
 
-                    # Aceptamos si está en Cuernavaca o en conurbado configurado
-                    if not extracted.get("es_en_cuernavaca") and not conurbado:
+                    # El mapa principal prioriza eventos con colonia identificable.
+                    # Si la nota solo trae municipio/conurbado, la mandamos a revisión.
+                    if not extracted.get("es_en_cuernavaca") and not raw_colonia:
                         continue
 
-                    raw_colonia = extracted.get("colonia")
                     location_scope = "colonia"
                     location_name = raw_colonia
                     buffer_meters = DEFAULT_BUFFER_METERS
 
-                    if conurbado:
-                        coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
-                        location_scope = "municipio"
-                        location_name = conurbado
-                        buffer_meters = CONURBADO_BUFFER_METERS
-                    else:
-                        # Si no hay conurbado, usamos la colonia detectada
-                        coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
+                    coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
 
                     if coords is None:
                         register_unresolved(
@@ -799,6 +840,7 @@ def run_scraper() -> None:
                                 "colonia": raw_colonia,
                                 "location_scope": location_scope,
                                 "location_name": location_name,
+                                "municipio_detectado": conurbado,
                                 "published_at": article.get("published_at"),
                                 "scraped_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
                             }

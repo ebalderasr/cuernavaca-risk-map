@@ -36,7 +36,7 @@ from pathlib import Path
 from typing import Any
 
 import geopandas as gpd
-from shapely.geometry import Point, mapping
+from shapely.geometry import Point, mapping, shape
 
 
 # =============================================================================
@@ -51,6 +51,7 @@ MANUAL_EVENTS_PATH = DATA_DIR / "manual_events.json"
 BLACKLIST_PATH = DATA_DIR / "blacklist.json"
 OUTPUT_PATH = DATA_DIR / "map_layers.json"
 ARCHIVE_OUTPUT_PATH = DATA_DIR / "archive_points.json"
+COLONIA_POLYGONS_PATH = DATA_DIR / "colonias_cuernavaca_polygons.geojson"
 
 WGS84 = "EPSG:4326"
 UTM14N = "EPSG:32614"
@@ -61,6 +62,10 @@ ESCALATION_DAYS = 3           # Días para escalar de naranja a rojo (2.° hecho
 YELLOW_THRESHOLD = 30         # Días sin hechos → amarillo
 ARCHIVE_THRESHOLD = 60        # Días sin hechos → archivado
 EXTRA_RADIUS_PER_INCIDENT = 50   # +50 m de radio (+100 m de diámetro) por hecho violento adicional
+
+LOW_PRECISION_LOCATION_NAMES = {
+    "morelos",
+}
 
 
 # =============================================================================
@@ -113,6 +118,55 @@ def load_events() -> list[dict[str, Any]]:
     return merged
 
 
+def load_colonia_polygons() -> dict[str, Any]:
+    """
+    Carga polígonos oficiales de colonias, indexados por nombre normalizado.
+    """
+    if not COLONIA_POLYGONS_PATH.exists():
+        return {}
+
+    try:
+        raw = json.loads(COLONIA_POLYGONS_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    features = raw.get("features", []) if isinstance(raw, dict) else []
+    polygon_map: dict[str, Any] = {}
+
+    for feature in features:
+        if not isinstance(feature, dict):
+            continue
+
+        properties = feature.get("properties") or {}
+        geometry = feature.get("geometry")
+        if not geometry:
+            continue
+
+        name = str(
+            properties.get("location_name")
+            or properties.get("name")
+            or properties.get("nombre")
+            or ""
+        ).strip()
+        if not name:
+            continue
+
+        aliases = properties.get("aliases") or []
+        names = [name, *aliases]
+
+        try:
+            geom = shape(geometry)
+        except Exception:
+            continue
+
+        for candidate in names:
+            norm = normalize_location_name(candidate)
+            if norm:
+                polygon_map[norm] = geom
+
+    return polygon_map
+
+
 # =============================================================================
 # UTILIDADES DE FECHA
 # =============================================================================
@@ -148,6 +202,27 @@ def get_zone_key(event: dict[str, Any]) -> str:
         return f"_id_:{event.get('id', 'unknown')}"
 
     return f"{scope}:{name}"
+
+
+def normalize_location_name(value: str | None) -> str:
+    if not value:
+        return ""
+    return str(value).strip().lower()
+
+
+def is_event_precise_enough(event: dict[str, Any]) -> bool:
+    """
+    Evita dibujar zonas cuando la ubicación es demasiado ambigua.
+    """
+    if event.get("location_scope") != "colonia":
+        return False
+
+    name = str(event.get("location_name") or event.get("colonia") or "").strip().lower()
+    if not name or name in LOW_PRECISION_LOCATION_NAMES:
+        return False
+
+    coords = event.get("coordenadas")
+    return isinstance(coords, (list, tuple)) and len(coords) == 2
 
 
 def compute_zone_level(
@@ -209,6 +284,7 @@ def _make_archived_entry(event: dict[str, Any], lat: float, lon: float, today: d
 def group_into_zones(
     events: list[dict[str, Any]],
     today: date,
+    colonia_polygons: dict[str, Any] | None = None,
 ) -> list[dict[str, Any]]:
     """
     Agrupa los eventos por ubicación y calcula el estado de cada zona.
@@ -225,11 +301,13 @@ def group_into_zones(
     """
     zone_map: dict[str, dict[str, Any]] = {}
     individual_archived: list[dict[str, Any]] = []
+    colonia_polygons = colonia_polygons or {}
 
     for event in events:
-        coords = event.get("coordenadas")
-        if not isinstance(coords, (list, tuple)) or len(coords) != 2:
+        if not is_event_precise_enough(event):
             continue
+
+        coords = event.get("coordenadas")
         try:
             lat = float(coords[0])
             lon = float(coords[1])
@@ -252,15 +330,19 @@ def group_into_zones(
             except Exception:
                 buffer_m = DEFAULT_BUFFER_METERS
 
+            location_name = str(
+                event.get("location_name") or event.get("colonia") or "No especificada"
+            )
+            polygon = colonia_polygons.get(normalize_location_name(location_name))
+
             zone_map[key] = {
                 "location_scope": event.get("location_scope", "colonia"),
-                "location_name": str(
-                    event.get("location_name") or event.get("colonia") or "No especificada"
-                ),
+                "location_name": location_name,
                 "buffer_meters": buffer_m,
                 "events": [],
                 "lons": [],
                 "lats": [],
+                "geometry": polygon,
             }
 
         zone_map[key]["events"].append(event)
@@ -284,6 +366,9 @@ def group_into_zones(
         lons = zdata["lons"]
         lats = zdata["lats"]
         centroid = Point(sum(lons) / len(lons), sum(lats) / len(lats))
+        zone_geometry = zdata.get("geometry")
+        if zone_geometry is not None:
+            centroid = zone_geometry.representative_point()
 
         delitos = sorted(
             {str(e.get("tipo_delito") or "No especificado") for e in evs}
@@ -319,6 +404,7 @@ def group_into_zones(
                 "fuentes": fuentes,
                 "radius_meters": radius,
                 "centroid": centroid,
+                "geometry": zone_geometry,
             }
         )
 
@@ -351,13 +437,17 @@ def export_hot_zones(zones: list[dict[str, Any]]) -> dict[str, Any]:
     gdf = gpd.GeoDataFrame(
         {
             "radius_meters": [z["radius_meters"] for z in hot_zones],
-            "geometry": [z["centroid"] for z in hot_zones],
+            "geometry": [
+                z["geometry"] if z.get("geometry") is not None else z["centroid"]
+                for z in hot_zones
+            ],
+            "needs_buffer": [z.get("geometry") is None for z in hot_zones],
         },
         crs=WGS84,
     ).to_crs(UTM14N)
 
     gdf["geometry"] = gdf.apply(
-        lambda row: row.geometry.buffer(int(row["radius_meters"])),
+        lambda row: row.geometry.buffer(int(row["radius_meters"])) if row["needs_buffer"] else row.geometry,
         axis=1,
     )
 
@@ -382,6 +472,7 @@ def export_hot_zones(zones: list[dict[str, Any]]) -> dict[str, Any]:
                     "delitos": z["delitos"],
                     "fuentes": z["fuentes"],
                     "radius_meters": z["radius_meters"],
+                    "geometry_source": "colonia_polygon" if z.get("geometry") is not None else "buffer",
                 },
             }
         )
@@ -456,6 +547,7 @@ def process_risk_zones() -> dict[str, Any]:
     """
     today = date.today()
     events = load_events()
+    colonia_polygons = load_colonia_polygons()
 
     if not events:
         empty = {"type": "FeatureCollection", "features": []}
@@ -468,7 +560,7 @@ def process_risk_zones() -> dict[str, Any]:
         print("ℹ️ No hay eventos. Se generaron GeoJSONs vacíos.")
         return empty
 
-    zones = group_into_zones(events, today)
+    zones = group_into_zones(events, today, colonia_polygons=colonia_polygons)
 
     hot_geojson = export_hot_zones(zones)
     archive_geojson = export_archive_points(zones)

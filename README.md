@@ -66,8 +66,9 @@ Candidate articles are processed by an AI model that extracts:
 ### 4. Geocoding
 The mentioned neighborhood is resolved using:
 1. A local catalog of Cuernavaca *colonias* (`colonias_cuernavaca.json`)
-2. A local geocoding cache
-3. External geocoding as a fallback
+2. An optional polygon layer of official colonia boundaries (`colonias_cuernavaca_polygons.geojson`)
+3. A local geocoding cache
+4. External geocoding as a fallback
 
 If a location cannot be resolved reliably, the event is excluded from the map or held for manual review. **Coordinates are never invented.**
 
@@ -88,6 +89,8 @@ Each event is buffered to **500 meters** and projected into a metric coordinate 
 - high-intensity event count
 - related *colonias* and crime types
 - source links
+
+If official colonia polygons are available, the map can render the colonia boundary directly instead of an approximate circular buffer.
 
 ---
 
@@ -127,11 +130,13 @@ OVICUE uses a **flat-data / serverless** architecture — no backend server, no 
 │   ├── manual_events.json           ← Manually curated events
 │   ├── map_layers.json              ← Final geospatial layer (consumed by frontend)
 │   ├── colonias_cuernavaca.json     ← Local neighborhood catalog
+│   ├── colonias_cuernavaca_polygons.geojson ← Optional official colonia polygons
 │   ├── geocode_cache.json           ← Geocoding cache
 │   └── unresolved_events.json       ← Events pending review
 ├── scripts/
 │   ├── scraper.py                   ← News scraper + extractor
 │   ├── logic.py                     ← Spatial aggregation pipeline
+│   ├── import_colonias_geojson.py   ← Import official colonia polygons / centroids
 │   └── add_manual_note.py           ← Manual event ingestion
 ├── app.js
 ├── index.html
@@ -179,6 +184,15 @@ python scripts/scraper.py
 python scripts/logic.py
 python -m http.server 8000
 # Open: http://localhost:8000
+```
+
+### Importing official colonia geometry
+
+If you obtain an official or curated GeoJSON of Cuernavaca colonias, you can import it with:
+
+```bash
+python scripts/import_colonias_geojson.py /path/to/colonias.geojson
+python scripts/logic.py
 ```
 
 ---

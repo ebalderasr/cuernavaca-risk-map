@@ -28,7 +28,6 @@ from pathlib import Path
 from typing import Any
 
 from scraper import (
-    CONURBADO_BUFFER_METERS,
     DEFAULT_BUFFER_METERS,
     detect_conurbado_area,
     event_level,
@@ -36,7 +35,6 @@ from scraper import (
     load_gazetteer,
     load_json,
     normalize_date_str,
-    resolve_gazetteer_name,
     resolve_location,
     save_json,
     stable_id,
@@ -134,22 +132,17 @@ def main() -> None:
     full_text_for_scope = f"{article['title']}\n{article['text']}"
     conurbado = detect_conurbado_area(full_text_for_scope)
 
-    if not extracted.get("es_en_cuernavaca") and not conurbado:
-        print("⚠️ La nota no pertenece a Cuernavaca ni a la zona conurbada configurada.")
+    raw_colonia = extracted.get("colonia")
+
+    if not extracted.get("es_en_cuernavaca") and not raw_colonia:
+        print("⚠️ La nota no trae una colonia identificable en Cuernavaca.")
         return
 
-    raw_colonia = extracted.get("colonia")
     location_scope = "colonia"
     location_name = raw_colonia
     buffer_meters = DEFAULT_BUFFER_METERS
 
-    if conurbado:
-        coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
-        location_scope = "municipio"
-        location_name = conurbado
-        buffer_meters = CONURBADO_BUFFER_METERS
-    else:
-        coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
+    coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
 
     if coords is None:
         print(f"⚠️ No se pudo resolver la ubicación para: {location_name!r}")
