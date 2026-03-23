@@ -25,6 +25,8 @@
       --badge-manual-text: #166534;
       --badge-black: #f1f0ef;
       --badge-black-text: #374151;
+      --badge-unresolved: #ede9fe;
+      --badge-unresolved-text: #5b21b6;
       --rojo: #fee2e2;
       --rojo-text: #991b1b;
       --naranja: #ffedd5;
@@ -247,6 +249,7 @@
     .badge-naranja { background: var(--naranja); color: var(--naranja-text); }
     .badge-amarillo { background: var(--amarillo); color: var(--amarillo-text); }
     .badge-archivado { background: var(--badge-black); color: var(--badge-black-text); }
+    .badge-unresolved { background: var(--badge-unresolved); color: var(--badge-unresolved-text); }
 
     .actions { display: flex; gap: 6px; flex-wrap: wrap; }
 
@@ -317,6 +320,17 @@
       text-decoration: none;
     }
     .workflow-link:hover { text-decoration: underline; }
+
+    .stack {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 12px;
+    }
   </style>
 </head>
 <body>
@@ -391,6 +405,32 @@
           </thead>
           <tbody id="events-body">
             <tr id="loading-row"><td colspan="6"><span class="spinner"></span> Cargando…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Unresolved violent news -->
+    <div class="card">
+      <h2>Violentas sin clasificar</h2>
+      <div class="toolbar">
+        <input type="text" id="unresolved-search" placeholder="Buscar por título, delito o ubicación…" oninput="filterUnresolvedTable()">
+        <span class="count" id="unresolved-count"></span>
+        <button class="btn-ghost btn-sm" onclick="loadAll()">↺ Recargar</button>
+      </div>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Nota</th>
+              <th>Detección</th>
+              <th>Fuente</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="unresolved-body">
+            <tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px">Cargando…</td></tr>
           </tbody>
         </table>
       </div>
@@ -489,6 +529,7 @@ let gazetteer    = []   // colonias list (quick lookup)
 let gazetteData  = { colonias: [], sha: '' }  // full gazette with sha
 let blacklistData = { urls: [], sha: '' }
 let manualData    = { events: [], sha: '' }
+let unresolvedData = { events: [], sha: '' }
 let editingEvent  = null
 let editingColoniaIdx = -1  // -1 = nueva colonia
 
@@ -617,19 +658,23 @@ function logout() {
 async function loadAll() {
   document.getElementById('events-body').innerHTML =
     '<tr id="loading-row"><td colspan="6"><span class="spinner"></span> Cargando datos…</td></tr>'
+  document.getElementById('unresolved-body').innerHTML =
+    '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:24px"><span class="spinner"></span> Cargando datos…</td></tr>'
   hideMsg()
 
   try {
-    const [scraped, manual, blacklist, gazette] = await Promise.all([
+    const [scraped, manual, blacklist, gazette, unresolved] = await Promise.all([
       readGHFile('data/events.json'),
       readGHFile('data/manual_events.json').catch(() => ({ content: [], sha: null })),
       readGHFile('data/blacklist.json').catch(() => ({ content: { urls: [] }, sha: null })),
       readGHFile('data/colonias_cuernavaca.json').catch(() => ({ content: [], sha: null })),
+      readGHFile('data/unresolved_events.json').catch(() => ({ content: [], sha: null })),
     ])
 
     blacklistData = { urls: blacklist.content.urls || [], sha: blacklist.sha }
     manualData    = { events: manual.content || [], sha: manual.sha }
     gazetteData   = { colonias: gazette.content || [], sha: gazette.sha }
+    unresolvedData = { events: unresolved.content || [], sha: unresolved.sha }
     gazetteer     = gazetteData.colonias
 
     const blackSet = new Set(blacklistData.urls)
@@ -651,11 +696,14 @@ async function loadAll() {
 
     populateGazeteerSelect()
     renderTable(allEvents)
+    renderUnresolvedTable(unresolvedData.events.filter(ev => !blackSet.has(ev.fuente)))
     renderColoniasTable(gazetteData.colonias)
   } catch (e) {
     showMsg('Error cargando datos: ' + e.message, 'err')
     document.getElementById('events-body').innerHTML =
       `<tr><td colspan="6" style="color:var(--danger);padding:20px">${e.message}</td></tr>`
+    document.getElementById('unresolved-body').innerHTML =
+      `<tr><td colspan="5" style="color:var(--danger);padding:20px">${e.message}</td></tr>`
   }
 }
 
@@ -710,6 +758,76 @@ function filterTable() {
 
 function escHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
+}
+
+function unresolvedLocationLabel(ev) {
+  const parts = []
+  if (ev.location_name) parts.push(ev.location_name)
+  else if (ev.colonia) parts.push(ev.colonia)
+  if (ev.municipio_detectado) parts.push(`mpio detectado: ${ev.municipio_detectado}`)
+  return parts.join(' · ') || 'Sin ubicación resuelta'
+}
+
+function renderUnresolvedTable(events) {
+  const tbody = document.getElementById('unresolved-body')
+  document.getElementById('unresolved-count').textContent = `${events.length} pendientes`
+
+  if (!events.length) {
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:32px">Sin pendientes</td></tr>'
+    return
+  }
+
+  tbody.innerHTML = events.map((ev, i) => {
+    const fecha = ev.published_at ? String(ev.published_at).slice(0, 10) : (ev.scraped_at || '').slice(0, 10) || '–'
+    const fuente = ev.fuente || ''
+    const shortUrl = fuente ? fuente.replace(/^https?:\/\/(www\.)?/, '').substring(0, 55) + (fuente.length > 60 ? '…' : '') : '–'
+    const conf = ev.extraction_confidence ?? '–'
+    const location = unresolvedLocationLabel(ev)
+
+    return `<tr>
+      <td>${escHtml(fecha)}</td>
+      <td>
+        <div class="stack">
+          <strong>${escHtml(ev.source_title || ev.resumen || 'Sin título')}</strong>
+          <span class="muted">${escHtml((ev.article_excerpt || '').slice(0, 180))}${(ev.article_excerpt || '').length > 180 ? '…' : ''}</span>
+        </div>
+      </td>
+      <td>
+        <div class="stack">
+          <span><span class="badge badge-unresolved">pendiente</span> ${escHtml(ev.tipo_delito || '–')}</span>
+          <span class="muted">${escHtml(location)} · conf: ${escHtml(String(conf))}</span>
+        </div>
+      </td>
+      <td>${fuente ? `<a class="src-link" href="${escHtml(fuente)}" target="_blank">${escHtml(shortUrl)}</a>` : '–'}</td>
+      <td>
+        <div class="actions">
+          <button class="btn-primary btn-sm" onclick="openUnresolvedModal(${i})">Clasificar</button>
+          <button class="btn-danger btn-sm" onclick="discardUnresolved(${i})">Descartar</button>
+        </div>
+      </td>
+    </tr>`
+  }).join('')
+}
+
+function filterUnresolvedTable() {
+  const q = document.getElementById('unresolved-search').value.toLowerCase()
+  const blackSet = new Set(blacklistData.urls)
+  const filtered = unresolvedData.events
+    .filter(ev => !blackSet.has(ev.fuente))
+    .filter(ev => {
+      const haystack = [
+        ev.source_title,
+        ev.resumen,
+        ev.tipo_delito,
+        ev.location_name,
+        ev.colonia,
+        ev.municipio_detectado,
+        ev.fuente,
+        ev.article_excerpt,
+      ].join(' ').toLowerCase()
+      return haystack.includes(q)
+    })
+  renderUnresolvedTable(filtered)
 }
 
 // ── Blacklist ─────────────────────────────────────────────
@@ -787,6 +905,15 @@ function openEditModal(idx) {
   document.getElementById('edit-modal').classList.add('open')
 }
 
+function openUnresolvedModal(idx) {
+  editingEvent = unresolvedData.events[idx]
+  document.getElementById('edit-modal-sub').textContent =
+    `${editingEvent.published_at || editingEvent.scraped_at || ''} — ${editingEvent.source_title || editingEvent.resumen || editingEvent.fuente || ''}`
+  document.getElementById('edit-colonia-manual').value = editingEvent.location_name || editingEvent.colonia || ''
+  document.getElementById('edit-colonia-select').value = ''
+  document.getElementById('edit-modal').classList.add('open')
+}
+
 function closeModal() {
   document.getElementById('edit-modal').classList.remove('open')
   editingEvent = null
@@ -836,23 +963,39 @@ async function saveEdit() {
     return
   }
 
+  if (!coords || !Array.isArray(coords) || coords.length !== 2) {
+    showMsg('La ubicación elegida no tiene coordenadas. Agrégala primero en la base de colonias o selecciona una existente.', 'err')
+    return
+  }
+
   setLoading('btn-save-edit', true, 'Guardando…')
 
   try {
+    const fecha = editingEvent.fecha || (editingEvent.published_at ? String(editingEvent.published_at).slice(0, 10) : '') || new Date().toISOString().slice(0, 10)
+    const delito = editingEvent.tipo_delito || 'No especificado'
+
     // Build updated event
     const updated = {
       ...editingEvent,
+      id: editingEvent.id || `manual-${Date.now()}`,
+      fecha,
+      tipo_delito: delito,
+      nivel_inicial: editingEvent.nivel_inicial || 5,
       colonia:          locationScope === 'colonia' ? locationName : editingEvent.colonia,
       municipio_detectado: locationScope === 'municipio' ? locationName : editingEvent.municipio_detectado,
       location_scope:   locationScope,
       location_name:    locationName,
       coordenadas:      coords,
       buffer_meters:    bufferMeters,
+      geo_confidence:   'admin_manual',
       source_name:      'Manual',
       source_type:      'manual',
       _source:          undefined,
     }
     delete updated._source
+    delete updated.article_excerpt
+    delete updated.es_violento
+    delete updated.es_en_cuernavaca
 
     // Upsert in manual_events
     const url    = editingEvent.fuente
@@ -886,6 +1029,8 @@ async function saveEdit() {
     manualData.sha    = writeRes.content.sha
     manualData.events = newManuals
 
+    await removeUnresolvedByUrl(url, 'Admin: clasificar noticia pendiente')
+
     // Trigger regen
     await triggerWorkflow('regen_map.yml')
 
@@ -893,10 +1038,13 @@ async function saveEdit() {
     const localIdx = allEvents.findIndex(e => (e.fuente || e.id) === (editingEvent.fuente || editingEvent.id))
     if (localIdx >= 0) {
       allEvents[localIdx] = { ...updated, _source: 'manual' }
+    } else {
+      allEvents.unshift({ ...updated, _source: 'manual' })
     }
 
     closeModal()
     filterTable()
+    filterUnresolvedTable()
     showMsg(`✓ Ubicación actualizada a "${locationName}". El mapa se regenerará en ~3 min.`, 'ok')
   } catch (e) {
     showMsg('Error: ' + e.message, 'err')
@@ -1102,6 +1250,85 @@ async function regenMap() {
     showMsg('Error al lanzar workflow: ' + e.message, 'err')
   } finally {
     setLoading('btn-regen-map', false, '↺ Actualizar mapa')
+  }
+}
+
+async function removeUnresolvedByUrl(url, message) {
+  if (!url) return
+
+  const nextEvents = unresolvedData.events.filter(ev => ev.fuente !== url)
+
+  let writeRes
+  if (!unresolvedData.sha) {
+    writeRes = await gh(`/repos/${OWNER}/${REPO}/contents/data/unresolved_events.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message,
+        content: b64encode(JSON.stringify(nextEvents, null, 2) + '\n'),
+      }),
+    })
+    if (!writeRes.ok) throw new Error('No se pudo crear unresolved_events.json')
+    writeRes = await writeRes.json()
+  } else {
+    writeRes = await writeGHFile(
+      'data/unresolved_events.json',
+      nextEvents,
+      unresolvedData.sha,
+      message
+    )
+  }
+
+  unresolvedData.sha = writeRes.content.sha
+  unresolvedData.events = nextEvents
+}
+
+async function discardUnresolved(idx) {
+  const ev = unresolvedData.events[idx]
+  if (!ev) return
+
+  const title = ev.source_title || ev.resumen || ev.fuente || 'esta noticia'
+  if (!confirm(`¿Descartar "${title}" de la bandeja de pendientes y enviarla al blacklist?`)) return
+
+  try {
+    showMsg('Descartando noticia pendiente…', 'info')
+
+    const url = ev.fuente
+    const newUrls = url ? [...new Set([...blacklistData.urls, url])] : [...blacklistData.urls]
+    const newBlacklist = { urls: newUrls }
+
+    let blacklistRes
+    if (!blacklistData.sha) {
+      blacklistRes = await gh(`/repos/${OWNER}/${REPO}/contents/data/blacklist.json`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: 'Admin: descartar noticia pendiente',
+          content: b64encode(JSON.stringify(newBlacklist, null, 2) + '\n'),
+        }),
+      })
+      if (!blacklistRes.ok) throw new Error('No se pudo crear blacklist.json')
+      blacklistRes = await blacklistRes.json()
+    } else {
+      blacklistRes = await writeGHFile(
+        'data/blacklist.json',
+        newBlacklist,
+        blacklistData.sha,
+        'Admin: descartar noticia pendiente'
+      )
+    }
+
+    blacklistData.sha = blacklistRes.content.sha
+    blacklistData.urls = newUrls
+
+    await removeUnresolvedByUrl(url, 'Admin: descartar noticia pendiente')
+
+    allEvents = allEvents.filter(e => !new Set(newUrls).has(e.fuente))
+    filterTable()
+    filterUnresolvedTable()
+    showMsg('✓ Noticia pendiente descartada y añadida al blacklist.', 'ok')
+  } catch (e) {
+    showMsg('Error: ' + e.message, 'err')
   }
 }
 

@@ -724,7 +724,20 @@ def register_unresolved(event_stub: dict[str, Any]) -> None:
     Guarda un caso no resuelto para revisión manual posterior.
     """
     unresolved = load_json(UNRESOLVED_PATH, [])
-    unresolved.append(event_stub)
+    key = event_stub.get("fuente") or event_stub.get("id")
+    replaced = False
+
+    if key:
+        for idx, existing in enumerate(unresolved):
+            existing_key = existing.get("fuente") or existing.get("id")
+            if existing_key == key:
+                unresolved[idx] = event_stub
+                replaced = True
+                break
+
+    if not replaced:
+        unresolved.append(event_stub)
+
     save_json(UNRESOLVED_PATH, unresolved)
 
 
@@ -834,13 +847,22 @@ def run_scraper() -> None:
                     if coords is None:
                         register_unresolved(
                             {
+                                "id": stable_id(url),
                                 "source_name": source["name"],
                                 "source_title": title,
                                 "fuente": url,
+                                "resumen": extracted.get("resumen") or title,
+                                "tipo_delito": extracted.get("delito") or "No especificado",
+                                "hora": extracted.get("hora_aprox"),
+                                "es_violento": True,
+                                "es_en_cuernavaca": extracted.get("es_en_cuernavaca"),
                                 "colonia": raw_colonia,
                                 "location_scope": location_scope,
                                 "location_name": location_name,
                                 "municipio_detectado": conurbado,
+                                "geo_confidence": geo_source,
+                                "extraction_confidence": extracted.get("confidence", 0.0),
+                                "article_excerpt": article.get("text", "")[:2000],
                                 "published_at": article.get("published_at"),
                                 "scraped_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
                             }
