@@ -352,5 +352,31 @@
     "extraction_confidence": 0.7,
     "dedupe_group_id": "6bd77aaef9ad84de",
     "source_type": "manual"
+  },
+  {
+    "id": "6b946478e90520a6",
+    "fecha": "2026-03-21",
+    "hora": "18:30",
+    "colonia": "Lagunilla",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lagunilla",
+    "coordenadas": [
+      18.906818,
+      -99.244286
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-futbolista-tras-ser-baleado-en-campo-de-la-colonia-lagunilla-cuernavaca",
+    "resumen": "Muere futbolista tras ser baleado en campo de la colonia Lagunilla, Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Muere futbolista tras ser baleado en campo de la colonia Lagunilla, Cuernavaca",
+    "published_at": "2026-03-21 17:08:51",
+    "scraped_at": "2026-03-22T17:42:10Z",
+    "geo_confidence": "admin_manual",
+    "extraction_confidence": 1,
+    "dedupe_group_id": "c9d485e05566b995",
+    "source_type": "manual"
   }
 ]
