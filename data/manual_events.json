@@ -378,5 +378,31 @@
     "extraction_confidence": 1,
     "dedupe_group_id": "c9d485e05566b995",
     "source_type": "manual"
+  },
+  {
+    "id": "b6f0eeb4aaa2512c",
+    "fecha": "2026-03-19",
+    "hora": "15:30",
+    "colonia": "Plan de Ayala",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-comerciante-en-calles-de-jiutepec",
+    "resumen": "Atacan a comerciante en calles de Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Atacan a comerciante en calles de Jiutepec",
+    "published_at": "2026-03-19 08:37:41",
+    "scraped_at": "2026-03-19T18:02:57Z",
+    "geo_confidence": "admin_manual",
+    "extraction_confidence": 1,
+    "dedupe_group_id": "9f16028fbdca62fc",
+    "source_type": "manual"
   }
 ]
