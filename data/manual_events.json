@@ -300,5 +300,31 @@
     "extraction_confidence": 0.9,
     "dedupe_group_id": "c9a941d5c53d4df2",
     "source_type": "manual"
+  },
+  {
+    "id": "44ecc6e58c3f4c7b",
+    "fecha": "2026-03-20",
+    "hora": null,
+    "colonia": "Lagunilla",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lagunilla",
+    "coordenadas": [
+      18.906818,
+      -99.244286
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/balean-2-hombres-durante-un-partido-de-futbol-en-la-lagunilla-cuernavaca",
+    "resumen": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca",
+    "published_at": "2026-03-20 20:09:29",
+    "scraped_at": "2026-03-22T17:42:11Z",
+    "geo_confidence": "admin_manual",
+    "extraction_confidence": 0.9,
+    "dedupe_group_id": "9307735ef5304856",
+    "source_type": "manual"
   }
 ]
