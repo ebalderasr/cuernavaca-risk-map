@@ -3399,18 +3399,9 @@
       "Lagunilla",
       "lagunilla"
     ],
-    "coords": null,
-    "geometry_source": "inegi_asentamientos_2023",
-    "geo_confidence": "none",
-    "settlement_type": "Colonia",
-    "source": "INEGI",
-    "inegi_rows": [
-      {
-        "cvegeo": "1700700010092",
-        "cve_asen": "0092",
-        "tipo_asen": "COLONIA",
-        "nom_asen": "LAGUNILLA"
-      }
+    "coords": [
+      18.906818,
+      -99.244286
     ]
   },
   {
