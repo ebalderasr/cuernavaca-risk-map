@@ -408,18 +408,9 @@
       "ampliacion lagunilla",
       "lagunilla"
     ],
-    "coords": null,
-    "geometry_source": "inegi_asentamientos_2023",
-    "geo_confidence": "none",
-    "settlement_type": "Ampliación",
-    "source": "INEGI",
-    "inegi_rows": [
-      {
-        "cvegeo": "1700700010093",
-        "cve_asen": "0093",
-        "tipo_asen": "AMPLIACIÓN",
-        "nom_asen": "LAGUNILLA"
-      }
+    "coords": [
+      18.906818,
+      -99.244286
     ]
   },
   {
