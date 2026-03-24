@@ -28,13 +28,13 @@
     "id": "b4a10401c4e01ae5",
     "fecha": "2026-03-10",
     "hora": null,
-    "colonia": "Tejalpa",
+    "colonia": "Vicente Guerrero",
     "municipio_detectado": "Jiutepec",
-    "location_scope": "municipio",
-    "location_name": "Jiutepec",
+    "location_scope": "colonia",
+    "location_name": "Vicente Guerrero",
     "coordenadas": [
-      18.8954874,
-      -99.1732936
+      18.9677532,
+      -99.2102416
     ],
     "buffer_meters": 1000,
     "tipo_delito": "homicidio",
@@ -45,7 +45,7 @@
     "source_title": "Hombre es asesinado a tiros en la colonia Vicente Guerrero de Jiutepec",
     "published_at": "2026-03-10 12:00:36",
     "scraped_at": "2026-03-11T18:04:46Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "gazetteer_repaired",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "ac5d79e73c032cce"
   },
@@ -105,11 +105,11 @@
     "hora": null,
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "ataque armado",
@@ -120,7 +120,7 @@
     "source_title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca",
     "published_at": "2026-03-11 17:02:37",
     "scraped_at": "2026-03-12T18:02:19Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "e2f5385df3dbe87d"
   },
@@ -130,11 +130,11 @@
     "hora": null,
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "ataque armado",
@@ -145,7 +145,7 @@
     "source_title": "Cateo en Cuernavaca deja agente de la AIC lesionado y tres detenidos",
     "published_at": "2026-03-12 12:54:25",
     "scraped_at": "2026-03-13T17:52:38Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "68fcaffd41588c98"
   },
@@ -205,11 +205,11 @@
     "hora": "13:00",
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "homicidio",
@@ -220,7 +220,7 @@
     "source_title": "Muere un menor en volcadura en la autopista Cuernavaca-Acapulco",
     "published_at": "2026-03-14 20:38:46",
     "scraped_at": "2026-03-15T17:46:06Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 1.0,
     "dedupe_group_id": "59c023db9be648e0"
   },
@@ -230,11 +230,11 @@
     "hora": null,
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "asalto con violencia",
@@ -245,7 +245,7 @@
     "source_title": "Disparan contra camioneta en Río Mayo, Cuernavaca; hay tres lesionados",
     "published_at": "2026-03-17 10:41:04",
     "scraped_at": "2026-03-17T18:09:13Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "c9a941d5c53d4df2"
   },
@@ -330,11 +330,11 @@
     "hora": null,
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "ataque armado",
@@ -345,7 +345,7 @@
     "source_title": "Balean a hombre mientras trabajaba en un predio de Cuernavaca",
     "published_at": "2026-03-16 15:27:53",
     "scraped_at": "2026-03-17T18:09:15Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "7a2ffbbb514e2333"
   },
@@ -503,13 +503,13 @@
     "id": "1ca379727f4bdc6a",
     "fecha": "2026-03-18",
     "hora": "15:10",
-    "colonia": "Cuauhtémoc",
+    "colonia": "Tejalpa",
     "municipio_detectado": "Jiutepec",
-    "location_scope": "municipio",
-    "location_name": "Jiutepec",
+    "location_scope": "colonia",
+    "location_name": "Tejalpa",
     "coordenadas": [
-      18.8954874,
-      -99.1732936
+      18.9030496,
+      -99.1691413
     ],
     "buffer_meters": 1000,
     "tipo_delito": "ataque armado",
@@ -520,7 +520,7 @@
     "source_title": "Atacan a balazos a un hombre en Tejalpa, Jiutepec",
     "published_at": "2026-03-18 17:49:00",
     "scraped_at": "2026-03-19T18:02:58Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "gazetteer_repaired",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "b8b2b9ec9a9eb6bf"
   },
@@ -553,13 +553,13 @@
     "id": "84fcbe0b9f685194",
     "fecha": "2026-03-20",
     "hora": null,
-    "colonia": "Morelos",
+    "colonia": "Benito Juarez",
     "municipio_detectado": "Emiliano Zapata",
-    "location_scope": "municipio",
-    "location_name": "Emiliano Zapata",
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
     "coordenadas": [
-      18.8478608,
-      -99.1843676
+      18.9211173,
+      -99.2338804
     ],
     "buffer_meters": 1000,
     "tipo_delito": "ataque armado",
@@ -570,7 +570,7 @@
     "source_title": "Muere mujer tras ataque armado en la colonia Benito Juárez",
     "published_at": "2026-03-20 20:27:55",
     "scraped_at": "2026-03-22T17:42:11Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "gazetteer_repaired",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "6bd77aaef9ad84de"
   },
@@ -580,11 +580,11 @@
     "hora": null,
     "colonia": "Morelos",
     "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Morelos",
+    "location_scope": "municipio",
+    "location_name": "Cuernavaca",
     "coordenadas": [
-      18.98,
-      -99.24149
+      18.9218,
+      -99.2347
     ],
     "buffer_meters": 500,
     "tipo_delito": "ataque armado",
@@ -595,7 +595,7 @@
     "source_title": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca",
     "published_at": "2026-03-20 20:09:29",
     "scraped_at": "2026-03-22T17:42:11Z",
-    "geo_confidence": "gazetteer",
+    "geo_confidence": "municipio_repaired",
     "extraction_confidence": 0.9,
     "dedupe_group_id": "9307735ef5304856"
   }

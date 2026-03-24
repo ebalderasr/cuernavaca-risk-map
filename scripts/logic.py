@@ -31,12 +31,12 @@ Salidas:
 """
 
 import json
+from math import cos, pi, radians, sin
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-import geopandas as gpd
-from shapely.geometry import Point, mapping, shape
+from shapely.geometry import Point, Polygon, mapping, shape
 
 
 # =============================================================================
@@ -58,6 +58,7 @@ UTM14N = "EPSG:32614"
 
 # Parámetros de zonas
 DEFAULT_BUFFER_METERS = 500
+MUNICIPAL_BUFFER_METERS = 1200
 ESCALATION_DAYS = 3           # Días para escalar de naranja a rojo (2.° hecho)
 YELLOW_THRESHOLD = 30         # Días sin hechos → amarillo
 ARCHIVE_THRESHOLD = 60        # Días sin hechos → archivado
@@ -214,15 +215,39 @@ def is_event_precise_enough(event: dict[str, Any]) -> bool:
     """
     Evita dibujar zonas cuando la ubicación es demasiado ambigua.
     """
-    if event.get("location_scope") != "colonia":
+    scope = event.get("location_scope", "colonia")
+    if scope not in {"colonia", "municipio"}:
         return False
 
     name = str(event.get("location_name") or event.get("colonia") or "").strip().lower()
-    if not name or name in LOW_PRECISION_LOCATION_NAMES:
+    if not name:
+        return False
+    if scope == "colonia" and name in LOW_PRECISION_LOCATION_NAMES:
         return False
 
     coords = event.get("coordenadas")
     return isinstance(coords, (list, tuple)) and len(coords) == 2
+
+
+def approximate_buffer_geometry(center: Point, radius_meters: int, steps: int = 48) -> Polygon:
+    """
+    Genera un polígono circular aproximado en WGS84 sin requerir geopandas.
+    """
+    lat = center.y
+    lon = center.x
+    cos_lat = max(cos(radians(lat)), 0.01)
+    points: list[tuple[float, float]] = []
+
+    for step in range(steps):
+        angle = 2 * pi * step / steps
+        dx = radius_meters * cos(angle)
+        dy = radius_meters * sin(angle)
+
+        dlon = dx / (111_320 * cos_lat)
+        dlat = dy / 110_540
+        points.append((lon + dlon, lat + dlat))
+
+    return Polygon(points)
 
 
 def compute_zone_level(
@@ -329,6 +354,8 @@ def group_into_zones(
                 buffer_m = int(event.get("buffer_meters", DEFAULT_BUFFER_METERS))
             except Exception:
                 buffer_m = DEFAULT_BUFFER_METERS
+            if event.get("location_scope") == "municipio":
+                buffer_m = max(buffer_m, MUNICIPAL_BUFFER_METERS)
 
             location_name = str(
                 event.get("location_name") or event.get("colonia") or "No especificada"
@@ -433,34 +460,16 @@ def export_hot_zones(zones: list[dict[str, Any]]) -> dict[str, Any]:
         )
         return empty
 
-    # Crear GeoDataFrame de centroides en WGS84 → proyectar a UTM14N para buffer
-    gdf = gpd.GeoDataFrame(
-        {
-            "radius_meters": [z["radius_meters"] for z in hot_zones],
-            "geometry": [
-                z["geometry"] if z.get("geometry") is not None else z["centroid"]
-                for z in hot_zones
-            ],
-            "needs_buffer": [z.get("geometry") is None for z in hot_zones],
-        },
-        crs=WGS84,
-    ).to_crs(UTM14N)
-
-    gdf["geometry"] = gdf.apply(
-        lambda row: row.geometry.buffer(int(row["radius_meters"])) if row["needs_buffer"] else row.geometry,
-        axis=1,
-    )
-
-    gdf = gdf.to_crs(WGS84)
-
-    # Construir features manualmente para preservar listas
     features: list[dict[str, Any]] = []
-    for i, (_, row) in enumerate(gdf.iterrows()):
-        z = hot_zones[i]
+    for z in hot_zones:
+        geometry = z["geometry"] if z.get("geometry") is not None else approximate_buffer_geometry(
+            z["centroid"],
+            int(z["radius_meters"]),
+        )
         features.append(
             {
                 "type": "Feature",
-                "geometry": mapping(row.geometry),
+                "geometry": mapping(geometry),
                 "properties": {
                     "level": z["level"],
                     "n_incidents": z["n_incidents"],
