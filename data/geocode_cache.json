@@ -19,5 +19,1128 @@
       -99.2040001
     ],
     "geo_confidence": "nominatim"
+  },
+  "adolfo lopez mateos": {
+    "coords": [
+      18.9233648,
+      -99.2313598
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "adolfo ruiz cortines": {
+    "coords": [
+      18.9086047,
+      -99.218892
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ahuatlan": {
+    "coords": [
+      18.9560553,
+      -99.2586472
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ahuatlan tzompantle": {
+    "coords": [
+      18.9596671,
+      -99.2640219
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ahuhuetitla": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "alarcon": {
+    "coords": [
+      18.981127,
+      -99.2113984
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "alegria": {
+    "coords": [
+      18.9212429,
+      -99.1949081
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "alta vista": {
+    "coords": [
+      18.9731698,
+      -99.193963
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "amate redondo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "amatitlan": {
+    "coords": [
+      18.9230692,
+      -99.2297921
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ampliacion lagunilla": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lagunilla": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "ampliacion lazaro cardenas": {
+    "coords": [
+      18.8922881,
+      -99.2303571
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "lazaro cardenas": {
+    "coords": [
+      18.8922881,
+      -99.2303571
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ampliacion nueva santa maria": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "nueva santa maria": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "ampliacion satelite": {
+    "coords": [
+      18.9179378,
+      -99.2058987
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "satelite": {
+    "coords": [
+      18.9179378,
+      -99.2058987
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "antonio barona centro": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "antonio barona seccion 1": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "antonio barona seccion 2": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "antonio barona seccion 3": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "barrio de la estacion": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "base tranquilidad": {
+    "coords": [
+      18.9463048,
+      -99.2306775
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "bella vista": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "bello horizonte": {
+    "coords": [
+      18.963348,
+      -99.2106822
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "benito juarez": {
+    "coords": [
+      18.9211173,
+      -99.2338804
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "blanca universidad": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "bondies": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "bosques de chapultepec": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "bosques de cuernavaca": {
+    "coords": [
+      18.9383374,
+      -99.2370278
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "bosques de la florida": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "buenavista del monte": {
+    "coords": [
+      18.9415757,
+      -99.3070596
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "cantarranas": {
+    "coords": [
+      18.9200112,
+      -99.2211325
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "cerritos barona": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "cerritos de garcia": {
+    "coords": [
+      18.9599322,
+      -99.1828251
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "chipitlan": {
+    "coords": [
+      18.8966449,
+      -99.2282172
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "chulavista": {
+    "coords": [
+      18.9150259,
+      -99.2407462
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "club de golf": {
+    "coords": [
+      18.9088729,
+      -99.2365718
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "condominio cuauhnahuac": {
+    "coords": [
+      18.9469415,
+      -99.2527067
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "cuauhnahuac": {
+    "coords": [
+      18.9469415,
+      -99.2527067
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "copa de oro": {
+    "coords": [
+      18.9739829,
+      -99.2472292
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "del bosque": {
+    "coords": [
+      18.9981159,
+      -99.2619204
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "del empleado": {
+    "coords": [
+      18.9436225,
+      -99.2416338
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "del lago": {
+    "coords": [
+      18.9334952,
+      -99.1943498
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "ejidos de acapantzingo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el cebadal": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el copalito": {
+    "coords": [
+      18.9705423,
+      -99.1853525
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "el mascareno": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el mirador": {
+    "coords": [
+      18.9250224,
+      -99.247611
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "el ocote": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el palmar": {
+    "coords": [
+      18.8896311,
+      -99.2215551
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "el polvorin": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el tecolote barrancas": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el universo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el veladero": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "el vergel": {
+    "coords": [
+      18.9265423,
+      -99.2297554
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "extension delicias": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "extension vista hermosa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "federacion": {
+    "coords": [
+      18.9329026,
+      -99.1934514
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "fraccionamiento analco": {
+    "coords": [
+      18.8680391,
+      -99.1696562
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "analco": {
+    "coords": [
+      18.8680391,
+      -99.1696562
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "fraccionamiento flores magon primer fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "flores magon primer fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "fraccionamiento flores magon quinto fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "flores magon quinto fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "fraccionamiento flores magon segundo fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "flores magon segundo fraccionamiento": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "gloria almada de bejarano": {
+    "coords": [
+      18.8772991,
+      -99.2219888
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "gualupita": {
+    "coords": [
+      18.9302157,
+      -99.2332957
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "guayabos": {
+    "coords": [
+      18.8868283,
+      -99.2258708
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "independencia": {
+    "coords": [
+      18.9246255,
+      -99.2410813
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "insurgentes": {
+    "coords": [
+      18.9769689,
+      -99.2327109
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "internado palmira": {
+    "coords": [
+      18.881747,
+      -99.2194793
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "iterero de san anton": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "jardin tetela": {
+    "coords": [
+      18.9512331,
+      -99.2494154
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "jardines de acapantzingo": {
+    "coords": [
+      18.9079155,
+      -99.2243666
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "jardines de ahuatepec": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "jardines de zoquipa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "jardines del eden": {
+    "coords": [
+      18.9039649,
+      -99.2483419
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "jiquilpan": {
+    "coords": [
+      18.9461664,
+      -99.2393288
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "jose lopez portillo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "joya de los jilgueros": {
+    "coords": [
+      18.9269817,
+      -99.1925751
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la caminera": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "la canada": {
+    "coords": [
+      18.937198,
+      -99.2523413
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la carolina": {
+    "coords": [
+      18.9362948,
+      -99.2434638
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la esperanza": {
+    "coords": [
+      18.9412669,
+      -99.2180362
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la estacion": {
+    "coords": [
+      18.9636655,
+      -99.2172398
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la estrella": {
+    "coords": [
+      18.9443475,
+      -99.256151
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la herradura": {
+    "coords": [
+      18.973423,
+      -99.1957678
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la mojonera": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "la ocotera": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "la paloma": {
+    "coords": [
+      18.9676372,
+      -99.2434732
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la parota": {
+    "coords": [
+      18.8663648,
+      -99.2249386
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "la tranca": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "las aguilas": {
+    "coords": [
+      18.8883402,
+      -99.2204737
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "las flores": {
+    "coords": [
+      18.944506,
+      -99.1902798
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "las garzas": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "las granjas": {
+    "coords": [
+      18.9065269,
+      -99.2006187
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "las quintas": {
+    "coords": [
+      18.9118547,
+      -99.2173226
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "lazaro cardenas loma bonita": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lienzo el charro": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "loma del aguila": {
+    "coords": [
+      18.9008245,
+      -99.2152148
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "loma hermosa": {
+    "coords": [
+      18.9763562,
+      -99.2192364
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "loma linda": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "loma sol": {
+    "coords": [
+      18.9513335,
+      -99.2734311
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "lomas de ahuatepec": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de coyuca": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de la pradera": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de la selva": {
+    "coords": [
+      18.9361863,
+      -99.2298977
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "lomas de la selva norte": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de la selva oriente": {
+    "coords": [
+      18.9553529,
+      -99.2384291
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "lomas de los amates": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de san anton": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas de vista hermosa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas del mirador": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas del miraval": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "lomas verdes": {
+    "coords": [
+      18.9549589,
+      -99.2759263
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los cizos": {
+    "coords": [
+      18.9012695,
+      -99.2210388
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los faroles": {
+    "coords": [
+      18.9557232,
+      -99.2340357
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los limoneros": {
+    "coords": [
+      18.9667539,
+      -99.2014452
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los limones": {
+    "coords": [
+      18.8864112,
+      -99.2275998
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los ramos": {
+    "coords": [
+      18.9716978,
+      -99.221409
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "los volcanes": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "manantiales": {
+    "coords": [
+      18.9186596,
+      -99.2154055
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "maravillas union": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "margarita maza de juarez": {
+    "coords": [
+      18.9044438,
+      -99.2435563
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "martires del rio blanco": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "mexico lindo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "miguel hidalgo": {
+    "coords": [
+      18.9718638,
+      -99.2412982
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "mina cinco": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "minas de atzingo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "miraval": {
+    "coords": [
+      18.9342689,
+      -99.2368327
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "nogales": {
+    "coords": [
+      18.9657228,
+      -99.2306185
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "nueva tenochtitlan": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "palmira": {
+    "coords": [
+      18.8796992,
+      -99.2222671
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "papayos": {
+    "coords": [
+      18.9588489,
+      -99.1923273
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "paraiso de las flores": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "pilancon": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "pilares": {
+    "coords": [
+      18.8954586,
+      -99.2340377
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "plan de ayala barrancas": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "poblado de acapantzingo": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "pradera": {
+    "coords": [
+      18.9399524,
+      -99.2432724
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "prados de cuernavaca": {
+    "coords": [
+      18.9492118,
+      -99.2323444
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "primavera": {
+    "coords": [
+      18.9389218,
+      -99.1979951
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "provinciana": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "provincias de jerusalem": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "pueblo chamilpa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "puerta del sol": {
+    "coords": [
+      18.9250954,
+      -99.1958007
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "quintana roo": {
+    "coords": [
+      18.9005716,
+      -99.228902
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "quintas martha": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "ramon hernandez navarro": {
+    "coords": [
+      18.9234969,
+      -99.1918081
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "rancho alegre": {
+    "coords": [
+      18.9747826,
+      -99.1830371
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "recursos hidraulicos": {
+    "coords": [
+      18.9475738,
+      -99.2277097
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "reforma": {
+    "coords": [
+      18.9412445,
+      -99.2272951
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "revolucion": {
+    "coords": [
+      18.9191909,
+      -99.1871447
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "rincon del valle": {
+    "coords": [
+      18.9466586,
+      -99.2227255
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "rinconada rinconada palmira": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "rinconada palmira": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "rinconada rinconada vista hermosa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "rinconada vista hermosa": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "rio balsas": {
+    "coords": [
+      18.8788744,
+      -99.230063
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "rodolfo lopez de nava": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "sacatierra": {
+    "coords": [
+      18.9245451,
+      -99.2454379
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "salvador elizarraraz": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "san anton": {
+    "coords": [
+      18.9239021,
+      -99.2424966
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "san jeronimo de ahuatepec": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "san salvador": {
+    "coords": [
+      18.9766822,
+      -99.1849714
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "santa fe": {
+    "coords": [
+      18.9583058,
+      -99.2354186
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "santa martha": {
+    "coords": [
+      18.9577549,
+      -99.1830882
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "santa veracruz": {
+    "coords": [
+      18.9271162,
+      -99.2233024
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "seccion union primera seccion": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "union primera seccion": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "seccion union segunda seccion": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "union segunda seccion": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tabachines": {
+    "coords": [
+      18.8979651,
+      -99.2152651
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "tecomulco": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tehuztitlan": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tepepan": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "texcaltepec": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tezontepec": {
+    "coords": [
+      18.9403216,
+      -99.2309133
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "tlaltepexco": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tlaquiltompan": {
+    "coords": [
+      18.9605639,
+      -99.2178795
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "tonintana": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tzompantle norte": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "tzompantle sur": {
+    "coords": [
+      18.9460786,
+      -99.2555993
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "unidad deportiva": {
+    "coords": [
+      18.9638784,
+      -99.2620618
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "unidad habitacional fovissste las aguilas": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "fovissste las aguilas": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "union": {
+    "coords": [
+      18.9017585,
+      -99.2501763
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "universidad": {
+    "coords": [
+      18.9750198,
+      -99.2460252
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "veranda": {
+    "coords": [
+      18.980824,
+      -99.2432568
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "vicente guerrero": {
+    "coords": [
+      18.9677532,
+      -99.2102416
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "villa santiago": {
+    "coords": null,
+    "geo_confidence": "none"
+  },
+  "villas del lago": {
+    "coords": [
+      18.932038,
+      -99.1970684
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "xicapan": {
+    "coords": [
+      18.9629833,
+      -99.2275286
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "zodiaco": {
+    "coords": [
+      18.9280958,
+      -99.1859492
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "zona militar zona militar": {
+    "coords": [
+      18.9618104,
+      -99.2423534
+    ],
+    "geo_confidence": "nominatim_bounded"
+  },
+  "zona militar": {
+    "coords": [
+      18.9618104,
+      -99.2423534
+    ],
+    "geo_confidence": "nominatim_bounded"
   }
 }

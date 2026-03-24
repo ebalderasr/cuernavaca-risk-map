@@ -3,6 +3,7 @@
     "name": "Acapantzingo",
     "aliases": [
       "ACAPANTZINGO",
+      "Acapantzingo",
       "COL ACAPANTZINGO",
       "COL. ACAPANTZINGO",
       "COLONIA ACAPANTZINGO",
@@ -17,12 +18,85 @@
     "coords": [
       18.9120711,
       -99.2245237
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ACAPANTZINGO"
+      }
+    ]
+  },
+  {
+    "name": "Adolfo Lopez Mateos",
+    "aliases": [
+      "ADOLFO LOPEZ MATEOS",
+      "Adolfo Lopez Mateos",
+      "Col Adolfo Lopez Mateos",
+      "Col. Adolfo Lopez Mateos",
+      "Colonia Adolfo Lopez Mateos",
+      "adolfo lopez mateos"
+    ],
+    "coords": [
+      18.9233648,
+      -99.2313598
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010003",
+        "cve_asen": "0003",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ADOLFO LÓPEZ MATEOS"
+      },
+      {
+        "cvegeo": "1700700010002",
+        "cve_asen": "0002",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ADOLFO LÓPEZ MATEOS"
+      }
+    ]
+  },
+  {
+    "name": "Adolfo Ruiz Cortines",
+    "aliases": [
+      "ADOLFO RUIZ CORTINES",
+      "Adolfo Ruiz Cortines",
+      "Col Adolfo Ruiz Cortines",
+      "Col. Adolfo Ruiz Cortines",
+      "Colonia Adolfo Ruiz Cortines",
+      "adolfo ruiz cortines"
+    ],
+    "coords": [
+      18.9086047,
+      -99.218892
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010004",
+        "cve_asen": "0004",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ADOLFO RUIZ CORTINES"
+      }
     ]
   },
   {
     "name": "Ahuatepec",
     "aliases": [
       "AHUATEPEC",
+      "Ahuatepec",
       "COL AHUATEPEC",
       "COL. AHUATEPEC",
       "COLONIA AHUATEPEC",
@@ -37,6 +111,393 @@
     "coords": [
       18.9657296,
       -99.2106745
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010005",
+        "cve_asen": "0005",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AHUATEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Ahuatlan",
+    "aliases": [
+      "AHUATLAN",
+      "Ahuatlan",
+      "Col Ahuatlan",
+      "Col. Ahuatlan",
+      "Colonia Ahuatlan",
+      "ahuatlan"
+    ],
+    "coords": [
+      18.9560553,
+      -99.2586472
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701250002",
+        "cve_asen": "0002",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AHUATLÁN"
+      }
+    ]
+  },
+  {
+    "name": "Ahuatlan Tzompantle",
+    "aliases": [
+      "AHUATLAN TZOMPANTLE",
+      "Ahuatlan Tzompantle",
+      "Col Ahuatlan Tzompantle",
+      "Col. Ahuatlan Tzompantle",
+      "Colonia Ahuatlan Tzompantle",
+      "ahuatlan tzompantle"
+    ],
+    "coords": [
+      18.9596671,
+      -99.2640219
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701250003",
+        "cve_asen": "0003",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AHUATLÁN TZOMPANTLE"
+      }
+    ]
+  },
+  {
+    "name": "Ahuhuetitla",
+    "aliases": [
+      "AHUHUETITLA",
+      "Ahuhuetitla",
+      "Col Ahuhuetitla",
+      "Col. Ahuhuetitla",
+      "Colonia Ahuhuetitla",
+      "ahuhuetitla"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010006",
+        "cve_asen": "0006",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AHUHUETITLA"
+      }
+    ]
+  },
+  {
+    "name": "Alarcon",
+    "aliases": [
+      "ALARCON",
+      "Alarcon",
+      "Col Alarcon",
+      "Col. Alarcon",
+      "Colonia Alarcon",
+      "alarcon"
+    ],
+    "coords": [
+      18.981127,
+      -99.2113984
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701080001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ALARCÓN"
+      }
+    ]
+  },
+  {
+    "name": "Alegria",
+    "aliases": [
+      "ALEGRIA",
+      "Alegria",
+      "Col Alegria",
+      "Col. Alegria",
+      "Colonia Alegria",
+      "alegria"
+    ],
+    "coords": [
+      18.9212429,
+      -99.1949081
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010007",
+        "cve_asen": "0007",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ALEGRÍA"
+      }
+    ]
+  },
+  {
+    "name": "Alta Vista",
+    "aliases": [
+      "ALTA VISTA",
+      "Alta Vista",
+      "Col Alta Vista",
+      "Col. Alta Vista",
+      "Colonia Alta Vista",
+      "alta vista"
+    ],
+    "coords": [
+      18.9731698,
+      -99.193963
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010008",
+        "cve_asen": "0008",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ALTA VISTA"
+      }
+    ]
+  },
+  {
+    "name": "Amate Redondo",
+    "aliases": [
+      "AMATE REDONDO",
+      "Amate Redondo",
+      "Col Amate Redondo",
+      "Col. Amate Redondo",
+      "Colonia Amate Redondo",
+      "amate redondo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010010",
+        "cve_asen": "0010",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AMATE REDONDO"
+      }
+    ]
+  },
+  {
+    "name": "Amatitlan",
+    "aliases": [
+      "AMATITLAN",
+      "Amatitlan",
+      "Col Amatitlan",
+      "Col. Amatitlan",
+      "Colonia Amatitlan",
+      "amatitlan"
+    ],
+    "coords": [
+      18.9230692,
+      -99.2297921
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010011",
+        "cve_asen": "0011",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "AMATITLÁN"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Alta Vista",
+    "aliases": [
+      "ALTA VISTA",
+      "AMPLIACION ALTA VISTA",
+      "Alta Vista",
+      "Ampliacion Alta Vista",
+      "alta vista",
+      "ampliacion alta vista"
+    ],
+    "coords": [
+      18.9731698,
+      -99.193963
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010009",
+        "cve_asen": "0009",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "ALTA VISTA"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Chapultepec",
+    "aliases": [
+      "AMPLIACION CHAPULTEPEC",
+      "Ampliacion Chapultepec",
+      "CHAPULTEPEC",
+      "COL CHAPULTEPEC",
+      "COL. CHAPULTEPEC",
+      "COLONIA CHAPULTEPEC",
+      "Chapultepec",
+      "Col Chapultepec",
+      "Col. Chapultepec",
+      "Colonia Chapultepec",
+      "ampliacion chapultepec",
+      "chapultepec",
+      "col chapultepec",
+      "col. chapultepec",
+      "colonia chapultepec"
+    ],
+    "coords": [
+      18.915565,
+      -99.2134442
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010033",
+        "cve_asen": "0033",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Lagunilla",
+    "aliases": [
+      "AMPLIACION LAGUNILLA",
+      "Ampliacion Lagunilla",
+      "LAGUNILLA",
+      "Lagunilla",
+      "ampliacion lagunilla",
+      "lagunilla"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010093",
+        "cve_asen": "0093",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "LAGUNILLA"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Lazaro Cardenas",
+    "aliases": [
+      "AMPLIACION LAZARO CARDENAS",
+      "Ampliacion Lazaro Cardenas",
+      "LAZARO CARDENAS",
+      "Lazaro Cardenas",
+      "ampliacion lazaro cardenas",
+      "lazaro cardenas"
+    ],
+    "coords": [
+      18.8922881,
+      -99.2303571
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010099",
+        "cve_asen": "0099",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "LÁZARO CÁRDENAS"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Nueva Santa Maria",
+    "aliases": [
+      "AMPLIACION NUEVA SANTA MARIA",
+      "Ampliacion Nueva Santa Maria",
+      "NUEVA SANTA MARIA",
+      "Nueva Santa Maria",
+      "ampliacion nueva santa maria",
+      "nueva santa maria"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701360001",
+        "cve_asen": "0001",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "NUEVA SANTA MARÍA"
+      }
+    ]
+  },
+  {
+    "name": "Ampliacion Satelite",
+    "aliases": [
+      "AMPLIACION SATELITE",
+      "Ampliacion Satelite",
+      "SATELITE",
+      "Satelite",
+      "ampliacion satelite",
+      "satelite"
+    ],
+    "coords": [
+      18.9179378,
+      -99.2058987
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Ampliación",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010178",
+        "cve_asen": "0178",
+        "tipo_asen": "AMPLIACIÓN",
+        "nom_asen": "SATÉLITE"
+      }
     ]
   },
   {
@@ -87,10 +548,365 @@
     ]
   },
   {
+    "name": "Antonio Barona Centro",
+    "aliases": [
+      "ANTONIO BARONA CENTRO",
+      "Antonio Barona Centro",
+      "Col Antonio Barona Centro",
+      "Col. Antonio Barona Centro",
+      "Colonia Antonio Barona Centro",
+      "antonio barona centro"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010013",
+        "cve_asen": "0013",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ANTONIO BARONA CENTRO"
+      }
+    ]
+  },
+  {
+    "name": "Antonio Barona Seccion 1",
+    "aliases": [
+      "ANTONIO BARONA SECCION 1",
+      "Antonio Barona Seccion 1",
+      "Col Antonio Barona Seccion 1",
+      "Col. Antonio Barona Seccion 1",
+      "Colonia Antonio Barona Seccion 1",
+      "antonio barona seccion 1"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010014",
+        "cve_asen": "0014",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ANTONIO BARONA SECCIÓN 1"
+      }
+    ]
+  },
+  {
+    "name": "Antonio Barona Seccion 2",
+    "aliases": [
+      "ANTONIO BARONA SECCION 2",
+      "Antonio Barona Seccion 2",
+      "Col Antonio Barona Seccion 2",
+      "Col. Antonio Barona Seccion 2",
+      "Colonia Antonio Barona Seccion 2",
+      "antonio barona seccion 2"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010015",
+        "cve_asen": "0015",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ANTONIO BARONA SECCIÓN 2"
+      }
+    ]
+  },
+  {
+    "name": "Antonio Barona Seccion 3",
+    "aliases": [
+      "ANTONIO BARONA SECCION 3",
+      "Antonio Barona Seccion 3",
+      "Col Antonio Barona Seccion 3",
+      "Col. Antonio Barona Seccion 3",
+      "Colonia Antonio Barona Seccion 3",
+      "antonio barona seccion 3"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010016",
+        "cve_asen": "0016",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ANTONIO BARONA SECCIÓN 3"
+      }
+    ]
+  },
+  {
+    "name": "Barrio De La Estacion",
+    "aliases": [
+      "BARRIO DE LA ESTACION",
+      "Barrio De La Estacion",
+      "Col Barrio De La Estacion",
+      "Col. Barrio De La Estacion",
+      "Colonia Barrio De La Estacion",
+      "barrio de la estacion"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010017",
+        "cve_asen": "0017",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BARRIO DE LA ESTACIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Base Tranquilidad",
+    "aliases": [
+      "BASE TRANQUILIDAD",
+      "Base Tranquilidad",
+      "Col Base Tranquilidad",
+      "Col. Base Tranquilidad",
+      "Colonia Base Tranquilidad",
+      "base tranquilidad"
+    ],
+    "coords": [
+      18.9463048,
+      -99.2306775
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010018",
+        "cve_asen": "0018",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BASE TRANQUILIDAD"
+      }
+    ]
+  },
+  {
+    "name": "Bella Vista",
+    "aliases": [
+      "BELLA VISTA",
+      "Bella Vista",
+      "Col Bella Vista",
+      "Col. Bella Vista",
+      "Colonia Bella Vista",
+      "bella vista"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010019",
+        "cve_asen": "0019",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BELLA VISTA"
+      }
+    ]
+  },
+  {
+    "name": "Bello Horizonte",
+    "aliases": [
+      "BELLO HORIZONTE",
+      "Bello Horizonte",
+      "Col Bello Horizonte",
+      "Col. Bello Horizonte",
+      "Colonia Bello Horizonte",
+      "bello horizonte"
+    ],
+    "coords": [
+      18.963348,
+      -99.2106822
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010020",
+        "cve_asen": "0020",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BELLO HORIZONTE"
+      }
+    ]
+  },
+  {
+    "name": "Benito Juarez",
+    "aliases": [
+      "BENITO JUAREZ",
+      "Benito Juarez",
+      "Col Benito Juarez",
+      "Col. Benito Juarez",
+      "Colonia Benito Juarez",
+      "benito juarez"
+    ],
+    "coords": [
+      18.9211173,
+      -99.2338804
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010021",
+        "cve_asen": "0021",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BENITO JUÁREZ"
+      },
+      {
+        "cvegeo": "1700700010022",
+        "cve_asen": "0022",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BENITO JUÁREZ"
+      }
+    ]
+  },
+  {
+    "name": "Blanca Universidad",
+    "aliases": [
+      "BLANCA UNIVERSIDAD",
+      "Blanca Universidad",
+      "Col Blanca Universidad",
+      "Col. Blanca Universidad",
+      "Colonia Blanca Universidad",
+      "blanca universidad"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010023",
+        "cve_asen": "0023",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BLANCA UNIVERSIDAD"
+      }
+    ]
+  },
+  {
+    "name": "Bondies",
+    "aliases": [
+      "BONDIES",
+      "Bondies",
+      "Col Bondies",
+      "Col. Bondies",
+      "Colonia Bondies",
+      "bondies"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010024",
+        "cve_asen": "0024",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BONDIES"
+      }
+    ]
+  },
+  {
+    "name": "Bosques De Chapultepec",
+    "aliases": [
+      "BOSQUES DE CHAPULTEPEC",
+      "Bosques De Chapultepec",
+      "Col Bosques De Chapultepec",
+      "Col. Bosques De Chapultepec",
+      "Colonia Bosques De Chapultepec",
+      "bosques de chapultepec"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010025",
+        "cve_asen": "0025",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BOSQUES DE CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Bosques De Cuernavaca",
+    "aliases": [
+      "BOSQUES DE CUERNAVACA",
+      "Bosques De Cuernavaca",
+      "Col Bosques De Cuernavaca",
+      "Col. Bosques De Cuernavaca",
+      "Colonia Bosques De Cuernavaca",
+      "bosques de cuernavaca"
+    ],
+    "coords": [
+      18.9383374,
+      -99.2370278
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010026",
+        "cve_asen": "0026",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BOSQUES DE CUERNAVACA"
+      }
+    ]
+  },
+  {
+    "name": "Bosques De La Florida",
+    "aliases": [
+      "BOSQUES DE LA FLORIDA",
+      "Bosques De La Florida",
+      "Col Bosques De La Florida",
+      "Col. Bosques De La Florida",
+      "Colonia Bosques De La Florida",
+      "bosques de la florida"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701440001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BOSQUES DE LA FLORIDA"
+      }
+    ]
+  },
+  {
     "name": "Buena Vista",
     "aliases": [
       "BUENA VISTA",
       "BUENAVISTA",
+      "Buena Vista",
       "Buenavista",
       "COL BUENA VISTA",
       "COL BUENAVISTA",
@@ -116,6 +932,45 @@
     "coords": [
       18.9661036,
       -99.2473801
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010027",
+        "cve_asen": "0027",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BUENA VISTA"
+      }
+    ]
+  },
+  {
+    "name": "Buenavista Del Monte",
+    "aliases": [
+      "BUENAVISTA DEL MONTE",
+      "Buenavista Del Monte",
+      "Col Buenavista Del Monte",
+      "Col. Buenavista Del Monte",
+      "Colonia Buenavista Del Monte",
+      "buenavista del monte"
+    ],
+    "coords": [
+      18.9415757,
+      -99.3070596
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700440001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "BUENAVISTA DEL MONTE"
+      }
     ]
   },
   {
@@ -139,12 +994,40 @@
     ]
   },
   {
+    "name": "Cantarranas",
+    "aliases": [
+      "CANTARRANAS",
+      "Cantarranas",
+      "Col Cantarranas",
+      "Col. Cantarranas",
+      "Colonia Cantarranas",
+      "cantarranas"
+    ],
+    "coords": [
+      18.9200112,
+      -99.2211325
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010029",
+        "cve_asen": "0029",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CANTARRANAS"
+      }
+    ]
+  },
+  {
     "name": "Centro",
     "aliases": [
       "CENTRO",
       "COL CENTRO",
       "COL. CENTRO",
       "COLONIA CENTRO",
+      "Centro",
       "Col Centro",
       "Col. Centro",
       "Colonia Centro",
@@ -156,6 +1039,69 @@
     "coords": [
       18.9203462,
       -99.2356048
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010031",
+        "cve_asen": "0031",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CENTRO"
+      }
+    ]
+  },
+  {
+    "name": "Cerritos Barona",
+    "aliases": [
+      "CERRITOS BARONA",
+      "Cerritos Barona",
+      "Col Cerritos Barona",
+      "Col. Cerritos Barona",
+      "Colonia Cerritos Barona",
+      "cerritos barona"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701020001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CERRITOS BARONA"
+      }
+    ]
+  },
+  {
+    "name": "Cerritos De Garcia",
+    "aliases": [
+      "CERRITOS DE GARCIA",
+      "Cerritos De Garcia",
+      "Col Cerritos De Garcia",
+      "Col. Cerritos De Garcia",
+      "Colonia Cerritos De Garcia",
+      "cerritos de garcia"
+    ],
+    "coords": [
+      18.9599322,
+      -99.1828251
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701070001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CERRITOS DE GARCÍA"
+      }
     ]
   },
   {
@@ -165,6 +1111,7 @@
       "COL CHAPULTEPEC",
       "COL. CHAPULTEPEC",
       "COLONIA CHAPULTEPEC",
+      "Chapultepec",
       "Col Chapultepec",
       "Col. Chapultepec",
       "Colonia Chapultepec",
@@ -176,6 +1123,72 @@
     "coords": [
       18.915565,
       -99.2134442
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010032",
+        "cve_asen": "0032",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Chipitlan",
+    "aliases": [
+      "CHIPITLAN",
+      "Chipitlan",
+      "Col Chipitlan",
+      "Col. Chipitlan",
+      "Colonia Chipitlan",
+      "chipitlan"
+    ],
+    "coords": [
+      18.8966449,
+      -99.2282172
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010035",
+        "cve_asen": "0035",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CHIPITLÁN"
+      }
+    ]
+  },
+  {
+    "name": "Chulavista",
+    "aliases": [
+      "CHULAVISTA",
+      "Chulavista",
+      "Col Chulavista",
+      "Col. Chulavista",
+      "Colonia Chulavista",
+      "chulavista"
+    ],
+    "coords": [
+      18.9150259,
+      -99.2407462
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010036",
+        "cve_asen": "0036",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CHULAVISTA"
+      }
     ]
   },
   {
@@ -195,6 +1208,7 @@
       "COLONIA CIUDAD CHAPULTEPEC",
       "Cd Chapultepec",
       "Cd. Chapultepec",
+      "Ciudad Chapultepec",
       "Col Cd Chapultepec",
       "Col Cd. Chapultepec",
       "Col Ciudad Chapultepec",
@@ -220,6 +1234,67 @@
     "coords": [
       18.922826,
       -99.185752
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010037",
+        "cve_asen": "0037",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CIUDAD CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Civac",
+    "aliases": [
+      "CIVAC",
+      "COL CIVAC",
+      "COL. CIVAC",
+      "COLONIA CIVAC",
+      "Col Civac",
+      "Col. Civac",
+      "Colonia Civac",
+      "civac",
+      "col civac",
+      "col. civac",
+      "colonia civac",
+      "FRACC CIVAC",
+      "FRACCIONAMIENTO CIVAC"
+    ],
+    "coords": [
+      18.9117408,
+      -99.1719095
+    ]
+  },
+  {
+    "name": "Club De Golf",
+    "aliases": [
+      "CLUB DE GOLF",
+      "Club De Golf",
+      "Col Club De Golf",
+      "Col. Club De Golf",
+      "Colonia Club De Golf",
+      "club de golf"
+    ],
+    "coords": [
+      18.9088729,
+      -99.2365718
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010039",
+        "cve_asen": "0039",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CLUB DE GOLF"
+      }
     ]
   },
   {
@@ -279,7 +1354,133 @@
     ]
   },
   {
-    "name": "Cuauhtémoc",
+    "name": "Condominio Bugambilias",
+    "aliases": [
+      "BUGAMBILIAS",
+      "Bugambilias",
+      "COL BUGAMBILIAS",
+      "COL. BUGAMBILIAS",
+      "COLONIA BUGAMBILIAS",
+      "CONDOMINIO BUGAMBILIAS",
+      "Col Bugambilias",
+      "Col. Bugambilias",
+      "Colonia Bugambilias",
+      "Condominio Bugambilias",
+      "bugambilias",
+      "col bugambilias",
+      "col. bugambilias",
+      "colonia bugambilias",
+      "condominio bugambilias"
+    ],
+    "coords": [
+      18.9591625,
+      -99.2390679
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Condominio",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010028",
+        "cve_asen": "0028",
+        "tipo_asen": "CONDOMINIO",
+        "nom_asen": "BUGAMBILIAS"
+      }
+    ]
+  },
+  {
+    "name": "Condominio Chapultepec",
+    "aliases": [
+      "CHAPULTEPEC",
+      "COL CHAPULTEPEC",
+      "COL. CHAPULTEPEC",
+      "COLONIA CHAPULTEPEC",
+      "CONDOMINIO CHAPULTEPEC",
+      "Chapultepec",
+      "Col Chapultepec",
+      "Col. Chapultepec",
+      "Colonia Chapultepec",
+      "Condominio Chapultepec",
+      "chapultepec",
+      "col chapultepec",
+      "col. chapultepec",
+      "colonia chapultepec",
+      "condominio chapultepec"
+    ],
+    "coords": [
+      18.915565,
+      -99.2134442
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Condominio",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010034",
+        "cve_asen": "0034",
+        "tipo_asen": "CONDOMINIO",
+        "nom_asen": "CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Condominio Cuauhnahuac",
+    "aliases": [
+      "CONDOMINIO CUAUHNAHUAC",
+      "CUAUHNAHUAC",
+      "Condominio Cuauhnahuac",
+      "Cuauhnahuac",
+      "condominio cuauhnahuac",
+      "cuauhnahuac"
+    ],
+    "coords": [
+      18.9469415,
+      -99.2527067
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Condominio",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010041",
+        "cve_asen": "0041",
+        "tipo_asen": "CONDOMINIO",
+        "nom_asen": "CUAUHNÁHUAC"
+      }
+    ]
+  },
+  {
+    "name": "Copa De Oro",
+    "aliases": [
+      "COPA DE ORO",
+      "Col Copa De Oro",
+      "Col. Copa De Oro",
+      "Colonia Copa De Oro",
+      "Copa De Oro",
+      "copa de oro"
+    ],
+    "coords": [
+      18.9739829,
+      -99.2472292
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010040",
+        "cve_asen": "0040",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "COPA DE ORO"
+      }
+    ]
+  },
+  {
+    "name": "Cuauhtemoc",
     "aliases": [
       "COL CUAUHTEMOC",
       "COL CUAUHTÉMOC",
@@ -308,6 +1509,99 @@
     "coords": [
       18.9757633,
       -99.2307566
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010042",
+        "cve_asen": "0042",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "CUAUHTÉMOC"
+      }
+    ]
+  },
+  {
+    "name": "Del Bosque",
+    "aliases": [
+      "Col Del Bosque",
+      "Col. Del Bosque",
+      "Colonia Del Bosque",
+      "DEL BOSQUE",
+      "Del Bosque",
+      "del bosque"
+    ],
+    "coords": [
+      18.9981159,
+      -99.2619204
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010043",
+        "cve_asen": "0043",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "DEL BOSQUE"
+      }
+    ]
+  },
+  {
+    "name": "Del Empleado",
+    "aliases": [
+      "Col Del Empleado",
+      "Col. Del Empleado",
+      "Colonia Del Empleado",
+      "DEL EMPLEADO",
+      "Del Empleado",
+      "del empleado"
+    ],
+    "coords": [
+      18.9436225,
+      -99.2416338
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010044",
+        "cve_asen": "0044",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "DEL EMPLEADO"
+      }
+    ]
+  },
+  {
+    "name": "Del Lago",
+    "aliases": [
+      "Col Del Lago",
+      "Col. Del Lago",
+      "Colonia Del Lago",
+      "DEL LAGO",
+      "Del Lago",
+      "del lago"
+    ],
+    "coords": [
+      18.9334952,
+      -99.1943498
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010045",
+        "cve_asen": "0045",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "DEL LAGO"
+      }
     ]
   },
   {
@@ -320,6 +1614,7 @@
       "Col. Delicias",
       "Colonia Delicias",
       "DELICIAS",
+      "Delicias",
       "col delicias",
       "col. delicias",
       "colonia delicias",
@@ -328,6 +1623,711 @@
     "coords": [
       18.9396574,
       -99.2023662
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010046",
+        "cve_asen": "0046",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "DELICIAS"
+      }
+    ]
+  },
+  {
+    "name": "Ejidos De Acapantzingo",
+    "aliases": [
+      "Col Ejidos De Acapantzingo",
+      "Col. Ejidos De Acapantzingo",
+      "Colonia Ejidos De Acapantzingo",
+      "EJIDOS DE ACAPANTZINGO",
+      "Ejidos De Acapantzingo",
+      "ejidos de acapantzingo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010047",
+        "cve_asen": "0047",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EJIDOS DE ACAPANTZINGO"
+      }
+    ]
+  },
+  {
+    "name": "El Cebadal",
+    "aliases": [
+      "Col El Cebadal",
+      "Col. El Cebadal",
+      "Colonia El Cebadal",
+      "EL CEBADAL",
+      "El Cebadal",
+      "el cebadal"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700510001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL CEBADAL"
+      }
+    ]
+  },
+  {
+    "name": "El Copalito",
+    "aliases": [
+      "Col El Copalito",
+      "Col. El Copalito",
+      "Colonia El Copalito",
+      "EL COPALITO",
+      "El Copalito",
+      "el copalito"
+    ],
+    "coords": [
+      18.9705423,
+      -99.1853525
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701090001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL COPALITO"
+      }
+    ]
+  },
+  {
+    "name": "El Mascareno",
+    "aliases": [
+      "Col El Mascareno",
+      "Col. El Mascareno",
+      "Colonia El Mascareno",
+      "EL MASCARENO",
+      "El Mascareno",
+      "el mascareno"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010048",
+        "cve_asen": "0048",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL MASCAREÑO"
+      }
+    ]
+  },
+  {
+    "name": "El Mirador",
+    "aliases": [
+      "Col El Mirador",
+      "Col. El Mirador",
+      "Colonia El Mirador",
+      "EL MIRADOR",
+      "El Mirador",
+      "el mirador"
+    ],
+    "coords": [
+      18.9250224,
+      -99.247611
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010049",
+        "cve_asen": "0049",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL MIRADOR"
+      }
+    ]
+  },
+  {
+    "name": "El Ocote",
+    "aliases": [
+      "Col El Ocote",
+      "Col. El Ocote",
+      "Colonia El Ocote",
+      "EL OCOTE",
+      "El Ocote",
+      "el ocote"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010050",
+        "cve_asen": "0050",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL OCOTE"
+      }
+    ]
+  },
+  {
+    "name": "El Palmar",
+    "aliases": [
+      "Col El Palmar",
+      "Col. El Palmar",
+      "Colonia El Palmar",
+      "EL PALMAR",
+      "El Palmar",
+      "el palmar"
+    ],
+    "coords": [
+      18.8896311,
+      -99.2215551
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010051",
+        "cve_asen": "0051",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL PALMAR"
+      }
+    ]
+  },
+  {
+    "name": "El Polvorin",
+    "aliases": [
+      "Col El Polvorin",
+      "Col. El Polvorin",
+      "Colonia El Polvorin",
+      "EL POLVORIN",
+      "El Polvorin",
+      "el polvorin"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010052",
+        "cve_asen": "0052",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL POLVORÍN"
+      }
+    ]
+  },
+  {
+    "name": "El Tecolote Barrancas",
+    "aliases": [
+      "Col El Tecolote Barrancas",
+      "Col. El Tecolote Barrancas",
+      "Colonia El Tecolote Barrancas",
+      "EL TECOLOTE BARRANCAS",
+      "El Tecolote Barrancas",
+      "el tecolote barrancas"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010053",
+        "cve_asen": "0053",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL TECOLOTE BARRANCAS"
+      }
+    ]
+  },
+  {
+    "name": "El Universo",
+    "aliases": [
+      "Col El Universo",
+      "Col. El Universo",
+      "Colonia El Universo",
+      "EL UNIVERSO",
+      "El Universo",
+      "el universo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700940001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL UNIVERSO"
+      }
+    ]
+  },
+  {
+    "name": "El Veladero",
+    "aliases": [
+      "Col El Veladero",
+      "Col. El Veladero",
+      "Colonia El Veladero",
+      "EL VELADERO",
+      "El Veladero",
+      "el veladero"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010054",
+        "cve_asen": "0054",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL VELADERO"
+      }
+    ]
+  },
+  {
+    "name": "El Vergel",
+    "aliases": [
+      "Col El Vergel",
+      "Col. El Vergel",
+      "Colonia El Vergel",
+      "EL VERGEL",
+      "El Vergel",
+      "el vergel"
+    ],
+    "coords": [
+      18.9265423,
+      -99.2297554
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010055",
+        "cve_asen": "0055",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EL VERGEL"
+      }
+    ]
+  },
+  {
+    "name": "Emiliano Zapata",
+    "aliases": [
+      "COL EMILIANO ZAPATA",
+      "COL. EMILIANO ZAPATA",
+      "COLONIA EMILIANO ZAPATA",
+      "Col Emiliano Zapata",
+      "Col. Emiliano Zapata",
+      "Colonia Emiliano Zapata",
+      "EMILIANO ZAPATA",
+      "Emiliano Zapata",
+      "ZAPATA",
+      "Zapata",
+      "col emiliano zapata",
+      "col. emiliano zapata",
+      "colonia emiliano zapata",
+      "emiliano zapata",
+      "zapata"
+    ],
+    "coords": [
+      18.8478608,
+      -99.1843676
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010056",
+        "cve_asen": "0056",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EMILIANO ZAPATA"
+      }
+    ]
+  },
+  {
+    "name": "Extension Delicias",
+    "aliases": [
+      "Col Extension Delicias",
+      "Col. Extension Delicias",
+      "Colonia Extension Delicias",
+      "EXTENSION DELICIAS",
+      "Extension Delicias",
+      "extension delicias"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010057",
+        "cve_asen": "0057",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EXTENSIÓN DELICIAS"
+      }
+    ]
+  },
+  {
+    "name": "Extension Vista Hermosa",
+    "aliases": [
+      "Col Extension Vista Hermosa",
+      "Col. Extension Vista Hermosa",
+      "Colonia Extension Vista Hermosa",
+      "EXTENSION VISTA HERMOSA",
+      "Extension Vista Hermosa",
+      "extension vista hermosa"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010058",
+        "cve_asen": "0058",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "EXTENSIÓN VISTA HERMOSA"
+      }
+    ]
+  },
+  {
+    "name": "Federacion",
+    "aliases": [
+      "Col Federacion",
+      "Col. Federacion",
+      "Colonia Federacion",
+      "FEDERACION",
+      "Federacion",
+      "federacion"
+    ],
+    "coords": [
+      18.9329026,
+      -99.1934514
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010059",
+        "cve_asen": "0059",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "FEDERACIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Analco",
+    "aliases": [
+      "ANALCO",
+      "Analco",
+      "FRACCIONAMIENTO ANALCO",
+      "Fracc Analco",
+      "Fracc. Analco",
+      "Fraccionamiento Analco",
+      "analco",
+      "fraccionamiento analco"
+    ],
+    "coords": [
+      18.8680391,
+      -99.1696562
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010012",
+        "cve_asen": "0012",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "ANALCO"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Flores Magon Primer Fraccionamiento",
+    "aliases": [
+      "FLORES MAGON PRIMER FRACCIONAMIENTO",
+      "FRACCIONAMIENTO FLORES MAGON PRIMER FRACCIONAMIENTO",
+      "Flores Magon Primer Fraccionamiento",
+      "Fracc Flores Magon Primer Fraccionamiento",
+      "Fracc. Flores Magon Primer Fraccionamiento",
+      "Fraccionamiento Flores Magon Primer Fraccionamiento",
+      "flores magon primer fraccionamiento",
+      "fraccionamiento flores magon primer fraccionamiento"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010060",
+        "cve_asen": "0060",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "FLORES MAGÓN PRIMER FRACCIONAMIENTO"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Flores Magon Quinto Fraccionamiento",
+    "aliases": [
+      "FLORES MAGON QUINTO FRACCIONAMIENTO",
+      "FRACCIONAMIENTO FLORES MAGON QUINTO FRACCIONAMIENTO",
+      "Flores Magon Quinto Fraccionamiento",
+      "Fracc Flores Magon Quinto Fraccionamiento",
+      "Fracc. Flores Magon Quinto Fraccionamiento",
+      "Fraccionamiento Flores Magon Quinto Fraccionamiento",
+      "flores magon quinto fraccionamiento",
+      "fraccionamiento flores magon quinto fraccionamiento"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010061",
+        "cve_asen": "0061",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "FLORES MAGÓN QUINTO FRACCIONAMIENTO"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Flores Magon Segundo Fraccionamiento",
+    "aliases": [
+      "FLORES MAGON SEGUNDO FRACCIONAMIENTO",
+      "FRACCIONAMIENTO FLORES MAGON SEGUNDO FRACCIONAMIENTO",
+      "Flores Magon Segundo Fraccionamiento",
+      "Fracc Flores Magon Segundo Fraccionamiento",
+      "Fracc. Flores Magon Segundo Fraccionamiento",
+      "Fraccionamiento Flores Magon Segundo Fraccionamiento",
+      "flores magon segundo fraccionamiento",
+      "fraccionamiento flores magon segundo fraccionamiento"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010062",
+        "cve_asen": "0062",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "FLORES MAGÓN SEGUNDO FRACCIONAMIENTO"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Lomas De Cortes",
+    "aliases": [
+      "COL LOMAS DE CORTES",
+      "COL. LOMAS DE CORTES",
+      "COLONIA LOMAS DE CORTES",
+      "Col Lomas De Cortes",
+      "Col Lomas de Cortes",
+      "Col. Lomas De Cortes",
+      "Col. Lomas de Cortes",
+      "Colonia Lomas De Cortes",
+      "Colonia Lomas de Cortes",
+      "FRACCIONAMIENTO LOMAS DE CORTES",
+      "Fracc Lomas De Cortes",
+      "Fracc. Lomas De Cortes",
+      "Fraccionamiento Lomas De Cortes",
+      "LOMAS DE CORTES",
+      "Lomas De Cortes",
+      "col lomas de cortes",
+      "col. lomas de cortes",
+      "colonia lomas de cortes",
+      "fraccionamiento lomas de cortes",
+      "lomas de cortes"
+    ],
+    "coords": [
+      18.9532676,
+      -99.2245237
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010111",
+        "cve_asen": "0111",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "LOMAS DE CORTES"
+      }
+    ]
+  },
+  {
+    "name": "Fraccionamiento Maravillas",
+    "aliases": [
+      "COL COL MARAVILLAS",
+      "COL COL. MARAVILLAS",
+      "COL MARAVILLAS",
+      "COL. COL. MARAVILLAS",
+      "COL. MARAVILLAS",
+      "COLONIA COL MARAVILLAS",
+      "COLONIA COL. MARAVILLAS",
+      "COLONIA MARAVILLAS",
+      "Col Col Maravillas",
+      "Col Col. Maravillas",
+      "Col Maravillas",
+      "Col. Col. Maravillas",
+      "Col. Maravillas",
+      "Colonia Col Maravillas",
+      "Colonia Col. Maravillas",
+      "Colonia Maravillas",
+      "FRACCIONAMIENTO MARAVILLAS",
+      "Fracc Maravillas",
+      "Fracc. Maravillas",
+      "Fraccionamiento Maravillas",
+      "MARAVILLAS",
+      "Maravillas",
+      "col col maravillas",
+      "col col. maravillas",
+      "col maravillas",
+      "col. col. maravillas",
+      "col. maravillas",
+      "colonia col maravillas",
+      "colonia col. maravillas",
+      "colonia maravillas",
+      "fraccionamiento maravillas",
+      "maravillas"
+    ],
+    "coords": [
+      18.9587383,
+      -99.2328344
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Fraccionamiento",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010130",
+        "cve_asen": "0130",
+        "tipo_asen": "FRACCIONAMIENTO",
+        "nom_asen": "MARAVILLAS"
+      }
+    ]
+  },
+  {
+    "name": "Gloria Almada De Bejarano",
+    "aliases": [
+      "Col Gloria Almada De Bejarano",
+      "Col. Gloria Almada De Bejarano",
+      "Colonia Gloria Almada De Bejarano",
+      "GLORIA ALMADA DE BEJARANO",
+      "Gloria Almada De Bejarano",
+      "gloria almada de bejarano"
+    ],
+    "coords": [
+      18.8772991,
+      -99.2219888
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010064",
+        "cve_asen": "0064",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "GLORIA ALMADA DE BEJARANO"
+      }
+    ]
+  },
+  {
+    "name": "Gualupita",
+    "aliases": [
+      "Col Gualupita",
+      "Col. Gualupita",
+      "Colonia Gualupita",
+      "GUALUPITA",
+      "Gualupita",
+      "gualupita"
+    ],
+    "coords": [
+      18.9302157,
+      -99.2332957
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010065",
+        "cve_asen": "0065",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "GUALUPITA"
+      }
+    ]
+  },
+  {
+    "name": "Guayabos",
+    "aliases": [
+      "Col Guayabos",
+      "Col. Guayabos",
+      "Colonia Guayabos",
+      "GUAYABOS",
+      "Guayabos",
+      "guayabos"
+    ],
+    "coords": [
+      18.8868283,
+      -99.2258708
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701350001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "GUAYABOS"
+      }
     ]
   },
   {
@@ -340,6 +2340,7 @@
       "Col. Hacienda Tetela",
       "Colonia Hacienda Tetela",
       "HACIENDA TETELA",
+      "Hacienda Tetela",
       "col hacienda tetela",
       "col. hacienda tetela",
       "colonia hacienda tetela",
@@ -348,6 +2349,123 @@
     "coords": [
       18.9447425,
       -99.2626213
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010066",
+        "cve_asen": "0066",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "HACIENDA TETELA"
+      }
+    ]
+  },
+  {
+    "name": "Independencia",
+    "aliases": [
+      "Col Independencia",
+      "Col. Independencia",
+      "Colonia Independencia",
+      "INDEPENDENCIA",
+      "Independencia",
+      "independencia"
+    ],
+    "coords": [
+      18.9246255,
+      -99.2410813
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010067",
+        "cve_asen": "0067",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "INDEPENDENCIA"
+      }
+    ]
+  },
+  {
+    "name": "Insurgentes",
+    "aliases": [
+      "Col Insurgentes",
+      "Col. Insurgentes",
+      "Colonia Insurgentes",
+      "INSURGENTES",
+      "Insurgentes",
+      "insurgentes"
+    ],
+    "coords": [
+      18.9769689,
+      -99.2327109
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010068",
+        "cve_asen": "0068",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "INSURGENTES"
+      }
+    ]
+  },
+  {
+    "name": "Internado Palmira",
+    "aliases": [
+      "Col Internado Palmira",
+      "Col. Internado Palmira",
+      "Colonia Internado Palmira",
+      "INTERNADO PALMIRA",
+      "Internado Palmira",
+      "internado palmira"
+    ],
+    "coords": [
+      18.881747,
+      -99.2194793
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010069",
+        "cve_asen": "0069",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "INTERNADO PALMIRA"
+      }
+    ]
+  },
+  {
+    "name": "Iterero De San Anton",
+    "aliases": [
+      "Col Iterero De San Anton",
+      "Col. Iterero De San Anton",
+      "Colonia Iterero De San Anton",
+      "ITERERO DE SAN ANTON",
+      "Iterero De San Anton",
+      "iterero de san anton"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700860001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ITERERO DE SAN ANTÓN"
+      }
     ]
   },
   {
@@ -370,6 +2488,7 @@
       "Colonia Col. Jacarandas",
       "Colonia Jacarandas",
       "JACARANDAS",
+      "Jacarandas",
       "col col jacarandas",
       "col col. jacarandas",
       "col jacarandas",
@@ -383,10 +2502,100 @@
     "coords": [
       18.9218067,
       -99.2210612
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010070",
+        "cve_asen": "0070",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JACARANDAS"
+      }
     ]
   },
   {
-    "name": "Jardines de Cuernavaca",
+    "name": "Jardin Tetela",
+    "aliases": [
+      "Col Jardin Tetela",
+      "Col. Jardin Tetela",
+      "Colonia Jardin Tetela",
+      "JARDIN TETELA",
+      "Jardin Tetela",
+      "jardin tetela"
+    ],
+    "coords": [
+      18.9512331,
+      -99.2494154
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010071",
+        "cve_asen": "0071",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDÍN TETELA"
+      }
+    ]
+  },
+  {
+    "name": "Jardines De Acapantzingo",
+    "aliases": [
+      "Col Jardines De Acapantzingo",
+      "Col. Jardines De Acapantzingo",
+      "Colonia Jardines De Acapantzingo",
+      "JARDINES DE ACAPANTZINGO",
+      "Jardines De Acapantzingo",
+      "jardines de acapantzingo"
+    ],
+    "coords": [
+      18.9079155,
+      -99.2243666
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010072",
+        "cve_asen": "0072",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DE ACAPANTZINGO"
+      }
+    ]
+  },
+  {
+    "name": "Jardines De Ahuatepec",
+    "aliases": [
+      "Col Jardines De Ahuatepec",
+      "Col. Jardines De Ahuatepec",
+      "Colonia Jardines De Ahuatepec",
+      "JARDINES DE AHUATEPEC",
+      "Jardines De Ahuatepec",
+      "jardines de ahuatepec"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010073",
+        "cve_asen": "0073",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DE AHUATEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Jardines De Cuernavaca",
     "aliases": [
       "COL JARDINES CUERNAVACA",
       "COL JARDINES DE CUERNAVACA",
@@ -440,6 +2649,18 @@
     "coords": [
       18.9299902,
       -99.2044432
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010074",
+        "cve_asen": "0074",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DE CUERNAVACA"
+      }
     ]
   },
   {
@@ -514,7 +2735,7 @@
     ]
   },
   {
-    "name": "Jardines de Reforma",
+    "name": "Jardines De Reforma",
     "aliases": [
       "COL JARDINES DE REFORMA",
       "COL. JARDINES DE REFORMA",
@@ -547,6 +2768,179 @@
     "coords": [
       18.9438074,
       -99.2224462
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010075",
+        "cve_asen": "0075",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DE REFORMA"
+      }
+    ]
+  },
+  {
+    "name": "Jardines De Zoquipa",
+    "aliases": [
+      "Col Jardines De Zoquipa",
+      "Col. Jardines De Zoquipa",
+      "Colonia Jardines De Zoquipa",
+      "JARDINES DE ZOQUIPA",
+      "Jardines De Zoquipa",
+      "jardines de zoquipa"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701220001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DE ZOQUIPA"
+      }
+    ]
+  },
+  {
+    "name": "Jardines Del Eden",
+    "aliases": [
+      "Col Jardines Del Eden",
+      "Col. Jardines Del Eden",
+      "Colonia Jardines Del Eden",
+      "JARDINES DEL EDEN",
+      "Jardines Del Eden",
+      "jardines del eden"
+    ],
+    "coords": [
+      18.9039649,
+      -99.2483419
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701120001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES DEL EDÉN"
+      }
+    ]
+  },
+  {
+    "name": "Jardines Las Delicias",
+    "aliases": [
+      "COL JARDINES DE LAS DELICIAS",
+      "COL JARDINES LAS DELICIAS",
+      "COL. JARDINES DE LAS DELICIAS",
+      "COL. JARDINES LAS DELICIAS",
+      "COLONIA JARDINES DE LAS DELICIAS",
+      "COLONIA JARDINES LAS DELICIAS",
+      "Col Jardines De Las Delicias",
+      "Col Jardines Las Delicias",
+      "Col Jardines de Las Delicias",
+      "Col Jardines de las Delicias",
+      "Col Jardines las Delicias",
+      "Col. Jardines De Las Delicias",
+      "Col. Jardines Las Delicias",
+      "Col. Jardines de Las Delicias",
+      "Col. Jardines de las Delicias",
+      "Col. Jardines las Delicias",
+      "Colonia Jardines De Las Delicias",
+      "Colonia Jardines Las Delicias",
+      "Colonia Jardines de Las Delicias",
+      "Colonia Jardines de las Delicias",
+      "Colonia Jardines las Delicias",
+      "FRACC JARDINES DE LAS DELICIAS",
+      "FRACC JARDINES LAS DELICIAS",
+      "FRACC. JARDINES DE LAS DELICIAS",
+      "FRACC. JARDINES LAS DELICIAS",
+      "FRACCIONAMIENTO JARDINES DE LAS DELICIAS",
+      "FRACCIONAMIENTO JARDINES LAS DELICIAS",
+      "Fracc Jardines De Las Delicias",
+      "Fracc Jardines Las Delicias",
+      "Fracc Jardines de Las Delicias",
+      "Fracc Jardines de las Delicias",
+      "Fracc Jardines las Delicias",
+      "Fracc. Jardines De Las Delicias",
+      "Fracc. Jardines Las Delicias",
+      "Fracc. Jardines de Las Delicias",
+      "Fracc. Jardines de las Delicias",
+      "Fracc. Jardines las Delicias",
+      "Fraccionamiento Jardines De Las Delicias",
+      "Fraccionamiento Jardines Las Delicias",
+      "Fraccionamiento Jardines de Las Delicias",
+      "Fraccionamiento Jardines de las Delicias",
+      "Fraccionamiento Jardines las Delicias",
+      "JARDINES DE LAS DELICIAS",
+      "JARDINES LAS DELICIAS",
+      "Jardines De Las Delicias",
+      "Jardines Las Delicias",
+      "Jardines de Las Delicias",
+      "Jardines las Delicias",
+      "col jardines de las delicias",
+      "col jardines las delicias",
+      "col. jardines de las delicias",
+      "col. jardines las delicias",
+      "colonia jardines de las delicias",
+      "colonia jardines las delicias",
+      "fracc jardines de las delicias",
+      "fracc jardines las delicias",
+      "fracc. jardines de las delicias",
+      "fracc. jardines las delicias",
+      "fraccionamiento jardines de las delicias",
+      "fraccionamiento jardines las delicias",
+      "jardines de las delicias",
+      "jardines las delicias"
+    ],
+    "coords": [
+      18.9454053,
+      -99.2051355
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010076",
+        "cve_asen": "0076",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JARDINES LAS DELICIAS"
+      }
+    ]
+  },
+  {
+    "name": "Jiquilpan",
+    "aliases": [
+      "Col Jiquilpan",
+      "Col. Jiquilpan",
+      "Colonia Jiquilpan",
+      "JIQUILPAN",
+      "Jiquilpan",
+      "jiquilpan"
+    ],
+    "coords": [
+      18.9461664,
+      -99.2393288
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010077",
+        "cve_asen": "0077",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JIQUILPAN"
+      }
     ]
   },
   {
@@ -579,6 +2973,57 @@
     "coords": [
       18.8954874,
       -99.1732936
+    ]
+  },
+  {
+    "name": "Jose Lopez Portillo",
+    "aliases": [
+      "Col Jose Lopez Portillo",
+      "Col. Jose Lopez Portillo",
+      "Colonia Jose Lopez Portillo",
+      "JOSE LOPEZ PORTILLO",
+      "Jose Lopez Portillo",
+      "jose lopez portillo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010078",
+        "cve_asen": "0078",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JOSÉ LÓPEZ PORTILLO"
+      }
+    ]
+  },
+  {
+    "name": "Joya De Los Jilgueros",
+    "aliases": [
+      "Col Joya De Los Jilgueros",
+      "Col. Joya De Los Jilgueros",
+      "Colonia Joya De Los Jilgueros",
+      "JOYA DE LOS JILGUEROS",
+      "Joya De Los Jilgueros",
+      "joya de los jilgueros"
+    ],
+    "coords": [
+      18.9269817,
+      -99.1925751
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010079",
+        "cve_asen": "0079",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "JOYA DE LOS JILGUEROS"
+      }
     ]
   },
   {
@@ -622,6 +3067,294 @@
     ]
   },
   {
+    "name": "La Caminera",
+    "aliases": [
+      "Col La Caminera",
+      "Col. La Caminera",
+      "Colonia La Caminera",
+      "LA CAMINERA",
+      "La Caminera",
+      "la caminera"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010080",
+        "cve_asen": "0080",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA CAMINERA"
+      }
+    ]
+  },
+  {
+    "name": "La Canada",
+    "aliases": [
+      "Col La Canada",
+      "Col. La Canada",
+      "Colonia La Canada",
+      "LA CANADA",
+      "La Canada",
+      "la canada"
+    ],
+    "coords": [
+      18.937198,
+      -99.2523413
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010081",
+        "cve_asen": "0081",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA CAÑADA"
+      }
+    ]
+  },
+  {
+    "name": "La Carolina",
+    "aliases": [
+      "Col La Carolina",
+      "Col. La Carolina",
+      "Colonia La Carolina",
+      "LA CAROLINA",
+      "La Carolina",
+      "la carolina"
+    ],
+    "coords": [
+      18.9362948,
+      -99.2434638
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010082",
+        "cve_asen": "0082",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA CAROLINA"
+      }
+    ]
+  },
+  {
+    "name": "La Esperanza",
+    "aliases": [
+      "Col La Esperanza",
+      "Col. La Esperanza",
+      "Colonia La Esperanza",
+      "LA ESPERANZA",
+      "La Esperanza",
+      "la esperanza"
+    ],
+    "coords": [
+      18.9412669,
+      -99.2180362
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010083",
+        "cve_asen": "0083",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA ESPERANZA"
+      }
+    ]
+  },
+  {
+    "name": "La Estacion",
+    "aliases": [
+      "Col La Estacion",
+      "Col. La Estacion",
+      "Colonia La Estacion",
+      "LA ESTACION",
+      "La Estacion",
+      "la estacion"
+    ],
+    "coords": [
+      18.9636655,
+      -99.2172398
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010084",
+        "cve_asen": "0084",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA ESTACIÓN"
+      }
+    ]
+  },
+  {
+    "name": "La Estrella",
+    "aliases": [
+      "Col La Estrella",
+      "Col. La Estrella",
+      "Colonia La Estrella",
+      "LA ESTRELLA",
+      "La Estrella",
+      "la estrella"
+    ],
+    "coords": [
+      18.9443475,
+      -99.256151
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010085",
+        "cve_asen": "0085",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA ESTRELLA"
+      }
+    ]
+  },
+  {
+    "name": "La Herradura",
+    "aliases": [
+      "Col La Herradura",
+      "Col. La Herradura",
+      "Colonia La Herradura",
+      "LA HERRADURA",
+      "La Herradura",
+      "la herradura"
+    ],
+    "coords": [
+      18.973423,
+      -99.1957678
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010086",
+        "cve_asen": "0086",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA HERRADURA"
+      }
+    ]
+  },
+  {
+    "name": "La Mojonera",
+    "aliases": [
+      "Col La Mojonera",
+      "Col. La Mojonera",
+      "Colonia La Mojonera",
+      "LA MOJONERA",
+      "La Mojonera",
+      "la mojonera"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010087",
+        "cve_asen": "0087",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA MOJONERA"
+      }
+    ]
+  },
+  {
+    "name": "La Ocotera",
+    "aliases": [
+      "Col La Ocotera",
+      "Col. La Ocotera",
+      "Colonia La Ocotera",
+      "LA OCOTERA",
+      "La Ocotera",
+      "la ocotera"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010088",
+        "cve_asen": "0088",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA OCOTERA"
+      }
+    ]
+  },
+  {
+    "name": "La Paloma",
+    "aliases": [
+      "Col La Paloma",
+      "Col. La Paloma",
+      "Colonia La Paloma",
+      "LA PALOMA",
+      "La Paloma",
+      "la paloma"
+    ],
+    "coords": [
+      18.9676372,
+      -99.2434732
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010089",
+        "cve_asen": "0089",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA PALOMA"
+      }
+    ]
+  },
+  {
+    "name": "La Parota",
+    "aliases": [
+      "Col La Parota",
+      "Col. La Parota",
+      "Colonia La Parota",
+      "LA PAROTA",
+      "La Parota",
+      "la parota"
+    ],
+    "coords": [
+      18.8663648,
+      -99.2249386
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010090",
+        "cve_asen": "0090",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA PAROTA"
+      }
+    ]
+  },
+  {
     "name": "La Pradera",
     "aliases": [
       "COL LA PRADERA",
@@ -639,6 +3372,159 @@
     "coords": [
       18.9398277,
       -99.2432239
+    ]
+  },
+  {
+    "name": "La Tranca",
+    "aliases": [
+      "Col La Tranca",
+      "Col. La Tranca",
+      "Colonia La Tranca",
+      "LA TRANCA",
+      "La Tranca",
+      "la tranca"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010091",
+        "cve_asen": "0091",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LA TRANCA"
+      }
+    ]
+  },
+  {
+    "name": "Lagunilla",
+    "aliases": [
+      "Col Lagunilla",
+      "Col. Lagunilla",
+      "Colonia Lagunilla",
+      "LAGUNILLA",
+      "Lagunilla",
+      "lagunilla"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010092",
+        "cve_asen": "0092",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAGUNILLA"
+      }
+    ]
+  },
+  {
+    "name": "Las Aguilas",
+    "aliases": [
+      "Col Las Aguilas",
+      "Col. Las Aguilas",
+      "Colonia Las Aguilas",
+      "LAS AGUILAS",
+      "Las Aguilas",
+      "las aguilas"
+    ],
+    "coords": [
+      18.8883402,
+      -99.2204737
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010094",
+        "cve_asen": "0094",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS ÁGUILAS"
+      }
+    ]
+  },
+  {
+    "name": "Las Flores",
+    "aliases": [
+      "Col Las Flores",
+      "Col. Las Flores",
+      "Colonia Las Flores",
+      "LAS FLORES",
+      "Las Flores",
+      "las flores"
+    ],
+    "coords": [
+      18.944506,
+      -99.1902798
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701330001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS FLORES"
+      }
+    ]
+  },
+  {
+    "name": "Las Garzas",
+    "aliases": [
+      "Col Las Garzas",
+      "Col. Las Garzas",
+      "Colonia Las Garzas",
+      "LAS GARZAS",
+      "Las Garzas",
+      "las garzas"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010095",
+        "cve_asen": "0095",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS GARZAS"
+      }
+    ]
+  },
+  {
+    "name": "Las Granjas",
+    "aliases": [
+      "Col Las Granjas",
+      "Col. Las Granjas",
+      "Colonia Las Granjas",
+      "LAS GRANJAS",
+      "Las Granjas",
+      "las granjas"
+    ],
+    "coords": [
+      18.9065269,
+      -99.2006187
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010096",
+        "cve_asen": "0096",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS GRANJAS"
+      }
     ]
   },
   {
@@ -661,6 +3547,7 @@
       "Colonia Col. Las Palmas",
       "Colonia Las Palmas",
       "LAS PALMAS",
+      "Las Palmas",
       "col col las palmas",
       "col col. las palmas",
       "col las palmas",
@@ -674,6 +3561,145 @@
     "coords": [
       18.9064734,
       -99.233527
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010097",
+        "cve_asen": "0097",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS PALMAS"
+      }
+    ]
+  },
+  {
+    "name": "Las Quintas",
+    "aliases": [
+      "Col Las Quintas",
+      "Col. Las Quintas",
+      "Colonia Las Quintas",
+      "LAS QUINTAS",
+      "Las Quintas",
+      "las quintas"
+    ],
+    "coords": [
+      18.9118547,
+      -99.2173226
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010098",
+        "cve_asen": "0098",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LAS QUINTAS"
+      }
+    ]
+  },
+  {
+    "name": "Lazaro Cardenas",
+    "aliases": [
+      "Col Lazaro Cardenas",
+      "Col. Lazaro Cardenas",
+      "Colonia Lazaro Cardenas",
+      "LAZARO CARDENAS",
+      "Lazaro Cardenas",
+      "lazaro cardenas"
+    ],
+    "coords": [
+      18.8922881,
+      -99.2303571
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010100",
+        "cve_asen": "0100",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LÁZARO CÁRDENAS"
+      }
+    ]
+  },
+  {
+    "name": "Lazaro Cardenas Loma Bonita",
+    "aliases": [
+      "Col Lazaro Cardenas Loma Bonita",
+      "Col. Lazaro Cardenas Loma Bonita",
+      "Colonia Lazaro Cardenas Loma Bonita",
+      "LAZARO CARDENAS LOMA BONITA",
+      "Lazaro Cardenas Loma Bonita",
+      "lazaro cardenas loma bonita"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010101",
+        "cve_asen": "0101",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LÁZARO CÁRDENAS LOMA BONITA"
+      }
+    ]
+  },
+  {
+    "name": "Lienzo del Charro",
+    "aliases": [
+      "LIENZO DEL CHARRO",
+      "COL LIENZO DEL CHARRO",
+      "COL. LIENZO DEL CHARRO",
+      "COLONIA LIENZO DEL CHARRO",
+      "Col Lienzo Del Charro",
+      "Col Lienzo del Charro",
+      "Col. Lienzo Del Charro",
+      "Col. Lienzo del Charro",
+      "Colonia Lienzo Del Charro",
+      "Colonia Lienzo del Charro",
+      "LIENZO CHARRO",
+      "Lienzo Charro",
+      "lienzo del charro",
+      "col lienzo del charro",
+      "col. lienzo del charro",
+      "colonia lienzo del charro"
+    ],
+    "coords": [
+      18.97065,
+      -99.2446
+    ]
+  },
+  {
+    "name": "Lienzo El Charro",
+    "aliases": [
+      "Col Lienzo El Charro",
+      "Col. Lienzo El Charro",
+      "Colonia Lienzo El Charro",
+      "LIENZO EL CHARRO",
+      "Lienzo El Charro",
+      "lienzo el charro"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010102",
+        "cve_asen": "0102",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LIENZO EL CHARRO"
+      }
     ]
   },
   {
@@ -696,6 +3722,7 @@
       "Colonia Col. Loma Bonita",
       "Colonia Loma Bonita",
       "LOMA BONITA",
+      "Loma Bonita",
       "col col loma bonita",
       "col col. loma bonita",
       "col loma bonita",
@@ -709,6 +3736,153 @@
     "coords": [
       18.9576021,
       -99.2113669
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010103",
+        "cve_asen": "0103",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA BONITA"
+      },
+      {
+        "cvegeo": "1700700010104",
+        "cve_asen": "0104",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA BONITA"
+      }
+    ]
+  },
+  {
+    "name": "Loma Del Aguila",
+    "aliases": [
+      "Col Loma Del Aguila",
+      "Col. Loma Del Aguila",
+      "Colonia Loma Del Aguila",
+      "LOMA DEL AGUILA",
+      "Loma Del Aguila",
+      "loma del aguila"
+    ],
+    "coords": [
+      18.9008245,
+      -99.2152148
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010105",
+        "cve_asen": "0105",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA DEL ÁGUILA"
+      }
+    ]
+  },
+  {
+    "name": "Loma Hermosa",
+    "aliases": [
+      "Col Loma Hermosa",
+      "Col. Loma Hermosa",
+      "Colonia Loma Hermosa",
+      "LOMA HERMOSA",
+      "Loma Hermosa",
+      "loma hermosa"
+    ],
+    "coords": [
+      18.9763562,
+      -99.2192364
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010106",
+        "cve_asen": "0106",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA HERMOSA"
+      }
+    ]
+  },
+  {
+    "name": "Loma Linda",
+    "aliases": [
+      "Col Loma Linda",
+      "Col. Loma Linda",
+      "Colonia Loma Linda",
+      "LOMA LINDA",
+      "Loma Linda",
+      "loma linda"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010107",
+        "cve_asen": "0107",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA LINDA"
+      }
+    ]
+  },
+  {
+    "name": "Loma Sol",
+    "aliases": [
+      "Col Loma Sol",
+      "Col. Loma Sol",
+      "Colonia Loma Sol",
+      "LOMA SOL",
+      "Loma Sol",
+      "loma sol"
+    ],
+    "coords": [
+      18.9513335,
+      -99.2734311
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010108",
+        "cve_asen": "0108",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMA SOL"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De Ahuatepec",
+    "aliases": [
+      "Col Lomas De Ahuatepec",
+      "Col. Lomas De Ahuatepec",
+      "Colonia Lomas De Ahuatepec",
+      "LOMAS DE AHUATEPEC",
+      "Lomas De Ahuatepec",
+      "lomas de ahuatepec"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701000001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE AHUATEPEC"
+      }
     ]
   },
   {
@@ -752,7 +3926,7 @@
     ]
   },
   {
-    "name": "Lomas de Atzingo",
+    "name": "Lomas De Atzingo",
     "aliases": [
       "COL LOMAS DE ATZINGO",
       "COL. LOMAS DE ATZINGO",
@@ -773,10 +3947,22 @@
     "coords": [
       18.9368935,
       -99.2577715
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010109",
+        "cve_asen": "0109",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE ATZINGO"
+      }
     ]
   },
   {
-    "name": "Lomas de Chamilpa",
+    "name": "Lomas De Chamilpa",
     "aliases": [
       "COL LOMAS DE CHAMILPA",
       "COL. LOMAS DE CHAMILPA",
@@ -797,10 +3983,22 @@
     "coords": [
       18.9866301,
       -99.2414922
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010110",
+        "cve_asen": "0110",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE CHAMILPA"
+      }
     ]
   },
   {
-    "name": "Lomas de Cortes",
+    "name": "Lomas De Cortes",
     "aliases": [
       "COL LOMAS DE CORTES",
       "COL. LOMAS DE CORTES",
@@ -821,6 +4019,264 @@
     "coords": [
       18.9532676,
       -99.2245237
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010113",
+        "cve_asen": "0113",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE CORTES"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De Coyuca",
+    "aliases": [
+      "Col Lomas De Coyuca",
+      "Col. Lomas De Coyuca",
+      "Colonia Lomas De Coyuca",
+      "LOMAS DE COYUCA",
+      "Lomas De Coyuca",
+      "lomas de coyuca"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010114",
+        "cve_asen": "0114",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE COYUCA"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De La Pradera",
+    "aliases": [
+      "Col Lomas De La Pradera",
+      "Col. Lomas De La Pradera",
+      "Colonia Lomas De La Pradera",
+      "LOMAS DE LA PRADERA",
+      "Lomas De La Pradera",
+      "lomas de la pradera"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010115",
+        "cve_asen": "0115",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE LA PRADERA"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De La Selva",
+    "aliases": [
+      "Col Lomas De La Selva",
+      "Col. Lomas De La Selva",
+      "Colonia Lomas De La Selva",
+      "LOMAS DE LA SELVA",
+      "Lomas De La Selva",
+      "lomas de la selva"
+    ],
+    "coords": [
+      18.9361863,
+      -99.2298977
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010116",
+        "cve_asen": "0116",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE LA SELVA"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De La Selva Norte",
+    "aliases": [
+      "Col Lomas De La Selva Norte",
+      "Col. Lomas De La Selva Norte",
+      "Colonia Lomas De La Selva Norte",
+      "LOMAS DE LA SELVA NORTE",
+      "Lomas De La Selva Norte",
+      "lomas de la selva norte"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010117",
+        "cve_asen": "0117",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE LA SELVA NORTE"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De La Selva Oriente",
+    "aliases": [
+      "Col Lomas De La Selva Oriente",
+      "Col. Lomas De La Selva Oriente",
+      "Colonia Lomas De La Selva Oriente",
+      "LOMAS DE LA SELVA ORIENTE",
+      "Lomas De La Selva Oriente",
+      "lomas de la selva oriente"
+    ],
+    "coords": [
+      18.9553529,
+      -99.2384291
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010118",
+        "cve_asen": "0118",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE LA SELVA ORIENTE"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De Los Amates",
+    "aliases": [
+      "Col Lomas De Los Amates",
+      "Col. Lomas De Los Amates",
+      "Colonia Lomas De Los Amates",
+      "LOMAS DE LOS AMATES",
+      "Lomas De Los Amates",
+      "lomas de los amates"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700800001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE LOS AMATES"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De San Anton",
+    "aliases": [
+      "Col Lomas De San Anton",
+      "Col. Lomas De San Anton",
+      "Colonia Lomas De San Anton",
+      "LOMAS DE SAN ANTON",
+      "Lomas De San Anton",
+      "lomas de san anton"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010119",
+        "cve_asen": "0119",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE SAN ANTÓN"
+      }
+    ]
+  },
+  {
+    "name": "Lomas De Vista Hermosa",
+    "aliases": [
+      "Col Lomas De Vista Hermosa",
+      "Col. Lomas De Vista Hermosa",
+      "Colonia Lomas De Vista Hermosa",
+      "LOMAS DE VISTA HERMOSA",
+      "Lomas De Vista Hermosa",
+      "lomas de vista hermosa"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010120",
+        "cve_asen": "0120",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DE VISTA HERMOSA"
+      }
+    ]
+  },
+  {
+    "name": "Lomas Del Mirador",
+    "aliases": [
+      "Col Lomas Del Mirador",
+      "Col. Lomas Del Mirador",
+      "Colonia Lomas Del Mirador",
+      "LOMAS DEL MIRADOR",
+      "Lomas Del Mirador",
+      "lomas del mirador"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010121",
+        "cve_asen": "0121",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DEL MIRADOR"
+      }
+    ]
+  },
+  {
+    "name": "Lomas Del Miraval",
+    "aliases": [
+      "Col Lomas Del Miraval",
+      "Col. Lomas Del Miraval",
+      "Colonia Lomas Del Miraval",
+      "LOMAS DEL MIRAVAL",
+      "Lomas Del Miraval",
+      "lomas del miraval"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010122",
+        "cve_asen": "0122",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS DEL MIRAVAL"
+      }
     ]
   },
   {
@@ -869,6 +4325,7 @@
       "Col. Lomas Tetela",
       "Colonia Lomas Tetela",
       "LOMAS TETELA",
+      "Lomas Tetela",
       "col lomas tetela",
       "col. lomas tetela",
       "colonia lomas tetela",
@@ -877,6 +4334,231 @@
     "coords": [
       18.9481082,
       -99.2688571
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010123",
+        "cve_asen": "0123",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS TETELA"
+      }
+    ]
+  },
+  {
+    "name": "Lomas Verdes",
+    "aliases": [
+      "Col Lomas Verdes",
+      "Col. Lomas Verdes",
+      "Colonia Lomas Verdes",
+      "LOMAS VERDES",
+      "Lomas Verdes",
+      "lomas verdes"
+    ],
+    "coords": [
+      18.9549589,
+      -99.2759263
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701460001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOMAS VERDES"
+      }
+    ]
+  },
+  {
+    "name": "Los Cizos",
+    "aliases": [
+      "Col Los Cizos",
+      "Col. Los Cizos",
+      "Colonia Los Cizos",
+      "LOS CIZOS",
+      "Los Cizos",
+      "los cizos"
+    ],
+    "coords": [
+      18.9012695,
+      -99.2210388
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010124",
+        "cve_asen": "0124",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS CIZOS"
+      }
+    ]
+  },
+  {
+    "name": "Los Faroles",
+    "aliases": [
+      "Col Los Faroles",
+      "Col. Los Faroles",
+      "Colonia Los Faroles",
+      "LOS FAROLES",
+      "Los Faroles",
+      "los faroles"
+    ],
+    "coords": [
+      18.9557232,
+      -99.2340357
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010125",
+        "cve_asen": "0125",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS FAROLES"
+      }
+    ]
+  },
+  {
+    "name": "Los Limoneros",
+    "aliases": [
+      "Col Los Limoneros",
+      "Col. Los Limoneros",
+      "Colonia Los Limoneros",
+      "LOS LIMONEROS",
+      "Los Limoneros",
+      "los limoneros"
+    ],
+    "coords": [
+      18.9667539,
+      -99.2014452
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010126",
+        "cve_asen": "0126",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS LIMONEROS"
+      }
+    ]
+  },
+  {
+    "name": "Los Limones",
+    "aliases": [
+      "Col Los Limones",
+      "Col. Los Limones",
+      "Colonia Los Limones",
+      "LOS LIMONES",
+      "Los Limones",
+      "los limones"
+    ],
+    "coords": [
+      18.8864112,
+      -99.2275998
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701150001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS LIMONES"
+      }
+    ]
+  },
+  {
+    "name": "Los Ramos",
+    "aliases": [
+      "Col Los Ramos",
+      "Col. Los Ramos",
+      "Colonia Los Ramos",
+      "LOS RAMOS",
+      "Los Ramos",
+      "los ramos"
+    ],
+    "coords": [
+      18.9716978,
+      -99.221409
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010127",
+        "cve_asen": "0127",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS RAMOS"
+      }
+    ]
+  },
+  {
+    "name": "Los Volcanes",
+    "aliases": [
+      "Col Los Volcanes",
+      "Col. Los Volcanes",
+      "Colonia Los Volcanes",
+      "LOS VOLCANES",
+      "Los Volcanes",
+      "los volcanes"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010128",
+        "cve_asen": "0128",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "LOS VOLCANES"
+      }
+    ]
+  },
+  {
+    "name": "Manantiales",
+    "aliases": [
+      "Col Manantiales",
+      "Col. Manantiales",
+      "Colonia Manantiales",
+      "MANANTIALES",
+      "Manantiales",
+      "manantiales"
+    ],
+    "coords": [
+      18.9186596,
+      -99.2154055
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010129",
+        "cve_asen": "0129",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MANANTIALES"
+      }
     ]
   },
   {
@@ -915,6 +4597,287 @@
     ]
   },
   {
+    "name": "Maravillas Union",
+    "aliases": [
+      "Col Maravillas Union",
+      "Col. Maravillas Union",
+      "Colonia Maravillas Union",
+      "MARAVILLAS UNION",
+      "Maravillas Union",
+      "maravillas union"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701470001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MARAVILLAS UNIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Margarita Maza De Juarez",
+    "aliases": [
+      "Col Margarita Maza De Juarez",
+      "Col. Margarita Maza De Juarez",
+      "Colonia Margarita Maza De Juarez",
+      "MARGARITA MAZA DE JUAREZ",
+      "Margarita Maza De Juarez",
+      "margarita maza de juarez"
+    ],
+    "coords": [
+      18.9044438,
+      -99.2435563
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010131",
+        "cve_asen": "0131",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MARGARITA MAZA DE JUÁREZ"
+      }
+    ]
+  },
+  {
+    "name": "Martires Del Rio Blanco",
+    "aliases": [
+      "Col Martires Del Rio Blanco",
+      "Col. Martires Del Rio Blanco",
+      "Colonia Martires Del Rio Blanco",
+      "MARTIRES DEL RIO BLANCO",
+      "Martires Del Rio Blanco",
+      "martires del rio blanco"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010132",
+        "cve_asen": "0132",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MÁRTIRES DEL RIO BLANCO"
+      }
+    ]
+  },
+  {
+    "name": "Mexico Lindo",
+    "aliases": [
+      "Col Mexico Lindo",
+      "Col. Mexico Lindo",
+      "Colonia Mexico Lindo",
+      "MEXICO LINDO",
+      "Mexico Lindo",
+      "mexico lindo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701450001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MÉXICO LINDO"
+      }
+    ]
+  },
+  {
+    "name": "Miguel Hidalgo",
+    "aliases": [
+      "Col Miguel Hidalgo",
+      "Col. Miguel Hidalgo",
+      "Colonia Miguel Hidalgo",
+      "MIGUEL HIDALGO",
+      "Miguel Hidalgo",
+      "miguel hidalgo"
+    ],
+    "coords": [
+      18.9718638,
+      -99.2412982
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010133",
+        "cve_asen": "0133",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MIGUEL HIDALGO"
+      }
+    ]
+  },
+  {
+    "name": "Milpillas",
+    "aliases": [
+      "COL MILPILLAS",
+      "COL. MILPILLAS",
+      "COLONIA MILPILLAS",
+      "Col Milpillas",
+      "Col. Milpillas",
+      "Colonia Milpillas",
+      "MILPILLAS",
+      "Milpillas",
+      "col milpillas",
+      "col. milpillas",
+      "colonia milpillas",
+      "milpillas"
+    ],
+    "coords": [
+      18.9466979,
+      -99.1838143
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701230001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MILPILLAS"
+      }
+    ]
+  },
+  {
+    "name": "Mina Cinco",
+    "aliases": [
+      "Col Mina Cinco",
+      "Col. Mina Cinco",
+      "Colonia Mina Cinco",
+      "MINA CINCO",
+      "Mina Cinco",
+      "mina cinco"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010134",
+        "cve_asen": "0134",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MINA CINCO"
+      }
+    ]
+  },
+  {
+    "name": "Minas De Atzingo",
+    "aliases": [
+      "Col Minas De Atzingo",
+      "Col. Minas De Atzingo",
+      "Colonia Minas De Atzingo",
+      "MINAS DE ATZINGO",
+      "Minas De Atzingo",
+      "minas de atzingo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010135",
+        "cve_asen": "0135",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MINAS DE ATZINGO"
+      }
+    ]
+  },
+  {
+    "name": "Miraval",
+    "aliases": [
+      "Col Miraval",
+      "Col. Miraval",
+      "Colonia Miraval",
+      "MIRAVAL",
+      "Miraval",
+      "miraval"
+    ],
+    "coords": [
+      18.9342689,
+      -99.2368327
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010136",
+        "cve_asen": "0136",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "MIRAVAL"
+      }
+    ]
+  },
+  {
+    "name": "Morelos",
+    "aliases": [
+      "MORELOS",
+      "COL MORELOS",
+      "COL. MORELOS",
+      "COLONIA MORELOS",
+      "Col Morelos",
+      "Col. Morelos",
+      "Colonia Morelos",
+      "morelos",
+      "col morelos",
+      "col. morelos",
+      "colonia morelos"
+    ],
+    "coords": [
+      18.98,
+      -99.24149
+    ]
+  },
+  {
+    "name": "Nogales",
+    "aliases": [
+      "Col Nogales",
+      "Col. Nogales",
+      "Colonia Nogales",
+      "NOGALES",
+      "Nogales",
+      "nogales"
+    ],
+    "coords": [
+      18.9657228,
+      -99.2306185
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010138",
+        "cve_asen": "0138",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "NOGALES"
+      }
+    ]
+  },
+  {
     "name": "Nueva Jerusalén",
     "aliases": [
       "COL NUEVA JERUSALEN",
@@ -947,6 +4910,54 @@
     ]
   },
   {
+    "name": "Nueva Santa Maria",
+    "aliases": [
+      "Col Nueva Santa Maria",
+      "Col. Nueva Santa Maria",
+      "Colonia Nueva Santa Maria",
+      "NUEVA SANTA MARIA",
+      "Nueva Santa Maria",
+      "nueva santa maria"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010139",
+        "cve_asen": "0139",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "NUEVA SANTA MARÍA"
+      }
+    ]
+  },
+  {
+    "name": "Nueva Tenochtitlan",
+    "aliases": [
+      "Col Nueva Tenochtitlan",
+      "Col. Nueva Tenochtitlan",
+      "Colonia Nueva Tenochtitlan",
+      "NUEVA TENOCHTITLAN",
+      "Nueva Tenochtitlan",
+      "nueva tenochtitlan"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701380001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "NUEVA TENOCHTITLAN"
+      }
+    ]
+  },
+  {
     "name": "Ocotepec",
     "aliases": [
       "COL OCOTEPEC",
@@ -956,6 +4967,7 @@
       "Col. Ocotepec",
       "Colonia Ocotepec",
       "OCOTEPEC",
+      "Ocotepec",
       "col ocotepec",
       "col. ocotepec",
       "colonia ocotepec",
@@ -964,10 +4976,171 @@
     "coords": [
       18.9695237,
       -99.2263574
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010140",
+        "cve_asen": "0140",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "OCOTEPEC"
+      }
     ]
   },
   {
-    "name": "Plan de Ayala",
+    "name": "Ocotera",
+    "aliases": [
+      "OCOTERA",
+      "COL OCOTERA",
+      "COL. OCOTERA",
+      "COLONIA OCOTERA",
+      "Col Ocotera",
+      "Col. Ocotera",
+      "Colonia Ocotera",
+      "ocotera",
+      "col ocotera",
+      "col. ocotera",
+      "colonia ocotera"
+    ],
+    "coords": [
+      18.98708,
+      -99.24703
+    ]
+  },
+  {
+    "name": "Palmira",
+    "aliases": [
+      "Col Palmira",
+      "Col. Palmira",
+      "Colonia Palmira",
+      "PALMIRA",
+      "Palmira",
+      "palmira"
+    ],
+    "coords": [
+      18.8796992,
+      -99.2222671
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010141",
+        "cve_asen": "0141",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PALMIRA"
+      }
+    ]
+  },
+  {
+    "name": "Papayos",
+    "aliases": [
+      "Col Papayos",
+      "Col. Papayos",
+      "Colonia Papayos",
+      "PAPAYOS",
+      "Papayos",
+      "papayos"
+    ],
+    "coords": [
+      18.9588489,
+      -99.1923273
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701350002",
+        "cve_asen": "0002",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PAPAYOS"
+      }
+    ]
+  },
+  {
+    "name": "Paraiso De Las Flores",
+    "aliases": [
+      "Col Paraiso De Las Flores",
+      "Col. Paraiso De Las Flores",
+      "Colonia Paraiso De Las Flores",
+      "PARAISO DE LAS FLORES",
+      "Paraiso De Las Flores",
+      "paraiso de las flores"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700960001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PARAÍSO DE LAS FLORES"
+      }
+    ]
+  },
+  {
+    "name": "Pilancon",
+    "aliases": [
+      "Col Pilancon",
+      "Col. Pilancon",
+      "Colonia Pilancon",
+      "PILANCON",
+      "Pilancon",
+      "pilancon"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010142",
+        "cve_asen": "0142",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PILANCÓN"
+      }
+    ]
+  },
+  {
+    "name": "Pilares",
+    "aliases": [
+      "Col Pilares",
+      "Col. Pilares",
+      "Colonia Pilares",
+      "PILARES",
+      "Pilares",
+      "pilares"
+    ],
+    "coords": [
+      18.8954586,
+      -99.2340377
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010143",
+        "cve_asen": "0143",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PILARES"
+      }
+    ]
+  },
+  {
+    "name": "Plan De Ayala",
     "aliases": [
       "COL PLAN AYALA",
       "COL PLAN DE AYALA",
@@ -1000,10 +5173,199 @@
     "coords": [
       18.929291,
       -99.2553467
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010144",
+        "cve_asen": "0144",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PLAN DE AYALA"
+      }
     ]
   },
   {
-    "name": "Provincias del Canadá",
+    "name": "Plan De Ayala Barrancas",
+    "aliases": [
+      "Col Plan De Ayala Barrancas",
+      "Col. Plan De Ayala Barrancas",
+      "Colonia Plan De Ayala Barrancas",
+      "PLAN DE AYALA BARRANCAS",
+      "Plan De Ayala Barrancas",
+      "plan de ayala barrancas"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010145",
+        "cve_asen": "0145",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PLAN DE AYALA BARRANCAS"
+      }
+    ]
+  },
+  {
+    "name": "Poblado De Acapantzingo",
+    "aliases": [
+      "Col Poblado De Acapantzingo",
+      "Col. Poblado De Acapantzingo",
+      "Colonia Poblado De Acapantzingo",
+      "POBLADO DE ACAPANTZINGO",
+      "Poblado De Acapantzingo",
+      "poblado de acapantzingo"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010146",
+        "cve_asen": "0146",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "POBLADO DE ACAPANTZINGO"
+      }
+    ]
+  },
+  {
+    "name": "Pradera",
+    "aliases": [
+      "Col Pradera",
+      "Col. Pradera",
+      "Colonia Pradera",
+      "PRADERA",
+      "Pradera",
+      "pradera"
+    ],
+    "coords": [
+      18.9399524,
+      -99.2432724
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010147",
+        "cve_asen": "0147",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PRADERA"
+      }
+    ]
+  },
+  {
+    "name": "Prados De Cuernavaca",
+    "aliases": [
+      "Col Prados De Cuernavaca",
+      "Col. Prados De Cuernavaca",
+      "Colonia Prados De Cuernavaca",
+      "PRADOS DE CUERNAVACA",
+      "Prados De Cuernavaca",
+      "prados de cuernavaca"
+    ],
+    "coords": [
+      18.9492118,
+      -99.2323444
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010148",
+        "cve_asen": "0148",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PRADOS DE CUERNAVACA"
+      }
+    ]
+  },
+  {
+    "name": "Primavera",
+    "aliases": [
+      "Col Primavera",
+      "Col. Primavera",
+      "Colonia Primavera",
+      "PRIMAVERA",
+      "Primavera",
+      "primavera"
+    ],
+    "coords": [
+      18.9389218,
+      -99.1979951
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010149",
+        "cve_asen": "0149",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PRIMAVERA"
+      }
+    ]
+  },
+  {
+    "name": "Provinciana",
+    "aliases": [
+      "Col Provinciana",
+      "Col. Provinciana",
+      "Colonia Provinciana",
+      "PROVINCIANA",
+      "Provinciana",
+      "provinciana"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010150",
+        "cve_asen": "0150",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PROVINCIANA"
+      }
+    ]
+  },
+  {
+    "name": "Provincias De Jerusalem",
+    "aliases": [
+      "Col Provincias De Jerusalem",
+      "Col. Provincias De Jerusalem",
+      "Colonia Provincias De Jerusalem",
+      "PROVINCIAS DE JERUSALEM",
+      "Provincias De Jerusalem",
+      "provincias de jerusalem"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010151",
+        "cve_asen": "0151",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PROVINCIAS DE JERUSALEM"
+      }
+    ]
+  },
+  {
+    "name": "Provincias Del Canada",
     "aliases": [
       "COL PROVINCIAS DEL CANADA",
       "COL PROVINCIAS DEL CANADÁ",
@@ -1040,10 +5402,178 @@
     "coords": [
       18.9490504,
       -99.2023413
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010152",
+        "cve_asen": "0152",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PROVINCIAS DEL CANADÁ"
+      }
     ]
   },
   {
-    "name": "Rancho Cortés",
+    "name": "Pueblo Chamilpa",
+    "aliases": [
+      "Col Pueblo Chamilpa",
+      "Col. Pueblo Chamilpa",
+      "Colonia Pueblo Chamilpa",
+      "PUEBLO CHAMILPA",
+      "Pueblo Chamilpa",
+      "pueblo chamilpa"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010153",
+        "cve_asen": "0153",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PUEBLO CHAMILPA"
+      }
+    ]
+  },
+  {
+    "name": "Puerta Del Sol",
+    "aliases": [
+      "Col Puerta Del Sol",
+      "Col. Puerta Del Sol",
+      "Colonia Puerta Del Sol",
+      "PUERTA DEL SOL",
+      "Puerta Del Sol",
+      "puerta del sol"
+    ],
+    "coords": [
+      18.9250954,
+      -99.1958007
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010154",
+        "cve_asen": "0154",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "PUERTA DEL SOL"
+      }
+    ]
+  },
+  {
+    "name": "Quintana Roo",
+    "aliases": [
+      "Col Quintana Roo",
+      "Col. Quintana Roo",
+      "Colonia Quintana Roo",
+      "QUINTANA ROO",
+      "Quintana Roo",
+      "quintana roo"
+    ],
+    "coords": [
+      18.9005716,
+      -99.228902
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010155",
+        "cve_asen": "0155",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "QUINTANA ROO"
+      }
+    ]
+  },
+  {
+    "name": "Quintas Martha",
+    "aliases": [
+      "Col Quintas Martha",
+      "Col. Quintas Martha",
+      "Colonia Quintas Martha",
+      "QUINTAS MARTHA",
+      "Quintas Martha",
+      "quintas martha"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010156",
+        "cve_asen": "0156",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "QUINTAS MARTHA"
+      }
+    ]
+  },
+  {
+    "name": "Ramon Hernandez Navarro",
+    "aliases": [
+      "Col Ramon Hernandez Navarro",
+      "Col. Ramon Hernandez Navarro",
+      "Colonia Ramon Hernandez Navarro",
+      "RAMON HERNANDEZ NAVARRO",
+      "Ramon Hernandez Navarro",
+      "ramon hernandez navarro"
+    ],
+    "coords": [
+      18.9234969,
+      -99.1918081
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010157",
+        "cve_asen": "0157",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RAMON HERNÁNDEZ NAVARRO"
+      }
+    ]
+  },
+  {
+    "name": "Rancho Alegre",
+    "aliases": [
+      "Col Rancho Alegre",
+      "Col. Rancho Alegre",
+      "Colonia Rancho Alegre",
+      "RANCHO ALEGRE",
+      "Rancho Alegre",
+      "rancho alegre"
+    ],
+    "coords": [
+      18.9747826,
+      -99.1830371
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701060001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RANCHO ALEGRE"
+      }
+    ]
+  },
+  {
+    "name": "Rancho Cortes",
     "aliases": [
       "COL RANCHO CORTES",
       "COL RANCHO CORTÉS",
@@ -1072,6 +5602,18 @@
     "coords": [
       18.9664578,
       -99.2550003
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010158",
+        "cve_asen": "0158",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RANCHO CORTES"
+      }
     ]
   },
   {
@@ -1084,6 +5626,7 @@
       "Col. Rancho Tetela",
       "Colonia Rancho Tetela",
       "RANCHO TETELA",
+      "Rancho Tetela",
       "col rancho tetela",
       "col. rancho tetela",
       "colonia rancho tetela",
@@ -1092,6 +5635,18 @@
     "coords": [
       18.9421468,
       -99.2556931
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010159",
+        "cve_asen": "0159",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RANCHO TETELA"
+      }
     ]
   },
   {
@@ -1115,7 +5670,324 @@
     ]
   },
   {
-    "name": "San Cristóbal",
+    "name": "Recursos Hidraulicos",
+    "aliases": [
+      "Col Recursos Hidraulicos",
+      "Col. Recursos Hidraulicos",
+      "Colonia Recursos Hidraulicos",
+      "RECURSOS HIDRAULICOS",
+      "Recursos Hidraulicos",
+      "recursos hidraulicos"
+    ],
+    "coords": [
+      18.9475738,
+      -99.2277097
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010160",
+        "cve_asen": "0160",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RECURSOS HIDRÁULICOS"
+      }
+    ]
+  },
+  {
+    "name": "Reforma",
+    "aliases": [
+      "Col Reforma",
+      "Col. Reforma",
+      "Colonia Reforma",
+      "REFORMA",
+      "Reforma",
+      "reforma"
+    ],
+    "coords": [
+      18.9412445,
+      -99.2272951
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010161",
+        "cve_asen": "0161",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "REFORMA"
+      }
+    ]
+  },
+  {
+    "name": "Revolucion",
+    "aliases": [
+      "Col Revolucion",
+      "Col. Revolucion",
+      "Colonia Revolucion",
+      "REVOLUCION",
+      "Revolucion",
+      "revolucion"
+    ],
+    "coords": [
+      18.9191909,
+      -99.1871447
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010162",
+        "cve_asen": "0162",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "REVOLUCIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Ricardo Flores Magon",
+    "aliases": [
+      "RICARDO FLORES MAGON",
+      "RICARDO FLORES MAGÓN",
+      "FLORES MAGON",
+      "FLORES MAGÓN",
+      "COL RICARDO FLORES MAGON",
+      "COL RICARDO FLORES MAGÓN",
+      "COL. RICARDO FLORES MAGON",
+      "COL. RICARDO FLORES MAGÓN",
+      "COLONIA RICARDO FLORES MAGON",
+      "COLONIA RICARDO FLORES MAGÓN",
+      "Col Ricardo Flores Magon",
+      "Col Ricardo Flores Magón",
+      "Col. Ricardo Flores Magon",
+      "Col. Ricardo Flores Magón",
+      "Colonia Ricardo Flores Magon",
+      "Colonia Ricardo Flores Magón",
+      "ricardo flores magon",
+      "ricardo flores magón",
+      "flores magon",
+      "flores magón",
+      "col ricardo flores magon",
+      "col ricardo flores magón",
+      "colonia ricardo flores magon"
+    ],
+    "coords": [
+      18.927163,
+      -99.199392
+    ]
+  },
+  {
+    "name": "Rincon Del Valle",
+    "aliases": [
+      "Col Rincon Del Valle",
+      "Col. Rincon Del Valle",
+      "Colonia Rincon Del Valle",
+      "RINCON DEL VALLE",
+      "Rincon Del Valle",
+      "rincon del valle"
+    ],
+    "coords": [
+      18.9466586,
+      -99.2227255
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010163",
+        "cve_asen": "0163",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RINCÓN DEL VALLE"
+      }
+    ]
+  },
+  {
+    "name": "Rinconada Rinconada Palmira",
+    "aliases": [
+      "RINCONADA PALMIRA",
+      "RINCONADA RINCONADA PALMIRA",
+      "Rinconada Palmira",
+      "Rinconada Rinconada Palmira",
+      "rinconada palmira",
+      "rinconada rinconada palmira"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Rinconada",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010164",
+        "cve_asen": "0164",
+        "tipo_asen": "RINCONADA",
+        "nom_asen": "RINCONADA PALMIRA"
+      }
+    ]
+  },
+  {
+    "name": "Rinconada Rinconada Vista Hermosa",
+    "aliases": [
+      "RINCONADA RINCONADA VISTA HERMOSA",
+      "RINCONADA VISTA HERMOSA",
+      "Rinconada Rinconada Vista Hermosa",
+      "Rinconada Vista Hermosa",
+      "rinconada rinconada vista hermosa",
+      "rinconada vista hermosa"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Rinconada",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010165",
+        "cve_asen": "0165",
+        "tipo_asen": "RINCONADA",
+        "nom_asen": "RINCONADA VISTA HERMOSA"
+      }
+    ]
+  },
+  {
+    "name": "Rio Balsas",
+    "aliases": [
+      "Col Rio Balsas",
+      "Col. Rio Balsas",
+      "Colonia Rio Balsas",
+      "RIO BALSAS",
+      "Rio Balsas",
+      "rio balsas"
+    ],
+    "coords": [
+      18.8788744,
+      -99.230063
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010166",
+        "cve_asen": "0166",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RIO BALSAS"
+      }
+    ]
+  },
+  {
+    "name": "Rodolfo Lopez De Nava",
+    "aliases": [
+      "Col Rodolfo Lopez De Nava",
+      "Col. Rodolfo Lopez De Nava",
+      "Colonia Rodolfo Lopez De Nava",
+      "RODOLFO LOPEZ DE NAVA",
+      "Rodolfo Lopez De Nava",
+      "rodolfo lopez de nava"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700740001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "RODOLFO LÓPEZ DE NAVA"
+      }
+    ]
+  },
+  {
+    "name": "Sacatierra",
+    "aliases": [
+      "Col Sacatierra",
+      "Col. Sacatierra",
+      "Colonia Sacatierra",
+      "SACATIERRA",
+      "Sacatierra",
+      "sacatierra"
+    ],
+    "coords": [
+      18.9245451,
+      -99.2454379
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010167",
+        "cve_asen": "0167",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SACATIERRA"
+      }
+    ]
+  },
+  {
+    "name": "Salvador Elizarraraz",
+    "aliases": [
+      "Col Salvador Elizarraraz",
+      "Col. Salvador Elizarraraz",
+      "Colonia Salvador Elizarraraz",
+      "SALVADOR ELIZARRARAZ",
+      "Salvador Elizarraraz",
+      "salvador elizarraraz"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010168",
+        "cve_asen": "0168",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SALVADOR ELIZARRARAZ"
+      }
+    ]
+  },
+  {
+    "name": "San Anton",
+    "aliases": [
+      "Col San Anton",
+      "Col. San Anton",
+      "Colonia San Anton",
+      "SAN ANTON",
+      "San Anton",
+      "san anton"
+    ],
+    "coords": [
+      18.9239021,
+      -99.2424966
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010169",
+        "cve_asen": "0169",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SAN ANTÓN"
+      }
+    ]
+  },
+  {
+    "name": "San Cristobal",
     "aliases": [
       "COL SAN CRISTOBAL",
       "COL SAN CRISTÓBAL",
@@ -1156,6 +6028,42 @@
     "coords": [
       18.9535539,
       -99.233527
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010170",
+        "cve_asen": "0170",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SAN CRISTÓBAL"
+      }
+    ]
+  },
+  {
+    "name": "San Jeronimo De Ahuatepec",
+    "aliases": [
+      "Col San Jeronimo De Ahuatepec",
+      "Col. San Jeronimo De Ahuatepec",
+      "Colonia San Jeronimo De Ahuatepec",
+      "SAN JERONIMO DE AHUATEPEC",
+      "San Jeronimo De Ahuatepec",
+      "san jeronimo de ahuatepec"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010171",
+        "cve_asen": "0171",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SAN JERÓNIMO DE AHUATEPEC"
+      }
     ]
   },
   {
@@ -1185,7 +6093,61 @@
     ]
   },
   {
-    "name": "Santa María Ahuacatitlán",
+    "name": "San Salvador",
+    "aliases": [
+      "Col San Salvador",
+      "Col. San Salvador",
+      "Colonia San Salvador",
+      "SAN SALVADOR",
+      "San Salvador",
+      "san salvador"
+    ],
+    "coords": [
+      18.9766822,
+      -99.1849714
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010172",
+        "cve_asen": "0172",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SAN SALVADOR"
+      }
+    ]
+  },
+  {
+    "name": "Santa Fe",
+    "aliases": [
+      "Col Santa Fe",
+      "Col. Santa Fe",
+      "Colonia Santa Fe",
+      "SANTA FE",
+      "Santa Fe",
+      "santa fe"
+    ],
+    "coords": [
+      18.9583058,
+      -99.2354186
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010173",
+        "cve_asen": "0173",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SANTA FE"
+      }
+    ]
+  },
+  {
+    "name": "Santa Maria Ahuacatitlan",
     "aliases": [
       "COL SANTA MARIA AHUACATITLAN",
       "COL SANTA MARÍA AHUACATITLÁN",
@@ -1301,6 +6263,222 @@
     "coords": [
       18.9810093,
       -99.2538809
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010174",
+        "cve_asen": "0174",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SANTA MARÍA AHUACATITLÁN"
+      }
+    ]
+  },
+  {
+    "name": "Santa Martha",
+    "aliases": [
+      "Col Santa Martha",
+      "Col. Santa Martha",
+      "Colonia Santa Martha",
+      "SANTA MARTHA",
+      "Santa Martha",
+      "santa martha"
+    ],
+    "coords": [
+      18.9577549,
+      -99.1830882
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010175",
+        "cve_asen": "0175",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SANTA MARTHA"
+      }
+    ]
+  },
+  {
+    "name": "Santa Veracruz",
+    "aliases": [
+      "Col Santa Veracruz",
+      "Col. Santa Veracruz",
+      "Colonia Santa Veracruz",
+      "SANTA VERACRUZ",
+      "Santa Veracruz",
+      "santa veracruz"
+    ],
+    "coords": [
+      18.9271162,
+      -99.2233024
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010176",
+        "cve_asen": "0176",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SANTA VERACRUZ"
+      }
+    ]
+  },
+  {
+    "name": "Satelite",
+    "aliases": [
+      "Col Satelite",
+      "Col. Satelite",
+      "Colonia Satelite",
+      "SATELITE",
+      "Satelite",
+      "satelite"
+    ],
+    "coords": [
+      18.9179378,
+      -99.2058987
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010177",
+        "cve_asen": "0177",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "SATÉLITE"
+      }
+    ]
+  },
+  {
+    "name": "Seccion Union Primera Seccion",
+    "aliases": [
+      "SECCION UNION PRIMERA SECCION",
+      "Seccion Union Primera Seccion",
+      "UNION PRIMERA SECCION",
+      "Union Primera Seccion",
+      "seccion union primera seccion",
+      "union primera seccion"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Sección",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700860002",
+        "cve_asen": "0002",
+        "tipo_asen": "SECCIÓN",
+        "nom_asen": "UNIÓN PRIMERA SECCIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Seccion Union Segunda Seccion",
+    "aliases": [
+      "SECCION UNION SEGUNDA SECCION",
+      "Seccion Union Segunda Seccion",
+      "UNION SEGUNDA SECCION",
+      "Union Segunda Seccion",
+      "seccion union segunda seccion",
+      "union segunda seccion"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Sección",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700860003",
+        "cve_asen": "0003",
+        "tipo_asen": "SECCIÓN",
+        "nom_asen": "UNIÓN SEGUNDA SECCIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Tabachines",
+    "aliases": [
+      "Col Tabachines",
+      "Col. Tabachines",
+      "Colonia Tabachines",
+      "TABACHINES",
+      "Tabachines",
+      "tabachines"
+    ],
+    "coords": [
+      18.8979651,
+      -99.2152651
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010179",
+        "cve_asen": "0179",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TABACHINES"
+      }
+    ]
+  },
+  {
+    "name": "Tecomulco",
+    "aliases": [
+      "Col Tecomulco",
+      "Col. Tecomulco",
+      "Colonia Tecomulco",
+      "TECOMULCO",
+      "Tecomulco",
+      "tecomulco"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010180",
+        "cve_asen": "0180",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TECOMULCO"
+      }
+    ]
+  },
+  {
+    "name": "Tehuztitlan",
+    "aliases": [
+      "Col Tehuztitlan",
+      "Col. Tehuztitlan",
+      "Colonia Tehuztitlan",
+      "TEHUZTITLAN",
+      "Tehuztitlan",
+      "tehuztitlan"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010181",
+        "cve_asen": "0181",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TEHUZTITLÁN"
+      }
     ]
   },
   {
@@ -1348,6 +6526,27 @@
     ]
   },
   {
+    "name": "Temixco",
+    "aliases": [
+      "TEMIXCO",
+      "COL TEMIXCO",
+      "COL. TEMIXCO",
+      "COLONIA TEMIXCO",
+      "Col Temixco",
+      "Col. Temixco",
+      "Colonia Temixco",
+      "temixco",
+      "col temixco",
+      "col. temixco",
+      "colonia temixco",
+      "MUNICIPIO DE TEMIXCO"
+    ],
+    "coords": [
+      18.8593026,
+      -99.2393666
+    ]
+  },
+  {
     "name": "Teopanzolco",
     "aliases": [
       "COL COL TEOPANZOLCO",
@@ -1367,6 +6566,7 @@
       "Colonia Col. Teopanzolco",
       "Colonia Teopanzolco",
       "TEOPANZOLCO",
+      "Teopanzolco",
       "col col teopanzolco",
       "col col. teopanzolco",
       "col teopanzolco",
@@ -1380,10 +6580,46 @@
     "coords": [
       18.9276918,
       -99.2210612
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010182",
+        "cve_asen": "0182",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TEOPANZOLCO"
+      }
     ]
   },
   {
-    "name": "Tetela del Monte",
+    "name": "Tepepan",
+    "aliases": [
+      "Col Tepepan",
+      "Col. Tepepan",
+      "Colonia Tepepan",
+      "TEPEPAN",
+      "Tepepan",
+      "tepepan"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010184",
+        "cve_asen": "0184",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TEPEPAN"
+      }
+    ]
+  },
+  {
+    "name": "Tetela Del Monte",
     "aliases": [
       "COL TETELA DEL MONTE",
       "COL. TETELA DEL MONTE",
@@ -1404,6 +6640,69 @@
     "coords": [
       18.9569983,
       -99.252922
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010185",
+        "cve_asen": "0185",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TETELA DEL MONTE"
+      }
+    ]
+  },
+  {
+    "name": "Texcaltepec",
+    "aliases": [
+      "Col Texcaltepec",
+      "Col. Texcaltepec",
+      "Colonia Texcaltepec",
+      "TEXCALTEPEC",
+      "Texcaltepec",
+      "texcaltepec"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010186",
+        "cve_asen": "0186",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TEXCALTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Tezontepec",
+    "aliases": [
+      "Col Tezontepec",
+      "Col. Tezontepec",
+      "Colonia Tezontepec",
+      "TEZONTEPEC",
+      "Tezontepec",
+      "tezontepec"
+    ],
+    "coords": [
+      18.9403216,
+      -99.2309133
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010187",
+        "cve_asen": "0187",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TEZONTEPEC"
+      }
     ]
   },
   {
@@ -1416,6 +6715,7 @@
       "Col. Tlaltenango",
       "Colonia Tlaltenango",
       "TLALTENANGO",
+      "Tlaltenango",
       "col tlaltenango",
       "col. tlaltenango",
       "colonia tlaltenango",
@@ -1424,6 +6724,93 @@
     "coords": [
       18.9464139,
       -99.2439166
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010188",
+        "cve_asen": "0188",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TLALTENANGO"
+      }
+    ]
+  },
+  {
+    "name": "Tlaltepexco",
+    "aliases": [
+      "Col Tlaltepexco",
+      "Col. Tlaltepexco",
+      "Colonia Tlaltepexco",
+      "TLALTEPEXCO",
+      "Tlaltepexco",
+      "tlaltepexco"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010189",
+        "cve_asen": "0189",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TLALTEPEXCO"
+      }
+    ]
+  },
+  {
+    "name": "Tlaquiltompan",
+    "aliases": [
+      "Col Tlaquiltompan",
+      "Col. Tlaquiltompan",
+      "Colonia Tlaquiltompan",
+      "TLAQUILTOMPAN",
+      "Tlaquiltompan",
+      "tlaquiltompan"
+    ],
+    "coords": [
+      18.9605639,
+      -99.2178795
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010190",
+        "cve_asen": "0190",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TLAQUILTOMPAN"
+      }
+    ]
+  },
+  {
+    "name": "Tonintana",
+    "aliases": [
+      "Col Tonintana",
+      "Col. Tonintana",
+      "Colonia Tonintana",
+      "TONINTANA",
+      "Tonintana",
+      "tonintana"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010191",
+        "cve_asen": "0191",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TONINTANA"
+      }
     ]
   },
   {
@@ -1436,6 +6823,7 @@
       "Col. Tulipanes",
       "Colonia Tulipanes",
       "TULIPANES",
+      "Tulipanes",
       "col tulipanes",
       "col. tulipanes",
       "colonia tulipanes",
@@ -1444,6 +6832,561 @@
     "coords": [
       18.9344598,
       -99.1885208
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010192",
+        "cve_asen": "0192",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TULIPANES"
+      }
+    ]
+  },
+  {
+    "name": "Tzompantle Norte",
+    "aliases": [
+      "Col Tzompantle Norte",
+      "Col. Tzompantle Norte",
+      "Colonia Tzompantle Norte",
+      "TZOMPANTLE NORTE",
+      "Tzompantle Norte",
+      "tzompantle norte"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010193",
+        "cve_asen": "0193",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TZOMPANTLE NORTE"
+      }
+    ]
+  },
+  {
+    "name": "Tzompantle Sur",
+    "aliases": [
+      "Col Tzompantle Sur",
+      "Col. Tzompantle Sur",
+      "Colonia Tzompantle Sur",
+      "TZOMPANTLE SUR",
+      "Tzompantle Sur",
+      "tzompantle sur"
+    ],
+    "coords": [
+      18.9460786,
+      -99.2555993
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010194",
+        "cve_asen": "0194",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "TZOMPANTLE SUR"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Deportiva",
+    "aliases": [
+      "Col Unidad Deportiva",
+      "Col. Unidad Deportiva",
+      "Colonia Unidad Deportiva",
+      "UNIDAD DEPORTIVA",
+      "Unidad Deportiva",
+      "unidad deportiva"
+    ],
+    "coords": [
+      18.9638784,
+      -99.2620618
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701390001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "UNIDAD DEPORTIVA"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Ahuatlan",
+    "aliases": [
+      "AHUATLAN",
+      "Ahuatlan",
+      "UNIDAD HABITACIONAL AHUATLAN",
+      "Unidad Ahuatlan",
+      "Unidad Habitacional Ahuatlan",
+      "ahuatlan",
+      "unidad habitacional ahuatlan"
+    ],
+    "coords": [
+      18.9560553,
+      -99.2586472
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701250001",
+        "cve_asen": "0001",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "AHUATLÁN"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Cantarranas",
+    "aliases": [
+      "CANTARRANAS",
+      "Cantarranas",
+      "UNIDAD HABITACIONAL CANTARRANAS",
+      "Unidad Cantarranas",
+      "Unidad Habitacional Cantarranas",
+      "cantarranas",
+      "unidad habitacional cantarranas"
+    ],
+    "coords": [
+      18.9200112,
+      -99.2211325
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010030",
+        "cve_asen": "0030",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "CANTARRANAS"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Ciudad Chapultepec",
+    "aliases": [
+      "CD CHAPULTEPEC",
+      "CD. CHAPULTEPEC",
+      "CIUDAD CHAPULTEPEC",
+      "COL CD CHAPULTEPEC",
+      "COL CD. CHAPULTEPEC",
+      "COL CIUDAD CHAPULTEPEC",
+      "COL. CD CHAPULTEPEC",
+      "COL. CD. CHAPULTEPEC",
+      "COL. CIUDAD CHAPULTEPEC",
+      "COLONIA CD CHAPULTEPEC",
+      "COLONIA CD. CHAPULTEPEC",
+      "COLONIA CIUDAD CHAPULTEPEC",
+      "Cd Chapultepec",
+      "Cd. Chapultepec",
+      "Ciudad Chapultepec",
+      "Col Cd Chapultepec",
+      "Col Cd. Chapultepec",
+      "Col Ciudad Chapultepec",
+      "Col. Cd Chapultepec",
+      "Col. Cd. Chapultepec",
+      "Col. Ciudad Chapultepec",
+      "Colonia Cd Chapultepec",
+      "Colonia Cd. Chapultepec",
+      "Colonia Ciudad Chapultepec",
+      "UNIDAD HABITACIONAL CIUDAD CHAPULTEPEC",
+      "Unidad Ciudad Chapultepec",
+      "Unidad Habitacional Ciudad Chapultepec",
+      "cd chapultepec",
+      "cd. chapultepec",
+      "ciudad chapultepec",
+      "col cd chapultepec",
+      "col cd. chapultepec",
+      "col ciudad chapultepec",
+      "col. cd chapultepec",
+      "col. cd. chapultepec",
+      "col. ciudad chapultepec",
+      "colonia cd chapultepec",
+      "colonia cd. chapultepec",
+      "colonia ciudad chapultepec",
+      "unidad habitacional ciudad chapultepec"
+    ],
+    "coords": [
+      18.922826,
+      -99.185752
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010038",
+        "cve_asen": "0038",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "CIUDAD CHAPULTEPEC"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Fovissste Las Aguilas",
+    "aliases": [
+      "FOVISSSTE LAS AGUILAS",
+      "Fovissste Las Aguilas",
+      "UNIDAD HABITACIONAL FOVISSSTE LAS AGUILAS",
+      "Unidad Fovissste Las Aguilas",
+      "Unidad Habitacional Fovissste Las Aguilas",
+      "fovissste las aguilas",
+      "unidad habitacional fovissste las aguilas"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010063",
+        "cve_asen": "0063",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "FOVISSSTE LAS ÁGUILAS"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Lomas De Cortes",
+    "aliases": [
+      "COL LOMAS DE CORTES",
+      "COL. LOMAS DE CORTES",
+      "COLONIA LOMAS DE CORTES",
+      "Col Lomas De Cortes",
+      "Col Lomas de Cortes",
+      "Col. Lomas De Cortes",
+      "Col. Lomas de Cortes",
+      "Colonia Lomas De Cortes",
+      "Colonia Lomas de Cortes",
+      "LOMAS DE CORTES",
+      "Lomas De Cortes",
+      "UNIDAD HABITACIONAL LOMAS DE CORTES",
+      "Unidad Habitacional Lomas De Cortes",
+      "Unidad Lomas De Cortes",
+      "col lomas de cortes",
+      "col. lomas de cortes",
+      "colonia lomas de cortes",
+      "lomas de cortes",
+      "unidad habitacional lomas de cortes"
+    ],
+    "coords": [
+      18.9532676,
+      -99.2245237
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010112",
+        "cve_asen": "0112",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "LOMAS DE CORTES"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Morelos",
+    "aliases": [
+      "COL MORELOS",
+      "COL. MORELOS",
+      "COLONIA MORELOS",
+      "Col Morelos",
+      "Col. Morelos",
+      "Colonia Morelos",
+      "MORELOS",
+      "Morelos",
+      "UNIDAD HABITACIONAL MORELOS",
+      "Unidad Habitacional Morelos",
+      "Unidad Morelos",
+      "col morelos",
+      "col. morelos",
+      "colonia morelos",
+      "morelos",
+      "unidad habitacional morelos"
+    ],
+    "coords": [
+      18.98,
+      -99.24149
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010137",
+        "cve_asen": "0137",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "MORELOS"
+      }
+    ]
+  },
+  {
+    "name": "Unidad Habitacional Teopanzolco",
+    "aliases": [
+      "COL COL TEOPANZOLCO",
+      "COL COL. TEOPANZOLCO",
+      "COL TEOPANZOLCO",
+      "COL. COL. TEOPANZOLCO",
+      "COL. TEOPANZOLCO",
+      "COLONIA COL TEOPANZOLCO",
+      "COLONIA COL. TEOPANZOLCO",
+      "COLONIA TEOPANZOLCO",
+      "Col Col Teopanzolco",
+      "Col Col. Teopanzolco",
+      "Col Teopanzolco",
+      "Col. Col. Teopanzolco",
+      "Col. Teopanzolco",
+      "Colonia Col Teopanzolco",
+      "Colonia Col. Teopanzolco",
+      "Colonia Teopanzolco",
+      "TEOPANZOLCO",
+      "Teopanzolco",
+      "UNIDAD HABITACIONAL TEOPANZOLCO",
+      "Unidad Habitacional Teopanzolco",
+      "Unidad Teopanzolco",
+      "col col teopanzolco",
+      "col col. teopanzolco",
+      "col teopanzolco",
+      "col. col. teopanzolco",
+      "col. teopanzolco",
+      "colonia col teopanzolco",
+      "colonia col. teopanzolco",
+      "colonia teopanzolco",
+      "teopanzolco",
+      "unidad habitacional teopanzolco"
+    ],
+    "coords": [
+      18.9276918,
+      -99.2210612
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Unidad Habitacional",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010183",
+        "cve_asen": "0183",
+        "tipo_asen": "UNIDAD HABITACIONAL",
+        "nom_asen": "TEOPANZOLCO"
+      }
+    ]
+  },
+  {
+    "name": "Union",
+    "aliases": [
+      "Col Union",
+      "Col. Union",
+      "Colonia Union",
+      "UNION",
+      "Union",
+      "union"
+    ],
+    "coords": [
+      18.9017585,
+      -99.2501763
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700701120002",
+        "cve_asen": "0002",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "UNIÓN"
+      }
+    ]
+  },
+  {
+    "name": "Universidad",
+    "aliases": [
+      "Col Universidad",
+      "Col. Universidad",
+      "Colonia Universidad",
+      "UNIVERSIDAD",
+      "Universidad",
+      "universidad"
+    ],
+    "coords": [
+      18.9750198,
+      -99.2460252
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010195",
+        "cve_asen": "0195",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "UNIVERSIDAD"
+      }
+    ]
+  },
+  {
+    "name": "Veranda",
+    "aliases": [
+      "Col Veranda",
+      "Col. Veranda",
+      "Colonia Veranda",
+      "VERANDA",
+      "Veranda",
+      "veranda"
+    ],
+    "coords": [
+      18.980824,
+      -99.2432568
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010196",
+        "cve_asen": "0196",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VERANDA"
+      }
+    ]
+  },
+  {
+    "name": "Vicente Estrada Cajigal",
+    "aliases": [
+      "COL VICENTE ESTRADA CAJIGAL",
+      "COL. VICENTE ESTRADA CAJIGAL",
+      "COLONIA VICENTE ESTRADA CAJIGAL",
+      "Col Vicente Estrada Cajigal",
+      "Col. Vicente Estrada Cajigal",
+      "Colonia Vicente Estrada Cajigal",
+      "ESTRADA CAJIGAL",
+      "VICENTE ESTRADA CAJIGAL",
+      "Vicente Estrada Cajigal",
+      "col vicente estrada cajigal",
+      "col. vicente estrada cajigal",
+      "colonia vicente estrada cajigal",
+      "estrada cajigal",
+      "vicente estrada cajigal"
+    ],
+    "coords": [
+      18.917414,
+      -99.197793
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010197",
+        "cve_asen": "0197",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VICENTE ESTRADA CAJIGAL"
+      }
+    ]
+  },
+  {
+    "name": "Vicente Guerrero",
+    "aliases": [
+      "Col Vicente Guerrero",
+      "Col. Vicente Guerrero",
+      "Colonia Vicente Guerrero",
+      "VICENTE GUERRERO",
+      "Vicente Guerrero",
+      "vicente guerrero"
+    ],
+    "coords": [
+      18.9677532,
+      -99.2102416
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010198",
+        "cve_asen": "0198",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VICENTE GUERRERO"
+      }
+    ]
+  },
+  {
+    "name": "Villa Santiago",
+    "aliases": [
+      "Col Villa Santiago",
+      "Col. Villa Santiago",
+      "Colonia Villa Santiago",
+      "VILLA SANTIAGO",
+      "Villa Santiago",
+      "villa santiago"
+    ],
+    "coords": null,
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700750001",
+        "cve_asen": "0001",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VILLA SANTIAGO"
+      }
+    ]
+  },
+  {
+    "name": "Villas Del Lago",
+    "aliases": [
+      "Col Villas Del Lago",
+      "Col. Villas Del Lago",
+      "Colonia Villas Del Lago",
+      "VILLAS DEL LAGO",
+      "Villas Del Lago",
+      "villas del lago"
+    ],
+    "coords": [
+      18.932038,
+      -99.1970684
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010199",
+        "cve_asen": "0199",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VILLAS DEL LAGO"
+      }
     ]
   },
   {
@@ -1456,15 +7399,103 @@
       "Col. Vista Hermosa",
       "Colonia Vista Hermosa",
       "VISTA HERMOSA",
+      "Vista Hermosa",
       "col vista hermosa",
       "col. vista hermosa",
+      "colonia Vistahermosa",
       "colonia vista hermosa",
-      "vista hermosa",
-      "colonia Vistahermosa"
+      "vista hermosa"
     ],
     "coords": [
       18.9360255,
       -99.2162139
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "none",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010200",
+        "cve_asen": "0200",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "VISTA HERMOSA"
+      }
+    ]
+  },
+  {
+    "name": "Xicapan",
+    "aliases": [
+      "Col Xicapan",
+      "Col. Xicapan",
+      "Colonia Xicapan",
+      "XICAPAN",
+      "Xicapan",
+      "xicapan"
+    ],
+    "coords": [
+      18.9629833,
+      -99.2275286
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010201",
+        "cve_asen": "0201",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "XICAPAN"
+      }
+    ]
+  },
+  {
+    "name": "Yautepec",
+    "aliases": [
+      "YAUTEPEC",
+      "COL YAUTEPEC",
+      "COL. YAUTEPEC",
+      "COLONIA YAUTEPEC",
+      "Col Yautepec",
+      "Col. Yautepec",
+      "Colonia Yautepec",
+      "yautepec",
+      "col yautepec",
+      "col. yautepec",
+      "colonia yautepec",
+      "MUNICIPIO DE YAUTEPEC"
+    ],
+    "coords": [
+      18.8891562,
+      -99.0626377
+    ]
+  },
+  {
+    "name": "Zodiaco",
+    "aliases": [
+      "Col Zodiaco",
+      "Col. Zodiaco",
+      "Colonia Zodiaco",
+      "ZODIACO",
+      "Zodiaco",
+      "zodiaco"
+    ],
+    "coords": [
+      18.9280958,
+      -99.1859492
+    ],
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Colonia",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010202",
+        "cve_asen": "0202",
+        "tipo_asen": "COLONIA",
+        "nom_asen": "ZODIACO"
+      }
     ]
   },
   {
@@ -1522,209 +7553,30 @@
     ]
   },
   {
-    "name": "Yautepec",
+    "name": "Zona Militar Zona Militar",
     "aliases": [
-      "YAUTEPEC",
-      "COL YAUTEPEC",
-      "COL. YAUTEPEC",
-      "COLONIA YAUTEPEC",
-      "Col Yautepec",
-      "Col. Yautepec",
-      "Colonia Yautepec",
-      "yautepec",
-      "col yautepec",
-      "col. yautepec",
-      "colonia yautepec",
-      "MUNICIPIO DE YAUTEPEC"
+      "ZONA MILITAR",
+      "ZONA MILITAR ZONA MILITAR",
+      "Zona Militar",
+      "Zona Militar Zona Militar",
+      "zona militar",
+      "zona militar zona militar"
     ],
     "coords": [
-      18.8891562,
-      -99.0626377
-    ]
-  },
-  {
-    "name": "Civac",
-    "aliases": [
-      "CIVAC",
-      "COL CIVAC",
-      "COL. CIVAC",
-      "COLONIA CIVAC",
-      "Col Civac",
-      "Col. Civac",
-      "Colonia Civac",
-      "civac",
-      "col civac",
-      "col. civac",
-      "colonia civac",
-      "FRACC CIVAC",
-      "FRACCIONAMIENTO CIVAC"
+      18.9618104,
+      -99.2423534
     ],
-    "coords": [
-      18.9117408,
-      -99.1719095
-    ]
-  },
-  {
-    "name": "Emiliano Zapata",
-    "aliases": [
-      "EMILIANO ZAPATA",
-      "ZAPATA",
-      "Zapata",
-      "COL EMILIANO ZAPATA",
-      "COL. EMILIANO ZAPATA",
-      "COLONIA EMILIANO ZAPATA",
-      "Col Emiliano Zapata",
-      "Col. Emiliano Zapata",
-      "Colonia Emiliano Zapata",
-      "emiliano zapata",
-      "col emiliano zapata",
-      "col. emiliano zapata",
-      "colonia emiliano zapata",
-      "zapata"
-    ],
-    "coords": [
-      18.8478608,
-      -99.1843676
-    ]
-  },
-  {
-    "name": "Temixco",
-    "aliases": [
-      "TEMIXCO",
-      "COL TEMIXCO",
-      "COL. TEMIXCO",
-      "COLONIA TEMIXCO",
-      "Col Temixco",
-      "Col. Temixco",
-      "Colonia Temixco",
-      "temixco",
-      "col temixco",
-      "col. temixco",
-      "colonia temixco",
-      "MUNICIPIO DE TEMIXCO"
-    ],
-    "coords": [
-      18.8593026,
-      -99.2393666
-    ]
-  },
-  {
-    "name": "Lienzo del Charro",
-    "aliases": [
-      "LIENZO DEL CHARRO",
-      "COL LIENZO DEL CHARRO",
-      "COL. LIENZO DEL CHARRO",
-      "COLONIA LIENZO DEL CHARRO",
-      "Col Lienzo Del Charro",
-      "Col Lienzo del Charro",
-      "Col. Lienzo Del Charro",
-      "Col. Lienzo del Charro",
-      "Colonia Lienzo Del Charro",
-      "Colonia Lienzo del Charro",
-      "LIENZO CHARRO",
-      "Lienzo Charro",
-      "lienzo del charro",
-      "col lienzo del charro",
-      "col. lienzo del charro",
-      "colonia lienzo del charro"
-    ],
-    "coords": [
-      18.97065,
-      -99.2446
-    ]
-  },
-  {
-    "name": "Ocotera",
-    "aliases": [
-      "OCOTERA",
-      "COL OCOTERA",
-      "COL. OCOTERA",
-      "COLONIA OCOTERA",
-      "Col Ocotera",
-      "Col. Ocotera",
-      "Colonia Ocotera",
-      "ocotera",
-      "col ocotera",
-      "col. ocotera",
-      "colonia ocotera"
-    ],
-    "coords": [
-      18.98708,
-      -99.24703
-    ]
-  },
-  {
-    "name": "Morelos",
-    "aliases": [
-      "MORELOS",
-      "COL MORELOS",
-      "COL. MORELOS",
-      "COLONIA MORELOS",
-      "Col Morelos",
-      "Col. Morelos",
-      "Colonia Morelos",
-      "morelos",
-      "col morelos",
-      "col. morelos",
-      "colonia morelos"
-    ],
-    "coords": [
-      18.98,
-      -99.24149
-    ]
-  },
-  {
-    "name": "Vicente Estrada Cajigal",
-    "aliases": [
-      "VICENTE ESTRADA CAJIGAL",
-      "ESTRADA CAJIGAL",
-      "COL VICENTE ESTRADA CAJIGAL",
-      "COL. VICENTE ESTRADA CAJIGAL",
-      "COLONIA VICENTE ESTRADA CAJIGAL",
-      "Col Vicente Estrada Cajigal",
-      "Col. Vicente Estrada Cajigal",
-      "Colonia Vicente Estrada Cajigal",
-      "vicente estrada cajigal",
-      "estrada cajigal",
-      "col vicente estrada cajigal",
-      "col. vicente estrada cajigal",
-      "colonia vicente estrada cajigal"
-    ],
-    "coords": [
-      18.917414,
-      -99.197793
-    ]
-  },
-  {
-    "name": "Ricardo Flores Magon",
-    "aliases": [
-      "RICARDO FLORES MAGON",
-      "RICARDO FLORES MAGÓN",
-      "FLORES MAGON",
-      "FLORES MAGÓN",
-      "COL RICARDO FLORES MAGON",
-      "COL RICARDO FLORES MAGÓN",
-      "COL. RICARDO FLORES MAGON",
-      "COL. RICARDO FLORES MAGÓN",
-      "COLONIA RICARDO FLORES MAGON",
-      "COLONIA RICARDO FLORES MAGÓN",
-      "Col Ricardo Flores Magon",
-      "Col Ricardo Flores Magón",
-      "Col. Ricardo Flores Magon",
-      "Col. Ricardo Flores Magón",
-      "Colonia Ricardo Flores Magon",
-      "Colonia Ricardo Flores Magón",
-      "ricardo flores magon",
-      "ricardo flores magón",
-      "flores magon",
-      "flores magón",
-      "col ricardo flores magon",
-      "col ricardo flores magón",
-      "colonia ricardo flores magon"
-    ],
-    "coords": [
-      18.927163,
-      -99.199392
+    "geometry_source": "inegi_asentamientos_2023",
+    "geo_confidence": "nominatim_bounded",
+    "settlement_type": "Zona Militar",
+    "source": "INEGI",
+    "inegi_rows": [
+      {
+        "cvegeo": "1700700010203",
+        "cve_asen": "0203",
+        "tipo_asen": "ZONA MILITAR",
+        "nom_asen": "ZONA MILITAR"
+      }
     ]
   }
 ]

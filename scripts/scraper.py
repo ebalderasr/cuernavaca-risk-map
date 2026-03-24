@@ -35,8 +35,6 @@ from typing import Any
 
 import requests
 from bs4 import BeautifulSoup
-from geopy.exc import GeocoderTimedOut
-from geopy.geocoders import Nominatim
 
 
 # =============================================================================
@@ -52,10 +50,35 @@ GAZETTEER_PATH = DATA_DIR / "colonias_cuernavaca.json"
 UNRESOLVED_PATH = DATA_DIR / "unresolved_events.json"
 
 HEADERS = {
-    "User-Agent": "OVICUE/0.5 (deterministic keyword pipeline)"
+    "User-Agent": "OVICUE/0.6 (deterministic keyword pipeline)"
 }
 
-geolocator = Nominatim(user_agent="ovicue/0.5-deterministic-pipeline")
+NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
+NOMINATIM_VIEWBOX = "-99.33,19.01,-99.11,18.79"
+NOMINATIM_RESULT_TYPES = {
+    "borough",
+    "city_block",
+    "hamlet",
+    "isolated_dwelling",
+    "locality",
+    "neighbourhood",
+    "quarter",
+    "residential",
+    "suburb",
+    "village",
+}
+
+SETTLEMENT_TYPE_PREFIXES = {
+    "ampliacion": ("ampliacion",),
+    "barrio": ("barrio",),
+    "colonia": ("colonia", "col.", "col"),
+    "condominio": ("condominio",),
+    "fraccionamiento": ("fraccionamiento", "fracc.", "fracc"),
+    "rinconada": ("rinconada",),
+    "seccion": ("seccion", "sección"),
+    "unidad habitacional": ("unidad habitacional", "unidad"),
+    "zona militar": ("zona militar",),
+}
 
 
 # =============================================================================
@@ -490,6 +513,11 @@ def load_gazetteer() -> list[dict[str, Any]]:
     return load_json(GAZETTEER_PATH, [])
 
 
+def get_settlement_prefixes(item: dict[str, Any]) -> tuple[str, ...]:
+    settlement_type = normalize_text(item.get("settlement_type"))
+    return SETTLEMENT_TYPE_PREFIXES.get(settlement_type, ())
+
+
 def resolve_gazetteer_name(name: str | None, gazetteer: list[dict[str, Any]]) -> tuple[list[float] | None, str]:
     """
     Busca una entrada exacta por nombre o alias en el gazetteer.
@@ -544,6 +572,7 @@ def find_best_gazetteer_match_in_text(
             continue
 
         variants = [canonical_name, *(item.get("aliases", []) or [])]
+        prefixes = get_settlement_prefixes(item)
 
         for variant in variants:
             variant_norm = normalize_text(variant)
@@ -560,6 +589,13 @@ def find_best_gazetteer_match_in_text(
                 coords = item.get("coords")
                 if isinstance(coords, list) and len(coords) == 2:
                     score = len(variant_norm)
+                    if variant_norm == canonical_norm:
+                        score += 10
+                    if prefixes:
+                        for prefix in prefixes:
+                            if re.search(rf"\b{re.escape(prefix)}\s+{re.escape(variant_norm)}\b", text_norm):
+                                score += 25
+                                break
                     if score > best_score:
                         best_name = canonical_name
                         best_coords = coords
@@ -598,26 +634,93 @@ def nominatim_lookup(name: str, cache: dict[str, Any]) -> tuple[list[float] | No
 
     key = normalize_text(name)
 
-    if key in cache:
+    if key in cache and cache[key].get("coords"):
         return cache[key]["coords"], cache[key]["geo_confidence"]
 
-    query = f"{name}, Cuernavaca, Morelos, Mexico"
+    queries = [
+        f"{name}, Cuernavaca, Morelos, Mexico",
+        f"colonia {name}, Cuernavaca, Morelos, Mexico",
+        f"{name}, Morelos, Mexico",
+    ]
 
-    try:
-        location = geolocator.geocode(query, timeout=10)
-        time.sleep(1.1)
+    def score_result(result: dict[str, Any]) -> int:
+        display_norm = normalize_text(result.get("display_name"))
+        result_type = normalize_text(result.get("type"))
+        result_name = normalize_text(result.get("name"))
+        address = result.get("address") or {}
+        score = 0
 
-        if location:
-            coords = [location.latitude, location.longitude]
-            cache[key] = {"coords": coords, "geo_confidence": "nominatim"}
-            return coords, "nominatim"
+        if "cuernavaca" in display_norm or normalize_text(address.get("city")) == "cuernavaca":
+            score += 40
+        if normalize_text(address.get("state")) == "morelos":
+            score += 10
+        if result_type in NOMINATIM_RESULT_TYPES:
+            score += 25
+        if result_name == key:
+            score += 25
+        elif key and key in result_name:
+            score += 15
 
-        cache[key] = {"coords": None, "geo_confidence": "none"}
-        return None, "none"
+        importance = result.get("importance")
+        if isinstance(importance, (int, float)):
+            score += int(importance * 10)
 
-    except (GeocoderTimedOut, Exception):
-        cache[key] = {"coords": None, "geo_confidence": "none"}
-        return None, "none"
+        return score
+
+    for query in queries:
+        for bounded in (True, False):
+            try:
+                params = {
+                    "q": query,
+                    "format": "jsonv2",
+                    "limit": 5,
+                    "addressdetails": 1,
+                    "countrycodes": "mx",
+                    "dedupe": 1,
+                }
+                if bounded:
+                    params["viewbox"] = NOMINATIM_VIEWBOX
+                    params["bounded"] = 1
+
+                response = requests.get(
+                    NOMINATIM_URL,
+                    params=params,
+                    headers=HEADERS,
+                    timeout=20,
+                )
+                response.raise_for_status()
+                candidates = response.json()
+            except Exception:
+                candidates = []
+            finally:
+                time.sleep(1.1)
+
+            if not isinstance(candidates, list):
+                continue
+
+            best = None
+            best_score = -1
+            for candidate in candidates:
+                if not isinstance(candidate, dict):
+                    continue
+                score = score_result(candidate)
+                if score > best_score:
+                    best = candidate
+                    best_score = score
+
+            if best and best_score >= 50:
+                try:
+                    coords = [float(best["lat"]), float(best["lon"])]
+                except (KeyError, TypeError, ValueError):
+                    coords = None
+
+                if coords:
+                    source = "nominatim_bounded" if bounded else "nominatim_context"
+                    cache[key] = {"coords": coords, "geo_confidence": source}
+                    return coords, source
+
+    cache[key] = {"coords": None, "geo_confidence": "none"}
+    return None, "none"
 
 
 def resolve_location(
