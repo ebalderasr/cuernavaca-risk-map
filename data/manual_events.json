@@ -358,14 +358,14 @@
     "fecha": "2026-03-21",
     "hora": "18:30",
     "colonia": "Lagunilla",
-    "municipio_detectado": null,
-    "location_scope": "colonia",
-    "location_name": "Lagunilla",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
     "coordenadas": [
       18.906818,
       -99.244286
     ],
-    "buffer_meters": 500,
+    "buffer_meters": 1000,
     "tipo_delito": "ataque armado",
     "nivel_inicial": 5,
     "fuente": "https://www.diariodemorelos.com/noticias/muere-futbolista-tras-ser-baleado-en-campo-de-la-colonia-lagunilla-cuernavaca",
