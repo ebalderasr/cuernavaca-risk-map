@@ -748,5 +748,30 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "3ff011aa96045ea4"
+  },
+  {
+    "id": "d196b686232830ee",
+    "fecha": "2026-03-24",
+    "hora": "15:00",
+    "colonia": "Loma Bonita",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Loma Bonita",
+    "coordenadas": [
+      18.9576021,
+      -99.2113669
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/matan-hombre-y-mujer-en-bar-clandestino-un-costado-del-tec-de-cuautla",
+    "resumen": "Matan a hombre y mujer en bar clandestino a un costado del Tec de Cuautla | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Matan a hombre y a mujer en bar clandestino a un costado del Tec de Cuautla",
+    "published_at": "2026-03-24 16:08:00",
+    "scraped_at": "2026-03-25T18:09:57Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "55937f9e522f5617"
   }
 ]
