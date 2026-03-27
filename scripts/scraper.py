@@ -104,7 +104,6 @@ MAX_ARTICLES_PER_RUN = 12
 
 CONURBADO_AREAS = {
     "jiutepec": "Jiutepec",
-    "yautepec": "Yautepec",
     "emiliano zapata": "Emiliano Zapata",
     "temixco": "Temixco",
     "civac": "CIVAC",
@@ -115,6 +114,7 @@ CONURBADO_AREAS = {
 # (ej: "colonia Emiliano Zapata de Cuautla" no es el municipio conurbado).
 MORELOS_EXCLUDED_MUNICIPALITIES = [
     "cuautla",
+    "yautepec",
     "tepoztlan",
     "yecapixtla",
     "ayala",
@@ -127,10 +127,15 @@ MORELOS_EXCLUDED_MUNICIPALITIES = [
     "xochitepec",
     "mazatepec",
     "miacatlan",
+    "coatetelco",
     "amacuzac",
     "tetela del volcan",
     "ocuituco",
     "temoac",
+    "jantetelco",
+    "jonacatepec",
+    "tepalcingo",
+    "axochiapan",
 ]
 
 DEFAULT_BUFFER_METERS = 500
@@ -143,7 +148,6 @@ AMBIGUOUS_COLONIA_NAMES = {
     "jiutepec",
     "morelos",
     "temixco",
-    "yautepec",
 }
 
 LOCATION_CONTEXT_PREFIXES = (
@@ -220,6 +224,39 @@ NEGATIVE_HINTS = [
     "caos vial",
     "atropell",
     "colision",
+    "derrumbe",
+    "fuga de gas",
+    "cortocircuito",
+    "violencia vial",
+    "percance vial",
+]
+
+# Términos que indican nota judicial o de seguimiento (no un crimen nuevo).
+# Un artículo con estos términos reporta sobre un proceso legal existente,
+# no sobre un nuevo hecho violento.
+JUDICIAL_STEMS = [
+    "vinculan a proceso",
+    "vinculado a proceso",
+    "ratifican",
+    "dictan sentencia",
+    "sentenciaron",
+    "no vinculacion a proceso",
+    "vinculacion a proceso",
+    "audiencia inicial",
+    "medida cautelar",
+]
+
+# Términos que indican operativo policial, captura o actividad institucional.
+# Estos artículos no reportan un nuevo crimen contra civiles.
+OPERATIONAL_STEMS = [
+    "imparte taller",
+    "dia naranja",
+    "narcotienda",
+    "golpe al narcomenudeo",
+    "golpe al narco",
+    "caen con arsenal",
+    "supervision de exhum",
+    "exhumacion",
 ]
 
 
@@ -410,13 +447,23 @@ def is_candidate_text(text: str) -> bool:
     Decide si el texto contiene señales de violencia intencional/criminal.
 
     Lógica:
-    1. Si no hay ningún stem violento → rechazar.
-    2. Si hay NEGATIVE_HINTS (accidente, incendio, etc.) → solo aceptar si
+    1. Si hay términos de seguimiento judicial → rechazar.
+    2. Si hay términos de operativo policiaco o actividad institucional → rechazar.
+    3. Si no hay ningún stem violento → rechazar.
+    4. Si hay NEGATIVE_HINTS (accidente, incendio, etc.) → solo aceptar si
        hay al menos un STRONG_VIOLENT_STEM (violencia intencional clara).
        Esto evita que muertes en accidentes ("muert", "cuerpo") pasen el filtro.
-    3. En cualquier otro caso → aceptar.
+    5. En cualquier otro caso → aceptar.
     """
     t = normalize_text(text)
+
+    # Descartar notas de seguimiento judicial (no es un crimen nuevo)
+    if any(stem in t for stem in JUDICIAL_STEMS):
+        return False
+
+    # Descartar operativos policiales o actividades institucionales
+    if any(stem in t for stem in OPERATIONAL_STEMS):
+        return False
 
     if not any(stem in t for stem in VIOLENT_STEMS):
         return False
@@ -935,6 +982,20 @@ def run_scraper() -> None:
                     full_text_for_scope = f"{title}\n{article['text']}"
                     conurbado = detect_conurbado_area(full_text_for_scope)
                     raw_colonia = extracted.get("colonia")
+
+                    # Si el texto menciona un municipio excluido y no menciona
+                    # Cuernavaca ni ningún conurbado válido, descartar el evento.
+                    # Esto previene que colonias con nombre genérico ("Morelos",
+                    # "Emiliano Zapata") se confundan con el área objetivo cuando
+                    # el hecho ocurrió en otro municipio.
+                    text_excl_check = normalize_text(full_text_for_scope)
+                    if (
+                        not extracted.get("es_en_cuernavaca")
+                        and conurbado is None
+                        and any(excl in text_excl_check for excl in MORELOS_EXCLUDED_MUNICIPALITIES)
+                    ):
+                        print(f"⚠️ Descartado: municipio excluido detectado sin área objetivo")
+                        continue
 
                     # El mapa principal prioriza eventos con colonia identificable.
                     # Si la nota solo trae municipio/conurbado, la mandamos a revisión.
