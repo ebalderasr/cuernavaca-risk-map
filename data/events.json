@@ -998,5 +998,55 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "e2fbf45a9ca4506f"
+  },
+  {
+    "id": "5c35e87e50021840",
+    "fecha": "2026-03-26",
+    "hora": "18:30",
+    "colonia": "Quintana Roo",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Quintana Roo",
+    "coordenadas": [
+      18.9005716,
+      -99.228902
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/juez-federal-ordena-libertad-inmediata-de-hombre-por-detenci-n-ilegal-en-morelos-tra-33-paquetes-de",
+    "resumen": "Juez federal ordena libertad inmediata de hombre por detención ilegal en Morelos; traía 33 paquetes de marihuana | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Juez federal ordena libertad inmediata de hombre por detención ilegal en Morelos; traía 33 paquetes de marihuana",
+    "published_at": "2026-03-26 21:35:37",
+    "scraped_at": "2026-03-27T18:04:57Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 1.0,
+    "dedupe_group_id": "dfdfd089caf9a763"
+  },
+  {
+    "id": "08eb35d0d0d0c948",
+    "fecha": "2026-03-26",
+    "hora": "14:30",
+    "colonia": "Unidad Habitacional Morelos",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-en-temoac-activista-sandra-rosa-n",
+    "resumen": "Asesinan en Temoac a activista Sandra Rosa \"N\" | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan en Temoac a activista Sandra Rosa \"N\"",
+    "published_at": "2026-03-26 17:42:48",
+    "scraped_at": "2026-03-27T18:04:58Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "dd83ac423b7564ec"
   }
 ]
