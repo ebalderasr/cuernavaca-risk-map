@@ -12,3 +12,6 @@ __pycache__/
 # Datos temporales de Geopandas/Ficheros de sistema
 .ipynb_checkpoints/
 .DS_Store
+
+# Archivos temporales
+tmp/
