@@ -4,13 +4,13 @@
     "fecha": "2026-03-10",
     "hora": null,
     "municipio_detectado": "Jiutepec",
-    "location_scope": "colonia",
-    "location_name": "Vicente Guerrero",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
     "coordenadas": [
-      18.9677532,
-      -99.2102416
+      18.8954874,
+      -99.1732936
     ],
-    "buffer_meters": 500,
+    "buffer_meters": 1000,
     "tipo_delito": "homicidio",
     "nivel_inicial": 5,
     "fuente": "https://www.diariodemorelos.com/noticias/hombre-es-asesinado-tiros-en-la-colonia-vicente-guerrero-de-jiutepec",
@@ -18,10 +18,10 @@
     "source_name": "Diario de Morelos",
     "source_title": "Hombre es asesinado a tiros en la colonia Vicente Guerrero de Jiutepec | Diario de Morelos - Noticias |",
     "published_at": "2026-03-10 12:00:36",
-    "scraped_at": "2026-03-28T03:17:07Z",
-    "geo_confidence": "gazetteer_text",
+    "scraped_at": "2026-03-28T03:44:50Z",
+    "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
-    "dedupe_group_id": "881269fd001634f7"
+    "dedupe_group_id": "ac5d79e73c032cce"
   },
   {
     "id": "1ae810e20529e940",
@@ -42,7 +42,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Lesionan a tres hombres en peluquería durante un asalto | Diario de Morelos - Noticias |",
     "published_at": "2026-03-12 09:19:36",
-    "scraped_at": "2026-03-28T03:17:09Z",
+    "scraped_at": "2026-03-28T03:44:51Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "85812486cb3d2c3a"
@@ -66,7 +66,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Lesionan a balazos a un hombre y otro queda lesionado a cachazos en Cuernavaca | Diario de Morelos - Noticias |",
     "published_at": "2026-03-11 17:02:37",
-    "scraped_at": "2026-03-28T03:17:09Z",
+    "scraped_at": "2026-03-28T03:44:51Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "6d438e35ace397d9"
@@ -90,7 +90,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Fallece debido a heridas de bala en un hospital en Cuernavaca | Diario de Morelos - Noticias |",
     "published_at": "2026-03-17 09:19:52",
-    "scraped_at": "2026-03-28T03:17:10Z",
+    "scraped_at": "2026-03-28T03:44:52Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "a0678908be7b2045"
@@ -114,7 +114,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Balean a hombre mientras trabajaba en un predio de Cuernavaca | Diario de Morelos - Noticias |",
     "published_at": "2026-03-16 15:27:53",
-    "scraped_at": "2026-03-28T03:17:11Z",
+    "scraped_at": "2026-03-28T03:44:52Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "1aec540c68d0f3f4"
@@ -138,7 +138,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Ultiman a hombre en calles de Cuernavaca | Diario de Morelos - Noticias |",
     "published_at": "2026-03-18 08:34:37",
-    "scraped_at": "2026-03-28T03:17:12Z",
+    "scraped_at": "2026-03-28T03:44:53Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "c15760ad7dfa65fa"
@@ -148,13 +148,13 @@
     "fecha": "2026-03-18",
     "hora": "15:10",
     "municipio_detectado": "Jiutepec",
-    "location_scope": "colonia",
-    "location_name": "Tejalpa",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
     "coordenadas": [
-      18.9030496,
-      -99.1691413
+      18.8954874,
+      -99.1732936
     ],
-    "buffer_meters": 500,
+    "buffer_meters": 1000,
     "tipo_delito": "ataque armado",
     "nivel_inicial": 5,
     "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-un-hombre-en-tejalpa-jiutepec",
@@ -162,10 +162,10 @@
     "source_name": "Diario de Morelos",
     "source_title": "Atacan a balazos a un hombre en Jiutepec | Diario de Morelos - Noticias |",
     "published_at": "2026-03-18 17:49:00",
-    "scraped_at": "2026-03-28T03:17:13Z",
-    "geo_confidence": "gazetteer_text",
+    "scraped_at": "2026-03-28T03:44:54Z",
+    "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
-    "dedupe_group_id": "91a82a1feb3ffc61"
+    "dedupe_group_id": "b8b2b9ec9a9eb6bf"
   },
   {
     "id": "36be29de136df938",
@@ -186,7 +186,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Ataque armado en Jiutepec deja a una mujer sin vida; agresores huyeron en motocicleta | Diario de Morelos - Noticias |",
     "published_at": "2026-03-26 10:47:10",
-    "scraped_at": "2026-03-28T03:17:14Z",
+    "scraped_at": "2026-03-28T03:44:55Z",
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "4706a6e35a046b61"
@@ -210,7 +210,7 @@
     "source_name": "Diario de Morelos",
     "source_title": "Abandonan un cuerpo sin vida; le encuentran huellas de violencia | Diario de Morelos - Noticias |",
     "published_at": "2026-03-26 08:29:55",
-    "scraped_at": "2026-03-28T03:17:14Z",
+    "scraped_at": "2026-03-28T03:44:56Z",
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "48bc5cd5836aa67b"
