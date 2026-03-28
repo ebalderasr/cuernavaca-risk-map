@@ -404,5 +404,29 @@
     "extraction_confidence": 1,
     "dedupe_group_id": "9f16028fbdca62fc",
     "source_type": "manual"
+  },
+  {
+    "id": "503c2f01eea7c387",
+    "fecha": "2026-03-26",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Independencia",
+    "coordenadas": [
+      18.9246255,
+      -99.2410813
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/abandonan-un-cuerpo-sin-vida-le-encuentran-huellas-de-violencia",
+    "resumen": "Abandonan un cuerpo sin vida; le encuentran huellas de violencia | Diario de Morelos - Noticias |",
+    "source_name": "Manual",
+    "source_title": "Abandonan un cuerpo sin vida; le encuentran huellas de violencia | Diario de Morelos - Noticias |",
+    "published_at": "2026-03-26 08:29:55",
+    "scraped_at": "2026-03-28T04:10:51Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "source_type": "manual"
   }
 ]
