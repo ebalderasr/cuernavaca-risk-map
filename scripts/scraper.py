@@ -136,6 +136,8 @@ MORELOS_EXCLUDED_MUNICIPALITIES = [
     "jonacatepec",
     "tepalcingo",
     "axochiapan",
+    "huitzilac",
+    "tres marias",
 ]
 
 DEFAULT_BUFFER_METERS = 500
@@ -159,10 +161,22 @@ LOCATION_CONTEXT_PREFIXES = (
     "ejido",
     "fracc",
     "fraccionamiento",
+    "localidad",
+    "poblado",
     "privada",
     "pueblo",
     "unidad",
     "unidad habitacional",
+)
+
+# Prefijos compuestos con preposición "de": "poblado de X", "localidad de X"
+# Se usan para dar bono de precisión en el scoring sin requerir que estén
+# directamente antes del nombre (sin preposición).
+GEO_COMPOUND_PREFIXES = (
+    "poblado de",
+    "localidad de",
+    "pueblo de",
+    "comunidad de",
 )
 
 
@@ -628,21 +642,34 @@ def find_best_gazetteer_match_in_text(
 
             # Match por frase completa en texto normalizado
             if f" {variant_norm} " in padded_text:
-                if canonical_norm in AMBIGUOUS_COLONIA_NAMES and not has_explicit_location_context(
-                    text_norm,
-                    variant_norm,
-                ):
+                # Si el nombre canónico O el alias en uso son ambiguos,
+                # se requiere contexto explícito (ej. "colonia Morelos").
+                # Esto evita que "Morelos" (alias de Unidad Habitacional Morelos)
+                # coincida con "Policía Morelos" o "Jiutepec, Morelos".
+                is_ambiguous = (
+                    canonical_norm in AMBIGUOUS_COLONIA_NAMES
+                    or variant_norm in AMBIGUOUS_COLONIA_NAMES
+                )
+                if is_ambiguous and not has_explicit_location_context(text_norm, variant_norm):
                     continue
                 coords = item.get("coords")
                 if isinstance(coords, list) and len(coords) == 2:
                     score = len(variant_norm)
                     if variant_norm == canonical_norm:
                         score += 10
+                    # Bono por prefijo de tipo de asentamiento directo
+                    # (ej. "colonia Lagunilla", "barrio San Miguel")
                     if prefixes:
                         for prefix in prefixes:
                             if re.search(rf"\b{re.escape(prefix)}\s+{re.escape(variant_norm)}\b", text_norm):
                                 score += 25
                                 break
+                    # Bono por prefijo compuesto con preposición
+                    # (ej. "poblado de Tejalpa", "localidad de Ahuatepec")
+                    for cpfx in GEO_COMPOUND_PREFIXES:
+                        if re.search(rf"\b{re.escape(cpfx)}\s+{re.escape(variant_norm)}\b", text_norm):
+                            score += 25
+                            break
                     if score > best_score:
                         best_name = canonical_name
                         best_coords = coords

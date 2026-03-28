@@ -411,7 +411,8 @@
     "coords": [
       18.906818,
       -99.244286
-    ]
+    ],
+    "settlement_type": "Colonia"
   },
   {
     "name": "Ampliacion Lazaro Cardenas",
@@ -3402,7 +3403,8 @@
     "coords": [
       18.906818,
       -99.244286
-    ]
+    ],
+    "settlement_type": "Colonia"
   },
   {
     "name": "Las Aguilas",
