@@ -28,14 +28,19 @@ from pathlib import Path
 from typing import Any
 
 from scraper import (
+    CONURBADO_BUFFER_METERS,
     DEFAULT_BUFFER_METERS,
+    MORELOS_EXCLUDED_MUNICIPALITIES,
+    build_gazetteer_index,
     detect_conurbado_area,
     event_level,
     extract_article,
+    find_colonia_in_text,
     load_gazetteer,
     load_json,
     normalize_date_str,
-    resolve_location,
+    normalize_text,
+    resolve_gazetteer_name,
     save_json,
     stable_id,
     validate_and_extract,
@@ -111,15 +116,14 @@ def main() -> None:
 
     manual_events = load_json(MANUAL_EVENTS_PATH, [])
     scraped_events = load_json(EVENTS_PATH, [])
-    geocode_cache = load_json(GEOCODE_CACHE_PATH, {})
     gazetteer = load_gazetteer()
+    gazetteer_index = build_gazetteer_index(gazetteer)
 
     article = extract_article(url)
 
     extracted = validate_and_extract(
         title=article["title"],
         article_text=article["text"],
-        gazetteer=gazetteer,
     )
 
     print("🧠 Resultado de extracción determinista:")
@@ -131,23 +135,38 @@ def main() -> None:
 
     full_text_for_scope = f"{article['title']}\n{article['text']}"
     conurbado = detect_conurbado_area(full_text_for_scope)
+    text_norm_full = normalize_text(full_text_for_scope)
 
-    raw_colonia = extracted.get("colonia")
-
-    if not extracted.get("es_en_cuernavaca") and not raw_colonia:
-        print("⚠️ La nota no trae una colonia identificable en Cuernavaca.")
+    if (
+        not extracted.get("es_en_cuernavaca")
+        and conurbado is None
+        and any(excl in text_norm_full for excl in MORELOS_EXCLUDED_MUNICIPALITIES)
+    ):
+        print("⚠️ La nota menciona un municipio excluido sin área objetivo.")
         return
 
+    # Algoritmo de ubicación en dos pasos
+    coords = None
+    geo_source = "none"
+    location_name = None
     location_scope = "colonia"
-    location_name = raw_colonia
     buffer_meters = DEFAULT_BUFFER_METERS
 
-    coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
+    if conurbado is not None and not extracted.get("es_en_cuernavaca"):
+        coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
+        location_name = conurbado
+        location_scope = "municipio"
+        buffer_meters = CONURBADO_BUFFER_METERS
+    else:
+        colonia_name, colonia_coords = find_colonia_in_text(text_norm_full, gazetteer_index)
+        if colonia_name:
+            location_name = colonia_name
+            coords = colonia_coords
+            geo_source = "gazetteer_text"
 
     if coords is None:
         print(f"⚠️ No se pudo resolver la ubicación para: {location_name!r}")
-        print("   Revisa el gazetteer si quieres que la nota entre al mapa.")
-        save_json(GEOCODE_CACHE_PATH, geocode_cache)
+        print("   Revisa el gazetteer o el texto de la nota.")
         return
 
     fecha_evento = normalize_date_str(article.get("published_at"))
@@ -160,7 +179,6 @@ def main() -> None:
         "id": stable_id("manual|" + url),
         "fecha": fecha_evento,
         "hora": hora_aprox,
-        "colonia": raw_colonia,
         "municipio_detectado": conurbado,
         "location_scope": location_scope,
         "location_name": location_name,
@@ -187,7 +205,6 @@ def main() -> None:
 
     save_json(MANUAL_EVENTS_PATH, manual_events)
     save_json(EVENTS_PATH, scraped_events)
-    save_json(GEOCODE_CACHE_PATH, geocode_cache)
 
     if mode == "inserted":
         print("✅ Nota agregada a data/manual_events.json")

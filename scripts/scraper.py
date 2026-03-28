@@ -107,6 +107,8 @@ CONURBADO_AREAS = {
     "emiliano zapata": "Emiliano Zapata",
     "temixco": "Temixco",
     "civac": "CIVAC",
+    "yautepec": "Yautepec",
+    "xochitepec": "Xochitepec",
 }
 
 # Municipios de Morelos que NO pertenecen al área conurbada de Cuernavaca.
@@ -114,7 +116,6 @@ CONURBADO_AREAS = {
 # (ej: "colonia Emiliano Zapata de Cuautla" no es el municipio conurbado).
 MORELOS_EXCLUDED_MUNICIPALITIES = [
     "cuautla",
-    "yautepec",
     "tepoztlan",
     "yecapixtla",
     "ayala",
@@ -124,7 +125,6 @@ MORELOS_EXCLUDED_MUNICIPALITIES = [
     "tlaltizapan",
     "tlayacapan",
     "totolapan",
-    "xochitepec",
     "mazatepec",
     "miacatlan",
     "coatetelco",
@@ -574,6 +574,52 @@ def load_gazetteer() -> list[dict[str, Any]]:
     return load_json(GAZETTEER_PATH, [])
 
 
+def build_gazetteer_index(
+    gazetteer: list[dict[str, Any]],
+) -> dict[str, tuple[str, list[float]]]:
+    """
+    Construye un índice normalizado nombre/alias → (canonical_name, coords)
+    para búsquedas rápidas por nombre exacto.
+    """
+    index: dict[str, tuple[str, list[float]]] = {}
+    for item in gazetteer:
+        canonical = item.get("name")
+        coords = item.get("coords")
+        if not canonical or not isinstance(coords, list) or len(coords) != 2:
+            continue
+        for variant in [canonical, *(item.get("aliases") or [])]:
+            key = normalize_text(variant)
+            if key:
+                index[key] = (canonical, coords)
+    return index
+
+
+def find_colonia_in_text(
+    text_norm: str,
+    gazetteer_index: dict[str, tuple[str, list[float]]],
+) -> tuple[str | None, list[float] | None]:
+    """
+    Busca la palabra 'colonia' en el texto normalizado y toma las 1–3 palabras
+    siguientes como nombre de colonia. Devuelve la primera coincidencia válida
+    en el gazetteer (más larga primero).
+
+    La primera aparición de 'colonia X' en el artículo suele ser el lugar
+    del crimen; las siguientes mencionan hospitales u otras referencias.
+    """
+    words = text_norm.split()
+    for i, word in enumerate(words):
+        if word != "colonia":
+            continue
+        for length in (3, 2, 1):
+            if i + 1 + length > len(words):
+                continue
+            candidate = " ".join(words[i + 1 : i + 1 + length])
+            if candidate in gazetteer_index:
+                canonical, coords = gazetteer_index[candidate]
+                return canonical, coords
+    return None, None
+
+
 def get_settlement_prefixes(item: dict[str, Any]) -> tuple[str, ...]:
     settlement_type = normalize_text(item.get("settlement_type"))
     return SETTLEMENT_TYPE_PREFIXES.get(settlement_type, ())
@@ -825,7 +871,7 @@ def resolve_location(
 # CLASIFICACIÓN DETERMINISTA
 # =============================================================================
 
-def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+def validate_and_extract(title: str, article_text: str) -> dict[str, Any]:
     """
     Sustituto determinista de la antigua extracción con IA.
 
@@ -834,7 +880,6 @@ def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str
       es_violento,
       es_en_cuernavaca,
       delito,
-      colonia,
       hora_aprox,
       resumen,
       confidence
@@ -843,7 +888,7 @@ def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str
     Aquí, `es_en_cuernavaca` debe entenderse como:
     "el hecho pertenece al área objetivo principal del proyecto"
     y se activa si el texto menciona Cuernavaca.
-    Los conurbados se detectan aparte.
+    Los conurbados y la colonia se detectan aparte en run_scraper().
     """
     combined_text = f"{title}\n{article_text}"
     text_norm = normalize_text(combined_text)
@@ -853,16 +898,6 @@ def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str
     delito = infer_delito(combined_text)
     hora_aprox = extract_hour(article_text)
 
-    colonia = None
-    if gazetteer:
-        excluded = set(CONURBADO_AREAS.values())
-        matched_name, _, _ = find_best_gazetteer_match_in_text(
-            combined_text,
-            gazetteer,
-            excluded_names=excluded,
-        )
-        colonia = matched_name
-
     # Resumen simple: usar título limpio
     resumen = title.strip() if title else None
 
@@ -871,8 +906,6 @@ def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str
     if es_violento:
         confidence += 0.4
     if es_en_cuernavaca:
-        confidence += 0.2
-    if colonia:
         confidence += 0.2
     if hora_aprox:
         confidence += 0.1
@@ -885,7 +918,6 @@ def validate_and_extract(title: str, article_text: str, gazetteer: list[dict[str
         "es_violento": es_violento,
         "es_en_cuernavaca": es_en_cuernavaca,
         "delito": delito,
-        "colonia": colonia,
         "hora_aprox": hora_aprox,
         "resumen": resumen,
         "confidence": confidence,
@@ -965,6 +997,7 @@ def run_scraper() -> None:
     existing_events = load_json(EVENTS_PATH, [])
     geocode_cache = load_json(GEOCODE_CACHE_PATH, {})
     gazetteer = load_gazetteer()
+    gazetteer_index = build_gazetteer_index(gazetteer)
 
     existing_urls = {e.get("fuente") for e in existing_events if e.get("fuente")}
     existing_groups = {e.get("dedupe_group_id") for e in existing_events if e.get("dedupe_group_id")}
@@ -996,11 +1029,10 @@ def run_scraper() -> None:
                     if not article["text"]:
                         continue
 
-                    # Clasificación determinista basada en keywords + gazetteer
+                    # Clasificación determinista basada en keywords
                     extracted = validate_and_extract(
                         title=article["title"] or title,
                         article_text=article["text"],
-                        gazetteer=gazetteer,
                     )
 
                     if not extracted.get("es_violento"):
@@ -1008,32 +1040,42 @@ def run_scraper() -> None:
 
                     full_text_for_scope = f"{title}\n{article['text']}"
                     conurbado = detect_conurbado_area(full_text_for_scope)
-                    raw_colonia = extracted.get("colonia")
+                    text_norm_full = normalize_text(full_text_for_scope)
 
                     # Si el texto menciona un municipio excluido y no menciona
                     # Cuernavaca ni ningún conurbado válido, descartar el evento.
-                    # Esto previene que colonias con nombre genérico ("Morelos",
-                    # "Emiliano Zapata") se confundan con el área objetivo cuando
-                    # el hecho ocurrió en otro municipio.
-                    text_excl_check = normalize_text(full_text_for_scope)
                     if (
                         not extracted.get("es_en_cuernavaca")
                         and conurbado is None
-                        and any(excl in text_excl_check for excl in MORELOS_EXCLUDED_MUNICIPALITIES)
+                        and any(excl in text_norm_full for excl in MORELOS_EXCLUDED_MUNICIPALITIES)
                     ):
                         print(f"⚠️ Descartado: municipio excluido detectado sin área objetivo")
                         continue
 
-                    # El mapa principal prioriza eventos con colonia identificable.
-                    # Si la nota solo trae municipio/conurbado, la mandamos a revisión.
-                    if not extracted.get("es_en_cuernavaca") and not raw_colonia:
-                        continue
-
+                    # Algoritmo de ubicación en dos pasos:
+                    # Paso 1: conurbado encontrado y NO se menciona Cuernavaca
+                    #         → centroide del municipio conurbado.
+                    # Paso 2: se menciona Cuernavaca (o no hay conurbado)
+                    #         → buscar "colonia X" en el texto y resolver en gazetteer.
+                    coords = None
+                    geo_source = "none"
+                    location_name = None
                     location_scope = "colonia"
-                    location_name = raw_colonia
                     buffer_meters = DEFAULT_BUFFER_METERS
 
-                    coords, geo_source = resolve_location(raw_colonia, gazetteer, geocode_cache)
+                    if conurbado is not None and not extracted.get("es_en_cuernavaca"):
+                        coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
+                        location_name = conurbado
+                        location_scope = "municipio"
+                        buffer_meters = CONURBADO_BUFFER_METERS
+                    else:
+                        colonia_name, colonia_coords = find_colonia_in_text(
+                            text_norm_full, gazetteer_index
+                        )
+                        if colonia_name:
+                            location_name = colonia_name
+                            coords = colonia_coords
+                            geo_source = "gazetteer_text"
 
                     if coords is None:
                         register_unresolved(
@@ -1047,7 +1089,6 @@ def run_scraper() -> None:
                                 "hora": extracted.get("hora_aprox"),
                                 "es_violento": True,
                                 "es_en_cuernavaca": extracted.get("es_en_cuernavaca"),
-                                "colonia": raw_colonia,
                                 "location_scope": location_scope,
                                 "location_name": location_name,
                                 "municipio_detectado": conurbado,
@@ -1058,7 +1099,7 @@ def run_scraper() -> None:
                                 "scraped_at": datetime.utcnow().isoformat(timespec="seconds") + "Z",
                             }
                         )
-                        print(f"⚠️ Sin geocodificación confiable para: {location_name!r}")
+                        print(f"⚠️ Sin geocodificación para: {location_name!r}")
                         continue
 
                     fecha_evento = normalize_date_str(article.get("published_at")) or datetime.now().strftime("%Y-%m-%d")
@@ -1075,7 +1116,6 @@ def run_scraper() -> None:
                         "id": stable_id(url),
                         "fecha": fecha_evento,
                         "hora": hora_aprox,
-                        "colonia": raw_colonia,
                         "municipio_detectado": conurbado,
                         "location_scope": location_scope,
                         "location_name": location_name,
