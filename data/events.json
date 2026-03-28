@@ -190,5 +190,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "4706a6e35a046b61"
+  },
+  {
+    "id": "0a4f7b0177b6a2b4",
+    "fecha": "2026-03-28",
+    "hora": "13:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-repartidor-de-tortillas-en-jiutepec",
+    "resumen": "Asesinan a repartidor de tortillas en Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a repartidor de tortillas en Jiutepec",
+    "published_at": "2026-03-28 11:01:48",
+    "scraped_at": "2026-03-28T17:47:02Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "9a44e3bf98d80205"
   }
 ]
