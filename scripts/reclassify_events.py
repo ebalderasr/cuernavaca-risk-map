@@ -81,16 +81,17 @@ def reclassify(url: str, evt: dict[str, Any], gazetteer, gazetteer_index) -> tup
     location_scope = "colonia"
     buffer_meters = DEFAULT_BUFFER_METERS
 
-    colonia_name, colonia_coords = find_colonia_in_text(text_norm, gazetteer_index)
-    if colonia_name:
-        location_name = colonia_name
-        coords = colonia_coords
-        geo_source = "gazetteer_text"
-    elif conurbado is not None and not extracted.get("es_en_cuernavaca"):
+    if conurbado is not None and not extracted.get("es_en_cuernavaca"):
         coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
         location_name = conurbado
         location_scope = "municipio"
         buffer_meters = CONURBADO_BUFFER_METERS
+    else:
+        colonia_name, colonia_coords = find_colonia_in_text(text_norm, gazetteer_index)
+        if colonia_name:
+            location_name = colonia_name
+            coords = colonia_coords
+            geo_source = "gazetteer_text"
 
     fecha_evento = (
         normalize_date_str(article.get("published_at"))

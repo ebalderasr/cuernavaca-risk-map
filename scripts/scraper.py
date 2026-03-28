@@ -1084,30 +1084,33 @@ def run_scraper() -> None:
                         print(f"⚠️ Descartado: municipio excluido detectado sin área objetivo")
                         continue
 
-                    # Algoritmo de ubicación:
-                    # 1. Intentar siempre encontrar el nombre de un asentamiento
-                    #    en el texto ("colonia X", "fraccionamiento X", etc.) → más preciso.
-                    # 2. Si no se encontró colonia pero sí un municipio conurbado
-                    #    (y el texto no menciona Cuernavaca) → centroide del municipio.
-                    # 3. Si ninguna de las dos → sin geocodificación (unresolved).
+                    # Algoritmo de ubicación en dos pasos:
+                    # Paso 1: Si la nota menciona un municipio conurbado (Jiutepec,
+                    #         Yautepec, Emiliano Zapata, CIVAC, Xochitepec, Temixco)
+                    #         y NO menciona Cuernavaca → centroide del municipio.
+                    #         No se buscan colonias dentro del municipio.
+                    # Paso 2: Si dice Cuernavaca o no hay municipio conurbado →
+                    #         buscar "colonia X" (u otro prefijo de asentamiento) en
+                    #         el texto y resolver en el gazetteer.
                     coords = None
                     geo_source = "none"
                     location_name = None
                     location_scope = "colonia"
                     buffer_meters = DEFAULT_BUFFER_METERS
 
-                    colonia_name, colonia_coords = find_colonia_in_text(
-                        text_norm_full, gazetteer_index
-                    )
-                    if colonia_name:
-                        location_name = colonia_name
-                        coords = colonia_coords
-                        geo_source = "gazetteer_text"
-                    elif conurbado is not None and not extracted.get("es_en_cuernavaca"):
+                    if conurbado is not None and not extracted.get("es_en_cuernavaca"):
                         coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
                         location_name = conurbado
                         location_scope = "municipio"
                         buffer_meters = CONURBADO_BUFFER_METERS
+                    else:
+                        colonia_name, colonia_coords = find_colonia_in_text(
+                            text_norm_full, gazetteer_index
+                        )
+                        if colonia_name:
+                            location_name = colonia_name
+                            coords = colonia_coords
+                            geo_source = "gazetteer_text"
 
                     if coords is None:
                         register_unresolved(
