@@ -594,26 +594,58 @@ def build_gazetteer_index(
     return index
 
 
+# Palabras clave que preceden al nombre de un asentamiento en noticias de seguridad.
+# Ejemplos: "colonia Centro", "fraccionamiento Las Palmas", "poblado de Tejalpa".
+LOCATION_TRIGGER_WORDS = frozenset({
+    "colonia",
+    "col",
+    "fraccionamiento",
+    "fracc",
+    "barrio",
+    "ampliacion",
+    "privada",
+    "localidad",
+    "poblado",
+    "unidad",
+    "ejido",
+    "rinconada",
+})
+
+
 def find_colonia_in_text(
     text_norm: str,
     gazetteer_index: dict[str, tuple[str, list[float]]],
 ) -> tuple[str | None, list[float] | None]:
     """
-    Busca la palabra 'colonia' en el texto normalizado y toma las 1–3 palabras
-    siguientes como nombre de colonia. Devuelve la primera coincidencia válida
-    en el gazetteer (más larga primero).
+    Busca palabras clave de asentamiento en el texto normalizado y toma las
+    1–3 palabras siguientes como nombre del lugar. Salta la preposición "de"
+    si aparece inmediatamente después de la palabra clave (ej. "poblado de X").
+    Devuelve la primera coincidencia válida en el gazetteer (más larga primero).
 
-    La primera aparición de 'colonia X' en el artículo suele ser el lugar
-    del crimen; las siguientes mencionan hospitales u otras referencias.
+    Disparadores soportados: 'colonia', 'col', 'fraccionamiento', 'fracc',
+    'barrio', 'ampliacion', 'privada', 'localidad', 'poblado', 'unidad',
+    'ejido', 'rinconada'.
+
+    La primera aparición suele corresponder al lugar del crimen; las siguientes
+    pueden mencionar hospitales u otras referencias secundarias.
+
+    Nota: el texto normalizado ya tiene puntuación eliminada, por lo que
+    patrones como 'Jiutepec.-' o 'Yautepec, Morelos.-' se procesan sin problemas.
     """
     words = text_norm.split()
     for i, word in enumerate(words):
-        if word != "colonia":
+        if word not in LOCATION_TRIGGER_WORDS:
             continue
+        # Saltar preposición "de" si es la siguiente palabra
+        # (ej. "poblado de Tejalpa", "localidad de Ahuatepec")
+        start = i + 1
+        if start < len(words) and words[start] == "de":
+            start += 1
+        # Intentar 3, 2 y 1 palabras (más largo primero)
         for length in (3, 2, 1):
-            if i + 1 + length > len(words):
+            if start + length > len(words):
                 continue
-            candidate = " ".join(words[i + 1 : i + 1 + length])
+            candidate = " ".join(words[start : start + length])
             if candidate in gazetteer_index:
                 canonical, coords = gazetteer_index[candidate]
                 return canonical, coords
@@ -1052,30 +1084,30 @@ def run_scraper() -> None:
                         print(f"⚠️ Descartado: municipio excluido detectado sin área objetivo")
                         continue
 
-                    # Algoritmo de ubicación en dos pasos:
-                    # Paso 1: conurbado encontrado y NO se menciona Cuernavaca
-                    #         → centroide del municipio conurbado.
-                    # Paso 2: se menciona Cuernavaca (o no hay conurbado)
-                    #         → buscar "colonia X" en el texto y resolver en gazetteer.
+                    # Algoritmo de ubicación:
+                    # 1. Intentar siempre encontrar el nombre de un asentamiento
+                    #    en el texto ("colonia X", "fraccionamiento X", etc.) → más preciso.
+                    # 2. Si no se encontró colonia pero sí un municipio conurbado
+                    #    (y el texto no menciona Cuernavaca) → centroide del municipio.
+                    # 3. Si ninguna de las dos → sin geocodificación (unresolved).
                     coords = None
                     geo_source = "none"
                     location_name = None
                     location_scope = "colonia"
                     buffer_meters = DEFAULT_BUFFER_METERS
 
-                    if conurbado is not None and not extracted.get("es_en_cuernavaca"):
+                    colonia_name, colonia_coords = find_colonia_in_text(
+                        text_norm_full, gazetteer_index
+                    )
+                    if colonia_name:
+                        location_name = colonia_name
+                        coords = colonia_coords
+                        geo_source = "gazetteer_text"
+                    elif conurbado is not None and not extracted.get("es_en_cuernavaca"):
                         coords, geo_source = resolve_gazetteer_name(conurbado, gazetteer)
                         location_name = conurbado
                         location_scope = "municipio"
                         buffer_meters = CONURBADO_BUFFER_METERS
-                    else:
-                        colonia_name, colonia_coords = find_colonia_in_text(
-                            text_norm_full, gazetteer_index
-                        )
-                        if colonia_name:
-                            location_name = colonia_name
-                            coords = colonia_coords
-                            geo_source = "gazetteer_text"
 
                     if coords is None:
                         register_unresolved(
