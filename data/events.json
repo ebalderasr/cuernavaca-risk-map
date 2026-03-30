@@ -214,5 +214,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "9a44e3bf98d80205"
+  },
+  {
+    "id": "2b0f25d74af44da8",
+    "fecha": "2026-03-30",
+    "hora": "10:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ampliacion Lagunilla",
+    "coordenadas": [
+      18.906818,
+      -99.244286
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-un-cad-ver-al-fondo-de-barranca-ser-hombre-desaparecido-en-febrero",
+    "resumen": "Localizan un cadáver al fondo de barranca | Sería hombre desaparecido en Febrero | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Localizan un cadáver al fondo de barranca | Sería hombre desaparecido en Febrero",
+    "published_at": "2026-03-30 10:55:33",
+    "scraped_at": "2026-03-30T18:06:25Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "0b110fbd8ed14320"
+  },
+  {
+    "id": "bc8195819d5d1473",
+    "fecha": "2026-03-29",
+    "hora": "18:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Colonia los Cerritos",
+    "coordenadas": [
+      18.9548043,
+      -99.1900844
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-restos-humanos-en-barranca-de-la-colonia-cerritos-en-atlatlahucan",
+    "resumen": "Hallan restos humanos en barranca de la colonia Cerritos en Atlatlahucan | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan restos humanos en barranca de la colonia Cerritos en Atlatlahucan",
+    "published_at": "2026-03-29 20:14:49",
+    "scraped_at": "2026-03-30T18:06:29Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "a5e29cf587edfa80"
   }
 ]
