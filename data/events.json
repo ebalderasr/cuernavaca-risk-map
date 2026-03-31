@@ -262,5 +262,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "a5e29cf587edfa80"
+  },
+  {
+    "id": "32cc101ff81e6ae2",
+    "fecha": "2026-03-31",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cay-tras-6-os-pr-fugo-capturana-presunto-asesino-de-un-abuelito-en-el-2020",
+    "resumen": "¡Cayó tras 6 años prófugo! Capturana presunto asesino de un abuelito en el 2020 | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Cayó tras 6 años prófugo! Capturana presunto asesino de un abuelito en el 2020",
+    "published_at": "2026-03-31 10:01:39",
+    "scraped_at": "2026-03-31T18:06:26Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "e455a76bb168a152"
   }
 ]
