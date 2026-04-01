@@ -286,5 +286,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "e455a76bb168a152"
+  },
+  {
+    "id": "1f6dc88b25a60e1b",
+    "fecha": "2026-03-31",
+    "hora": "14:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Santa Maria Ahuacatitlan",
+    "coordenadas": [
+      18.9810093,
+      -99.2538809
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/enca-onan-refresquero-en-la-m-xico-cuernavaca-lo-tiran-en-la-terracer-tras-robarle-todo",
+    "resumen": "Encañonan a refresquero en la México-Cuernavaca; lo tiran en la terracería tras robarle todo | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Encañonan a refresquero en la México-Cuernavaca; lo tiran en la terracería tras robarle todo",
+    "published_at": "2026-03-31 21:50:00",
+    "scraped_at": "2026-04-01T18:03:40Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "15269db70f4bd048"
   }
 ]
