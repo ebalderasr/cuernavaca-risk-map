@@ -310,5 +310,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "15269db70f4bd048"
+  },
+  {
+    "id": "937f7e659e069306",
+    "fecha": "2026-04-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-joven-en-la-colonia-antonio-barona-de-cuernavaca",
+    "resumen": "Ejecutan a joven en la colonia Antonio Barona de Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a joven en la colonia Antonio Barona de Cuernavaca",
+    "published_at": "2026-04-02 23:34:32",
+    "scraped_at": "2026-04-03T17:53:09Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "1b0b480707dfdf6d"
+  },
+  {
+    "id": "02932f4e6400ab2d",
+    "fecha": "2026-04-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ahuatepec",
+    "coordenadas": [
+      18.9657296,
+      -99.2106745
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/golpe-la-delincuencia-en-cuernavaca-detienen-sujeto-con-m-s-de-11-mdp-rifle-y-municiones",
+    "resumen": "¡Golpe a la delincuencia en Cuernavaca! Detienen a sujeto con más de 1.1 mdp, rifle y municiones | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Golpe a la delincuencia en Cuernavaca! Detienen a sujeto con más de 1.1 mdp, rifle y municiones",
+    "published_at": "2026-04-02 18:10:46",
+    "scraped_at": "2026-04-03T17:53:09Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "dea1f9bce811a039"
+  },
+  {
+    "id": "688888b1e385c50e",
+    "fecha": "2026-04-02",
+    "hora": null,
+    "municipio_detectado": "Xochitepec",
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fiscal-de-morelos-desmiente-agresi-n-hombre-durante-cateo-en-xochitepec",
+    "resumen": "Fiscalía de Morelos desmiente agresión a hombre durante cateo en Xochitepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Fiscalía de Morelos desmiente agresión a hombre durante cateo en Xochitepec",
+    "published_at": "2026-04-02 16:49:25",
+    "scraped_at": "2026-04-03T17:53:10Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "495fdbc067688ed6"
   }
 ]
