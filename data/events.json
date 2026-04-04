@@ -382,5 +382,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "495fdbc067688ed6"
+  },
+  {
+    "id": "025a31d8a0cbb16e",
+    "fecha": "2026-04-04",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/noche-de-balas-en-la-antonio-barona-ejecutan-hombre-de-tres-disparos",
+    "resumen": "Noche de balas en la Antonio Barona: Ejecutan a hombre de tres disparos | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Noche de balas en la Antonio Barona: Ejecutan a hombre de tres disparos",
+    "published_at": "2026-04-04 10:17:55",
+    "scraped_at": "2026-04-04T17:48:31Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "5672495d9d13bf57"
   }
 ]
