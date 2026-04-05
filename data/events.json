@@ -406,5 +406,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "5672495d9d13bf57"
+  },
+  {
+    "id": "1f07d7206ed780cb",
+    "fecha": "2026-04-05",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-por-el-robo-de-moto-en-jiu-te-pec",
+    "resumen": "Cae por el robo de moto en Jiu­te­pec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae por el robo de moto en Jiu­te­pec",
+    "published_at": "2026-04-05 09:07:19",
+    "scraped_at": "2026-04-05T17:50:15Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.4,
+    "dedupe_group_id": "31001f13ceb8856f"
+  },
+  {
+    "id": "4fdf9d9ce85e7214",
+    "fecha": "2026-04-05",
+    "hora": "13:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ulti-man-hom-bre-y-hie-ren-tres-m-s",
+    "resumen": "Ulti­man a hom­bre y hie­ren a tres más | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ulti­man a hom­bre y hie­ren a tres más",
+    "published_at": "2026-04-05 09:04:29",
+    "scraped_at": "2026-04-05T17:50:16Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "68396f74ffa261f4"
+  },
+  {
+    "id": "addd0c9761e6cb9e",
+    "fecha": "2026-04-04",
+    "hora": "13:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-joven-tras-ataque-una-barber-en-la-colonia-rub-n-jaramillo",
+    "resumen": "Muere joven tras ataque a una barbería en la colonia Rubén Jaramillo | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere joven tras ataque a una barbería en la colonia Rubén Jaramillo",
+    "published_at": "2026-04-04 14:27:56",
+    "scraped_at": "2026-04-05T17:50:18Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "2e3577c470fa366f"
   }
 ]
