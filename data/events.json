@@ -478,5 +478,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "2e3577c470fa366f"
+  },
+  {
+    "id": "bd997058235e3348",
+    "fecha": "2026-04-08",
+    "hora": "21:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Chipitlan",
+    "coordenadas": [
+      18.8966449,
+      -99.2282172
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-presunto-escolta-armado-y-con-medio-mill-n-de-pesos-en-chipitl-n",
+    "resumen": "Detienen a escolta armado con medio millón de pesos en Cuernavaca | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a presunto escolta armado y con medio millón de pesos en Chipitlán",
+    "published_at": "2026-04-08 10:04:42",
+    "scraped_at": "2026-04-08T18:18:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "bd3f480a8e0bc272"
+  },
+  {
+    "id": "9d49a6f36774ae2c",
+    "fecha": "2026-04-07",
+    "hora": "21:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Chipitlan",
+    "coordenadas": [
+      18.8966449,
+      -99.2282172
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-escolta-armado-y-con-500-mil-pesos-en-cuernavaca",
+    "resumen": "Detienen a escolta armado y con 500 mil pesos en Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a escolta armado y con 500 mil pesos en Cuernavaca",
+    "published_at": "2026-04-07 20:55:00",
+    "scraped_at": "2026-04-08T18:18:39Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "96fc203286dadb0a"
+  },
+  {
+    "id": "25ffdc70de7c1c5a",
+    "fecha": "2026-04-07",
+    "hora": "14:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caen-dos-tras-asaltar-comerciante-en-pleno-centro-de-yautepec",
+    "resumen": "Caen dos tras asaltar a comerciante en pleno centro de Yautepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caen dos tras asaltar a comerciante en pleno centro de Yautepec",
+    "published_at": "2026-04-07 15:23:52",
+    "scraped_at": "2026-04-08T18:18:41Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "6bb7c69d0c8d9e0d"
   }
 ]
