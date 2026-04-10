@@ -550,5 +550,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "6bb7c69d0c8d9e0d"
+  },
+  {
+    "id": "2c995f375e617dcb",
+    "fecha": "2026-04-10",
+    "hora": "16:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Reforma",
+    "coordenadas": [
+      18.9412445,
+      -99.2272951
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/frente-su-familia-atacan-y-hieren-hombre-en-un-intento-de-robo-de-su-camioneta",
+    "resumen": "Frente a su familia: Atacan y hieren a hombre en un intento de robo de su camioneta | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Frente a su familia: Atacan y hieren a hombre en un intento de robo de su camioneta",
+    "published_at": "2026-04-10 10:19:02",
+    "scraped_at": "2026-04-10T18:00:55Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "d6d2b6b2f6ed4bb5"
+  },
+  {
+    "id": "5879311d69bee58f",
+    "fecha": "2026-04-09",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Reforma",
+    "coordenadas": [
+      18.9412445,
+      -99.2272951
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/balean-conductor-en-intento-de-asalto-en-la-colonia-reforma-de-cuernavaca",
+    "resumen": "Balean a conductor en intento de asalto en la colonia Reforma de Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balean a conductor en intento de asalto en la colonia Reforma de Cuernavaca",
+    "published_at": "2026-04-09 16:57:46",
+    "scraped_at": "2026-04-10T18:00:56Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "e90cfc3e621d2466"
+  },
+  {
+    "id": "ddcadde873e3539e",
+    "fecha": "2026-04-09",
+    "hora": "06:32",
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-balazos-un-hombre-dentro-de-habitaci-n-en-la-colonia-tres-de-mayo",
+    "resumen": "Ejecutan a balazos a un hombre dentro de habitación en la colonia Tres de Mayo | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a balazos a un hombre dentro de habitación en la colonia Tres de Mayo",
+    "published_at": "2026-04-09 15:46:21",
+    "scraped_at": "2026-04-10T18:00:56Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "85a379ae9c9b03ad"
+  },
+  {
+    "id": "cd8d50d931bad897",
+    "fecha": "2026-04-09",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Reforma",
+    "coordenadas": [
+      18.9412445,
+      -99.2272951
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/surge-nueva-pol-mica-de-cl-nica-samper-en-cuernavaca-por-supuestas-negligencias",
+    "resumen": "Surge nueva polémica de Clínica Samper en Cuernavaca por supuestas negligencias | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Surge nueva polémica de Clínica Samper en Cuernavaca por supuestas negligencias",
+    "published_at": "2026-04-09 15:44:55",
+    "scraped_at": "2026-04-10T18:00:56Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "ffbf78d99cfe34c3"
   }
 ]
