@@ -646,5 +646,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "ffbf78d99cfe34c3"
+  },
+  {
+    "id": "085d96e1738cbd91",
+    "fecha": "2026-04-10",
+    "hora": "13:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Tlaltenango",
+    "coordenadas": [
+      18.9464139,
+      -99.2439166
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/matan-hombre-en-un-autolavado-de-cuernavaca-inseguridad-se-sale-de-control",
+    "resumen": "Matan a hombre en un autolavado de Cuernavaca; inseguridad se sale de control | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Matan a hombre en un autolavado de Cuernavaca; inseguridad se sale de control",
+    "published_at": "2026-04-10 14:31:08",
+    "scraped_at": "2026-04-11T17:50:26Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "2c670617d0286e0e"
+  },
+  {
+    "id": "819d3bca4d9c5304",
+    "fecha": "2026-04-10",
+    "hora": "13:10",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atentado-armado-en-la-zona-oriente-sujetos-disparan-contra-un-local-de-gr",
+    "resumen": "Atentado armado en la zona oriente: Sujetos disparan contra un local de grúas | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atentado armado en la zona oriente: Sujetos disparan contra un local de grúas",
+    "published_at": "2026-04-10 14:11:19",
+    "scraped_at": "2026-04-11T17:50:26Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "cdabc20235794679"
   }
 ]
