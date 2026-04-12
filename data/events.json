@@ -694,5 +694,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "cdabc20235794679"
+  },
+  {
+    "id": "d97415baa18dd755",
+    "fecha": "2026-04-12",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Tetela Del Monte",
+    "coordenadas": [
+      18.9569983,
+      -99.252922
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-el-negro-en-autolavado-de-cuernavaca-hab-salido-de-prisi-n",
+    "resumen": "Ejecutan a “El Negro” en autolavado de Cuernavaca; había salido de prisión | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a “El Negro” en autolavado de Cuernavaca; había salido de prisión",
+    "published_at": "2026-04-12 08:48:00",
+    "scraped_at": "2026-04-12T17:52:46Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "0b946812e9310820"
+  },
+  {
+    "id": "0ba40af3e5dd06f7",
+    "fecha": "2026-04-12",
+    "hora": "13:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lagunilla",
+    "coordenadas": [
+      18.906818,
+      -99.244286
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ata-can-bala-zos-dos-repar-ti-do-res",
+    "resumen": "Ata­can a bala­zos a dos repar­ti­do­res | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ata­can a bala­zos a dos repar­ti­do­res",
+    "published_at": "2026-04-12 08:44:24",
+    "scraped_at": "2026-04-12T17:52:47Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "718f65ff5682f148"
+  },
+  {
+    "id": "d28d858152ec4db5",
+    "fecha": "2026-04-12",
+    "hora": "07:51",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Las Palmas",
+    "coordenadas": [
+      18.9064734,
+      -99.233527
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/captan-asalto-ruta-9",
+    "resumen": "Captan asalto a ruta 9 | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Captan asalto a ruta 9",
+    "published_at": "2026-04-12 08:42:00",
+    "scraped_at": "2026-04-12T17:52:47Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "bf68fa381ba384a7"
+  },
+  {
+    "id": "fd2bc67844b5a3c0",
+    "fecha": "2026-04-11",
+    "hora": "13:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Tlaltenango",
+    "coordenadas": [
+      18.9464139,
+      -99.2439166
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/revelan-identidad-de-hombre-acribillado-en-un-autolavado-de-cuernavaca-acababa-de-salir-de-prisi-n",
+    "resumen": "Revelan identidad de hombre acribillado en un autolavado de Cuernavaca; acababa de salir de prisión | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Revelan identidad de hombre acribillado en un autolavado de Cuernavaca; acababa de salir de prisión",
+    "published_at": "2026-04-11 13:46:58",
+    "scraped_at": "2026-04-12T17:52:49Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "e3016990aeae339c"
   }
 ]
