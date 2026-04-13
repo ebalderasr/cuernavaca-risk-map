@@ -790,5 +790,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "e3016990aeae339c"
+  },
+  {
+    "id": "8afd288391fd7671",
+    "fecha": "2026-04-13",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-hombre-maniatado-y-ejecutado-en-plena-v-p-blica",
+    "resumen": "Localizan a hombre maniatado y ejecutado en plena vía pública | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Localizan a hombre maniatado y ejecutado en plena vía pública",
+    "published_at": "2026-04-13 11:32:01",
+    "scraped_at": "2026-04-13T18:17:23Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "f7a2d3f45adc57e8"
+  },
+  {
+    "id": "49974676fbb0ad72",
+    "fecha": "2026-04-13",
+    "hora": "06:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Satelite",
+    "coordenadas": [
+      18.9179378,
+      -99.2058987
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-hombre-ejecutado-balazos-un-costado-del-paso-express-cuernavaca",
+    "resumen": "Hallan a hombre ejecutado a balazos a un costado del Paso Express Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan a hombre ejecutado a balazos a un costado del Paso Express Cuernavaca",
+    "published_at": "2026-04-13 08:50:24",
+    "scraped_at": "2026-04-13T18:17:23Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "4fdcbf442779e59c"
+  },
+  {
+    "id": "e3597057534e7b9f",
+    "fecha": "2026-04-12",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/localizan-hombre-sin-vida-y-maniatado-en-cuernavaca",
+    "resumen": "Localizan a hombre sin vida y maniatado en Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Localizan a hombre sin vida y maniatado en Cuernavaca",
+    "published_at": "2026-04-12 18:28:45",
+    "scraped_at": "2026-04-13T18:17:25Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "f8bfb51f6bfd1605"
   }
 ]
