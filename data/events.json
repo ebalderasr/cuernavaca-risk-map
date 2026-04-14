@@ -862,5 +862,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "f8bfb51f6bfd1605"
+  },
+  {
+    "id": "c2c7d14a5204ec54",
+    "fecha": "2026-04-14",
+    "hora": "13:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "colonia",
+    "location_name": "Tejalpa",
+    "coordenadas": [
+      18.9030496,
+      -99.1691413
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/despojan-un-hombre-de-medio-mill-n-de-pesos",
+    "resumen": "Balean a hombre por 500 mil pesos en banco de Jiutepec | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Despojan a un hombre de medio millón de pesos",
+    "published_at": "2026-04-14 10:03:03",
+    "scraped_at": "2026-04-14T18:18:32Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "5afe8de8461923e3"
+  },
+  {
+    "id": "3b61b39d5c834edc",
+    "fecha": "2026-04-13",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-feminicida-de-la-comandanta-de-jiutepec-aic-lo-atrap-en-temixco",
+    "resumen": "Cae feminicida de la comandanta de Jiutepec; AIC lo atrapó en Temixco | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae feminicida de la comandanta de Jiutepec; AIC lo atrapó en Temixco",
+    "published_at": "2026-04-13 19:22:26",
+    "scraped_at": "2026-04-14T18:18:32Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ff3a9ec0f7e667fd"
+  },
+  {
+    "id": "10cd716198a82377",
+    "fecha": "2026-04-13",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/iba-volando-atrapan-joven-en-yautepec-con-moto-robada-desde-2023",
+    "resumen": "¡Iba volando! Atrapan a joven en Yautepec con moto robada desde 2023 | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Iba volando! Atrapan a joven en Yautepec con moto robada desde 2023",
+    "published_at": "2026-04-13 18:15:28",
+    "scraped_at": "2026-04-14T18:18:33Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.4,
+    "dedupe_group_id": "e1609220328f0022"
   }
 ]
