@@ -934,5 +934,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.4,
     "dedupe_group_id": "e1609220328f0022"
+  },
+  {
+    "id": "65ac762300e8e4fb",
+    "fecha": "2026-04-14",
+    "hora": "18:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-joven-afuera-de-barber-en-la-colonia-centro-en-el-sur-de-morelos",
+    "resumen": "Ejecutan a joven afuera de barbería en la colonia Centro, en el sur de Morelos | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a joven afuera de barbería en la colonia Centro, en el sur de Morelos",
+    "published_at": "2026-04-14 19:43:54",
+    "scraped_at": "2026-04-15T18:16:41Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "0cd8747ebce2dad6"
+  },
+  {
+    "id": "ed223aa186b9764c",
+    "fecha": "2026-04-14",
+    "hora": "17:30",
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-tortiller-de-tepetzingo-deja-un-muerto-y-una-mujer-herida",
+    "resumen": "Ataque armado en tortillería de Tepetzingo deja un muerto y una mujer herida | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado en tortillería de Tepetzingo deja un muerto y una mujer herida",
+    "published_at": "2026-04-14 19:01:28",
+    "scraped_at": "2026-04-15T18:16:41Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "cfafb87dbef15c5c"
   }
 ]
