@@ -982,5 +982,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "cfafb87dbef15c5c"
+  },
+  {
+    "id": "ebb1c460728885ea",
+    "fecha": "2026-04-16",
+    "hora": "04:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/irrumpen-en-vivienda-para-ejecutar-un-joven-mientras-dorm-en-cuernavaca",
+    "resumen": "Irrumpen en vivienda para ejecutar a un joven mientras dormía en Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Irrumpen en vivienda para ejecutar a un joven mientras dormía en Cuernavaca",
+    "published_at": "2026-04-16 09:45:54",
+    "scraped_at": "2026-04-16T18:18:37Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "82b8802f18f4ff9c"
   }
 ]

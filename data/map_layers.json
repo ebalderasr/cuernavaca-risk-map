@@ -209,7 +209,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 9,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-03-05",
         "location_scope": "municipio",
@@ -455,7 +455,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-03-02",
         "first_incident_date": "2026-03-02",
         "location_scope": "colonia",
@@ -681,7 +681,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-03-18",
         "location_scope": "municipio",
@@ -924,9 +924,9 @@
         ]
       },
       "properties": {
-        "level": "naranja",
+        "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "location_scope": "colonia",
@@ -1152,7 +1152,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-03-20",
         "location_scope": "colonia",
@@ -1382,7 +1382,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-03-20",
         "location_scope": "municipio",
@@ -1617,7 +1617,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 20,
+        "dias_sin_hechos_violentos": 21,
         "last_incident_date": "2026-03-26",
         "first_incident_date": "2026-03-26",
         "location_scope": "colonia",
@@ -1642,217 +1642,222 @@
         "coordinates": [
           [
             [
-              -99.2286574723946,
+              -99.22818266079412,
               18.9211173
             ],
             [
-              -99.2287021552643,
-              18.921766742787415
+              -99.22823140574287,
+              18.921825783040816
             ],
             [
-              -99.2288354393371,
-              18.92240507342868
+              -99.22837680654958,
+              18.922522143740377
             ],
             [
-              -99.22905504408558,
-              18.92302136990954
+              -99.2286163753661,
+              18.923194467174046
             ],
             [
-              -99.22935721201159,
-              18.923605087226342
+              -99.22894601310357,
+              18.923831249701465
             ],
             [
-              -99.22973677293815,
-              18.924146237813957
+              -99.2293600795689,
+              18.924421595797043
             ],
             [
-              -99.23018723247257,
-              18.924635562435792
+              -99.2298514899701,
+              18.92495540447541
             ],
             [
-              -99.23070088312733,
-              18.925064688611904
+              -99.23041183613891,
+              18.92542354212208
             ],
             [
-              -99.2312689361973,
-              18.925426273874447
+              -99.23103153039708,
+              18.925817998772125
             ],
             [
-              -99.23188167213698,
-              18.92571413139932
+              -99.23169996960398,
+              18.926132025162897
             ],
             [
-              -99.23252860686453,
-              18.92592333586447
+              -99.2324057165795,
+              18.92636024821579
             ],
             [
-              -99.23319867114743,
-              18.926050307723497
+              -99.23313669579721,
+              18.92649876297109
             ],
             [
-              -99.2338804,
-              18.926092874452685
+              -99.23388040000002,
+              18.92654519940293
             ],
             [
-              -99.23456212885257,
-              18.926050307723497
+              -99.23462410420282,
+              18.92649876297109
             ],
             [
-              -99.23523219313547,
-              18.92592333586447
+              -99.23535508342053,
+              18.92636024821579
             ],
             [
-              -99.23587912786303,
-              18.92571413139932
+              -99.23606083039606,
+              18.926132025162897
             ],
             [
-              -99.23649186380271,
-              18.925426273874447
+              -99.23672926960296,
+              18.925817998772125
             ],
             [
-              -99.23705991687268,
-              18.925064688611904
+              -99.23734896386112,
+              18.92542354212208
             ],
             [
-              -99.23757356752743,
-              18.924635562435792
+              -99.23790931002993,
+              18.92495540447541
             ],
             [
-              -99.23802402706185,
-              18.924146237813957
+              -99.23840072043113,
+              18.924421595797043
             ],
             [
-              -99.23840358798842,
-              18.923605087226342
+              -99.23881478689647,
+              18.923831249701465
             ],
             [
-              -99.23870575591442,
-              18.92302136990954
+              -99.23914442463393,
+              18.923194467174046
             ],
             [
-              -99.2389253606629,
-              18.92240507342868
+              -99.23938399345046,
+              18.922522143740377
             ],
             [
-              -99.2390586447357,
-              18.921766742787415
+              -99.23952939425716,
+              18.921825783040816
             ],
             [
-              -99.2391033276054,
+              -99.23957813920592,
               18.9211173
             ],
             [
-              -99.2390586447357,
-              18.920467857212582
+              -99.23952939425716,
+              18.92040881695918
             ],
             [
-              -99.2389253606629,
-              18.919829526571316
+              -99.23938399345046,
+              18.91971245625962
             ],
             [
-              -99.23870575591442,
-              18.919213230090456
+              -99.23914442463393,
+              18.919040132825952
             ],
             [
-              -99.23840358798842,
-              18.918629512773656
+              -99.23881478689647,
+              18.918403350298533
             ],
             [
-              -99.23802402706185,
-              18.91808836218604
+              -99.23840072043113,
+              18.917813004202955
             ],
             [
-              -99.23757356752743,
-              18.917599037564205
+              -99.23790931002993,
+              18.91727919552459
             ],
             [
-              -99.23705991687268,
-              18.917169911388093
+              -99.23734896386112,
+              18.91681105787792
             ],
             [
-              -99.23649186380271,
-              18.91680832612555
+              -99.23672926960296,
+              18.916416601227873
             ],
             [
-              -99.23587912786303,
-              18.916520468600677
+              -99.23606083039606,
+              18.9161025748371
             ],
             [
-              -99.23523219313547,
-              18.916311264135526
+              -99.23535508342053,
+              18.915874351784208
             ],
             [
-              -99.23456212885257,
-              18.9161842922765
+              -99.23462410420282,
+              18.915735837028908
             ],
             [
-              -99.2338804,
-              18.916141725547313
+              -99.23388040000002,
+              18.915689400597067
             ],
             [
-              -99.23319867114743,
-              18.9161842922765
+              -99.23313669579721,
+              18.915735837028908
             ],
             [
-              -99.23252860686453,
-              18.916311264135526
+              -99.2324057165795,
+              18.915874351784208
             ],
             [
-              -99.23188167213698,
-              18.916520468600677
+              -99.23169996960398,
+              18.9161025748371
             ],
             [
-              -99.2312689361973,
-              18.91680832612555
+              -99.23103153039708,
+              18.916416601227873
             ],
             [
-              -99.23070088312733,
-              18.917169911388093
+              -99.23041183613891,
+              18.91681105787792
             ],
             [
-              -99.23018723247257,
-              18.917599037564205
+              -99.2298514899701,
+              18.91727919552459
             ],
             [
-              -99.22973677293815,
-              18.91808836218604
+              -99.2293600795689,
+              18.917813004202955
             ],
             [
-              -99.22935721201159,
-              18.918629512773656
+              -99.22894601310357,
+              18.918403350298533
             ],
             [
-              -99.22905504408558,
-              18.919213230090456
+              -99.2286163753661,
+              18.919040132825952
             ],
             [
-              -99.2288354393371,
-              18.919829526571316
+              -99.22837680654958,
+              18.91971245625962
             ],
             [
-              -99.2287021552643,
-              18.920467857212582
+              -99.22823140574287,
+              18.92040881695918
             ],
             [
-              -99.2286574723946,
+              -99.22818266079412,
               18.9211173
             ]
           ]
         ]
       },
       "properties": {
-        "level": "amarillo",
-        "n_incidents": 2,
-        "dias_sin_hechos_violentos": 34,
-        "last_incident_date": "2026-03-12",
+        "level": "rojo",
+        "n_incidents": 3,
+        "dias_sin_hechos_violentos": 0,
+        "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-03-11",
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "delitos": [
           "asalto con violencia",
-          "ataque armado"
+          "ataque armado",
+          "homicidio"
         ],
         "fuentes": [
+          {
+            "title": "Irrumpen en vivienda para ejecutar a un joven mientras dormía en Cuernavaca",
+            "url": "https://www.diariodemorelos.com/noticias/irrumpen-en-vivienda-para-ejecutar-un-joven-mientras-dorm-en-cuernavaca"
+          },
           {
             "title": "Lesionan a tres hombres en peluquería durante un asalto | Diario de Morelos - Noticias |",
             "url": "https://www.diariodemorelos.com/noticias/lesionan-tres-hombres-en-peluquer-durante-un-asalto"
@@ -1862,7 +1867,7 @@
             "url": "https://www.diariodemorelos.com/noticias/lesionan-balazos-un-hombre-y-otro-queda-lesionado-cachazos-en-cuernavaca"
           }
         ],
-        "radius_meters": 550,
+        "radius_meters": 600,
         "geometry_source": "buffer"
       }
     },
@@ -2072,9 +2077,9 @@
         ]
       },
       "properties": {
-        "level": "rojo",
+        "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-16",
         "location_scope": "colonia",
@@ -2304,7 +2309,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-03-30",
         "first_incident_date": "2026-03-30",
         "location_scope": "colonia",
@@ -2530,7 +2535,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 17,
+        "dias_sin_hechos_violentos": 18,
         "last_incident_date": "2026-03-29",
         "first_incident_date": "2026-03-29",
         "location_scope": "colonia",
@@ -2756,7 +2761,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 10,
+        "dias_sin_hechos_violentos": 11,
         "last_incident_date": "2026-04-05",
         "first_incident_date": "2026-03-31",
         "location_scope": "municipio",
@@ -2990,7 +2995,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "location_scope": "colonia",
@@ -3216,7 +3221,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 11,
+        "dias_sin_hechos_violentos": 12,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -3446,7 +3451,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 13,
+        "dias_sin_hechos_violentos": 14,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -3672,7 +3677,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -3906,7 +3911,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-07",
         "location_scope": "colonia",
@@ -4136,7 +4141,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-09",
         "location_scope": "colonia",
@@ -4371,7 +4376,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 4,
+        "dias_sin_hechos_violentos": 5,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-10",
         "location_scope": "colonia",
@@ -4601,7 +4606,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -4827,7 +4832,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -5053,7 +5058,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "location_scope": "colonia",
@@ -5279,7 +5284,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -5505,7 +5510,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
