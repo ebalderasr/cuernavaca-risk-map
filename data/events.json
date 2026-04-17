@@ -1006,5 +1006,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "82b8802f18f4ff9c"
+  },
+  {
+    "id": "2bf6a9622e0bf2cb",
+    "fecha": "2026-04-16",
+    "hora": "17:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/un-cuerpo-en-estado-de-descomposici-n-fue-localizado-en-barranca-de-cocoyoc",
+    "resumen": "Un cuerpo en estado de descomposición fue localizado en barranca de Cocoyoc | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Un cuerpo en estado de descomposición fue localizado en barranca de Cocoyoc",
+    "published_at": "2026-04-16 13:58:46",
+    "scraped_at": "2026-04-17T18:06:44Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "b72273fe08eb174d"
+  },
+  {
+    "id": "286257b1d10da155",
+    "fecha": "2026-04-16",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/una-menor-de-15-os-fue-asesinada-balazos-en-el-centro-de-jiutepec",
+    "resumen": "Una menor de 15 años fue asesinada a balazos en el Centro de Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Una menor de 15 años fue asesinada a balazos en el Centro de Jiutepec",
+    "published_at": "2026-04-16 12:19:53",
+    "scraped_at": "2026-04-17T18:06:46Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5ded0cd83d0a2226"
   }
 ]
