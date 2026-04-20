@@ -1054,5 +1054,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "5ded0cd83d0a2226"
+  },
+  {
+    "id": "461ecf0152e7f54b",
+    "fecha": "2026-04-20",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/un-hombre-fue-localizado-sin-vida-y-con-heridas-de-bala-en-la-colonia-flores-mag-n-de-cuernavaca",
+    "resumen": "Un hombre fue localizado sin vida y con heridas de bala en la colonia Flores Magón de Cuernavaca | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Un hombre fue localizado sin vida y con heridas de bala en la colonia Flores Magón de Cuernavaca",
+    "published_at": "2026-04-20 09:48:21",
+    "scraped_at": "2026-04-20T18:09:32Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "3394f2e6e762f4b2"
+  },
+  {
+    "id": "198908e4ef4654ba",
+    "fecha": "2026-04-19",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/capturan-adulto-mayor-fing-inter-s-en-comprar-autos-para-robarlos",
+    "resumen": "Capturan a adulto mayor en Temixco: fingía interés en comprar autos para robarlos | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Capturan a adulto mayor, fingía interés en comprar autos para robarlos",
+    "published_at": "2026-04-19 16:38:00",
+    "scraped_at": "2026-04-20T18:09:34Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "7ca2dc67e2fca0f9"
   }
 ]
