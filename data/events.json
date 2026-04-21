@@ -1102,5 +1102,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "7ca2dc67e2fca0f9"
+  },
+  {
+    "id": "dc7d73cca9062b7f",
+    "fecha": "2026-04-20",
+    "hora": "15:30",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-hombre-plena-luz-del-d-en-los-pinos-jiutepec",
+    "resumen": "Asesinan a hombre a plena luz del día en Los Pinos, Jiutepec | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a hombre a plena luz del día en Los Pinos, Jiutepec",
+    "published_at": "2026-04-20 21:08:58",
+    "scraped_at": "2026-04-21T18:12:59Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "ba76ee0ccbea2475"
+  },
+  {
+    "id": "1c919946143e79db",
+    "fecha": "2026-04-20",
+    "hora": "13:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-muerto-escolta-del-alcalde-de-xoxocotla-en-su-domicilio",
+    "resumen": "Hallan muerto a escolta del alcalde de Xoxocotla en su domicilio | Diario de Morelos - Noticias |",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan muerto a escolta del alcalde de Xoxocotla en su domicilio",
+    "published_at": "2026-04-20 16:52:50",
+    "scraped_at": "2026-04-21T18:12:59Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "a96e630770289164"
   }
 ]
