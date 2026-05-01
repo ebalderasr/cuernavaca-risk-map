@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 265,
+        "dias_sin_hechos_violentos": 266,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 159,
+        "dias_sin_hechos_violentos": 160,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 391,
+        "dias_sin_hechos_violentos": 392,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -90,6 +90,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.246024,
+          18.9894096
+        ]
+      },
+      "properties": {
+        "location_scope": "colonia",
+        "location_name": "Nueva Jerusalén",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-03-02",
+        "first_incident_date": "2026-03-02",
+        "delitos": [
+          "feminicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Localizan sin vida a Kimberly, estudiante de la UAEM, en zona boscosa de Cuernavaca | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/localizan-sin-vida-kimberly-estudiante-de-la-uaem-en-zona-boscosa-de-cuernavaca"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -99.2432239,
           18.9398277
         ]
@@ -98,7 +126,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2718,
+        "dias_sin_hechos_violentos": 2719,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -126,7 +154,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 101,
+        "dias_sin_hechos_violentos": 102,
         "last_incident_date": "2026-01-19",
         "first_incident_date": "2026-01-19",
         "delitos": [
@@ -154,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 278,
+        "dias_sin_hechos_violentos": 279,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -182,7 +210,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 178,
+        "dias_sin_hechos_violentos": 179,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
