@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 273,
+        "dias_sin_hechos_violentos": 274,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 167,
+        "dias_sin_hechos_violentos": 168,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 63,
+        "dias_sin_hechos_violentos": 64,
         "last_incident_date": "2026-03-06",
         "first_incident_date": "2026-03-06",
         "delitos": [
@@ -98,7 +98,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 64,
+        "dias_sin_hechos_violentos": 65,
         "last_incident_date": "2026-03-05",
         "first_incident_date": "2026-03-05",
         "delitos": [
@@ -126,7 +126,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 399,
+        "dias_sin_hechos_violentos": 400,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -154,7 +154,7 @@
         "location_scope": "colonia",
         "location_name": "Nueva Jerusalén",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 67,
+        "dias_sin_hechos_violentos": 68,
         "last_incident_date": "2026-03-02",
         "first_incident_date": "2026-03-02",
         "delitos": [
@@ -182,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2726,
+        "dias_sin_hechos_violentos": 2727,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -210,7 +210,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 109,
+        "dias_sin_hechos_violentos": 110,
         "last_incident_date": "2026-01-19",
         "first_incident_date": "2026-01-19",
         "delitos": [
@@ -238,7 +238,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 286,
+        "dias_sin_hechos_violentos": 287,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -266,7 +266,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 186,
+        "dias_sin_hechos_violentos": 187,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
@@ -276,6 +276,34 @@
           {
             "title": "Balean fachada de distribuidora de abarrotes en Cuernavaca; esto se sabe | Diario de Morelos - Noticias |",
             "url": "https://www.diariodemorelos.com/noticias/balean-fachada-de-distribuidora-de-abarrotes-en-cuernavaca-esto-se-sabe"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1732936,
+          18.8954874
+        ]
+      },
+      "properties": {
+        "location_scope": "municipio",
+        "location_name": "Jiutepec",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-03-10",
+        "first_incident_date": "2026-03-10",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Hombre es asesinado a tiros en la colonia Vicente Guerrero de Jiutepec | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/hombre-es-asesinado-tiros-en-la-colonia-vicente-guerrero-de-jiutepec"
           }
         ],
         "marker_type": "archived_square"
