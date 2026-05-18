@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 282,
+        "dias_sin_hechos_violentos": 283,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 176,
+        "dias_sin_hechos_violentos": 177,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 72,
+        "dias_sin_hechos_violentos": 73,
         "last_incident_date": "2026-03-06",
         "first_incident_date": "2026-03-06",
         "delitos": [
@@ -98,7 +98,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 73,
+        "dias_sin_hechos_violentos": 74,
         "last_incident_date": "2026-03-05",
         "first_incident_date": "2026-03-05",
         "delitos": [
@@ -126,7 +126,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 408,
+        "dias_sin_hechos_violentos": 409,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -154,7 +154,7 @@
         "location_scope": "colonia",
         "location_name": "Nueva Jerusalén",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 76,
+        "dias_sin_hechos_violentos": 77,
         "last_incident_date": "2026-03-02",
         "first_incident_date": "2026-03-02",
         "delitos": [
@@ -182,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2735,
+        "dias_sin_hechos_violentos": 2736,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -210,7 +210,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 118,
+        "dias_sin_hechos_violentos": 119,
         "last_incident_date": "2026-01-19",
         "first_incident_date": "2026-01-19",
         "delitos": [
@@ -238,7 +238,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 295,
+        "dias_sin_hechos_violentos": 296,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -266,7 +266,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 195,
+        "dias_sin_hechos_violentos": 196,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
@@ -294,7 +294,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 60,
+        "dias_sin_hechos_violentos": 61,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
@@ -322,7 +322,7 @@
         "location_scope": "colonia",
         "location_name": "Vista Hermosa",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 61,
+        "dias_sin_hechos_violentos": 62,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -342,6 +342,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.2553467,
+          18.929291
+        ]
+      },
+      "properties": {
+        "location_scope": "municipio",
+        "location_name": "Jiutepec",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-03-19",
+        "first_incident_date": "2026-03-19",
+        "delitos": [
+          "ataque armado"
+        ],
+        "fuentes": [
+          {
+            "title": "Atacan a comerciante en calles de Jiutepec",
+            "url": "https://www.diariodemorelos.com/noticias/atacan-comerciante-en-calles-de-jiutepec"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -99.1732936,
           18.8954874
         ]
@@ -350,7 +378,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 68,
+        "dias_sin_hechos_violentos": 69,
         "last_incident_date": "2026-03-10",
         "first_incident_date": "2026-03-10",
         "delitos": [
@@ -378,7 +406,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 66,
+        "dias_sin_hechos_violentos": 67,
         "last_incident_date": "2026-03-12",
         "first_incident_date": "2026-03-12",
         "delitos": [
@@ -406,7 +434,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 67,
+        "dias_sin_hechos_violentos": 68,
         "last_incident_date": "2026-03-11",
         "first_incident_date": "2026-03-11",
         "delitos": [
@@ -434,7 +462,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 61,
+        "dias_sin_hechos_violentos": 62,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -462,7 +490,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 62,
+        "dias_sin_hechos_violentos": 63,
         "last_incident_date": "2026-03-16",
         "first_incident_date": "2026-03-16",
         "delitos": [
@@ -490,7 +518,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 60,
+        "dias_sin_hechos_violentos": 61,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
