@@ -8,471 +8,6 @@
         "coordinates": [
           [
             [
-              -99.23906351901333,
-              18.906818
-            ],
-            [
-              -99.23910819806214,
-              18.907467442787418
-            ],
-            [
-              -99.23924147073767,
-              18.908105773428684
-            ],
-            [
-              -99.23946105670748,
-              18.908722069909544
-            ],
-            [
-              -99.23976319879476,
-              18.909305787226344
-            ],
-            [
-              -99.24014272726461,
-              18.90984693781396
-            ],
-            [
-              -99.24059314827971,
-              18.910336262435795
-            ],
-            [
-              -99.24110675501159,
-              18.910765388611907
-            ],
-            [
-              -99.24167475950667,
-              18.91112697387445
-            ],
-            [
-              -99.24228744305056,
-              18.911414831399323
-            ],
-            [
-              -99.24293432245797,
-              18.911624035864474
-            ],
-            [
-              -99.24360432944287,
-              18.9117510077235
-            ],
-            [
-              -99.244286,
-              18.911793574452687
-            ],
-            [
-              -99.24496767055713,
-              18.9117510077235
-            ],
-            [
-              -99.24563767754204,
-              18.911624035864474
-            ],
-            [
-              -99.24628455694945,
-              18.911414831399323
-            ],
-            [
-              -99.24689724049334,
-              18.91112697387445
-            ],
-            [
-              -99.24746524498842,
-              18.910765388611907
-            ],
-            [
-              -99.24797885172029,
-              18.910336262435795
-            ],
-            [
-              -99.2484292727354,
-              18.90984693781396
-            ],
-            [
-              -99.24880880120524,
-              18.909305787226344
-            ],
-            [
-              -99.24911094329252,
-              18.908722069909544
-            ],
-            [
-              -99.24933052926234,
-              18.908105773428684
-            ],
-            [
-              -99.24946380193786,
-              18.907467442787418
-            ],
-            [
-              -99.24950848098668,
-              18.906818
-            ],
-            [
-              -99.24946380193786,
-              18.906168557212585
-            ],
-            [
-              -99.24933052926234,
-              18.90553022657132
-            ],
-            [
-              -99.24911094329252,
-              18.90491393009046
-            ],
-            [
-              -99.24880880120524,
-              18.904330212773658
-            ],
-            [
-              -99.2484292727354,
-              18.903789062186043
-            ],
-            [
-              -99.24797885172029,
-              18.903299737564208
-            ],
-            [
-              -99.24746524498842,
-              18.902870611388096
-            ],
-            [
-              -99.24689724049334,
-              18.902509026125554
-            ],
-            [
-              -99.24628455694945,
-              18.90222116860068
-            ],
-            [
-              -99.24563767754204,
-              18.90201196413553
-            ],
-            [
-              -99.24496767055713,
-              18.901884992276504
-            ],
-            [
-              -99.244286,
-              18.901842425547315
-            ],
-            [
-              -99.24360432944287,
-              18.901884992276504
-            ],
-            [
-              -99.24293432245797,
-              18.90201196413553
-            ],
-            [
-              -99.24228744305056,
-              18.90222116860068
-            ],
-            [
-              -99.24167475950667,
-              18.902509026125554
-            ],
-            [
-              -99.24110675501159,
-              18.902870611388096
-            ],
-            [
-              -99.24059314827971,
-              18.903299737564208
-            ],
-            [
-              -99.24014272726461,
-              18.903789062186043
-            ],
-            [
-              -99.23976319879476,
-              18.904330212773658
-            ],
-            [
-              -99.23946105670748,
-              18.90491393009046
-            ],
-            [
-              -99.23924147073767,
-              18.90553022657132
-            ],
-            [
-              -99.23910819806214,
-              18.906168557212585
-            ],
-            [
-              -99.23906351901333,
-              18.906818
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 2,
-        "dias_sin_hechos_violentos": 36,
-        "last_incident_date": "2026-04-12",
-        "first_incident_date": "2026-03-20",
-        "location_scope": "colonia",
-        "location_name": "Lagunilla",
-        "delitos": [
-          "ataque armado"
-        ],
-        "fuentes": [
-          {
-            "title": "Ata­can a bala­zos a dos repar­ti­do­res",
-            "url": "https://www.diariodemorelos.com/noticias/ata-can-bala-zos-dos-repar-ti-do-res"
-          },
-          {
-            "title": "Balean a 2 hombres durante un partido de futbol en la Lagunilla, Cuernavaca",
-            "url": "https://www.diariodemorelos.com/noticias/balean-2-hombres-durante-un-partido-de-futbol-en-la-lagunilla-cuernavaca"
-          }
-        ],
-        "radius_meters": 550,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -99.17202789651918,
-              18.8478608
-            ],
-            [
-              -99.17213346439306,
-              18.84939584658844
-            ],
-            [
-              -99.17244836171912,
-              18.850904628104153
-            ],
-            [
-              -99.17296720051681,
-              18.852361328877098
-            ],
-            [
-              -99.17368110331044,
-              18.853741024353173
-            ],
-            [
-              -99.17457785502529,
-              18.85502010756026
-            ],
-            [
-              -99.17564211199088,
-              18.856176693030058
-            ],
-            [
-              -99.17685566447548,
-              18.857190991264506
-            ],
-            [
-              -99.17819774825959,
-              18.8580456473396
-            ],
-            [
-              -99.1796453999176,
-              18.858726037852946
-            ],
-            [
-              -99.18117384972825,
-              18.859220521134212
-            ],
-            [
-              -99.18275694549153,
-              18.85952063643736
-            ],
-            [
-              -99.18436760000002,
-              18.85962124870635
-            ],
-            [
-              -99.1859782545085,
-              18.85952063643736
-            ],
-            [
-              -99.18756135027178,
-              18.859220521134212
-            ],
-            [
-              -99.18908980008243,
-              18.858726037852946
-            ],
-            [
-              -99.19053745174044,
-              18.8580456473396
-            ],
-            [
-              -99.19187953552455,
-              18.857190991264506
-            ],
-            [
-              -99.19309308800915,
-              18.856176693030058
-            ],
-            [
-              -99.19415734497474,
-              18.85502010756026
-            ],
-            [
-              -99.19505409668959,
-              18.853741024353173
-            ],
-            [
-              -99.19576799948322,
-              18.852361328877098
-            ],
-            [
-              -99.19628683828091,
-              18.850904628104153
-            ],
-            [
-              -99.19660173560698,
-              18.84939584658844
-            ],
-            [
-              -99.19670730348085,
-              18.8478608
-            ],
-            [
-              -99.19660173560698,
-              18.84632575341156
-            ],
-            [
-              -99.19628683828091,
-              18.844816971895845
-            ],
-            [
-              -99.19576799948322,
-              18.8433602711229
-            ],
-            [
-              -99.19505409668959,
-              18.841980575646826
-            ],
-            [
-              -99.19415734497474,
-              18.840701492439738
-            ],
-            [
-              -99.19309308800915,
-              18.83954490696994
-            ],
-            [
-              -99.19187953552455,
-              18.838530608735493
-            ],
-            [
-              -99.19053745174044,
-              18.837675952660398
-            ],
-            [
-              -99.18908980008243,
-              18.836995562147052
-            ],
-            [
-              -99.18756135027178,
-              18.836501078865787
-            ],
-            [
-              -99.1859782545085,
-              18.83620096356264
-            ],
-            [
-              -99.18436760000002,
-              18.83610035129365
-            ],
-            [
-              -99.18275694549153,
-              18.83620096356264
-            ],
-            [
-              -99.18117384972825,
-              18.836501078865787
-            ],
-            [
-              -99.1796453999176,
-              18.836995562147052
-            ],
-            [
-              -99.17819774825959,
-              18.837675952660398
-            ],
-            [
-              -99.17685566447548,
-              18.838530608735493
-            ],
-            [
-              -99.17564211199088,
-              18.83954490696994
-            ],
-            [
-              -99.17457785502529,
-              18.840701492439738
-            ],
-            [
-              -99.17368110331044,
-              18.841980575646826
-            ],
-            [
-              -99.17296720051681,
-              18.8433602711229
-            ],
-            [
-              -99.17244836171912,
-              18.844816971895845
-            ],
-            [
-              -99.17213346439306,
-              18.84632575341156
-            ],
-            [
-              -99.17202789651918,
-              18.8478608
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 3,
-        "dias_sin_hechos_violentos": 34,
-        "last_incident_date": "2026-04-14",
-        "first_incident_date": "2026-03-20",
-        "location_scope": "municipio",
-        "location_name": "Emiliano Zapata",
-        "delitos": [
-          "ataque armado",
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Ataque armado en tortillería de Tepetzingo deja un muerto y una mujer herida",
-            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-tortiller-de-tepetzingo-deja-un-muerto-y-una-mujer-herida"
-          },
-          {
-            "title": "Ejecutan a balazos a un hombre dentro de habitación en la colonia Tres de Mayo",
-            "url": "https://www.diariodemorelos.com/noticias/ejecutan-balazos-un-hombre-dentro-de-habitaci-n-en-la-colonia-tres-de-mayo"
-          },
-          {
-            "title": "Muere mujer tras ataque armado en la colonia Benito Juárez",
-            "url": "https://www.diariodemorelos.com/noticias/muere-mujer-tras-ataque-armado-en-la-colonia-benito-ju-rez"
-          }
-        ],
-        "radius_meters": 1300,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -99.08567489437297,
               18.89268856
             ],
@@ -674,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 32,
+        "dias_sin_hechos_violentos": 33,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-03-21",
         "location_scope": "municipio",
@@ -918,7 +453,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 53,
+        "dias_sin_hechos_violentos": 54,
         "last_incident_date": "2026-03-26",
         "first_incident_date": "2026-03-26",
         "location_scope": "colonia",
@@ -1144,7 +679,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 28,
+        "dias_sin_hechos_violentos": 29,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-03-26",
         "location_scope": "municipio",
@@ -1389,7 +924,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 49,
+        "dias_sin_hechos_violentos": 50,
         "last_incident_date": "2026-03-30",
         "first_incident_date": "2026-03-30",
         "location_scope": "colonia",
@@ -1615,7 +1150,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 50,
+        "dias_sin_hechos_violentos": 51,
         "last_incident_date": "2026-03-29",
         "first_incident_date": "2026-03-29",
         "location_scope": "colonia",
@@ -1839,9 +1374,9 @@
         ]
       },
       "properties": {
-        "level": "rojo",
+        "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-04-19",
         "first_incident_date": "2026-03-31",
         "location_scope": "municipio",
@@ -2079,7 +1614,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 48,
+        "dias_sin_hechos_violentos": 49,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "location_scope": "colonia",
@@ -2305,7 +1840,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -2535,7 +2070,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -2761,7 +2296,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 35,
+        "dias_sin_hechos_violentos": 36,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -2995,7 +2530,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 40,
+        "dias_sin_hechos_violentos": 41,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-07",
         "location_scope": "colonia",
@@ -3225,7 +2760,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-09",
         "location_scope": "colonia",
@@ -3249,6 +2784,236 @@
           }
         ],
         "radius_meters": 600,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.17250250049919,
+              18.8478608
+            ],
+            [
+              -99.17260400807024,
+              18.84933680633504
+            ],
+            [
+              -99.17290679396068,
+              18.850787557792454
+            ],
+            [
+              -99.17340567741999,
+              18.852188231612594
+            ],
+            [
+              -99.17409212241387,
+              18.853514861878054
+            ],
+            [
+              -99.17495438367816,
+              18.854744749577176
+            ],
+            [
+              -99.17597770768353,
+              18.85585685099044
+            ],
+            [
+              -99.17714458507255,
+              18.85683213775433
+            ],
+            [
+              -99.1784350502496,
+              18.857653922441926
+            ],
+            [
+              -99.17982702299769,
+              18.85830814408937
+            ],
+            [
+              -99.18129668627715,
+              18.858783608782897
+            ],
+            [
+              -99.18281889374185,
+              18.85907218118977
+            ],
+            [
+              -99.1843676,
+              18.859168923756105
+            ],
+            [
+              -99.18591630625815,
+              18.85907218118977
+            ],
+            [
+              -99.18743851372285,
+              18.858783608782897
+            ],
+            [
+              -99.18890817700232,
+              18.85830814408937
+            ],
+            [
+              -99.1903001497504,
+              18.857653922441926
+            ],
+            [
+              -99.19159061492745,
+              18.85683213775433
+            ],
+            [
+              -99.19275749231647,
+              18.85585685099044
+            ],
+            [
+              -99.19378081632185,
+              18.854744749577176
+            ],
+            [
+              -99.19464307758614,
+              18.853514861878054
+            ],
+            [
+              -99.19532952258001,
+              18.852188231612594
+            ],
+            [
+              -99.19582840603933,
+              18.850787557792454
+            ],
+            [
+              -99.19613119192977,
+              18.84933680633504
+            ],
+            [
+              -99.19623269950081,
+              18.8478608
+            ],
+            [
+              -99.19613119192977,
+              18.84638479366496
+            ],
+            [
+              -99.19582840603933,
+              18.844934042207544
+            ],
+            [
+              -99.19532952258001,
+              18.843533368387405
+            ],
+            [
+              -99.19464307758614,
+              18.842206738121945
+            ],
+            [
+              -99.19378081632185,
+              18.840976850422823
+            ],
+            [
+              -99.19275749231647,
+              18.83986474900956
+            ],
+            [
+              -99.19159061492745,
+              18.838889462245668
+            ],
+            [
+              -99.1903001497504,
+              18.838067677558072
+            ],
+            [
+              -99.18890817700232,
+              18.837413455910628
+            ],
+            [
+              -99.18743851372285,
+              18.836937991217102
+            ],
+            [
+              -99.18591630625815,
+              18.83664941881023
+            ],
+            [
+              -99.1843676,
+              18.836552676243894
+            ],
+            [
+              -99.18281889374185,
+              18.83664941881023
+            ],
+            [
+              -99.18129668627715,
+              18.836937991217102
+            ],
+            [
+              -99.17982702299769,
+              18.837413455910628
+            ],
+            [
+              -99.1784350502496,
+              18.838067677558072
+            ],
+            [
+              -99.17714458507255,
+              18.838889462245664
+            ],
+            [
+              -99.17597770768353,
+              18.83986474900956
+            ],
+            [
+              -99.17495438367816,
+              18.840976850422823
+            ],
+            [
+              -99.17409212241387,
+              18.842206738121945
+            ],
+            [
+              -99.17340567741999,
+              18.843533368387405
+            ],
+            [
+              -99.17290679396068,
+              18.844934042207544
+            ],
+            [
+              -99.17260400807024,
+              18.84638479366496
+            ],
+            [
+              -99.17250250049919,
+              18.8478608
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "amarillo",
+        "n_incidents": 2,
+        "dias_sin_hechos_violentos": 35,
+        "last_incident_date": "2026-04-14",
+        "first_incident_date": "2026-04-09",
+        "location_scope": "municipio",
+        "location_name": "Emiliano Zapata",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Ataque armado en tortillería de Tepetzingo deja un muerto y una mujer herida",
+            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-tortiller-de-tepetzingo-deja-un-muerto-y-una-mujer-herida"
+          },
+          {
+            "title": "Ejecutan a balazos a un hombre dentro de habitación en la colonia Tres de Mayo",
+            "url": "https://www.diariodemorelos.com/noticias/ejecutan-balazos-un-hombre-dentro-de-habitaci-n-en-la-colonia-tres-de-mayo"
+          }
+        ],
+        "radius_meters": 1250,
         "geometry_source": "buffer"
       }
     },
@@ -3460,7 +3225,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 37,
+        "dias_sin_hechos_violentos": 38,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-10",
         "location_scope": "colonia",
@@ -3690,7 +3455,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 36,
+        "dias_sin_hechos_violentos": 37,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3702,6 +3467,232 @@
           {
             "title": "Ejecutan a “El Negro” en autolavado de Cuernavaca; había salido de prisión",
             "url": "https://www.diariodemorelos.com/noticias/ejecutan-el-negro-en-autolavado-de-cuernavaca-hab-salido-de-prisi-n"
+          }
+        ],
+        "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23953829001212,
+              18.906818
+            ],
+            [
+              -99.23957890732922,
+              18.907408402534017
+            ],
+            [
+              -99.23970006430697,
+              18.907988703116985
+            ],
+            [
+              -99.2398996879159,
+              18.90854897264504
+            ],
+            [
+              -99.2401743625407,
+              18.90907962475122
+            ],
+            [
+              -99.24051938842238,
+              18.90957157983087
+            ],
+            [
+              -99.24092886207247,
+              18.910016420396175
+            ],
+            [
+              -99.24139577728326,
+              18.910406535101735
+            ],
+            [
+              -99.24191214500605,
+              18.91073524897677
+            ],
+            [
+              -99.24246913004596,
+              18.91099693763575
+            ],
+            [
+              -99.24305720223451,
+              18.91118712351316
+            ],
+            [
+              -99.24366629949351,
+              18.91130255247591
+            ],
+            [
+              -99.244286,
+              18.911341249502446
+            ],
+            [
+              -99.2449057005065,
+              18.91130255247591
+            ],
+            [
+              -99.2455147977655,
+              18.91118712351316
+            ],
+            [
+              -99.24610286995404,
+              18.91099693763575
+            ],
+            [
+              -99.24665985499395,
+              18.91073524897677
+            ],
+            [
+              -99.24717622271675,
+              18.910406535101735
+            ],
+            [
+              -99.24764313792754,
+              18.910016420396175
+            ],
+            [
+              -99.24805261157762,
+              18.90957157983087
+            ],
+            [
+              -99.2483976374593,
+              18.90907962475122
+            ],
+            [
+              -99.24867231208411,
+              18.90854897264504
+            ],
+            [
+              -99.24887193569303,
+              18.907988703116985
+            ],
+            [
+              -99.24899309267079,
+              18.907408402534017
+            ],
+            [
+              -99.24903370998788,
+              18.906818
+            ],
+            [
+              -99.24899309267079,
+              18.906227597465985
+            ],
+            [
+              -99.24887193569303,
+              18.905647296883018
+            ],
+            [
+              -99.24867231208411,
+              18.905087027354963
+            ],
+            [
+              -99.2483976374593,
+              18.90455637524878
+            ],
+            [
+              -99.24805261157762,
+              18.90406442016913
+            ],
+            [
+              -99.24764313792754,
+              18.903619579603827
+            ],
+            [
+              -99.24717622271675,
+              18.903229464898267
+            ],
+            [
+              -99.24665985499395,
+              18.902900751023232
+            ],
+            [
+              -99.24610286995404,
+              18.90263906236425
+            ],
+            [
+              -99.2455147977655,
+              18.902448876486844
+            ],
+            [
+              -99.2449057005065,
+              18.902333447524093
+            ],
+            [
+              -99.244286,
+              18.902294750497557
+            ],
+            [
+              -99.24366629949351,
+              18.902333447524093
+            ],
+            [
+              -99.24305720223451,
+              18.902448876486844
+            ],
+            [
+              -99.24246913004596,
+              18.90263906236425
+            ],
+            [
+              -99.24191214500605,
+              18.902900751023232
+            ],
+            [
+              -99.24139577728326,
+              18.903229464898267
+            ],
+            [
+              -99.24092886207247,
+              18.903619579603827
+            ],
+            [
+              -99.24051938842238,
+              18.90406442016913
+            ],
+            [
+              -99.2401743625407,
+              18.90455637524878
+            ],
+            [
+              -99.2398996879159,
+              18.905087027354963
+            ],
+            [
+              -99.23970006430697,
+              18.905647296883018
+            ],
+            [
+              -99.23957890732922,
+              18.906227597465985
+            ],
+            [
+              -99.23953829001212,
+              18.906818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "amarillo",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 37,
+        "last_incident_date": "2026-04-12",
+        "first_incident_date": "2026-04-12",
+        "location_scope": "colonia",
+        "location_name": "Lagunilla",
+        "delitos": [
+          "ataque armado"
+        ],
+        "fuentes": [
+          {
+            "title": "Ata­can a bala­zos a dos repar­ti­do­res",
+            "url": "https://www.diariodemorelos.com/noticias/ata-can-bala-zos-dos-repar-ti-do-res"
           }
         ],
         "radius_meters": 500,
@@ -3916,7 +3907,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 36,
+        "dias_sin_hechos_violentos": 37,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -4142,7 +4133,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 35,
+        "dias_sin_hechos_violentos": 36,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "location_scope": "colonia",
@@ -4368,7 +4359,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 34,
+        "dias_sin_hechos_violentos": 35,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4594,7 +4585,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 28,
+        "dias_sin_hechos_violentos": 29,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4824,7 +4815,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 32,
+        "dias_sin_hechos_violentos": 33,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "location_scope": "colonia",
@@ -5050,7 +5041,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 28,
+        "dias_sin_hechos_violentos": 29,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
