@@ -209,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 57,
+        "dias_sin_hechos_violentos": 58,
         "last_incident_date": "2026-03-26",
         "first_incident_date": "2026-03-26",
         "location_scope": "colonia",
@@ -435,7 +435,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 32,
+        "dias_sin_hechos_violentos": 33,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-03-26",
         "location_scope": "municipio",
@@ -680,7 +680,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 53,
+        "dias_sin_hechos_violentos": 54,
         "last_incident_date": "2026-03-30",
         "first_incident_date": "2026-03-30",
         "location_scope": "colonia",
@@ -906,7 +906,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 54,
+        "dias_sin_hechos_violentos": 55,
         "last_incident_date": "2026-03-29",
         "first_incident_date": "2026-03-29",
         "location_scope": "colonia",
@@ -1132,7 +1132,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 33,
+        "dias_sin_hechos_violentos": 34,
         "last_incident_date": "2026-04-19",
         "first_incident_date": "2026-03-31",
         "location_scope": "municipio",
@@ -1370,7 +1370,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 52,
+        "dias_sin_hechos_violentos": 53,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "location_scope": "colonia",
@@ -1596,7 +1596,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 48,
+        "dias_sin_hechos_violentos": 49,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1826,7 +1826,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 50,
+        "dias_sin_hechos_violentos": 51,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -2052,7 +2052,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 39,
+        "dias_sin_hechos_violentos": 40,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -2286,7 +2286,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-07",
         "location_scope": "colonia",
@@ -2516,7 +2516,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 36,
+        "dias_sin_hechos_violentos": 37,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-07",
         "location_scope": "municipio",
@@ -2756,7 +2756,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 42,
+        "dias_sin_hechos_violentos": 43,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-09",
         "location_scope": "colonia",
@@ -2991,7 +2991,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-09",
         "location_scope": "municipio",
@@ -3221,7 +3221,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 41,
+        "dias_sin_hechos_violentos": 42,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-10",
         "location_scope": "colonia",
@@ -3451,7 +3451,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 40,
+        "dias_sin_hechos_violentos": 41,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3677,7 +3677,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 40,
+        "dias_sin_hechos_violentos": 41,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3903,7 +3903,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 40,
+        "dias_sin_hechos_violentos": 41,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -4129,7 +4129,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 39,
+        "dias_sin_hechos_violentos": 40,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "location_scope": "colonia",
@@ -4355,7 +4355,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4581,7 +4581,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 32,
+        "dias_sin_hechos_violentos": 33,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4811,7 +4811,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 36,
+        "dias_sin_hechos_violentos": 37,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "location_scope": "colonia",
@@ -5037,7 +5037,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 32,
+        "dias_sin_hechos_violentos": 33,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
