@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 289,
+        "dias_sin_hechos_violentos": 290,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 183,
+        "dias_sin_hechos_violentos": 184,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 79,
+        "dias_sin_hechos_violentos": 80,
         "last_incident_date": "2026-03-06",
         "first_incident_date": "2026-03-06",
         "delitos": [
@@ -98,7 +98,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 80,
+        "dias_sin_hechos_violentos": 81,
         "last_incident_date": "2026-03-05",
         "first_incident_date": "2026-03-05",
         "delitos": [
@@ -126,7 +126,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 415,
+        "dias_sin_hechos_violentos": 416,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -154,7 +154,7 @@
         "location_scope": "colonia",
         "location_name": "Nueva Jerusalén",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 83,
+        "dias_sin_hechos_violentos": 84,
         "last_incident_date": "2026-03-02",
         "first_incident_date": "2026-03-02",
         "delitos": [
@@ -182,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2742,
+        "dias_sin_hechos_violentos": 2743,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -210,7 +210,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 125,
+        "dias_sin_hechos_violentos": 126,
         "last_incident_date": "2026-01-19",
         "first_incident_date": "2026-01-19",
         "delitos": [
@@ -238,7 +238,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 302,
+        "dias_sin_hechos_violentos": 303,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -266,7 +266,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 202,
+        "dias_sin_hechos_violentos": 203,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
@@ -294,7 +294,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 67,
+        "dias_sin_hechos_violentos": 68,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
@@ -322,7 +322,7 @@
         "location_scope": "colonia",
         "location_name": "Vista Hermosa",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 68,
+        "dias_sin_hechos_violentos": 69,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -350,7 +350,7 @@
         "location_scope": "colonia",
         "location_name": "Lagunilla",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 65,
+        "dias_sin_hechos_violentos": 66,
         "last_incident_date": "2026-03-20",
         "first_incident_date": "2026-03-20",
         "delitos": [
@@ -378,7 +378,7 @@
         "location_scope": "municipio",
         "location_name": "Emiliano Zapata",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 65,
+        "dias_sin_hechos_violentos": 66,
         "last_incident_date": "2026-03-20",
         "first_incident_date": "2026-03-20",
         "delitos": [
@@ -406,7 +406,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 64,
+        "dias_sin_hechos_violentos": 65,
         "last_incident_date": "2026-03-21",
         "first_incident_date": "2026-03-21",
         "delitos": [
@@ -434,7 +434,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 66,
+        "dias_sin_hechos_violentos": 67,
         "last_incident_date": "2026-03-19",
         "first_incident_date": "2026-03-19",
         "delitos": [
@@ -454,6 +454,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -99.2410813,
+          18.9246255
+        ]
+      },
+      "properties": {
+        "location_scope": "colonia",
+        "location_name": "Independencia",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-03-26",
+        "first_incident_date": "2026-03-26",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Abandonan un cuerpo sin vida; le encuentran huellas de violencia | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/abandonan-un-cuerpo-sin-vida-le-encuentran-huellas-de-violencia"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -99.1732936,
           18.8954874
         ]
@@ -462,7 +490,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 75,
+        "dias_sin_hechos_violentos": 76,
         "last_incident_date": "2026-03-10",
         "first_incident_date": "2026-03-10",
         "delitos": [
@@ -490,7 +518,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 73,
+        "dias_sin_hechos_violentos": 74,
         "last_incident_date": "2026-03-12",
         "first_incident_date": "2026-03-12",
         "delitos": [
@@ -518,7 +546,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 74,
+        "dias_sin_hechos_violentos": 75,
         "last_incident_date": "2026-03-11",
         "first_incident_date": "2026-03-11",
         "delitos": [
@@ -546,7 +574,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 68,
+        "dias_sin_hechos_violentos": 69,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -574,7 +602,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 69,
+        "dias_sin_hechos_violentos": 70,
         "last_incident_date": "2026-03-16",
         "first_incident_date": "2026-03-16",
         "delitos": [
@@ -602,7 +630,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 67,
+        "dias_sin_hechos_violentos": 68,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
@@ -612,6 +640,34 @@
           {
             "title": "Atacan a balazos a un hombre en Jiutepec | Diario de Morelos - Noticias |",
             "url": "https://www.diariodemorelos.com/noticias/atacan-balazos-un-hombre-en-tejalpa-jiutepec"
+          }
+        ],
+        "marker_type": "archived_square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1732936,
+          18.8954874
+        ]
+      },
+      "properties": {
+        "location_scope": "municipio",
+        "location_name": "Jiutepec",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 60,
+        "last_incident_date": "2026-03-26",
+        "first_incident_date": "2026-03-26",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Ataque armado en Jiutepec deja a una mujer sin vida; agresores huyeron en motocicleta | Diario de Morelos - Noticias |",
+            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-jiutepec-deja-una-mujer-sin-vida-agresores-huyeron-en-motocicleta"
           }
         ],
         "marker_type": "archived_square"
