@@ -209,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 58,
+        "dias_sin_hechos_violentos": 59,
         "last_incident_date": "2026-03-30",
         "first_incident_date": "2026-03-30",
         "location_scope": "colonia",
@@ -221,232 +221,6 @@
           {
             "title": "Localizan un cadáver al fondo de barranca | Sería hombre desaparecido en Febrero",
             "url": "https://www.diariodemorelos.com/noticias/localizan-un-cad-ver-al-fondo-de-barranca-ser-hombre-desaparecido-en-febrero"
-          }
-        ],
-        "radius_meters": 500,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -99.18533532603601,
-              18.9548043
-            ],
-            [
-              -99.18537595502212,
-              18.955394702534015
-            ],
-            [
-              -99.18549714680724,
-              18.955975003116983
-            ],
-            [
-              -99.1856968277663,
-              18.956535272645038
-            ],
-            [
-              -99.18597158130274,
-              18.95706592475122
-            ],
-            [
-              -99.18631670630738,
-              18.95755787983087
-            ],
-            [
-              -99.18672629759571,
-              18.958002720396173
-            ],
-            [
-              -99.18719334694723,
-              18.958392835101733
-            ],
-            [
-              -99.18770986301801,
-              18.95872154897677
-            ],
-            [
-              -99.18826700807492,
-              18.95898323763575
-            ],
-            [
-              -99.18885524921153,
-              18.959173423513157
-            ],
-            [
-              -99.18946452145892,
-              18.959288852475908
-            ],
-            [
-              -99.1900844,
-              18.959327549502444
-            ],
-            [
-              -99.19070427854109,
-              18.959288852475908
-            ],
-            [
-              -99.19131355078848,
-              18.959173423513157
-            ],
-            [
-              -99.19190179192509,
-              18.95898323763575
-            ],
-            [
-              -99.19245893698199,
-              18.95872154897677
-            ],
-            [
-              -99.19297545305278,
-              18.958392835101733
-            ],
-            [
-              -99.1934425024043,
-              18.958002720396173
-            ],
-            [
-              -99.19385209369263,
-              18.95755787983087
-            ],
-            [
-              -99.19419721869727,
-              18.95706592475122
-            ],
-            [
-              -99.19447197223371,
-              18.956535272645038
-            ],
-            [
-              -99.19467165319277,
-              18.955975003116983
-            ],
-            [
-              -99.19479284497788,
-              18.955394702534015
-            ],
-            [
-              -99.194833473964,
-              18.9548043
-            ],
-            [
-              -99.19479284497788,
-              18.954213897465984
-            ],
-            [
-              -99.19467165319277,
-              18.953633596883016
-            ],
-            [
-              -99.19447197223371,
-              18.95307332735496
-            ],
-            [
-              -99.19419721869727,
-              18.95254267524878
-            ],
-            [
-              -99.19385209369263,
-              18.95205072016913
-            ],
-            [
-              -99.1934425024043,
-              18.951605879603825
-            ],
-            [
-              -99.19297545305278,
-              18.951215764898265
-            ],
-            [
-              -99.19245893698199,
-              18.95088705102323
-            ],
-            [
-              -99.19190179192509,
-              18.95062536236425
-            ],
-            [
-              -99.19131355078848,
-              18.95043517648684
-            ],
-            [
-              -99.19070427854109,
-              18.95031974752409
-            ],
-            [
-              -99.1900844,
-              18.950281050497555
-            ],
-            [
-              -99.18946452145892,
-              18.95031974752409
-            ],
-            [
-              -99.18885524921153,
-              18.95043517648684
-            ],
-            [
-              -99.18826700807492,
-              18.95062536236425
-            ],
-            [
-              -99.18770986301801,
-              18.95088705102323
-            ],
-            [
-              -99.18719334694723,
-              18.951215764898265
-            ],
-            [
-              -99.18672629759571,
-              18.951605879603825
-            ],
-            [
-              -99.18631670630738,
-              18.95205072016913
-            ],
-            [
-              -99.18597158130274,
-              18.95254267524878
-            ],
-            [
-              -99.1856968277663,
-              18.95307332735496
-            ],
-            [
-              -99.18549714680724,
-              18.953633596883016
-            ],
-            [
-              -99.18537595502212,
-              18.954213897465984
-            ],
-            [
-              -99.18533532603601,
-              18.9548043
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 59,
-        "last_incident_date": "2026-03-29",
-        "first_incident_date": "2026-03-29",
-        "location_scope": "colonia",
-        "location_name": "Colonia los Cerritos",
-        "delitos": [
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Hallan restos humanos en barranca de la colonia Cerritos en Atlatlahucan",
-            "url": "https://www.diariodemorelos.com/noticias/hallan-restos-humanos-en-barranca-de-la-colonia-cerritos-en-atlatlahucan"
           }
         ],
         "radius_meters": 500,
@@ -661,7 +435,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-19",
         "first_incident_date": "2026-03-31",
         "location_scope": "municipio",
@@ -899,7 +673,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 57,
+        "dias_sin_hechos_violentos": 58,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "location_scope": "colonia",
@@ -1125,7 +899,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 53,
+        "dias_sin_hechos_violentos": 54,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1355,7 +1129,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 55,
+        "dias_sin_hechos_violentos": 56,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1581,7 +1355,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1815,7 +1589,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 37,
+        "dias_sin_hechos_violentos": 38,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-05",
         "location_scope": "municipio",
@@ -2056,7 +1830,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 49,
+        "dias_sin_hechos_violentos": 50,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-07",
         "location_scope": "colonia",
@@ -2286,7 +2060,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 41,
+        "dias_sin_hechos_violentos": 42,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-07",
         "location_scope": "municipio",
@@ -2526,7 +2300,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 47,
+        "dias_sin_hechos_violentos": 48,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-09",
         "location_scope": "colonia",
@@ -2761,7 +2535,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 43,
+        "dias_sin_hechos_violentos": 44,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-09",
         "location_scope": "municipio",
@@ -2991,7 +2765,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-10",
         "location_scope": "colonia",
@@ -3221,7 +2995,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3447,7 +3221,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3673,7 +3447,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3899,7 +3673,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "location_scope": "colonia",
@@ -4125,7 +3899,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 43,
+        "dias_sin_hechos_violentos": 44,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4351,7 +4125,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 37,
+        "dias_sin_hechos_violentos": 38,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4581,7 +4355,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 41,
+        "dias_sin_hechos_violentos": 42,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "location_scope": "colonia",
@@ -4807,7 +4581,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 37,
+        "dias_sin_hechos_violentos": 38,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
