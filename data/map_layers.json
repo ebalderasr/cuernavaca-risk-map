@@ -8,232 +8,6 @@
         "coordinates": [
           [
             [
-              -99.23953829001212,
-              18.906818
-            ],
-            [
-              -99.23957890732922,
-              18.907408402534017
-            ],
-            [
-              -99.23970006430697,
-              18.907988703116985
-            ],
-            [
-              -99.2398996879159,
-              18.90854897264504
-            ],
-            [
-              -99.2401743625407,
-              18.90907962475122
-            ],
-            [
-              -99.24051938842238,
-              18.90957157983087
-            ],
-            [
-              -99.24092886207247,
-              18.910016420396175
-            ],
-            [
-              -99.24139577728326,
-              18.910406535101735
-            ],
-            [
-              -99.24191214500605,
-              18.91073524897677
-            ],
-            [
-              -99.24246913004596,
-              18.91099693763575
-            ],
-            [
-              -99.24305720223451,
-              18.91118712351316
-            ],
-            [
-              -99.24366629949351,
-              18.91130255247591
-            ],
-            [
-              -99.244286,
-              18.911341249502446
-            ],
-            [
-              -99.2449057005065,
-              18.91130255247591
-            ],
-            [
-              -99.2455147977655,
-              18.91118712351316
-            ],
-            [
-              -99.24610286995404,
-              18.91099693763575
-            ],
-            [
-              -99.24665985499395,
-              18.91073524897677
-            ],
-            [
-              -99.24717622271675,
-              18.910406535101735
-            ],
-            [
-              -99.24764313792754,
-              18.910016420396175
-            ],
-            [
-              -99.24805261157762,
-              18.90957157983087
-            ],
-            [
-              -99.2483976374593,
-              18.90907962475122
-            ],
-            [
-              -99.24867231208411,
-              18.90854897264504
-            ],
-            [
-              -99.24887193569303,
-              18.907988703116985
-            ],
-            [
-              -99.24899309267079,
-              18.907408402534017
-            ],
-            [
-              -99.24903370998788,
-              18.906818
-            ],
-            [
-              -99.24899309267079,
-              18.906227597465985
-            ],
-            [
-              -99.24887193569303,
-              18.905647296883018
-            ],
-            [
-              -99.24867231208411,
-              18.905087027354963
-            ],
-            [
-              -99.2483976374593,
-              18.90455637524878
-            ],
-            [
-              -99.24805261157762,
-              18.90406442016913
-            ],
-            [
-              -99.24764313792754,
-              18.903619579603827
-            ],
-            [
-              -99.24717622271675,
-              18.903229464898267
-            ],
-            [
-              -99.24665985499395,
-              18.902900751023232
-            ],
-            [
-              -99.24610286995404,
-              18.90263906236425
-            ],
-            [
-              -99.2455147977655,
-              18.902448876486844
-            ],
-            [
-              -99.2449057005065,
-              18.902333447524093
-            ],
-            [
-              -99.244286,
-              18.902294750497557
-            ],
-            [
-              -99.24366629949351,
-              18.902333447524093
-            ],
-            [
-              -99.24305720223451,
-              18.902448876486844
-            ],
-            [
-              -99.24246913004596,
-              18.90263906236425
-            ],
-            [
-              -99.24191214500605,
-              18.902900751023232
-            ],
-            [
-              -99.24139577728326,
-              18.903229464898267
-            ],
-            [
-              -99.24092886207247,
-              18.903619579603827
-            ],
-            [
-              -99.24051938842238,
-              18.90406442016913
-            ],
-            [
-              -99.2401743625407,
-              18.90455637524878
-            ],
-            [
-              -99.2398996879159,
-              18.905087027354963
-            ],
-            [
-              -99.23970006430697,
-              18.905647296883018
-            ],
-            [
-              -99.23957890732922,
-              18.906227597465985
-            ],
-            [
-              -99.23953829001212,
-              18.906818
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 59,
-        "last_incident_date": "2026-03-30",
-        "first_incident_date": "2026-03-30",
-        "location_scope": "colonia",
-        "location_name": "Ampliacion Lagunilla",
-        "delitos": [
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Localizan un cadáver al fondo de barranca | Sería hombre desaparecido en Febrero",
-            "url": "https://www.diariodemorelos.com/noticias/localizan-un-cad-ver-al-fondo-de-barranca-ser-hombre-desaparecido-en-febrero"
-          }
-        ],
-        "radius_meters": 500,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -99.22655141869025,
               18.8593026
             ],
@@ -435,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 39,
+        "dias_sin_hechos_violentos": 40,
         "last_incident_date": "2026-04-19",
         "first_incident_date": "2026-03-31",
         "location_scope": "municipio",
@@ -673,7 +447,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 58,
+        "dias_sin_hechos_violentos": 59,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "location_scope": "colonia",
@@ -899,7 +673,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 54,
+        "dias_sin_hechos_violentos": 55,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1129,7 +903,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 56,
+        "dias_sin_hechos_violentos": 57,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1355,7 +1129,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-02",
         "location_scope": "colonia",
@@ -1589,7 +1363,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-05",
         "location_scope": "municipio",
@@ -1830,7 +1604,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 50,
+        "dias_sin_hechos_violentos": 51,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-07",
         "location_scope": "colonia",
@@ -2060,7 +1834,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 42,
+        "dias_sin_hechos_violentos": 43,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-07",
         "location_scope": "municipio",
@@ -2300,7 +2074,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 48,
+        "dias_sin_hechos_violentos": 49,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-09",
         "location_scope": "colonia",
@@ -2535,7 +2309,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-09",
         "location_scope": "municipio",
@@ -2765,7 +2539,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 47,
+        "dias_sin_hechos_violentos": 48,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-10",
         "location_scope": "colonia",
@@ -2995,7 +2769,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3221,7 +2995,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3447,7 +3221,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "location_scope": "colonia",
@@ -3673,7 +3447,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "location_scope": "colonia",
@@ -3899,7 +3673,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4125,7 +3899,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-14",
         "location_scope": "colonia",
@@ -4355,7 +4129,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 42,
+        "dias_sin_hechos_violentos": 43,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "location_scope": "colonia",
@@ -4581,7 +4355,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
