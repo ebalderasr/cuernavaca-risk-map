@@ -89,13 +89,13 @@ SOURCES = [
     {
         "name": "Diario de Morelos",
         "url": "https://www.diariodemorelos.com/noticias/categories/sos",
-        "selector": 'h3 a[href*="/noticias/"]',
+        "selector": 'article.c-item h2.c-item__title a',
         "base_url": "https://www.diariodemorelos.com",
     }
 ]
 
-# Solo procesar las primeras 12 notas visibles
-MAX_ARTICLES_PER_RUN = 12
+# Solo procesar las primeras N notas visibles
+MAX_ARTICLES_PER_RUN = 30
 
 
 # =============================================================================
