@@ -1150,5 +1150,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "a96e630770289164"
+  },
+  {
+    "id": "a5db34abb9e25f5a",
+    "fecha": "2026-06-09",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Cuauhtemoc",
+    "coordenadas": [
+      18.9757633,
+      -99.2307566
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-en-hospital-parres-mujer-fuerte-explosion-en-su-domicilio",
+    "resumen": "Tanque de gas en Cuernavaca: Muere mujer tras explosión en su casa",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere en el Hospital Parres una mujer tras fuerte explosión en su domicilio",
+    "published_at": "2026-06-09T11:37:33-06:00",
+    "scraped_at": "2026-06-11T19:45:20Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "2b46e9b85ce411e6"
   }
 ]
