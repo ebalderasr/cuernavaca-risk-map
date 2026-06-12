@@ -1174,5 +1174,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "2b46e9b85ce411e6"
+  },
+  {
+    "id": "0875dea23260a3fb",
+    "fecha": "2026-06-12",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Miguel Hidalgo",
+    "coordenadas": [
+      18.9718638,
+      -99.2412982
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinato-en-cuautla-despliegan-operativo-balacera-en-colonia-miguel-hidalgo",
+    "resumen": "Asesinato: Despliegan Operativo tras Balacera en Colonia Miguel Hidalgo",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinato: Despliegan Operativo tras Balacera en Colonia Miguel Hidalgo",
+    "published_at": "2026-06-12T10:52:00-06:00",
+    "scraped_at": "2026-06-12T19:21:45Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "235696f60ba453b1"
+  },
+  {
+    "id": "fe4b2c012869677b",
+    "fecha": "2026-06-11",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Miguel Hidalgo",
+    "coordenadas": [
+      18.9718638,
+      -99.2412982
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-morelos-asesinan-mujer-frente-tienda-abarrotes-en-colonia-miguel-hidalgo",
+    "resumen": "Tragedia en Morelos: Asesinan a mujer frente a tienda de abarrotes en la colonia Miguel Hidalgo",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Morelos: Asesinan a mujer frente a tienda de abarrotes en la colonia Miguel Hidalgo",
+    "published_at": "2026-06-11T18:34:15-06:00",
+    "scraped_at": "2026-06-12T19:21:45Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "c0448b02c8951821"
+  },
+  {
+    "id": "90256772d62158cb",
+    "fecha": "2026-06-10",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-pareja-cae-con-arsenal-motos-robadas-junto-panteon-en-oriente-morelos",
+    "resumen": "Detienen a pareja con arsenal y motos robadas en Yautepec | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Impactante! Pareja cae con arsenal y motos robadas junto a panteón en el Oriente de Morelos",
+    "published_at": "2026-06-10T19:17:30-06:00",
+    "scraped_at": "2026-06-12T19:21:46Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "76b21dff9eac0ecf"
   }
 ]
