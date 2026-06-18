@@ -209,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 58,
+        "dias_sin_hechos_violentos": 59,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
@@ -224,232 +224,6 @@
           }
         ],
         "radius_meters": 500,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -99.22797532772466,
-              18.8593026
-            ],
-            [
-              -99.22807278163812,
-              18.860719566081634
-            ],
-            [
-              -99.22836347591496,
-              18.86211228748076
-            ],
-            [
-              -99.22884243669556,
-              18.863456934348093
-            ],
-            [
-              -99.22950146882813,
-              18.86473049940293
-            ],
-            [
-              -99.2303292960902,
-              18.865911191594087
-            ],
-            [
-              -99.23131175412777,
-              18.866978808950822
-            ],
-            [
-              -99.23243203281145,
-              18.86791508424416
-            ],
-            [
-              -99.23367096386234,
-              18.868703997544248
-            ],
-            [
-              -99.23500734882667,
-              18.869332050325795
-            ],
-            [
-              -99.2364183217872,
-              18.86978849643158
-            ],
-            [
-              -99.23787974060535,
-              18.87006552594218
-            ],
-            [
-              -99.2393666,
-              18.870158398805863
-            ],
-            [
-              -99.24085345939464,
-              18.87006552594218
-            ],
-            [
-              -99.2423148782128,
-              18.86978849643158
-            ],
-            [
-              -99.24372585117332,
-              18.869332050325795
-            ],
-            [
-              -99.24506223613766,
-              18.868703997544248
-            ],
-            [
-              -99.24630116718855,
-              18.86791508424416
-            ],
-            [
-              -99.24742144587222,
-              18.866978808950822
-            ],
-            [
-              -99.24840390390979,
-              18.865911191594087
-            ],
-            [
-              -99.24923173117186,
-              18.86473049940293
-            ],
-            [
-              -99.24989076330444,
-              18.863456934348093
-            ],
-            [
-              -99.25036972408503,
-              18.86211228748076
-            ],
-            [
-              -99.25066041836187,
-              18.860719566081634
-            ],
-            [
-              -99.25075787227533,
-              18.8593026
-            ],
-            [
-              -99.25066041836187,
-              18.857885633918364
-            ],
-            [
-              -99.25036972408503,
-              18.85649291251924
-            ],
-            [
-              -99.24989076330444,
-              18.855148265651906
-            ],
-            [
-              -99.24923173117186,
-              18.853874700597068
-            ],
-            [
-              -99.24840390390979,
-              18.852694008405912
-            ],
-            [
-              -99.24742144587222,
-              18.851626391049177
-            ],
-            [
-              -99.24630116718855,
-              18.85069011575584
-            ],
-            [
-              -99.24506223613766,
-              18.84990120245575
-            ],
-            [
-              -99.24372585117332,
-              18.849273149674204
-            ],
-            [
-              -99.2423148782128,
-              18.84881670356842
-            ],
-            [
-              -99.24085345939464,
-              18.848539674057818
-            ],
-            [
-              -99.2393666,
-              18.848446801194136
-            ],
-            [
-              -99.23787974060535,
-              18.848539674057818
-            ],
-            [
-              -99.2364183217872,
-              18.84881670356842
-            ],
-            [
-              -99.23500734882667,
-              18.849273149674204
-            ],
-            [
-              -99.23367096386234,
-              18.84990120245575
-            ],
-            [
-              -99.23243203281145,
-              18.85069011575584
-            ],
-            [
-              -99.23131175412777,
-              18.851626391049177
-            ],
-            [
-              -99.2303292960902,
-              18.852694008405912
-            ],
-            [
-              -99.22950146882813,
-              18.853874700597068
-            ],
-            [
-              -99.22884243669556,
-              18.855148265651906
-            ],
-            [
-              -99.22836347591496,
-              18.85649291251924
-            ],
-            [
-              -99.22807278163812,
-              18.857885633918364
-            ],
-            [
-              -99.22797532772466,
-              18.8593026
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 59,
-        "last_incident_date": "2026-04-19",
-        "first_incident_date": "2026-04-19",
-        "location_scope": "municipio",
-        "location_name": "Temixco",
-        "delitos": [
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Capturan a adulto mayor, fingía interés en comprar autos para robarlos",
-            "url": "https://www.diariodemorelos.com/noticias/capturan-adulto-mayor-fing-inter-s-en-comprar-autos-para-robarlos"
-          }
-        ],
-        "radius_meters": 1200,
         "geometry_source": "buffer"
       }
     },
@@ -661,7 +435,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 58,
+        "dias_sin_hechos_violentos": 59,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "municipio",
@@ -887,7 +661,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 58,
+        "dias_sin_hechos_violentos": 59,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "location_scope": "colonia",
@@ -1113,7 +887,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 8,
+        "dias_sin_hechos_violentos": 9,
         "last_incident_date": "2026-06-09",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -1339,7 +1113,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -1569,7 +1343,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-06-10",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -1795,7 +1569,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 0,
+        "dias_sin_hechos_violentos": 1,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -2035,7 +1809,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
