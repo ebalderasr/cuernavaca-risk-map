@@ -1366,5 +1366,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "64c4b6a06455316a"
+  },
+  {
+    "id": "0013fb285afa8562",
+    "fecha": "2026-06-17",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-ebrio-choca-contra-casa-en-tetelcingo-desata-panico-por-falsa-balacera",
+    "resumen": "Motociclista ebrio choca contra casa en Tetelcingo y desata pánico por falsa balacera",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista ebrio choca contra casa en Tetelcingo y desata pánico por falsa balacera",
+    "published_at": "2026-06-17T12:08:00-06:00",
+    "scraped_at": "2026-06-19T19:09:54Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "cb90c22774dd62fb"
+  },
+  {
+    "id": "c7de20a880096c05",
+    "fecha": "2026-06-17",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-en-carretera-zapata-zacatepec-durante-presunto-asalto",
+    "resumen": "Tragedia en Zapata-Zacatepec: Asesinan a balazos a un hombre en presunto asalto",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Zapata-Zacatepec: Asesinan a balazos a un hombre en presunto asalto",
+    "published_at": "2026-06-17T09:42:00-06:00",
+    "scraped_at": "2026-06-19T19:09:55Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "cb722d5e4d937d74"
+  },
+  {
+    "id": "e0a6af270c5b9434",
+    "fecha": "2026-06-16",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/policias-detienen-dos-asaltantes-balacera-en-autopista-pera-cuautla",
+    "resumen": "Los policías detienen a asaltantes tras balacera en La Pera-Cuautla | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Policías detienen a dos asaltantes tras balacera en la autopista La Pera-Cuautla",
+    "published_at": "2026-06-16T09:25:02-06:00",
+    "scraped_at": "2026-06-19T19:09:56Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "5d40696c0c38ef7e"
   }
 ]
