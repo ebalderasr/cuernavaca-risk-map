@@ -1438,5 +1438,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "5d40696c0c38ef7e"
+  },
+  {
+    "id": "a36f86022f733fd3",
+    "fecha": "2026-06-21",
+    "hora": "02:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/jiutepec-detienen-hombre-robo-auto-con-arma-fuego-en-centro",
+    "resumen": "Robo Agravado en Jiutepec: Cae Ángel David 'N' tras asalto con pistola",
+    "source_name": "Diario de Morelos",
+    "source_title": "Jiutepec: Detienen a hombre que robó auto con arma de fuego en el centro",
+    "published_at": "2026-06-21T09:35:00-06:00",
+    "scraped_at": "2026-06-21T18:51:22Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "d52f67fec90d5c23"
+  },
+  {
+    "id": "d88b297ffb24fc6c",
+    "fecha": "2026-06-21",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Tezontepec",
+    "coordenadas": [
+      18.9403216,
+      -99.2309133
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/omision-oficial-obra-municipal-sin-senalizar-causa-severos-danos-automovilista-en-colonia-tezontepec",
+    "resumen": "Omisión oficial: Obra municipal sin señalizar causa severos daños a automovilista en la colonia Tezontepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Omisión oficial: Obra municipal sin señalizar causa severos daños a automovilista en la colonia Tezontepec",
+    "published_at": "2026-06-21T09:21:52-06:00",
+    "scraped_at": "2026-06-21T18:51:22Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a9e2afc7d85ca531"
   }
 ]
