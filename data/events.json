@@ -1486,5 +1486,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "a9e2afc7d85ca531"
+  },
+  {
+    "id": "9f0a3dc793179bc2",
+    "fecha": "2026-06-22",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/borrachazo-terror-en-yautepec-sujeto-intenta-tirar-puerta-su-casa-amenaza-muerte-su-familia",
+    "resumen": "Terror en Yautepec: Detienen a hombre por violencia familiar y amenazas de muerte",
+    "source_name": "Diario de Morelos",
+    "source_title": "Borrachazo y terror en Yautepec: Sujeto intenta tirar la puerta de su casa y amenaza de muerte a su familia",
+    "published_at": "2026-06-22T17:25:33-06:00",
+    "scraped_at": "2026-06-23T19:19:15Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "d7b7789b9c6070e9"
+  },
+  {
+    "id": "4970842cd92c3139",
+    "fecha": "2026-06-22",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Cuauhtemoc",
+    "coordenadas": [
+      18.9757633,
+      -99.2307566
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caida-arbol-20-metros-aplasta-auto-derriba-poste-en-colonia-cuauhtemoc",
+    "resumen": "Caída de árbol de 20 metros aplasta auto y derriba poste en la colonia Cuauhtémoc",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caída de árbol de 20 metros aplasta auto y derriba poste en la colonia Cuauhtémoc",
+    "published_at": "2026-06-22T09:15:59-06:00",
+    "scraped_at": "2026-06-23T19:19:16Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.4,
+    "dedupe_group_id": "fb58695f0e3ce6db"
   }
 ]
