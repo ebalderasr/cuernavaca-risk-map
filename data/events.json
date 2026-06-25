@@ -1534,5 +1534,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.4,
     "dedupe_group_id": "fb58695f0e3ce6db"
+  },
+  {
+    "id": "1f6750c94872c4fb",
+    "fecha": "2026-06-24",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "ataque armado",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-operativo-en-jiutepec-12-detenidos-armas-cientos-dosis-droga-incautadas",
+    "resumen": "Impactante operativo en Jiutepec: 12 detenidos, armas y cientos de dosis de droga incautadas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Impactante operativo en Jiutepec: 12 detenidos, armas y cientos de dosis de droga incautadas",
+    "published_at": "2026-06-24T14:20:50-06:00",
+    "scraped_at": "2026-06-25T19:17:52Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "7d91cff7246bc7b3"
   }
 ]
