@@ -1558,5 +1558,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "7d91cff7246bc7b3"
+  },
+  {
+    "id": "4efff0695c87b3bb",
+    "fecha": "2026-06-25",
+    "hora": "22:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-motociclista-derrapa-en-mexico-cuautla-salir-trabajar-salvaron-sus-companeros",
+    "resumen": "Motociclista herido en México-Cuautla: La historia del trabajador refresquero y sus compañeros",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Impactante! Motociclista derrapa en la México-Cuautla al salir de trabajar: Así lo salvaron sus compañeros",
+    "published_at": "2026-06-25T18:30:24-06:00",
+    "scraped_at": "2026-06-26T19:03:29Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "3541affb12e03539"
+  },
+  {
+    "id": "b7ee5b7c407aa1e1",
+    "fecha": "2026-06-25",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/presunto-infarto-termina-con-vida-hombre-en-calles-jiutepec",
+    "resumen": "Presunto infarto termina con la vida de un hombre en calles de Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Presunto infarto termina con la vida de un hombre en calles de Jiutepec",
+    "published_at": "2026-06-25T11:12:43-06:00",
+    "scraped_at": "2026-06-26T19:03:29Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.4,
+    "dedupe_group_id": "3f2e42de4d04fb44"
+  },
+  {
+    "id": "15e92ba036a66c3e",
+    "fecha": "2026-06-24",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/persecucion-en-yautepec-detienen-motociclista-por-velocidad-hallan-moto-robada",
+    "resumen": "¡Persecución en Yautepec! Detienen a motociclista por velocidad y hallan moto robada",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Persecución en Yautepec! Detienen a motociclista por velocidad y hallan moto robada",
+    "published_at": "2026-06-24T18:48:05-06:00",
+    "scraped_at": "2026-06-26T19:03:29Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.4,
+    "dedupe_group_id": "4e2166efad787984"
   }
 ]
