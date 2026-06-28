@@ -1630,5 +1630,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.4,
     "dedupe_group_id": "4e2166efad787984"
+  },
+  {
+    "id": "1e9acd4ecdd004e4",
+    "fecha": "2026-06-28",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-muneca-en-yautepec-clave-en-homicidio-colaboradores-brugada",
+    "resumen": "Cae 'La Muñeca' en Yautepec, ¿clave en el homicidio de colaboradores de Brugada?",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae 'La Muñeca' en Yautepec, ¿clave en el homicidio de colaboradores de Brugada?",
+    "published_at": "2026-06-28T09:35:17-06:00",
+    "scraped_at": "2026-06-28T18:17:42Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "b0424e3cb2a45f36"
   }
 ]
