@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 0,
+        "dias_sin_hechos_violentos": 1,
         "last_incident_date": "2026-06-28",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -908,7 +908,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1153,7 +1153,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1379,7 +1379,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 11,
+        "dias_sin_hechos_violentos": 12,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1614,7 +1614,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1849,7 +1849,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -1861,6 +1861,232 @@
           {
             "title": "Omisión oficial: Obra municipal sin señalizar causa severos daños a automovilista en la colonia Tezontepec",
             "url": "https://www.diariodemorelos.com/noticias/omision-oficial-obra-municipal-sin-senalizar-causa-severos-danos-automovilista-en-colonia-tezontepec"
+          }
+        ],
+        "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.24263070426288,
+              18.9661036
+            ],
+            [
+              -99.2426713360018,
+              18.966694002534016
+            ],
+            [
+              -99.24279253599825,
+              18.967274303116984
+            ],
+            [
+              -99.24299223048668,
+              18.96783457264504
+            ],
+            [
+              -99.24326700263903,
+              18.96836522475122
+            ],
+            [
+              -99.24361215102759,
+              18.96885717983087
+            ],
+            [
+              -99.24402177006775,
+              18.969302020396174
+            ],
+            [
+              -99.24448885106415,
+              18.969692135101734
+            ],
+            [
+              -99.24500540213144,
+              18.97002084897677
+            ],
+            [
+              -99.24556258493766,
+              18.97028253763575
+            ],
+            [
+              -99.2461508659305,
+              18.970472723513158
+            ],
+            [
+              -99.24676017945909,
+              18.97058815247591
+            ],
+            [
+              -99.2473801,
+              18.970626849502445
+            ],
+            [
+              -99.24800002054091,
+              18.97058815247591
+            ],
+            [
+              -99.2486093340695,
+              18.970472723513158
+            ],
+            [
+              -99.24919761506234,
+              18.97028253763575
+            ],
+            [
+              -99.24975479786856,
+              18.97002084897677
+            ],
+            [
+              -99.25027134893585,
+              18.969692135101734
+            ],
+            [
+              -99.25073842993226,
+              18.969302020396174
+            ],
+            [
+              -99.25114804897241,
+              18.96885717983087
+            ],
+            [
+              -99.25149319736097,
+              18.96836522475122
+            ],
+            [
+              -99.25176796951332,
+              18.96783457264504
+            ],
+            [
+              -99.25196766400175,
+              18.967274303116984
+            ],
+            [
+              -99.2520888639982,
+              18.966694002534016
+            ],
+            [
+              -99.25212949573712,
+              18.9661036
+            ],
+            [
+              -99.2520888639982,
+              18.965513197465985
+            ],
+            [
+              -99.25196766400175,
+              18.964932896883017
+            ],
+            [
+              -99.25176796951332,
+              18.96437262735496
+            ],
+            [
+              -99.25149319736097,
+              18.96384197524878
+            ],
+            [
+              -99.25114804897241,
+              18.96335002016913
+            ],
+            [
+              -99.25073842993226,
+              18.962905179603826
+            ],
+            [
+              -99.25027134893585,
+              18.962515064898266
+            ],
+            [
+              -99.24975479786856,
+              18.96218635102323
+            ],
+            [
+              -99.24919761506234,
+              18.96192466236425
+            ],
+            [
+              -99.2486093340695,
+              18.961734476486843
+            ],
+            [
+              -99.24800002054091,
+              18.961619047524092
+            ],
+            [
+              -99.2473801,
+              18.961580350497556
+            ],
+            [
+              -99.24676017945909,
+              18.961619047524092
+            ],
+            [
+              -99.2461508659305,
+              18.961734476486843
+            ],
+            [
+              -99.24556258493766,
+              18.96192466236425
+            ],
+            [
+              -99.24500540213144,
+              18.96218635102323
+            ],
+            [
+              -99.24448885106415,
+              18.962515064898266
+            ],
+            [
+              -99.24402177006775,
+              18.962905179603826
+            ],
+            [
+              -99.24361215102759,
+              18.96335002016913
+            ],
+            [
+              -99.24326700263903,
+              18.96384197524878
+            ],
+            [
+              -99.24299223048668,
+              18.96437262735496
+            ],
+            [
+              -99.24279253599825,
+              18.964932896883017
+            ],
+            [
+              -99.2426713360018,
+              18.965513197465985
+            ],
+            [
+              -99.24263070426288,
+              18.9661036
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "naranja",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 2,
+        "last_incident_date": "2026-06-27",
+        "first_incident_date": "2026-06-27",
+        "location_scope": "colonia",
+        "location_name": "Buena Vista",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Impacto en Cuernavaca: Joven asesinado a balazos frente a barbería en Milpillas",
+            "url": "https://www.diariodemorelos.com/noticias/impacto-en-cuernavaca-joven-asesinado-balazos-frente-barberia-en-milpillas"
           }
         ],
         "radius_meters": 500,

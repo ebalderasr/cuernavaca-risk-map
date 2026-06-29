@@ -1654,5 +1654,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "b0424e3cb2a45f36"
+  },
+  {
+    "id": "fdd2d8d1667093bf",
+    "fecha": "2026-06-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Buena Vista",
+    "coordenadas": [
+      18.9661036,
+      -99.2473801
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impacto-en-cuernavaca-joven-asesinado-balazos-frente-barberia-en-milpillas",
+    "resumen": "Impacto en Cuernavaca: Joven asesinado a balazos frente a barbería en Milpillas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Impacto en Cuernavaca: Joven asesinado a balazos frente a barbería en Milpillas",
+    "published_at": "2026-06-27T18:15:02-06:00",
+    "scraped_at": "2026-06-29T19:15:46Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "9951e4d124e6b276"
   }
 ]
