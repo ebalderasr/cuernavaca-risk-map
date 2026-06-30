@@ -1678,5 +1678,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "9951e4d124e6b276"
+  },
+  {
+    "id": "e6305a601f4997e0",
+    "fecha": "2026-06-30",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cateo-en-colonia-ruben-jaramillo-caen-dos-presuntos-narcomenudistas",
+    "resumen": "Cateo en colonia Rubén Jaramillo: Caen dos presuntos narcomenudistas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cateo en colonia Rubén Jaramillo: Caen dos presuntos narcomenudistas",
+    "published_at": "2026-06-30T10:18:22-06:00",
+    "scraped_at": "2026-06-30T19:05:36Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "bf6385132ac4933f"
   }
 ]
