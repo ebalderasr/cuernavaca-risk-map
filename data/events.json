@@ -1702,5 +1702,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "bf6385132ac4933f"
+  },
+  {
+    "id": "661d408f62f75100",
+    "fecha": "2026-07-01",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Cantarranas",
+    "coordenadas": [
+      18.9200112,
+      -99.2211325
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fuerte-choque-en-cuernavaca-deja-automovilista-prensado-en-colonia-cantarranas",
+    "resumen": "Fuerte choque en Cuernavaca deja a un automovilista prensado en la colonia Cantarranas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Fuerte choque en Cuernavaca deja a un automovilista prensado en la colonia Cantarranas",
+    "published_at": "2026-07-01T12:07:05-06:00",
+    "scraped_at": "2026-07-01T19:11:31Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "0be18372d9ee4f61"
   }
 ]

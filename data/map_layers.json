@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 8,
+        "dias_sin_hechos_violentos": 9,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 18,
+        "dias_sin_hechos_violentos": 19,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-06-28",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -908,7 +908,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1153,7 +1153,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 14,
+        "dias_sin_hechos_violentos": 15,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1379,7 +1379,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 13,
+        "dias_sin_hechos_violentos": 14,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1614,7 +1614,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1849,7 +1849,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2075,7 +2075,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2301,7 +2301,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 0,
+        "dias_sin_hechos_violentos": 1,
         "last_incident_date": "2026-06-30",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2316,6 +2316,232 @@
           }
         ],
         "radius_meters": 1200,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.21638441541492,
+              18.9200112
+            ],
+            [
+              -99.21642503593677,
+              18.920601602534017
+            ],
+            [
+              -99.21654620247386,
+              18.921181903116985
+            ],
+            [
+              -99.21674584183322,
+              18.92174217264504
+            ],
+            [
+              -99.21702053813,
+              18.92227282475122
+            ],
+            [
+              -99.21736559123444,
+              18.92276477983087
+            ],
+            [
+              -99.21777509719224,
+              18.923209620396175
+            ],
+            [
+              -99.21824204924293,
+              18.923599735101735
+            ],
+            [
+              -99.21875845770747,
+              18.92392844897677
+            ],
+            [
+              -99.21931548669382,
+              18.92419013763575
+            ],
+            [
+              -99.21990360528162,
+              18.92438032351316
+            ],
+            [
+              -99.22051275059877,
+              18.92449575247591
+            ],
+            [
+              -99.2211325,
+              18.924534449502445
+            ],
+            [
+              -99.22175224940122,
+              18.92449575247591
+            ],
+            [
+              -99.22236139471838,
+              18.92438032351316
+            ],
+            [
+              -99.22294951330618,
+              18.92419013763575
+            ],
+            [
+              -99.22350654229253,
+              18.92392844897677
+            ],
+            [
+              -99.22402295075706,
+              18.923599735101735
+            ],
+            [
+              -99.22448990280775,
+              18.923209620396175
+            ],
+            [
+              -99.22489940876555,
+              18.92276477983087
+            ],
+            [
+              -99.22524446186999,
+              18.92227282475122
+            ],
+            [
+              -99.22551915816678,
+              18.92174217264504
+            ],
+            [
+              -99.22571879752613,
+              18.921181903116985
+            ],
+            [
+              -99.22583996406323,
+              18.920601602534017
+            ],
+            [
+              -99.22588058458507,
+              18.9200112
+            ],
+            [
+              -99.22583996406323,
+              18.919420797465985
+            ],
+            [
+              -99.22571879752613,
+              18.918840496883018
+            ],
+            [
+              -99.22551915816678,
+              18.918280227354963
+            ],
+            [
+              -99.22524446186999,
+              18.91774957524878
+            ],
+            [
+              -99.22489940876555,
+              18.91725762016913
+            ],
+            [
+              -99.22448990280775,
+              18.916812779603827
+            ],
+            [
+              -99.22402295075706,
+              18.916422664898267
+            ],
+            [
+              -99.22350654229253,
+              18.91609395102323
+            ],
+            [
+              -99.22294951330618,
+              18.91583226236425
+            ],
+            [
+              -99.22236139471838,
+              18.915642076486844
+            ],
+            [
+              -99.22175224940122,
+              18.915526647524093
+            ],
+            [
+              -99.2211325,
+              18.915487950497557
+            ],
+            [
+              -99.22051275059877,
+              18.915526647524093
+            ],
+            [
+              -99.21990360528162,
+              18.915642076486844
+            ],
+            [
+              -99.21931548669382,
+              18.91583226236425
+            ],
+            [
+              -99.21875845770747,
+              18.91609395102323
+            ],
+            [
+              -99.21824204924293,
+              18.916422664898267
+            ],
+            [
+              -99.21777509719224,
+              18.916812779603827
+            ],
+            [
+              -99.21736559123444,
+              18.91725762016913
+            ],
+            [
+              -99.21702053813,
+              18.91774957524878
+            ],
+            [
+              -99.21674584183322,
+              18.918280227354963
+            ],
+            [
+              -99.21654620247386,
+              18.918840496883018
+            ],
+            [
+              -99.21642503593677,
+              18.919420797465985
+            ],
+            [
+              -99.21638441541492,
+              18.9200112
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "naranja",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 0,
+        "last_incident_date": "2026-07-01",
+        "first_incident_date": "2026-07-01",
+        "location_scope": "colonia",
+        "location_name": "Unidad Habitacional Cantarranas",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Fuerte choque en Cuernavaca deja a un automovilista prensado en la colonia Cantarranas",
+            "url": "https://www.diariodemorelos.com/noticias/fuerte-choque-en-cuernavaca-deja-automovilista-prensado-en-colonia-cantarranas"
+          }
+        ],
+        "radius_meters": 500,
         "geometry_source": "buffer"
       }
     }
