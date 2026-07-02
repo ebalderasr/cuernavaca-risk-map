@@ -1726,5 +1726,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "0be18372d9ee4f61"
+  },
+  {
+    "id": "83d14f323f685a0b",
+    "fecha": "2026-06-30",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/balean-dejan-maniatado-presunto-ladron-con-mensaje-advertencia-en-tequesquitengo",
+    "resumen": "Balean y dejan maniatado a un presunto ladrón con un mensaje de advertencia en Tequesquitengo",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balean y dejan maniatado a un presunto ladrón con un mensaje de advertencia en Tequesquitengo",
+    "published_at": "2026-06-30T18:37:15-06:00",
+    "scraped_at": "2026-07-02T18:48:23Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "bf0022bd5edcc7be"
   }
 ]
