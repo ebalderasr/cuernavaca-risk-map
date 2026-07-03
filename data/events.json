@@ -1750,5 +1750,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "bf0022bd5edcc7be"
+  },
+  {
+    "id": "34d260f35eb9418e",
+    "fecha": "2026-07-03",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/operativo-federal-desarticula-4-extorsionadores-exigian-piso-en-jiutepec",
+    "resumen": "Operativo federal desarticula a 4 extorsionadores que exigían 'piso' en Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Operativo federal desarticula a 4 extorsionadores que exigían 'piso' en Jiutepec",
+    "published_at": "2026-07-03T11:54:50-06:00",
+    "scraped_at": "2026-07-03T18:39:03Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "b618572f40e4116f"
+  },
+  {
+    "id": "92b0a26b141ff2c1",
+    "fecha": "2026-07-02",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/indignacion-en-nopalera-matan-balazos-abuelito-en-asalto-quienes-son-responsables",
+    "resumen": "Indignación en La Nopalera: Matan a balazos a abuelito en asalto; ¿quiénes son los responsables?",
+    "source_name": "Diario de Morelos",
+    "source_title": "Indignación en La Nopalera: Matan a balazos a abuelito en asalto; ¿quiénes son los responsables?",
+    "published_at": "2026-07-02T12:21:31-06:00",
+    "scraped_at": "2026-07-03T18:39:04Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "49ab8ea50228b3dc"
+  },
+  {
+    "id": "71f7db1d44f17602",
+    "fecha": "2026-07-02",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/dramatico-derrape-en-oaxtepec-xochimilco-dos-mujeres-gravemente-lesionadas",
+    "resumen": "Dramático derrape en la Oaxtepec-Xochimilco: Dos mujeres gravemente lesionadas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Dramático derrape en la Oaxtepec-Xochimilco: Dos mujeres gravemente lesionadas",
+    "published_at": "2026-07-02T10:40:49-06:00",
+    "scraped_at": "2026-07-03T18:39:04Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ace1ec3a8da43e12"
   }
 ]
