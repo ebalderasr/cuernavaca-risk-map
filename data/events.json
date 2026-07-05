@@ -1822,5 +1822,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "ace1ec3a8da43e12"
+  },
+  {
+    "id": "0d42f742ec251d31",
+    "fecha": "2026-07-04",
+    "hora": "05:30",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/presunto-exceso-velocidad-habria-provocado-accidente-manana-este-sabado-en-jiutepec",
+    "resumen": "Presunto exceso de velocidad habría provocado un accidente la mañana de este sábado en Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Presunto exceso de velocidad habría provocado un accidente la mañana de este sábado en Jiutepec",
+    "published_at": "2026-07-04T08:38:06-06:00",
+    "scraped_at": "2026-07-05T18:16:18Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "06383ca12bb5f0df"
   }
 ]
