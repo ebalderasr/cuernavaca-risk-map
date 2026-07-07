@@ -1846,5 +1846,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "06383ca12bb5f0df"
+  },
+  {
+    "id": "304fe9e3e8696446",
+    "fecha": "2026-07-06",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/persecucion-en-morelos-motociclista-cae-con-cargamento-drogas-intentar-huir-policia",
+    "resumen": "¡Persecución en Morelos! Motociclista cae con cargamento de drogas tras intentar huir de la policía",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Persecución en Morelos! Motociclista cae con cargamento de drogas tras intentar huir de la policía",
+    "published_at": "2026-07-06T14:28:50-06:00",
+    "scraped_at": "2026-07-07T19:14:25Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "06dcae3c63723adb"
+  },
+  {
+    "id": "3d1fa9cd336c1770",
+    "fecha": "2026-07-06",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Milpillas",
+    "coordenadas": [
+      18.9466979,
+      -99.1838143
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-hombre-asesinado-balazos-dentro-vivienda-en-cuernavaca",
+    "resumen": "Hallan a un hombre asesinado a balazos dentro de una vivienda en Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan a un hombre asesinado a balazos dentro de una vivienda en Cuernavaca",
+    "published_at": "2026-07-06T13:00:52-06:00",
+    "scraped_at": "2026-07-07T19:14:25Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "fb6f25d1eea3991a"
   }
 ]
