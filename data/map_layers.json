@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 25,
+        "dias_sin_hechos_violentos": 26,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-06-28",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -908,7 +908,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1153,7 +1153,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 21,
+        "dias_sin_hechos_violentos": 22,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1379,7 +1379,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 20,
+        "dias_sin_hechos_violentos": 21,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1614,7 +1614,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 7,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-07-04",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1858,7 +1858,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2084,7 +2084,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 10,
+        "dias_sin_hechos_violentos": 11,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2310,7 +2310,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-07-02",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2541,7 +2541,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2767,7 +2767,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
@@ -2993,7 +2993,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3005,6 +3005,232 @@
           {
             "title": "Hallan a un hombre asesinado a balazos dentro de una vivienda en Cuernavaca",
             "url": "https://www.diariodemorelos.com/noticias/hallan-hombre-asesinado-balazos-dentro-vivienda-en-cuernavaca"
+          }
+        ],
+        "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23674020821834,
+              18.98
+            ],
+            [
+              -99.23678084334547,
+              18.980590402534016
+            ],
+            [
+              -99.23690205344859,
+              18.981170703116984
+            ],
+            [
+              -99.23710176458923,
+              18.98173097264504
+            ],
+            [
+              -99.2373765596544,
+              18.98226162475122
+            ],
+            [
+              -99.23772173682433,
+              18.98275357983087
+            ],
+            [
+              -99.23813139002196,
+              18.983198420396175
+            ],
+            [
+              -99.2385985099675,
+              18.983588535101735
+            ],
+            [
+              -99.23911510410916,
+              18.98391724897677
+            ],
+            [
+              -99.23967233337797,
+              18.98417893763575
+            ],
+            [
+              -99.24026066342664,
+              18.984369123513158
+            ],
+            [
+              -99.2408700277649,
+              18.98448455247591
+            ],
+            [
+              -99.24149,
+              18.984523249502445
+            ],
+            [
+              -99.2421099722351,
+              18.98448455247591
+            ],
+            [
+              -99.24271933657336,
+              18.984369123513158
+            ],
+            [
+              -99.24330766662203,
+              18.98417893763575
+            ],
+            [
+              -99.24386489589084,
+              18.98391724897677
+            ],
+            [
+              -99.2443814900325,
+              18.983588535101735
+            ],
+            [
+              -99.24484860997804,
+              18.983198420396175
+            ],
+            [
+              -99.24525826317567,
+              18.98275357983087
+            ],
+            [
+              -99.2456034403456,
+              18.98226162475122
+            ],
+            [
+              -99.24587823541077,
+              18.98173097264504
+            ],
+            [
+              -99.24607794655141,
+              18.981170703116984
+            ],
+            [
+              -99.24619915665453,
+              18.980590402534016
+            ],
+            [
+              -99.24623979178166,
+              18.98
+            ],
+            [
+              -99.24619915665453,
+              18.979409597465985
+            ],
+            [
+              -99.24607794655141,
+              18.978829296883017
+            ],
+            [
+              -99.24587823541077,
+              18.978269027354962
+            ],
+            [
+              -99.2456034403456,
+              18.97773837524878
+            ],
+            [
+              -99.24525826317567,
+              18.97724642016913
+            ],
+            [
+              -99.24484860997804,
+              18.976801579603826
+            ],
+            [
+              -99.2443814900325,
+              18.976411464898266
+            ],
+            [
+              -99.24386489589084,
+              18.97608275102323
+            ],
+            [
+              -99.24330766662203,
+              18.97582106236425
+            ],
+            [
+              -99.24271933657336,
+              18.975630876486843
+            ],
+            [
+              -99.2421099722351,
+              18.975515447524092
+            ],
+            [
+              -99.24149,
+              18.975476750497556
+            ],
+            [
+              -99.2408700277649,
+              18.975515447524092
+            ],
+            [
+              -99.24026066342664,
+              18.975630876486843
+            ],
+            [
+              -99.23967233337797,
+              18.97582106236425
+            ],
+            [
+              -99.23911510410916,
+              18.97608275102323
+            ],
+            [
+              -99.2385985099675,
+              18.976411464898266
+            ],
+            [
+              -99.23813139002196,
+              18.976801579603826
+            ],
+            [
+              -99.23772173682433,
+              18.97724642016913
+            ],
+            [
+              -99.2373765596544,
+              18.97773837524878
+            ],
+            [
+              -99.23710176458923,
+              18.978269027354962
+            ],
+            [
+              -99.23690205344859,
+              18.978829296883017
+            ],
+            [
+              -99.23678084334547,
+              18.979409597465985
+            ],
+            [
+              -99.23674020821834,
+              18.98
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "naranja",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 2,
+        "last_incident_date": "2026-07-06",
+        "first_incident_date": "2026-07-06",
+        "location_scope": "colonia",
+        "location_name": "Unidad Habitacional Morelos",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "El inesperado peligro en Cuautla: Un tope lanza a motociclista al asfalto",
+            "url": "https://www.diariodemorelos.com/noticias/inesperado-peligro-en-cuautla-tope-lanza-motociclista-asfalto"
           }
         ],
         "radius_meters": 500,

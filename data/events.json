@@ -1894,5 +1894,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "fb6f25d1eea3991a"
+  },
+  {
+    "id": "3d8272007f8e3aa4",
+    "fecha": "2026-07-06",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/inesperado-peligro-en-cuautla-tope-lanza-motociclista-asfalto",
+    "resumen": "El inesperado peligro en Cuautla: Un tope lanza a motociclista al asfalto",
+    "source_name": "Diario de Morelos",
+    "source_title": "El inesperado peligro en Cuautla: Un tope lanza a motociclista al asfalto",
+    "published_at": "2026-07-06T19:07:00-06:00",
+    "scraped_at": "2026-07-08T18:44:59Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "d4c83ea666ad6e3e"
   }
 ]

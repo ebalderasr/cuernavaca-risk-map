@@ -14,7 +14,7 @@
         "location_scope": "colonia",
         "location_name": "Lienzo del Charro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 333,
+        "dias_sin_hechos_violentos": 334,
         "last_incident_date": "2025-08-08",
         "first_incident_date": "2025-08-08",
         "delitos": [
@@ -42,7 +42,7 @@
         "location_scope": "colonia",
         "location_name": "Teopanzolco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 227,
+        "dias_sin_hechos_violentos": 228,
         "last_incident_date": "2025-11-22",
         "first_incident_date": "2025-11-22",
         "delitos": [
@@ -70,7 +70,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 123,
+        "dias_sin_hechos_violentos": 124,
         "last_incident_date": "2026-03-06",
         "first_incident_date": "2026-03-06",
         "delitos": [
@@ -98,7 +98,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 124,
+        "dias_sin_hechos_violentos": 125,
         "last_incident_date": "2026-03-05",
         "first_incident_date": "2026-03-05",
         "delitos": [
@@ -126,7 +126,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 459,
+        "dias_sin_hechos_violentos": 460,
         "last_incident_date": "2025-04-04",
         "first_incident_date": "2025-04-04",
         "delitos": [
@@ -154,7 +154,7 @@
         "location_scope": "colonia",
         "location_name": "Nueva Jerusalén",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 127,
+        "dias_sin_hechos_violentos": 128,
         "last_incident_date": "2026-03-02",
         "first_incident_date": "2026-03-02",
         "delitos": [
@@ -182,7 +182,7 @@
         "location_scope": "colonia",
         "location_name": "La Pradera",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 2786,
+        "dias_sin_hechos_violentos": 2787,
         "last_incident_date": "2018-11-20",
         "first_incident_date": "2018-11-20",
         "delitos": [
@@ -210,7 +210,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 169,
+        "dias_sin_hechos_violentos": 170,
         "last_incident_date": "2026-01-19",
         "first_incident_date": "2026-01-19",
         "delitos": [
@@ -238,7 +238,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 346,
+        "dias_sin_hechos_violentos": 347,
         "last_incident_date": "2025-07-26",
         "first_incident_date": "2025-07-26",
         "delitos": [
@@ -266,7 +266,7 @@
         "location_scope": "colonia",
         "location_name": "Vicente Estrada Cajigal",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 246,
+        "dias_sin_hechos_violentos": 247,
         "last_incident_date": "2025-11-03",
         "first_incident_date": "2025-11-03",
         "delitos": [
@@ -294,7 +294,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 111,
+        "dias_sin_hechos_violentos": 112,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
@@ -322,7 +322,7 @@
         "location_scope": "colonia",
         "location_name": "Vista Hermosa",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 112,
+        "dias_sin_hechos_violentos": 113,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -350,7 +350,7 @@
         "location_scope": "colonia",
         "location_name": "Lagunilla",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 109,
+        "dias_sin_hechos_violentos": 110,
         "last_incident_date": "2026-03-20",
         "first_incident_date": "2026-03-20",
         "delitos": [
@@ -378,7 +378,7 @@
         "location_scope": "municipio",
         "location_name": "Emiliano Zapata",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 109,
+        "dias_sin_hechos_violentos": 110,
         "last_incident_date": "2026-03-20",
         "first_incident_date": "2026-03-20",
         "delitos": [
@@ -406,7 +406,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 108,
+        "dias_sin_hechos_violentos": 109,
         "last_incident_date": "2026-03-21",
         "first_incident_date": "2026-03-21",
         "delitos": [
@@ -434,7 +434,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 110,
+        "dias_sin_hechos_violentos": 111,
         "last_incident_date": "2026-03-19",
         "first_incident_date": "2026-03-19",
         "delitos": [
@@ -462,7 +462,7 @@
         "location_scope": "colonia",
         "location_name": "Independencia",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 103,
+        "dias_sin_hechos_violentos": 104,
         "last_incident_date": "2026-03-26",
         "first_incident_date": "2026-03-26",
         "delitos": [
@@ -490,7 +490,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 119,
+        "dias_sin_hechos_violentos": 120,
         "last_incident_date": "2026-03-10",
         "first_incident_date": "2026-03-10",
         "delitos": [
@@ -518,7 +518,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 117,
+        "dias_sin_hechos_violentos": 118,
         "last_incident_date": "2026-03-12",
         "first_incident_date": "2026-03-12",
         "delitos": [
@@ -546,7 +546,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 118,
+        "dias_sin_hechos_violentos": 119,
         "last_incident_date": "2026-03-11",
         "first_incident_date": "2026-03-11",
         "delitos": [
@@ -574,7 +574,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 112,
+        "dias_sin_hechos_violentos": 113,
         "last_incident_date": "2026-03-17",
         "first_incident_date": "2026-03-17",
         "delitos": [
@@ -602,7 +602,7 @@
         "location_scope": "colonia",
         "location_name": "Del Bosque",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 113,
+        "dias_sin_hechos_violentos": 114,
         "last_incident_date": "2026-03-16",
         "first_incident_date": "2026-03-16",
         "delitos": [
@@ -630,7 +630,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 111,
+        "dias_sin_hechos_violentos": 112,
         "last_incident_date": "2026-03-18",
         "first_incident_date": "2026-03-18",
         "delitos": [
@@ -658,7 +658,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 103,
+        "dias_sin_hechos_violentos": 104,
         "last_incident_date": "2026-03-26",
         "first_incident_date": "2026-03-26",
         "delitos": [
@@ -686,7 +686,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 101,
+        "dias_sin_hechos_violentos": 102,
         "last_incident_date": "2026-03-28",
         "first_incident_date": "2026-03-28",
         "delitos": [
@@ -714,7 +714,7 @@
         "location_scope": "colonia",
         "location_name": "Ampliacion Lagunilla",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 99,
+        "dias_sin_hechos_violentos": 100,
         "last_incident_date": "2026-03-30",
         "first_incident_date": "2026-03-30",
         "delitos": [
@@ -742,7 +742,7 @@
         "location_scope": "colonia",
         "location_name": "Colonia los Cerritos",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 100,
+        "dias_sin_hechos_violentos": 101,
         "last_incident_date": "2026-03-29",
         "first_incident_date": "2026-03-29",
         "delitos": [
@@ -770,7 +770,7 @@
         "location_scope": "municipio",
         "location_name": "Temixco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 98,
+        "dias_sin_hechos_violentos": 99,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "delitos": [
@@ -798,7 +798,7 @@
         "location_scope": "colonia",
         "location_name": "Santa Maria Ahuacatitlan",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 98,
+        "dias_sin_hechos_violentos": 99,
         "last_incident_date": "2026-03-31",
         "first_incident_date": "2026-03-31",
         "delitos": [
@@ -826,7 +826,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 96,
+        "dias_sin_hechos_violentos": 97,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "delitos": [
@@ -854,7 +854,7 @@
         "location_scope": "colonia",
         "location_name": "Ahuatepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 96,
+        "dias_sin_hechos_violentos": 97,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "delitos": [
@@ -882,7 +882,7 @@
         "location_scope": "colonia",
         "location_name": "Lazaro Cardenas",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 96,
+        "dias_sin_hechos_violentos": 97,
         "last_incident_date": "2026-04-02",
         "first_incident_date": "2026-04-02",
         "delitos": [
@@ -910,7 +910,7 @@
         "location_scope": "colonia",
         "location_name": "Antonio Barona",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 94,
+        "dias_sin_hechos_violentos": 95,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-04",
         "delitos": [
@@ -938,7 +938,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 93,
+        "dias_sin_hechos_violentos": 94,
         "last_incident_date": "2026-04-05",
         "first_incident_date": "2026-04-05",
         "delitos": [
@@ -966,7 +966,7 @@
         "location_scope": "municipio",
         "location_name": "Temixco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 93,
+        "dias_sin_hechos_violentos": 94,
         "last_incident_date": "2026-04-05",
         "first_incident_date": "2026-04-05",
         "delitos": [
@@ -994,7 +994,7 @@
         "location_scope": "municipio",
         "location_name": "Temixco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 94,
+        "dias_sin_hechos_violentos": 95,
         "last_incident_date": "2026-04-04",
         "first_incident_date": "2026-04-04",
         "delitos": [
@@ -1022,7 +1022,7 @@
         "location_scope": "colonia",
         "location_name": "Chipitlan",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 90,
+        "dias_sin_hechos_violentos": 91,
         "last_incident_date": "2026-04-08",
         "first_incident_date": "2026-04-08",
         "delitos": [
@@ -1050,7 +1050,7 @@
         "location_scope": "colonia",
         "location_name": "Chipitlan",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 91,
+        "dias_sin_hechos_violentos": 92,
         "last_incident_date": "2026-04-07",
         "first_incident_date": "2026-04-07",
         "delitos": [
@@ -1078,7 +1078,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 91,
+        "dias_sin_hechos_violentos": 92,
         "last_incident_date": "2026-04-07",
         "first_incident_date": "2026-04-07",
         "delitos": [
@@ -1106,7 +1106,7 @@
         "location_scope": "colonia",
         "location_name": "Reforma",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 88,
+        "dias_sin_hechos_violentos": 89,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-10",
         "delitos": [
@@ -1134,7 +1134,7 @@
         "location_scope": "colonia",
         "location_name": "Reforma",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 89,
+        "dias_sin_hechos_violentos": 90,
         "last_incident_date": "2026-04-09",
         "first_incident_date": "2026-04-09",
         "delitos": [
@@ -1162,7 +1162,7 @@
         "location_scope": "municipio",
         "location_name": "Emiliano Zapata",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 89,
+        "dias_sin_hechos_violentos": 90,
         "last_incident_date": "2026-04-09",
         "first_incident_date": "2026-04-09",
         "delitos": [
@@ -1190,7 +1190,7 @@
         "location_scope": "colonia",
         "location_name": "Reforma",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 89,
+        "dias_sin_hechos_violentos": 90,
         "last_incident_date": "2026-04-09",
         "first_incident_date": "2026-04-09",
         "delitos": [
@@ -1218,7 +1218,7 @@
         "location_scope": "colonia",
         "location_name": "Tlaltenango",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 88,
+        "dias_sin_hechos_violentos": 89,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-10",
         "delitos": [
@@ -1246,7 +1246,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 88,
+        "dias_sin_hechos_violentos": 89,
         "last_incident_date": "2026-04-10",
         "first_incident_date": "2026-04-10",
         "delitos": [
@@ -1274,7 +1274,7 @@
         "location_scope": "colonia",
         "location_name": "Tetela Del Monte",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 86,
+        "dias_sin_hechos_violentos": 87,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "delitos": [
@@ -1302,7 +1302,7 @@
         "location_scope": "colonia",
         "location_name": "Lagunilla",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 86,
+        "dias_sin_hechos_violentos": 87,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "delitos": [
@@ -1330,7 +1330,7 @@
         "location_scope": "colonia",
         "location_name": "Las Palmas",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 86,
+        "dias_sin_hechos_violentos": 87,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "delitos": [
@@ -1358,7 +1358,7 @@
         "location_scope": "colonia",
         "location_name": "Tlaltenango",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 87,
+        "dias_sin_hechos_violentos": 88,
         "last_incident_date": "2026-04-11",
         "first_incident_date": "2026-04-11",
         "delitos": [
@@ -1386,7 +1386,7 @@
         "location_scope": "colonia",
         "location_name": "Lazaro Cardenas",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 85,
+        "dias_sin_hechos_violentos": 86,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "delitos": [
@@ -1414,7 +1414,7 @@
         "location_scope": "colonia",
         "location_name": "Satelite",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 85,
+        "dias_sin_hechos_violentos": 86,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "delitos": [
@@ -1442,7 +1442,7 @@
         "location_scope": "colonia",
         "location_name": "Lazaro Cardenas",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 86,
+        "dias_sin_hechos_violentos": 87,
         "last_incident_date": "2026-04-12",
         "first_incident_date": "2026-04-12",
         "delitos": [
@@ -1470,7 +1470,7 @@
         "location_scope": "colonia",
         "location_name": "Tejalpa",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 84,
+        "dias_sin_hechos_violentos": 85,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "delitos": [
@@ -1498,7 +1498,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 85,
+        "dias_sin_hechos_violentos": 86,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "delitos": [
@@ -1526,7 +1526,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 85,
+        "dias_sin_hechos_violentos": 86,
         "last_incident_date": "2026-04-13",
         "first_incident_date": "2026-04-13",
         "delitos": [
@@ -1554,7 +1554,7 @@
         "location_scope": "colonia",
         "location_name": "Centro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 84,
+        "dias_sin_hechos_violentos": 85,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "delitos": [
@@ -1582,7 +1582,7 @@
         "location_scope": "municipio",
         "location_name": "Emiliano Zapata",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 84,
+        "dias_sin_hechos_violentos": 85,
         "last_incident_date": "2026-04-14",
         "first_incident_date": "2026-04-14",
         "delitos": [
@@ -1610,7 +1610,7 @@
         "location_scope": "colonia",
         "location_name": "Benito Juarez",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 82,
+        "dias_sin_hechos_violentos": 83,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "delitos": [
@@ -1638,7 +1638,7 @@
         "location_scope": "municipio",
         "location_name": "Yautepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 82,
+        "dias_sin_hechos_violentos": 83,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "delitos": [
@@ -1666,7 +1666,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 82,
+        "dias_sin_hechos_violentos": 83,
         "last_incident_date": "2026-04-16",
         "first_incident_date": "2026-04-16",
         "delitos": [
@@ -1694,7 +1694,7 @@
         "location_scope": "colonia",
         "location_name": "Ricardo Flores Magon",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 78,
+        "dias_sin_hechos_violentos": 79,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "delitos": [
@@ -1722,7 +1722,7 @@
         "location_scope": "municipio",
         "location_name": "Temixco",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 79,
+        "dias_sin_hechos_violentos": 80,
         "last_incident_date": "2026-04-19",
         "first_incident_date": "2026-04-19",
         "delitos": [
@@ -1750,7 +1750,7 @@
         "location_scope": "municipio",
         "location_name": "Jiutepec",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 78,
+        "dias_sin_hechos_violentos": 79,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "delitos": [
@@ -1778,7 +1778,7 @@
         "location_scope": "colonia",
         "location_name": "Centro",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 78,
+        "dias_sin_hechos_violentos": 79,
         "last_incident_date": "2026-04-20",
         "first_incident_date": "2026-04-20",
         "delitos": [
