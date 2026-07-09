@@ -1918,5 +1918,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "d4c83ea666ad6e3e"
+  },
+  {
+    "id": "8ae213e0a7d92db7",
+    "fecha": "2026-07-07",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/se-salva-morir-calcinado-impactante-incendio-en-su-carpinteria",
+    "resumen": "Se salva de morir calcinado tras impactante incendio en su carpintería",
+    "source_name": "Diario de Morelos",
+    "source_title": "Se salva de morir calcinado tras impactante incendio en su carpintería",
+    "published_at": "2026-07-07T22:49:09-06:00",
+    "scraped_at": "2026-07-09T19:00:45Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "568b74757a462403"
   }
 ]
