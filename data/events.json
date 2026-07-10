@@ -1942,5 +1942,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "568b74757a462403"
+  },
+  {
+    "id": "4f03794362a64d35",
+    "fecha": "2026-07-09",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-hombre-en-cocoyoc-familiares-rescatan-salvarle-vida",
+    "resumen": "Atacan a balazos a un hombre en Cocoyoc y familiares lo rescatan para salvarle la vida",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a balazos a un hombre en Cocoyoc y familiares lo rescatan para salvarle la vida",
+    "published_at": "2026-07-09T19:22:00-06:00",
+    "scraped_at": "2026-07-10T18:44:42Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "d6f8d0a34973668e"
   }
 ]
