@@ -1966,5 +1966,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "d6f8d0a34973668e"
+  },
+  {
+    "id": "c72c355fc82cf98e",
+    "fecha": "2026-07-10",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-sin-vida-interna-dentro-penal-femenil-michapa-en-coatlan-rio",
+    "resumen": "Hallan sin vida a interna dentro del penal femenil de Michapa en Coatlán del Río",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan sin vida a interna dentro del penal femenil de Michapa en Coatlán del Río",
+    "published_at": "2026-07-10T18:46:56-06:00",
+    "scraped_at": "2026-07-13T18:50:06Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "8317a1cc60a234ed"
   }
 ]

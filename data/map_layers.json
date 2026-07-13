@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 20,
+        "dias_sin_hechos_violentos": 21,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 30,
+        "dias_sin_hechos_violentos": 31,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-07-09",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -912,7 +912,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 17,
+        "dias_sin_hechos_violentos": 18,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1157,7 +1157,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 26,
+        "dias_sin_hechos_violentos": 27,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1383,7 +1383,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 25,
+        "dias_sin_hechos_violentos": 26,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1618,7 +1618,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 7,
-        "dias_sin_hechos_violentos": 8,
+        "dias_sin_hechos_violentos": 9,
         "last_incident_date": "2026-07-04",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1862,7 +1862,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 21,
+        "dias_sin_hechos_violentos": 22,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2088,7 +2088,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2314,7 +2314,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 10,
+        "dias_sin_hechos_violentos": 11,
         "last_incident_date": "2026-07-02",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2545,7 +2545,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 11,
+        "dias_sin_hechos_violentos": 12,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2570,199 +2570,199 @@
         "coordinates": [
           [
             [
-              -99.17250250049919,
+              -99.17202789651918,
               18.8478608
             ],
             [
-              -99.17260400807024,
-              18.84933680633504
+              -99.17213346439306,
+              18.84939584658844
             ],
             [
-              -99.17290679396068,
-              18.850787557792454
+              -99.17244836171912,
+              18.850904628104153
             ],
             [
-              -99.17340567741999,
-              18.852188231612594
+              -99.17296720051681,
+              18.852361328877098
             ],
             [
-              -99.17409212241387,
-              18.853514861878054
+              -99.17368110331044,
+              18.853741024353173
             ],
             [
-              -99.17495438367816,
-              18.854744749577176
+              -99.17457785502529,
+              18.85502010756026
             ],
             [
-              -99.17597770768353,
-              18.85585685099044
+              -99.17564211199088,
+              18.856176693030058
             ],
             [
-              -99.17714458507255,
-              18.85683213775433
+              -99.17685566447548,
+              18.857190991264506
             ],
             [
-              -99.1784350502496,
-              18.857653922441926
+              -99.17819774825959,
+              18.8580456473396
             ],
             [
-              -99.17982702299769,
-              18.85830814408937
+              -99.1796453999176,
+              18.858726037852946
             ],
             [
-              -99.18129668627715,
-              18.858783608782897
+              -99.18117384972825,
+              18.859220521134212
             ],
             [
-              -99.18281889374185,
-              18.85907218118977
+              -99.18275694549153,
+              18.85952063643736
             ],
             [
-              -99.1843676,
-              18.859168923756105
+              -99.18436760000002,
+              18.85962124870635
             ],
             [
-              -99.18591630625815,
-              18.85907218118977
+              -99.1859782545085,
+              18.85952063643736
             ],
             [
-              -99.18743851372285,
-              18.858783608782897
+              -99.18756135027178,
+              18.859220521134212
             ],
             [
-              -99.18890817700232,
-              18.85830814408937
+              -99.18908980008243,
+              18.858726037852946
             ],
             [
-              -99.1903001497504,
-              18.857653922441926
+              -99.19053745174044,
+              18.8580456473396
             ],
             [
-              -99.19159061492745,
-              18.85683213775433
+              -99.19187953552455,
+              18.857190991264506
             ],
             [
-              -99.19275749231647,
-              18.85585685099044
+              -99.19309308800915,
+              18.856176693030058
             ],
             [
-              -99.19378081632185,
-              18.854744749577176
+              -99.19415734497474,
+              18.85502010756026
             ],
             [
-              -99.19464307758614,
-              18.853514861878054
+              -99.19505409668959,
+              18.853741024353173
             ],
             [
-              -99.19532952258001,
-              18.852188231612594
+              -99.19576799948322,
+              18.852361328877098
             ],
             [
-              -99.19582840603933,
-              18.850787557792454
+              -99.19628683828091,
+              18.850904628104153
             ],
             [
-              -99.19613119192977,
-              18.84933680633504
+              -99.19660173560698,
+              18.84939584658844
             ],
             [
-              -99.19623269950081,
+              -99.19670730348085,
               18.8478608
             ],
             [
-              -99.19613119192977,
-              18.84638479366496
+              -99.19660173560698,
+              18.84632575341156
             ],
             [
-              -99.19582840603933,
-              18.844934042207544
+              -99.19628683828091,
+              18.844816971895845
             ],
             [
-              -99.19532952258001,
-              18.843533368387405
+              -99.19576799948322,
+              18.8433602711229
             ],
             [
-              -99.19464307758614,
-              18.842206738121945
+              -99.19505409668959,
+              18.841980575646826
             ],
             [
-              -99.19378081632185,
-              18.840976850422823
+              -99.19415734497474,
+              18.840701492439738
             ],
             [
-              -99.19275749231647,
-              18.83986474900956
+              -99.19309308800915,
+              18.83954490696994
             ],
             [
-              -99.19159061492745,
-              18.838889462245668
+              -99.19187953552455,
+              18.838530608735493
             ],
             [
-              -99.1903001497504,
-              18.838067677558072
+              -99.19053745174044,
+              18.837675952660398
             ],
             [
-              -99.18890817700232,
-              18.837413455910628
+              -99.18908980008243,
+              18.836995562147052
             ],
             [
-              -99.18743851372285,
-              18.836937991217102
+              -99.18756135027178,
+              18.836501078865787
             ],
             [
-              -99.18591630625815,
-              18.83664941881023
+              -99.1859782545085,
+              18.83620096356264
             ],
             [
-              -99.1843676,
-              18.836552676243894
+              -99.18436760000002,
+              18.83610035129365
             ],
             [
-              -99.18281889374185,
-              18.83664941881023
+              -99.18275694549153,
+              18.83620096356264
             ],
             [
-              -99.18129668627715,
-              18.836937991217102
+              -99.18117384972825,
+              18.836501078865787
             ],
             [
-              -99.17982702299769,
-              18.837413455910628
+              -99.1796453999176,
+              18.836995562147052
             ],
             [
-              -99.1784350502496,
-              18.838067677558072
+              -99.17819774825959,
+              18.837675952660398
             ],
             [
-              -99.17714458507255,
-              18.838889462245664
+              -99.17685566447548,
+              18.838530608735493
             ],
             [
-              -99.17597770768353,
-              18.83986474900956
+              -99.17564211199088,
+              18.83954490696994
             ],
             [
-              -99.17495438367816,
-              18.840976850422823
+              -99.17457785502529,
+              18.840701492439738
             ],
             [
-              -99.17409212241387,
-              18.842206738121945
+              -99.17368110331044,
+              18.841980575646826
             ],
             [
-              -99.17340567741999,
-              18.843533368387405
+              -99.17296720051681,
+              18.8433602711229
             ],
             [
-              -99.17290679396068,
-              18.844934042207544
+              -99.17244836171912,
+              18.844816971895845
             ],
             [
-              -99.17260400807024,
-              18.84638479366496
+              -99.17213346439306,
+              18.84632575341156
             ],
             [
-              -99.17250250049919,
+              -99.17202789651918,
               18.8478608
             ]
           ]
@@ -2770,9 +2770,9 @@
       },
       "properties": {
         "level": "rojo",
-        "n_incidents": 2,
-        "dias_sin_hechos_violentos": 5,
-        "last_incident_date": "2026-07-07",
+        "n_incidents": 3,
+        "dias_sin_hechos_violentos": 3,
+        "last_incident_date": "2026-07-10",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
         "location_name": "Emiliano Zapata",
@@ -2780,6 +2780,10 @@
           "homicidio"
         ],
         "fuentes": [
+          {
+            "title": "Hallan sin vida a interna dentro del penal femenil de Michapa en Coatlán del Río",
+            "url": "https://www.diariodemorelos.com/noticias/hallan-sin-vida-interna-dentro-penal-femenil-michapa-en-coatlan-rio"
+          },
           {
             "title": "Se salva de morir calcinado tras impactante incendio en su carpintería",
             "url": "https://www.diariodemorelos.com/noticias/se-salva-morir-calcinado-impactante-incendio-en-su-carpinteria"
@@ -2789,7 +2793,7 @@
             "url": "https://www.diariodemorelos.com/noticias/persecucion-en-morelos-motociclista-cae-con-cargamento-drogas-intentar-huir-policia"
           }
         ],
-        "radius_meters": 1250,
+        "radius_meters": 1300,
         "geometry_source": "buffer"
       }
     },
@@ -3001,7 +3005,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3227,7 +3231,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
