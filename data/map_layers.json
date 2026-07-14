@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 21,
+        "dias_sin_hechos_violentos": 22,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 31,
+        "dias_sin_hechos_violentos": 32,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 4,
+        "dias_sin_hechos_violentos": 5,
         "last_incident_date": "2026-07-09",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -912,7 +912,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 18,
+        "dias_sin_hechos_violentos": 19,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1157,7 +1157,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 27,
+        "dias_sin_hechos_violentos": 28,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1383,7 +1383,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 26,
+        "dias_sin_hechos_violentos": 27,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1618,7 +1618,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 7,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-04",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1862,7 +1862,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 22,
+        "dias_sin_hechos_violentos": 23,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2088,7 +2088,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2314,7 +2314,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 11,
+        "dias_sin_hechos_violentos": 12,
         "last_incident_date": "2026-07-02",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2545,7 +2545,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2771,7 +2771,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 3,
+        "dias_sin_hechos_violentos": 4,
         "last_incident_date": "2026-07-10",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
@@ -3005,7 +3005,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3231,7 +3231,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
