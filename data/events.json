@@ -1990,5 +1990,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "8317a1cc60a234ed"
+  },
+  {
+    "id": "cf5f39e632bdc80d",
+    "fecha": "2026-07-14",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-costales-con-restos-humanos-en-panteon-jiutepec-investigan-saqueo-tumbas",
+    "resumen": "Hallan costales con restos humanos en panteón de Jiutepec; investigan saqueo de tumbas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan costales con restos humanos en panteón de Jiutepec; investigan saqueo de tumbas",
+    "published_at": "2026-07-14T12:28:57-06:00",
+    "scraped_at": "2026-07-15T18:19:39Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "0c7281f3ee987962"
   }
 ]
