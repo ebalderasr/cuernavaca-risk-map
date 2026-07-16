@@ -209,7 +209,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 23,
+        "dias_sin_hechos_violentos": 24,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 33,
+        "dias_sin_hechos_violentos": 34,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-09",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -912,7 +912,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 20,
+        "dias_sin_hechos_violentos": 21,
         "last_incident_date": "2026-06-25",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1155,9 +1155,9 @@
         ]
       },
       "properties": {
-        "level": "naranja",
+        "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1383,7 +1383,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 28,
+        "dias_sin_hechos_violentos": 29,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1618,7 +1618,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 8,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-14",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1862,7 +1862,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 24,
+        "dias_sin_hechos_violentos": 25,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2088,7 +2088,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 18,
+        "dias_sin_hechos_violentos": 19,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2314,7 +2314,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 13,
+        "dias_sin_hechos_violentos": 14,
         "last_incident_date": "2026-07-02",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2545,7 +2545,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 14,
+        "dias_sin_hechos_violentos": 15,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2771,7 +2771,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-07-10",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
@@ -3005,7 +3005,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3231,7 +3231,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3246,6 +3246,237 @@
           }
         ],
         "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.22207154306874,
+              18.9412445
+            ],
+            [
+              -99.2221162313224,
+              18.941893942787416
+            ],
+            [
+              -99.222249531455,
+              18.942532273428682
+            ],
+            [
+              -99.2224691626643,
+              18.943148569909543
+            ],
+            [
+              -99.22277136699941,
+              18.943732287226343
+            ],
+            [
+              -99.22315097366038,
+              18.94427343781396
+            ],
+            [
+              -99.223601487472,
+              18.944762762435793
+            ],
+            [
+              -99.22411520001802,
+              18.945191888611905
+            ],
+            [
+              -99.22468332153437,
+              18.945553473874448
+            ],
+            [
+              -99.22529613130439,
+              18.945841331399322
+            ],
+            [
+              -99.22594314398302,
+              18.946050535864472
+            ],
+            [
+              -99.22661328900392,
+              18.946177507723498
+            ],
+            [
+              -99.2272951,
+              18.946220074452686
+            ],
+            [
+              -99.22797691099609,
+              18.946177507723498
+            ],
+            [
+              -99.228647056017,
+              18.946050535864472
+            ],
+            [
+              -99.22929406869562,
+              18.945841331399322
+            ],
+            [
+              -99.22990687846564,
+              18.945553473874448
+            ],
+            [
+              -99.230474999982,
+              18.945191888611905
+            ],
+            [
+              -99.23098871252802,
+              18.944762762435793
+            ],
+            [
+              -99.23143922633963,
+              18.94427343781396
+            ],
+            [
+              -99.2318188330006,
+              18.943732287226343
+            ],
+            [
+              -99.23212103733572,
+              18.943148569909543
+            ],
+            [
+              -99.232340668545,
+              18.942532273428682
+            ],
+            [
+              -99.23247396867761,
+              18.941893942787416
+            ],
+            [
+              -99.23251865693128,
+              18.9412445
+            ],
+            [
+              -99.23247396867761,
+              18.940595057212583
+            ],
+            [
+              -99.232340668545,
+              18.939956726571317
+            ],
+            [
+              -99.23212103733572,
+              18.939340430090457
+            ],
+            [
+              -99.2318188330006,
+              18.938756712773657
+            ],
+            [
+              -99.23143922633963,
+              18.93821556218604
+            ],
+            [
+              -99.23098871252802,
+              18.937726237564206
+            ],
+            [
+              -99.230474999982,
+              18.937297111388094
+            ],
+            [
+              -99.22990687846564,
+              18.936935526125552
+            ],
+            [
+              -99.22929406869562,
+              18.936647668600678
+            ],
+            [
+              -99.228647056017,
+              18.936438464135527
+            ],
+            [
+              -99.22797691099609,
+              18.936311492276502
+            ],
+            [
+              -99.2272951,
+              18.936268925547314
+            ],
+            [
+              -99.22661328900392,
+              18.936311492276502
+            ],
+            [
+              -99.22594314398302,
+              18.936438464135527
+            ],
+            [
+              -99.22529613130439,
+              18.936647668600678
+            ],
+            [
+              -99.22468332153437,
+              18.936935526125552
+            ],
+            [
+              -99.22411520001802,
+              18.937297111388094
+            ],
+            [
+              -99.223601487472,
+              18.937726237564206
+            ],
+            [
+              -99.22315097366038,
+              18.93821556218604
+            ],
+            [
+              -99.22277136699941,
+              18.938756712773657
+            ],
+            [
+              -99.2224691626643,
+              18.939340430090457
+            ],
+            [
+              -99.222249531455,
+              18.939956726571317
+            ],
+            [
+              -99.2221162313224,
+              18.940595057212583
+            ],
+            [
+              -99.22207154306874,
+              18.9412445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "rojo",
+        "n_incidents": 2,
+        "dias_sin_hechos_violentos": 0,
+        "last_incident_date": "2026-07-16",
+        "first_incident_date": "2026-07-16",
+        "location_scope": "colonia",
+        "location_name": "Reforma",
+        "delitos": [
+          "feminicidio",
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Hallan cuerpo decapitado de una mujer en la carretera federal Cuernavaca-Taxco",
+            "url": "https://www.diariodemorelos.com/noticias/hallan-cuerpo-decapitado-mujer-en-carretera-federal-cuernavaca-taxco"
+          },
+          {
+            "title": "Detienen a presunto narcomenudista con más de 170 dosis de drogas",
+            "url": "https://www.diariodemorelos.com/noticias/detienen-presunto-narcomenudista-con-mas-170-dosis-drogas"
+          }
+        ],
+        "radius_meters": 550,
         "geometry_source": "buffer"
       }
     }

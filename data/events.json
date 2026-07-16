@@ -2014,5 +2014,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "0c7281f3ee987962"
+  },
+  {
+    "id": "bae71a5a3cea08e3",
+    "fecha": "2026-07-16",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Reforma",
+    "coordenadas": [
+      18.9412445,
+      -99.2272951
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-cuerpo-decapitado-mujer-en-carretera-federal-cuernavaca-taxco",
+    "resumen": "Hallan cuerpo decapitado de una mujer en la carretera federal Cuernavaca-Taxco",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan cuerpo decapitado de una mujer en la carretera federal Cuernavaca-Taxco",
+    "published_at": "2026-07-16T11:33:35-06:00",
+    "scraped_at": "2026-07-16T18:19:36Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "b867f375043934a2"
+  },
+  {
+    "id": "259021c2859aa6bc",
+    "fecha": "2026-07-16",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "colonia",
+    "location_name": "Reforma",
+    "coordenadas": [
+      18.9412445,
+      -99.2272951
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-presunto-narcomenudista-con-mas-170-dosis-drogas",
+    "resumen": "Detienen a presunto narcomenudista con más de 170 dosis de drogas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a presunto narcomenudista con más de 170 dosis de drogas",
+    "published_at": "2026-07-16T10:34:23-06:00",
+    "scraped_at": "2026-07-16T18:19:36Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "8df82bdb232d730f"
   }
 ]
