@@ -2062,5 +2062,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "8df82bdb232d730f"
+  },
+  {
+    "id": "d4eb452771dd0ec0",
+    "fecha": "2026-07-17",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/muerte-en-sergio-estrada-motociclistas-ejecutan-hombre-tercera-edad",
+    "resumen": "Muerte en la Sergio Estrada: Motociclistas ejecutan a un hombre de la tercera edad",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muerte en la Sergio Estrada: Motociclistas ejecutan a un hombre de la tercera edad",
+    "published_at": "2026-07-17T09:51:24-06:00",
+    "scraped_at": "2026-07-17T18:16:47Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "59502802e399d34c"
+  },
+  {
+    "id": "d47e04e0e056cf0c",
+    "fecha": "2026-07-16",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Guerrero",
+    "coordenadas": [
+      18.9677532,
+      -99.2102416
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-cocoyoc-asesinan-balazos-mujer-motociclista-en-nuevo-hecho-violencia",
+    "resumen": "Tragedia en Cocoyoc: Atacan a balazos y matan a mujer en motocicleta durante la noche",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Cocoyoc: Atacan a balazos y matan a mujer en motocicleta durante la noche",
+    "published_at": "2026-07-16T00:09:00-06:00",
+    "scraped_at": "2026-07-17T18:16:48Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "43ef15fcc693119b"
   }
 ]
