@@ -2110,5 +2110,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "43ef15fcc693119b"
+  },
+  {
+    "id": "24c9f030c021087b",
+    "fecha": "2026-07-18",
+    "hora": "11:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/finge-ser-cliente-asaltar-minisuper-en-flores-magon-termina-rejas",
+    "resumen": "Finge ser cliente para asaltar minisúper en la Flores Magón y termina tras las rejas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Finge ser cliente para asaltar minisúper en la Flores Magón y termina tras las rejas",
+    "published_at": "2026-07-18T11:46:51-06:00",
+    "scraped_at": "2026-07-18T18:07:32Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "65caa1c75da989da"
+  },
+  {
+    "id": "22d9ba64adb3bf37",
+    "fecha": "2026-07-16",
+    "hora": "11:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/panico-en-alpuyeca-atacan-balazos-dos-peatones-en-centro-agresores-escapan",
+    "resumen": "Pánico en Alpuyeca: Atacan a balazos a dos peatones en el centro y los agresores escapan",
+    "source_name": "Diario de Morelos",
+    "source_title": "Pánico en Alpuyeca: Atacan a balazos a dos peatones en el centro y los agresores escapan",
+    "published_at": "2026-07-16T14:08:02-06:00",
+    "scraped_at": "2026-07-18T18:07:34Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "f6c1e675a5e2479d"
   }
 ]
