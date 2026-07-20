@@ -2158,5 +2158,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "f6c1e675a5e2479d"
+  },
+  {
+    "id": "9a229b1e476f8877",
+    "fecha": "2026-07-20",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-en-via-publica-colonia-independencia-en-jiutepec",
+    "resumen": "Asesinan a balazos a un hombre en la colonia Independencia de Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a un hombre en la vía pública de la colonia Independencia en Jiutepec",
+    "published_at": "2026-07-20T10:41:47-06:00",
+    "scraped_at": "2026-07-20T19:06:24Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "05d11b1c51dee3cc"
+  },
+  {
+    "id": "c9ce8a65f5c8400c",
+    "fecha": "2026-07-18",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Independencia",
+    "coordenadas": [
+      18.9246255,
+      -99.2410813
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/terror-en-micheladas-mas-perrisimas-cliente-es-baleado-asesinado-en-miacatlan",
+    "resumen": "Terror en 'Las Micheladas Más Perrísimas': Cliente es baleado y asesinado en Miacatlán",
+    "source_name": "Diario de Morelos",
+    "source_title": "Terror en 'Las Micheladas Más Perrísimas': Cliente es baleado y asesinado en Miacatlán",
+    "published_at": "2026-07-18T23:29:29-06:00",
+    "scraped_at": "2026-07-20T19:06:26Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "a688583faf992c07"
+  },
+  {
+    "id": "7cd9a498a6830968",
+    "fecha": "2026-07-17",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Independencia",
+    "coordenadas": [
+      18.9246255,
+      -99.2410813
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-abuelito-es-atropellado-en-estacionamiento-jojutla-como-esta",
+    "resumen": "Abuelito atropellado en Jojutla: Detalles del accidente",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Impactante! Abuelito es atropellado en estacionamiento de Jojutla: ¿Cómo está?",
+    "published_at": "2026-07-17T16:59:27-06:00",
+    "scraped_at": "2026-07-20T19:06:26Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "9c3a97823a12b8b5"
   }
 ]
