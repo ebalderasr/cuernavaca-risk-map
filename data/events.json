@@ -2230,5 +2230,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "9c3a97823a12b8b5"
+  },
+  {
+    "id": "c717c88eccafab49",
+    "fecha": "2026-07-21",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "secuestro",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hombre-pierde-vida-ser-arrollado-en-paso-express-cuernavaca",
+    "resumen": "Hombre pierde la vida tras ser arrollado en el Paso Express de Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre pierde la vida tras ser arrollado en el Paso Express de Cuernavaca",
+    "published_at": "2026-07-21T11:37:00-06:00",
+    "scraped_at": "2026-07-21T18:40:06Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "0e2382c4fb32b597"
+  },
+  {
+    "id": "d0baf92ddb462870",
+    "fecha": "2026-07-21",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "secuestro",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/condenan-80-anos-prision-pareja-por-secuestro-agravado-en-xochitepec",
+    "resumen": "Condenan a 80 años de prisión a pareja por secuestro agravado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Condenan a 80 años de prisión a pareja por secuestro agravado",
+    "published_at": "2026-07-21T11:36:00-06:00",
+    "scraped_at": "2026-07-21T18:40:06Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "b9d0d1aa1a9c14c8"
+  },
+  {
+    "id": "e34b7c0fadd9b371",
+    "fecha": "2026-07-21",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/exceso-velocidad-provoca-fuerte-choque-en-yautepec-deja-motociclista-hospitalizado",
+    "resumen": "Exceso de velocidad provoca fuerte choque en Yautepec y deja a motociclista hospitalizado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Exceso de velocidad provoca fuerte choque en Yautepec y deja a motociclista hospitalizado",
+    "published_at": "2026-07-21T00:15:08-06:00",
+    "scraped_at": "2026-07-21T18:40:06Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "75686682fc14bf1d"
   }
 ]
