@@ -2302,5 +2302,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "75686682fc14bf1d"
+  },
+  {
+    "id": "5491ddf324a8f750",
+    "fecha": "2026-07-21",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vista Hermosa",
+    "coordenadas": [
+      18.9360255,
+      -99.2162139
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-tres-hombres-armados-con-motocicletas-robadas-en-colonia-vista-hermosa",
+    "resumen": "Detienen a tres hombres armados y con motos robadas en Vista Hermosa",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a tres hombres armados y con motocicletas robadas en la colonia Vista Hermosa",
+    "published_at": "2026-07-21T11:36:00-06:00",
+    "scraped_at": "2026-07-22T18:34:12Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "3dd1fd62577090d1"
+  },
+  {
+    "id": "b93fb002226d4188",
+    "fecha": "2026-07-21",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/abre-fiscalia-general-estado-nuevo-modulo-atencion-ciudadana-en-temixco",
+    "resumen": "Abre Fiscalía General nuevo Módulo de Atención Ciudadana en Temixco",
+    "source_name": "Diario de Morelos",
+    "source_title": "Abre Fiscalía General del Estado nuevo Módulo de Atención Ciudadana en Temixco",
+    "published_at": "2026-07-21T11:36:00-06:00",
+    "scraped_at": "2026-07-22T18:34:12Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "c2282d1b35512baa"
   }
 ]
