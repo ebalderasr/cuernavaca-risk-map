@@ -2350,5 +2350,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "c2282d1b35512baa"
+  },
+  {
+    "id": "2067f7dc22c16f8d",
+    "fecha": "2026-07-20",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-yael-por-agredir-amenazar-muerte-en-plena-calle",
+    "resumen": "Detienen a Yael 'N' por agredir y amenazar de muerte en plena calle",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a Yael 'N' por agredir y amenazar de muerte en plena calle",
+    "published_at": "2026-07-20T21:17:22-06:00",
+    "scraped_at": "2026-07-23T18:37:27Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "65fac5599ad7eed7"
   }
 ]

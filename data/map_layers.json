@@ -209,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 30,
+        "dias_sin_hechos_violentos": 31,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 40,
+        "dias_sin_hechos_violentos": 41,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -912,7 +912,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 5,
+        "dias_sin_hechos_violentos": 6,
         "last_incident_date": "2026-07-17",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1157,7 +1157,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 36,
+        "dias_sin_hechos_violentos": 37,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1383,7 +1383,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 35,
+        "dias_sin_hechos_violentos": 36,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1618,7 +1618,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 9,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-07-20",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1862,7 +1862,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 31,
+        "dias_sin_hechos_violentos": 32,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2088,7 +2088,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 25,
+        "dias_sin_hechos_violentos": 26,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2314,7 +2314,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2558,7 +2558,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 21,
+        "dias_sin_hechos_violentos": 22,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2784,7 +2784,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-07-10",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
@@ -3018,7 +3018,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3244,7 +3244,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 16,
+        "dias_sin_hechos_violentos": 17,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3470,7 +3470,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-16",
         "first_incident_date": "2026-07-16",
         "location_scope": "colonia",
@@ -3701,7 +3701,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-07-16",
         "first_incident_date": "2026-07-16",
         "location_scope": "colonia",
@@ -3927,7 +3927,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 4,
+        "dias_sin_hechos_violentos": 5,
         "last_incident_date": "2026-07-18",
         "first_incident_date": "2026-07-17",
         "location_scope": "colonia",
@@ -4157,7 +4157,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-07-21",
         "location_scope": "colonia",
@@ -4383,7 +4383,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-07-21",
         "location_scope": "colonia",
@@ -4395,6 +4395,232 @@
           {
             "title": "Detienen a tres hombres armados y con motocicletas robadas en la colonia Vista Hermosa",
             "url": "https://www.diariodemorelos.com/noticias/detienen-tres-hombres-armados-con-motocicletas-robadas-en-colonia-vista-hermosa"
+          }
+        ],
+        "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.17962156019968,
+              18.8478608
+            ],
+            [
+              -99.1796621632281,
+              18.848451202534015
+            ],
+            [
+              -99.17978327758428,
+              18.849031503116983
+            ],
+            [
+              -99.179982830968,
+              18.849591772645038
+            ],
+            [
+              -99.18025740896555,
+              18.85012242475122
+            ],
+            [
+              -99.18060231347125,
+              18.85061437983087
+            ],
+            [
+              -99.18101164307342,
+              18.851059220396174
+            ],
+            [
+              -99.18147839402903,
+              18.851449335101734
+            ],
+            [
+              -99.18199458009984,
+              18.85177804897677
+            ],
+            [
+              -99.18255136919907,
+              18.85203973763575
+            ],
+            [
+              -99.18313923451086,
+              18.852229923513157
+            ],
+            [
+              -99.18374811749673,
+              18.852345352475908
+            ],
+            [
+              -99.1843676,
+              18.852384049502444
+            ],
+            [
+              -99.18498708250327,
+              18.852345352475908
+            ],
+            [
+              -99.18559596548914,
+              18.852229923513157
+            ],
+            [
+              -99.18618383080093,
+              18.85203973763575
+            ],
+            [
+              -99.18674061990016,
+              18.85177804897677
+            ],
+            [
+              -99.18725680597097,
+              18.851449335101734
+            ],
+            [
+              -99.18772355692658,
+              18.851059220396174
+            ],
+            [
+              -99.18813288652875,
+              18.85061437983087
+            ],
+            [
+              -99.18847779103446,
+              18.85012242475122
+            ],
+            [
+              -99.188752369032,
+              18.849591772645038
+            ],
+            [
+              -99.18895192241573,
+              18.849031503116983
+            ],
+            [
+              -99.1890730367719,
+              18.848451202534015
+            ],
+            [
+              -99.18911363980033,
+              18.8478608
+            ],
+            [
+              -99.1890730367719,
+              18.847270397465984
+            ],
+            [
+              -99.18895192241573,
+              18.846690096883016
+            ],
+            [
+              -99.188752369032,
+              18.84612982735496
+            ],
+            [
+              -99.18847779103446,
+              18.84559917524878
+            ],
+            [
+              -99.18813288652875,
+              18.84510722016913
+            ],
+            [
+              -99.18772355692658,
+              18.844662379603825
+            ],
+            [
+              -99.18725680597097,
+              18.844272264898265
+            ],
+            [
+              -99.18674061990016,
+              18.84394355102323
+            ],
+            [
+              -99.18618383080093,
+              18.84368186236425
+            ],
+            [
+              -99.18559596548914,
+              18.843491676486842
+            ],
+            [
+              -99.18498708250327,
+              18.84337624752409
+            ],
+            [
+              -99.1843676,
+              18.843337550497555
+            ],
+            [
+              -99.18374811749673,
+              18.84337624752409
+            ],
+            [
+              -99.18313923451086,
+              18.843491676486842
+            ],
+            [
+              -99.18255136919907,
+              18.84368186236425
+            ],
+            [
+              -99.18199458009984,
+              18.84394355102323
+            ],
+            [
+              -99.18147839402903,
+              18.844272264898265
+            ],
+            [
+              -99.18101164307342,
+              18.844662379603825
+            ],
+            [
+              -99.18060231347125,
+              18.84510722016913
+            ],
+            [
+              -99.18025740896555,
+              18.84559917524878
+            ],
+            [
+              -99.179982830968,
+              18.84612982735496
+            ],
+            [
+              -99.17978327758428,
+              18.846690096883016
+            ],
+            [
+              -99.1796621632281,
+              18.847270397465984
+            ],
+            [
+              -99.17962156019968,
+              18.8478608
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "naranja",
+        "n_incidents": 1,
+        "dias_sin_hechos_violentos": 3,
+        "last_incident_date": "2026-07-20",
+        "first_incident_date": "2026-07-20",
+        "location_scope": "colonia",
+        "location_name": "Emiliano Zapata",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Detienen a Yael 'N' por agredir y amenazar de muerte en plena calle",
+            "url": "https://www.diariodemorelos.com/noticias/detienen-yael-por-agredir-amenazar-muerte-en-plena-calle"
           }
         ],
         "radius_meters": 500,
