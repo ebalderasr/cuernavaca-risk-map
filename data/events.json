@@ -2374,5 +2374,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "65fac5599ad7eed7"
+  },
+  {
+    "id": "f3d1c7670f9ef7d1",
+    "fecha": "2026-07-23",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/vecinos-cuautla-frustran-robo-policia-recupera-motocicleta-gracias-alerta-anonima",
+    "resumen": "Cuautla: Vecinos alertan, Policía recupera moto robada",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Vecinos de Cuautla frustran robo! Policía recupera motocicleta gracias a alerta anónima",
+    "published_at": "2026-07-23T18:41:11-06:00",
+    "scraped_at": "2026-07-24T18:45:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "70e877604097335f"
+  },
+  {
+    "id": "86e36196cee20a49",
+    "fecha": "2026-07-23",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Guerrero",
+    "coordenadas": [
+      18.9677532,
+      -99.2102416
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/aseguran-auto-moto-con-balas-droga-reporte-vecinos-en-cuautla",
+    "resumen": "Aseguran auto y moto con balas y droga tras reporte de vecinos en Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Aseguran auto y moto con balas y droga tras reporte de vecinos en Cuautla",
+    "published_at": "2026-07-23T18:29:48-06:00",
+    "scraped_at": "2026-07-24T18:45:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "ec72ce64de455094"
+  },
+  {
+    "id": "280ac262c06b9a96",
+    "fecha": "2026-07-23",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Plan De Ayala",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/susto-en-mexico-oaxaca-voraz-incendio-vehiculo-moviliza-bomberos-en-cuautla",
+    "resumen": "Se incendia auto en carretera México-Oaxaca en Cuautla | Noticias",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Susto en la México-Oaxaca! Voraz incendio de vehículo moviliza a bomberos en Cuautla",
+    "published_at": "2026-07-23T17:17:37-06:00",
+    "scraped_at": "2026-07-24T18:45:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "199c63af87b2e149"
   }
 ]
