@@ -2446,5 +2446,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "199c63af87b2e149"
+  },
+  {
+    "id": "51d00760d3496559",
+    "fecha": "2026-07-24",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/bache-casi-cuesta-vida-motociclista-se-salva-en-tehuixtla",
+    "resumen": "El bache que casi le cuesta la vida: Motociclista se salva en Tehuixtla",
+    "source_name": "Diario de Morelos",
+    "source_title": "El bache que casi le cuesta la vida: Motociclista se salva en Tehuixtla",
+    "published_at": "2026-07-24T19:27:23-06:00",
+    "scraped_at": "2026-07-25T18:07:38Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "0bb2a058f79d5a19"
   }
 ]
