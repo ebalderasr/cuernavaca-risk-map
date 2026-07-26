@@ -2470,5 +2470,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "0bb2a058f79d5a19"
+  },
+  {
+    "id": "cbb05bc64f70077e",
+    "fecha": "2026-07-26",
+    "hora": "02:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-motociclista-dos-personas-resultan-heridas-choque-frontal-en-colonia-lomas-tlahuapan-jiutepec",
+    "resumen": "Fatal Accidente en Jiutepec: Motociclista Fallecido y Dos Lesionados en Lomas de Tlahuapan.",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere motociclista y dos personas resultan heridas tras choque frontal en la colonia Lomas de Tlahuapan de Jiutepec",
+    "published_at": "2026-07-26T08:31:33-06:00",
+    "scraped_at": "2026-07-26T18:11:28Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "9f9820567c0ecad4"
+  },
+  {
+    "id": "314cc028e26f35fb",
+    "fecha": "2026-07-25",
+    "hora": "07:22",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/desmantelan-celula-empresa-en-morelos-durante-despliegue-fuerzas-federales",
+    "resumen": "Desmantelan célula de \"La Empresa\" en Morelos durante despliegue de fuerzas federales",
+    "source_name": "Diario de Morelos",
+    "source_title": "Desmantelan célula de \"La Empresa\" en Morelos durante despliegue de fuerzas federales",
+    "published_at": "2026-07-25T09:51:03-06:00",
+    "scraped_at": "2026-07-26T18:11:29Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "744230ba8bc9013f"
+  },
+  {
+    "id": "4dad0136c4072335",
+    "fecha": "2026-07-24",
+    "hora": "23:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-se-debate-entre-vida-muerte-ser-arrollado-por-auto-fantasma-en-coatlan-rio",
+    "resumen": "Motociclista se debate entre la vida y la muerte tras ser arrollado por auto fantasma en Coatlán del Río",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista se debate entre la vida y la muerte tras ser arrollado por auto fantasma en Coatlán del Río",
+    "published_at": "2026-07-24T16:37:43-06:00",
+    "scraped_at": "2026-07-26T18:11:29Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "dc1c10e47306f4bb"
+  },
+  {
+    "id": "abca4201a131ec1b",
+    "fecha": "2026-07-22",
+    "hora": "02:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-se-salva-milagro-sufrir-fuerte-caida-en-carretera-mexico-oaxaca",
+    "resumen": "Motociclista se salva de milagro tras sufrir fuerte caída en la carretera México-Oaxaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista se salva de milagro tras sufrir fuerte caída en la carretera México-Oaxaca",
+    "published_at": "2026-07-22T21:53:42-06:00",
+    "scraped_at": "2026-07-26T18:11:30Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "8e43655dc266373c"
   }
 ]
