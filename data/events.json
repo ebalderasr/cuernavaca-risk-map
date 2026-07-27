@@ -2566,5 +2566,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "8e43655dc266373c"
+  },
+  {
+    "id": "d1141e580087392e",
+    "fecha": "2026-07-26",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/alivio-en-atlacholoaya-verdad-rumores-violencia-en-penal",
+    "resumen": "¡Alivio en Atlacholoaya! La verdad tras los rumores de violencia en el penal",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Alivio en Atlacholoaya! La verdad tras los rumores de violencia en el penal",
+    "published_at": "2026-07-26T21:14:20-06:00",
+    "scraped_at": "2026-07-27T18:47:03Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "14f3c3f6e0c7561f"
+  },
+  {
+    "id": "2c5d812f68ebe7eb",
+    "fecha": "2026-07-23",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-dos-sujetos-en-colonia-loma-esmeralda-fueron-hallados-amarrados-manos",
+    "resumen": "Ejecutan a dos sujetos en la colonia Loma Esmeralda; fueron hallados amarrados de las manos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a dos sujetos en la colonia Loma Esmeralda; fueron hallados amarrados de las manos",
+    "published_at": "2026-07-23T10:49:38-06:00",
+    "scraped_at": "2026-07-27T18:47:05Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "69f85d2a9b7f3aa9"
   }
 ]
