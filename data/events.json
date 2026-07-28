@@ -2614,5 +2614,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "69f85d2a9b7f3aa9"
+  },
+  {
+    "id": "e8df4e090d8b2b43",
+    "fecha": "2026-07-28",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-bordo-su-auto-en-pleno-centro-jiutepec",
+    "resumen": "Asesinan a balazos a hombre a bordo de su auto en pleno Centro de Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a hombre a bordo de su auto en pleno Centro de Jiutepec",
+    "published_at": "2026-07-28T08:49:37-06:00",
+    "scraped_at": "2026-07-28T18:45:38Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "229a4842168ee6ea"
   }
 ]
