@@ -2638,5 +2638,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "229a4842168ee6ea"
+  },
+  {
+    "id": "a42d46ec404e68b1",
+    "fecha": "2026-07-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-punaladas-abuelito-dentro-su-casa-en-colonia-emiliano-zapata-jojutla",
+    "resumen": "Asesinan a puñaladas a abuelito dentro de su casa en la colonia Emiliano Zapata de Jojutla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a puñaladas a abuelito dentro de su casa en la colonia Emiliano Zapata de Jojutla",
+    "published_at": "2026-07-27T23:46:20-06:00",
+    "scraped_at": "2026-07-29T18:15:47Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "26eb194e983b5a09"
+  },
+  {
+    "id": "c733fe9ab1b59885",
+    "fecha": "2026-07-25",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/violencia-en-miacatlan-ejecutan-hombre-dentro-conocido-bar-en-alpuyeca-grutas",
+    "resumen": "Miacatlán: Homicidio en bar 'El Bagdad' de Alpuyeca-Grutas – Segundo caso en una semana",
+    "source_name": "Diario de Morelos",
+    "source_title": "Violencia en Miacatlán: Ejecutan a hombre dentro de conocido bar en la Alpuyeca-Grutas",
+    "published_at": "2026-07-25T21:49:52-06:00",
+    "scraped_at": "2026-07-29T18:15:51Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "d17236c556b365ec"
   }
 ]
