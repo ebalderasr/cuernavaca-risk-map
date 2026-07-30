@@ -2686,5 +2686,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "d17236c556b365ec"
+  },
+  {
+    "id": "976dde19b9073159",
+    "fecha": "2026-07-29",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-balazos-deja-muerto-herido-en-colonia-capiri-jiutepec",
+    "resumen": "Ataque a balazos deja un muerto y un herido en la colonia Capiri de Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque a balazos deja un muerto y un herido en la colonia Capiri de Jiutepec",
+    "published_at": "2026-07-29T21:12:00-06:00",
+    "scraped_at": "2026-07-30T18:45:18Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5f8ddab7e972114d"
+  },
+  {
+    "id": "278f965c7e474191",
+    "fecha": "2026-07-29",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "asalto con violencia",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ultiman-balazos-sujeto-resistirse-asalto-afuera-su-casa-en-colonia-centro",
+    "resumen": "Ultiman a balazos a sujeto al resistirse a un asalto afuera de su casa en la colonia Centro",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ultiman a balazos a sujeto al resistirse a un asalto afuera de su casa en la colonia Centro",
+    "published_at": "2026-07-29T17:20:54-06:00",
+    "scraped_at": "2026-07-30T18:45:18Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "f3ccf1fa558573c1"
+  },
+  {
+    "id": "d19346b95f46f526",
+    "fecha": "2026-07-29",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caten-presunta-narcotiendita-en-colonia-ruben-jaramillo-hallan-hasta-drone-vigilancia",
+    "resumen": "Temixco: Desmantelan 'narcotiendita' con drone y arsenal en Rubén Jaramillo | Noticias 2026",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caten presunta \"narcotiendita\" en la colonia Rubén Jaramillo y hallan hasta un drone de vigilancia",
+    "published_at": "2026-07-29T17:07:42-06:00",
+    "scraped_at": "2026-07-30T18:45:19Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "81958d502b43c810"
   }
 ]
