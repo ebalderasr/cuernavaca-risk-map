@@ -2758,5 +2758,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "81958d502b43c810"
+  },
+  {
+    "id": "ed1c89f48e63288b",
+    "fecha": "2026-07-29",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tormenta-nocturna-en-cuautla-dejo-arboles-caidos-sobre-autos-destrozos-en-colonia-emiliano-zapata",
+    "resumen": "La tormenta nocturna en Cuautla dejó árboles caídos sobre autos y destrozos en la colonia Emiliano Zapata",
+    "source_name": "Diario de Morelos",
+    "source_title": "La tormenta nocturna en Cuautla dejó árboles caídos sobre autos y destrozos en la colonia Emiliano Zapata",
+    "published_at": "2026-07-29T15:56:55-06:00",
+    "scraped_at": "2026-07-31T18:45:52Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "83d1f4beb6035b52"
   }
 ]

@@ -209,7 +209,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 38,
+        "dias_sin_hechos_violentos": 39,
         "last_incident_date": "2026-06-22",
         "first_incident_date": "2026-06-09",
         "location_scope": "colonia",
@@ -439,7 +439,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 48,
+        "dias_sin_hechos_violentos": 49,
         "last_incident_date": "2026-06-12",
         "first_incident_date": "2026-06-11",
         "location_scope": "colonia",
@@ -669,7 +669,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-06-10",
         "location_scope": "municipio",
@@ -912,7 +912,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 7,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-07-23",
         "first_incident_date": "2026-06-14",
         "location_scope": "colonia",
@@ -1157,7 +1157,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 44,
+        "dias_sin_hechos_violentos": 45,
         "last_incident_date": "2026-06-16",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1383,7 +1383,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 43,
+        "dias_sin_hechos_violentos": 44,
         "last_incident_date": "2026-06-17",
         "first_incident_date": "2026-06-16",
         "location_scope": "colonia",
@@ -1618,7 +1618,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 16,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-29",
         "first_incident_date": "2026-06-21",
         "location_scope": "municipio",
@@ -1862,7 +1862,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 39,
+        "dias_sin_hechos_violentos": 40,
         "last_incident_date": "2026-06-21",
         "first_incident_date": "2026-06-21",
         "location_scope": "colonia",
@@ -2088,7 +2088,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 33,
+        "dias_sin_hechos_violentos": 34,
         "last_incident_date": "2026-06-27",
         "first_incident_date": "2026-06-27",
         "location_scope": "colonia",
@@ -2314,7 +2314,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 8,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-07-29",
         "first_incident_date": "2026-06-30",
         "location_scope": "municipio",
@@ -2556,9 +2556,9 @@
         ]
       },
       "properties": {
-        "level": "naranja",
+        "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-07-01",
         "first_incident_date": "2026-07-01",
         "location_scope": "colonia",
@@ -2784,7 +2784,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 4,
+        "dias_sin_hechos_violentos": 5,
         "last_incident_date": "2026-07-26",
         "first_incident_date": "2026-07-06",
         "location_scope": "municipio",
@@ -3026,7 +3026,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 24,
+        "dias_sin_hechos_violentos": 25,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3252,7 +3252,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 24,
+        "dias_sin_hechos_violentos": 25,
         "last_incident_date": "2026-07-06",
         "first_incident_date": "2026-07-06",
         "location_scope": "colonia",
@@ -3478,7 +3478,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 14,
+        "dias_sin_hechos_violentos": 15,
         "last_incident_date": "2026-07-16",
         "first_incident_date": "2026-07-16",
         "location_scope": "colonia",
@@ -3709,7 +3709,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-07-23",
         "first_incident_date": "2026-07-16",
         "location_scope": "colonia",
@@ -3939,7 +3939,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-07-18",
         "first_incident_date": "2026-07-17",
         "location_scope": "colonia",
@@ -4169,7 +4169,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-07-21",
         "location_scope": "colonia",
@@ -4395,7 +4395,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 9,
+        "dias_sin_hechos_violentos": 10,
         "last_incident_date": "2026-07-21",
         "first_incident_date": "2026-07-21",
         "location_scope": "colonia",
@@ -4420,199 +4420,199 @@
         "coordinates": [
           [
             [
-              -99.17867235223963,
+              -99.17819774825958,
               18.8478608
             ],
             [
-              -99.17872107587372,
-              18.848569283040817
+              -99.17825053219653,
+              18.848628323294218
             ],
             [
-              -99.17886641310115,
-              18.849265643740377
+              -99.17840798085956,
+              18.849382714052076
             ],
             [
-              -99.17910587716162,
-              18.849937967174046
+              -99.1786674002584,
+              18.85011106443855
             ],
             [
-              -99.17943537075867,
-              18.850574749701465
+              -99.17902435165522,
+              18.850800912176588
             ],
             [
-              -99.17984925616553,
-              18.851165095797043
+              -99.17947272751263,
+              18.851440453780132
             ],
             [
-              -99.18034045168811,
-              18.85169890447541
+              -99.18000485599543,
+              18.85201874651503
             ],
             [
-              -99.18090055283484,
-              18.85216704212208
+              -99.18061163223773,
+              18.852525895632255
             ],
             [
-              -99.18151997611982,
-              18.852561498772126
+              -99.18128267412979,
+              18.8529532236698
             ],
             [
-              -99.1821881230389,
-              18.852875525162897
+              -99.18200649995879,
+              18.853293418926473
             ],
             [
-              -99.18289356141305,
-              18.85310374821579
+              -99.18277072486413,
+              18.853540660567106
             ],
             [
-              -99.18362422099611,
-              18.85324226297109
+              -99.18356227274576,
+              18.85369071821868
             ],
             [
-              -99.18436760000002,
-              18.85328869940293
+              -99.1843676,
+              18.853741024353173
             ],
             [
-              -99.18511097900392,
-              18.85324226297109
+              -99.18517292725424,
+              18.85369071821868
             ],
             [
-              -99.18584163858698,
-              18.85310374821579
+              -99.18596447513588,
+              18.853540660567106
             ],
             [
-              -99.18654707696113,
-              18.852875525162897
+              -99.18672870004121,
+              18.853293418926473
             ],
             [
-              -99.18721522388022,
-              18.852561498772126
+              -99.18745252587021,
+              18.8529532236698
             ],
             [
-              -99.18783464716519,
-              18.85216704212208
+              -99.18812356776228,
+              18.852525895632255
             ],
             [
-              -99.18839474831192,
-              18.85169890447541
+              -99.18873034400457,
+              18.85201874651503
             ],
             [
-              -99.1888859438345,
-              18.851165095797043
+              -99.18926247248737,
+              18.851440453780132
             ],
             [
-              -99.18929982924136,
-              18.850574749701465
+              -99.18971084834479,
+              18.850800912176588
             ],
             [
-              -99.18962932283841,
-              18.849937967174046
+              -99.1900677997416,
+              18.85011106443855
             ],
             [
-              -99.18986878689888,
-              18.849265643740377
+              -99.19032721914044,
+              18.849382714052076
             ],
             [
-              -99.19001412412631,
-              18.848569283040817
+              -99.19048466780347,
+              18.848628323294218
             ],
             [
-              -99.1900628477604,
+              -99.19053745174043,
               18.8478608
             ],
             [
-              -99.19001412412631,
-              18.847152316959182
+              -99.19048466780347,
+              18.84709327670578
             ],
             [
-              -99.18986878689888,
-              18.84645595625962
+              -99.19032721914044,
+              18.846338885947922
             ],
             [
-              -99.18962932283841,
-              18.845783632825952
+              -99.1900677997416,
+              18.84561053556145
             ],
             [
-              -99.18929982924136,
-              18.845146850298534
+              -99.18971084834479,
+              18.84492068782341
             ],
             [
-              -99.1888859438345,
-              18.844556504202956
+              -99.18926247248737,
+              18.844281146219867
             ],
             [
-              -99.18839474831192,
-              18.84402269552459
+              -99.18873034400457,
+              18.84370285348497
             ],
             [
-              -99.18783464716519,
-              18.84355455787792
+              -99.18812356776228,
+              18.843195704367744
             ],
             [
-              -99.18721522388022,
-              18.843160101227873
+              -99.18745252587021,
+              18.8427683763302
             ],
             [
-              -99.18654707696113,
-              18.8428460748371
+              -99.18672870004121,
+              18.842428181073526
             ],
             [
-              -99.18584163858698,
-              18.84261785178421
+              -99.18596447513588,
+              18.842180939432893
             ],
             [
-              -99.18511097900392,
-              18.84247933702891
+              -99.18517292725424,
+              18.84203088178132
             ],
             [
-              -99.18436760000002,
-              18.842432900597068
+              -99.1843676,
+              18.841980575646826
             ],
             [
-              -99.18362422099611,
-              18.84247933702891
+              -99.18356227274576,
+              18.84203088178132
             ],
             [
-              -99.18289356141305,
-              18.84261785178421
+              -99.18277072486413,
+              18.842180939432893
             ],
             [
-              -99.1821881230389,
-              18.8428460748371
+              -99.18200649995879,
+              18.842428181073526
             ],
             [
-              -99.18151997611982,
-              18.843160101227873
+              -99.18128267412979,
+              18.8427683763302
             ],
             [
-              -99.18090055283484,
-              18.84355455787792
+              -99.18061163223773,
+              18.843195704367744
             ],
             [
-              -99.18034045168811,
-              18.84402269552459
+              -99.18000485599543,
+              18.84370285348497
             ],
             [
-              -99.17984925616553,
-              18.844556504202956
+              -99.17947272751263,
+              18.844281146219867
             ],
             [
-              -99.17943537075867,
-              18.845146850298534
+              -99.17902435165522,
+              18.84492068782341
             ],
             [
-              -99.17910587716162,
-              18.845783632825952
+              -99.1786674002584,
+              18.84561053556145
             ],
             [
-              -99.17886641310115,
-              18.84645595625962
+              -99.17840798085956,
+              18.846338885947922
             ],
             [
-              -99.17872107587372,
-              18.847152316959182
+              -99.17825053219653,
+              18.84709327670578
             ],
             [
-              -99.17867235223963,
+              -99.17819774825958,
               18.8478608
             ]
           ]
@@ -4620,9 +4620,9 @@
       },
       "properties": {
         "level": "rojo",
-        "n_incidents": 3,
-        "dias_sin_hechos_violentos": 3,
-        "last_incident_date": "2026-07-27",
+        "n_incidents": 4,
+        "dias_sin_hechos_violentos": 2,
+        "last_incident_date": "2026-07-29",
         "first_incident_date": "2026-07-20",
         "location_scope": "colonia",
         "location_name": "Emiliano Zapata",
@@ -4630,6 +4630,10 @@
           "homicidio"
         ],
         "fuentes": [
+          {
+            "title": "La tormenta nocturna en Cuautla dejó árboles caídos sobre autos y destrozos en la colonia Emiliano Zapata",
+            "url": "https://www.diariodemorelos.com/noticias/tormenta-nocturna-en-cuautla-dejo-arboles-caidos-sobre-autos-destrozos-en-colonia-emiliano-zapata"
+          },
           {
             "title": "Asesinan a puñaladas a abuelito dentro de su casa en la colonia Emiliano Zapata de Jojutla",
             "url": "https://www.diariodemorelos.com/noticias/asesinan-punaladas-abuelito-dentro-su-casa-en-colonia-emiliano-zapata-jojutla"
@@ -4643,7 +4647,7 @@
             "url": "https://www.diariodemorelos.com/noticias/detienen-yael-por-agredir-amenazar-muerte-en-plena-calle"
           }
         ],
-        "radius_meters": 600,
+        "radius_meters": 650,
         "geometry_source": "buffer"
       }
     },
@@ -4855,7 +4859,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 7,
+        "dias_sin_hechos_violentos": 8,
         "last_incident_date": "2026-07-23",
         "first_incident_date": "2026-07-23",
         "location_scope": "colonia",
