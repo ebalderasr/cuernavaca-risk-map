@@ -2782,5 +2782,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "83d1f4beb6035b52"
+  },
+  {
+    "id": "5f878d72ea0af68d",
+    "fecha": "2026-07-31",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/matan-joven-balazos-robarle-su-motocicleta-en-colonia-alta-palmira",
+    "resumen": "Asesinado a balazos un joven para robarle su moto en Temixco | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Matan a joven a balazos para robarle su motocicleta en la colonia Alta Palmira",
+    "published_at": "2026-07-31T16:51:00-06:00",
+    "scraped_at": "2026-08-01T18:11:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "521741e73e1a4da2"
+  },
+  {
+    "id": "143278e1fc25761c",
+    "fecha": "2026-07-30",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/trato-huir-policia-termina-detenido-manejaba-moto-robada-en-colonia-amador-salazar",
+    "resumen": "Trató de huir de la policía y termina detenido: manejaba una moto robada en la colonia Amador Salazar",
+    "source_name": "Diario de Morelos",
+    "source_title": "Trató de huir de la policía y termina detenido: manejaba una moto robada en la colonia Amador Salazar",
+    "published_at": "2026-07-30T16:07:14-06:00",
+    "scraped_at": "2026-08-01T18:11:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "6a065b03376f8fdc"
   }
 ]
