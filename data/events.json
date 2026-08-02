@@ -2830,5 +2830,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "6a065b03376f8fdc"
+  },
+  {
+    "id": "87114e6620c5cfd1",
+    "fecha": "2026-08-01",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ebrio-derriba-poste-cfe-deja-sin-luz-vecinos-en-cuautla",
+    "resumen": "Ebrio derriba poste de CFE y deja sin luz a vecinos en Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ebrio derriba poste de CFE y deja sin luz a vecinos en Cuautla",
+    "published_at": "2026-08-01T14:30:09-06:00",
+    "scraped_at": "2026-08-02T18:10:40Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "c661b14ec3ebf68c"
   }
 ]
