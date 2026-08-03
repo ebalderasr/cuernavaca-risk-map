@@ -2854,5 +2854,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "c661b14ec3ebf68c"
+  },
+  {
+    "id": "8e26ddff6d1a054d",
+    "fecha": "2026-08-03",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Santa Maria Ahuacatitlan",
+    "coordenadas": [
+      18.9810093,
+      -99.2538809
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-cadaver-hombre-interior-vehiculo-en-santa-maria-ahuacatitlan",
+    "resumen": "Hallan cadáver de un hombre al interior de un vehículo en Santa María Ahuacatitlán.",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan cadáver de un hombre al interior de un vehículo en Santa María Ahuacatitlán.",
+    "published_at": "2026-08-03T09:43:25-06:00",
+    "scraped_at": "2026-08-03T18:57:52Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "9aebe92a4cb887c7"
+  },
+  {
+    "id": "e2758e98c70d5174",
+    "fecha": "2026-08-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Santa Maria Ahuacatitlan",
+    "coordenadas": [
+      18.9810093,
+      -99.2538809
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-sujeto-por-agredir-pedradas-insultar-policias-en-colonia-ano-juarez",
+    "resumen": "Detienen a un sujeto por agredir a pedradas e insultar a policías en la colonia Año de Juárez",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a un sujeto por agredir a pedradas e insultar a policías en la colonia Año de Juárez",
+    "published_at": "2026-08-02T21:45:13-06:00",
+    "scraped_at": "2026-08-03T18:57:52Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "1071ab41ea83664e"
+  },
+  {
+    "id": "09ac15a01048936b",
+    "fecha": "2026-08-02",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/triple-homicidio-en-civac-macabro-hallazgo-rastreo-motocicleta-robada",
+    "resumen": "Triple homicidio en Civac: El macabro hallazgo tras el rastreo de una motocicleta robada | DDM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Triple homicidio en Civac: El macabro hallazgo tras el rastreo de una motocicleta robada",
+    "published_at": "2026-08-02T17:41:00-06:00",
+    "scraped_at": "2026-08-03T18:57:53Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a76a30c05b35b46b"
+  },
+  {
+    "id": "cc25fdcabec92744",
+    "fecha": "2026-07-31",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Santa Maria Ahuacatitlan",
+    "coordenadas": [
+      18.9810093,
+      -99.2538809
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/accidente-en-san-miguel-30-motociclista-hecho-mocha-termina-hospitalizado-chocar-con-camioneta",
+    "resumen": "Accidente en San Miguel 30: Motociclista 'hecho la mocha' termina hospitalizado tras chocar con camioneta",
+    "source_name": "Diario de Morelos",
+    "source_title": "Accidente en San Miguel 30: Motociclista 'hecho la mocha' termina hospitalizado tras chocar con camioneta",
+    "published_at": "2026-07-31T21:53:22-06:00",
+    "scraped_at": "2026-08-03T18:57:54Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "5afed7865a276b41"
   }
 ]
