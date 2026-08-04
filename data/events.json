@@ -2950,5 +2950,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "5afed7865a276b41"
+  },
+  {
+    "id": "368cacc0ef46de2e",
+    "fecha": "2026-08-04",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/vuelca-automovil-cae-barranca-cinco-metros-en-canon-lobos",
+    "resumen": "Vuelca automóvil y cae a barranca de cinco metros en Cañón de Lobos.",
+    "source_name": "Diario de Morelos",
+    "source_title": "Vuelca automóvil y cae a barranca de cinco metros en Cañón de Lobos.",
+    "published_at": "2026-08-04T09:56:27-06:00",
+    "scraped_at": "2026-08-04T18:51:58Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ec967a8bb10a68e8"
+  },
+  {
+    "id": "bec7bf4c82c415b4",
+    "fecha": "2026-08-01",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-civac-taxista-fallece-volante-presumen-infarto",
+    "resumen": "Conmoción en Civac: Taxista pierde la vida al volante; investigan infarto",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Civac: Taxista fallece al volante, presumen infarto",
+    "published_at": "2026-08-01T13:22:09-06:00",
+    "scraped_at": "2026-08-04T18:52:00Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "06790d02ad161ea8"
+  },
+  {
+    "id": "df76878ed9356975",
+    "fecha": "2026-07-31",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/dos-motociclistas-se-salvan-milagro-brutal-choque-en-glorieta-palmas",
+    "resumen": "Dos motociclistas se salvan de milagro tras brutal choque en la glorieta de Las Palmas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Dos motociclistas se salvan de milagro tras brutal choque en la glorieta de Las Palmas",
+    "published_at": "2026-07-31T21:35:18-06:00",
+    "scraped_at": "2026-08-04T18:52:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "3d87d5a845476a56"
+  },
+  {
+    "id": "6c1675617ccc4300",
+    "fecha": "2026-07-30",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-balazos-en-colonia-ano-juarez-deja-hombre-gravemente-herido",
+    "resumen": "Ataque a balazos en la colonia Año de Juárez deja a un hombre gravemente herido",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque a balazos en la colonia Año de Juárez deja a un hombre gravemente herido",
+    "published_at": "2026-07-30T23:03:00-06:00",
+    "scraped_at": "2026-08-04T18:52:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "335797e9f980d3a4"
   }
 ]
