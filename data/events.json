@@ -3046,5 +3046,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "335797e9f980d3a4"
+  },
+  {
+    "id": "1fc7a3fc23f31ef9",
+    "fecha": "2026-08-04",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinato-balazos-sacude-oriente-morelos",
+    "resumen": "Asesinato en Yautepec, Morelos: Hallan hombre baleado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinato a balazos sacude el Oriente de Morelos",
+    "published_at": "2026-08-04T23:26:36-06:00",
+    "scraped_at": "2026-08-05T18:52:10Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a630da7b9dec6cfc"
+  },
+  {
+    "id": "572d29cd95e4ea17",
+    "fecha": "2026-08-03",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/violento-ataque-en-jiutepec-balean-hombre-en-cabeza-espalda-piernas",
+    "resumen": "Violento ataque en Jiutepec: balean a hombre en la cabeza, espalda y piernas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Violento ataque en Jiutepec: balean a hombre en la cabeza, espalda y piernas",
+    "published_at": "2026-08-03T20:58:05-06:00",
+    "scraped_at": "2026-08-05T18:52:12Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "b91c9ed90229a3f7"
   }
 ]
