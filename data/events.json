@@ -3094,5 +3094,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "b91c9ed90229a3f7"
+  },
+  {
+    "id": "20d5e82927fb9652",
+    "fecha": "2026-08-07",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/vecino-jiutepec-tropieza-con-cadaver-hombre-caminar-por-zona",
+    "resumen": "Vecino de Jiutepec tropieza con el cadáver de un hombre al caminar por la zona",
+    "source_name": "Diario de Morelos",
+    "source_title": "Vecino de Jiutepec tropieza con el cadáver de un hombre al caminar por la zona",
+    "published_at": "2026-08-07T08:43:42-06:00",
+    "scraped_at": "2026-08-07T18:01:48Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a63f962366f3dc14"
+  },
+  {
+    "id": "53f087fd5fc7e7bf",
+    "fecha": "2026-08-06",
+    "hora": "12:42",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Las Granjas",
+    "coordenadas": [
+      18.9065269,
+      -99.2006187
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/video-fue-explosion-pipa-gas-en-colonia-granjas-cuernavaca-saldo-preliminar-16-lesionados",
+    "resumen": "VIDEO: Así fue la explosión de pipa de gas en colonia Las Granjas, Cuernavaca: saldo preliminar de 16 lesionados",
+    "source_name": "Diario de Morelos",
+    "source_title": "VIDEO: Así fue la explosión de pipa de gas en colonia Las Granjas, Cuernavaca: saldo preliminar de 16 lesionados",
+    "published_at": "2026-08-06T14:52:40-06:00",
+    "scraped_at": "2026-08-07T18:01:49Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "7d175007928b1186"
+  },
+  {
+    "id": "c923cdd32c746c84",
+    "fecha": "2026-08-06",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-en-ee-uu-fugitivo-buscado-fatal-atropellamiento-tres-personas-en-zona-metropolitana",
+    "resumen": "Cae en EE. UU. fugitivo buscado tras fatal atropellamiento de tres personas en la zona metropolitana",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae en EE. UU. fugitivo buscado tras fatal atropellamiento de tres personas en la zona metropolitana",
+    "published_at": "2026-08-06T12:17:50-06:00",
+    "scraped_at": "2026-08-07T18:01:50Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "f254de8cbf522dfb"
   }
 ]
