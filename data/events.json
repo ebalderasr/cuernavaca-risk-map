@@ -3166,5 +3166,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "f254de8cbf522dfb"
+  },
+  {
+    "id": "f5447717aaf1ebb0",
+    "fecha": "2026-08-07",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/taller-mecanico-es-atacado-balazos-en-cuautla-amenazas-presunto-cobro-piso",
+    "resumen": "Taller mecánico es atacado a balazos en Cuautla tras amenazas de presunto cobro de piso",
+    "source_name": "Diario de Morelos",
+    "source_title": "Taller mecánico es atacado a balazos en Cuautla tras amenazas de presunto cobro de piso",
+    "published_at": "2026-08-07T18:48:12-06:00",
+    "scraped_at": "2026-08-08T17:46:06Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "7107965493c19bba"
   }
 ]
