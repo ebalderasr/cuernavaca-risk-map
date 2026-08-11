@@ -3190,5 +3190,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "7107965493c19bba"
+  },
+  {
+    "id": "a78ed7c1695a4df1",
+    "fecha": "2026-08-11",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-durante-partido-futbol-en-jiutepec-deja-tres-heridos-gravedad",
+    "resumen": "Ataque armado durante partido de futbol en Jiutepec deja tres heridos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado durante partido de futbol en Jiutepec deja tres heridos, uno de gravedad",
+    "published_at": "2026-08-11T09:54:48-06:00",
+    "scraped_at": "2026-08-11T18:06:49Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "912a18b71c9d1f67"
+  },
+  {
+    "id": "96e352853d3c0c61",
+    "fecha": "2026-08-09",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/panico-en-canchas-jiutepec-ataque-balazos-deja-tres-personas-lesionadas",
+    "resumen": "Ataque en Jiutepec: 3 lesionados en canchas de fútbol",
+    "source_name": "Diario de Morelos",
+    "source_title": "Pánico en canchas de Jiutepec: Ataque a balazos deja tres personas lesionadas",
+    "published_at": "2026-08-09T23:43:17-06:00",
+    "scraped_at": "2026-08-11T18:06:50Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "b18c8f96caa0e894"
   }
 ]
