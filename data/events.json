@@ -3334,5 +3334,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "afff5c40d19aced5"
+  },
+  {
+    "id": "382050e280a04841",
+    "fecha": "2026-08-12",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/capturan-sujeto-ser-atrapado-robando-tuberia-cobre-en-lomas-cocoyoc",
+    "resumen": "Capturan a sujeto tras ser atrapado robando tubería de cobre en Lomas de Cocoyoc",
+    "source_name": "Diario de Morelos",
+    "source_title": "Capturan a sujeto tras ser atrapado robando tubería de cobre en Lomas de Cocoyoc",
+    "published_at": "2026-08-12T16:14:32-06:00",
+    "scraped_at": "2026-08-13T18:07:22Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "4afd32cb8eede822"
   }
 ]
