@@ -3358,5 +3358,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "4afd32cb8eede822"
+  },
+  {
+    "id": "c4176aa457d7bd19",
+    "fecha": "2026-08-15",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-cuautla-ataque-armado-hiere-dos-en-bar-recien-reabria-cobro-piso",
+    "resumen": "Tragedia en Cuautla: Ataque armado hiere a dos en bar que recién reabría tras cobro de piso",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Cuautla: Ataque armado hiere a dos en bar que recién reabría tras cobro de piso",
+    "published_at": "2026-08-15T09:30:00-06:00",
+    "scraped_at": "2026-08-15T17:34:50Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "0e372ed9cdadf0da"
   }
 ]
