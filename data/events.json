@@ -3406,5 +3406,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "2ad2b4c26c800b8a"
+  },
+  {
+    "id": "1ff7be9e73f2f755",
+    "fecha": "2026-08-16",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "colonia",
+    "location_name": "Satelite",
+    "coordenadas": [
+      18.9179378,
+      -99.2058987
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-mujer-acusada-asaltar-tienda-conveniencia-en-jiutepec-fue-aprehendida-en-cuernavaca",
+    "resumen": "Cae mujer acusada de asaltar tienda de conveniencia en Jiutepec; fue detenida en Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae mujer acusada de asaltar una tienda de conveniencia en Jiutepec; fue aprehendida en Cuernavaca",
+    "published_at": "2026-08-16T09:05:40-06:00",
+    "scraped_at": "2026-08-17T17:44:50Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "5668a778705fd941"
   }
 ]
