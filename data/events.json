@@ -3430,5 +3430,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "5668a778705fd941"
+  },
+  {
+    "id": "4ed7d8440e932a38",
+    "fecha": "2026-08-18",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-taxista-embiste-dos-menores-en-moto-en-oriente-morelos-testigos-retienen-conductor",
+    "resumen": "Grave accidente en Yautepec: Taxi embiste a menores en moto",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Impactante! Taxista embiste a dos menores en moto en el Oriente de Morelos: Testigos retienen al conductor",
+    "published_at": "2026-08-18T21:43:38-06:00",
+    "scraped_at": "2026-08-19T17:40:20Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "1a6435166e5311ad"
+  },
+  {
+    "id": "decdab1bb413a054",
+    "fecha": "2026-08-18",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Independencia",
+    "coordenadas": [
+      18.9246255,
+      -99.2410813
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-con-dron-en-jiutepec-lanzan-explosivos-contra-casa-vehiculo-en-colonia-independencia",
+    "resumen": "Ataque con dron en Jiutepec: lanzan explosivos contra casa y vehículo en la colonia Independencia",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque con dron en Jiutepec: lanzan explosivos contra casa y vehículo en la colonia Independencia",
+    "published_at": "2026-08-18T11:03:28-06:00",
+    "scraped_at": "2026-08-19T17:40:21Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "3fe47607ef6bc18e"
   }
 ]
