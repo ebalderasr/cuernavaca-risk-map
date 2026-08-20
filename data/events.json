@@ -3478,5 +3478,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "3fe47607ef6bc18e"
+  },
+  {
+    "id": "989d546df69624b7",
+    "fecha": "2026-08-18",
+    "hora": "11:38",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-axochiapan-hombre-asesinado-balazos-en-taqueria-frente-su-esposa",
+    "resumen": "Tragedia en Axochiapan: Asesinato en Taquería",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en Axochiapan: Hombre asesinado a balazos en taquería frente a su esposa",
+    "published_at": "2026-08-18T21:32:52-06:00",
+    "scraped_at": "2026-08-20T17:45:26Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "78060348ad40d76d"
+  },
+  {
+    "id": "19759e99fc4e1755",
+    "fecha": "2026-08-17",
+    "hora": "14:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-con-drones-desata-panico-en-jiutepec-lanzar-explosivos-contra-viviendas",
+    "resumen": "Ataque con drones desata el pánico en Jiutepec al lanzar explosivos contra viviendas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque con drones desata el pánico en Jiutepec al lanzar explosivos contra viviendas",
+    "published_at": "2026-08-17T16:18:21-06:00",
+    "scraped_at": "2026-08-20T17:45:26Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "9cbe1db8165e46ed"
   }
 ]
