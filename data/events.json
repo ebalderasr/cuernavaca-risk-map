@@ -3694,5 +3694,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "7fdecaab09aac864"
+  },
+  {
+    "id": "5cfd9c37efb40d52",
+    "fecha": "2026-08-23",
+    "hora": "13:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/joven-motociclista-se-debate-entre-vida-muerte-estrellarse-en-puente-sin-fin",
+    "resumen": "Joven motociclista se debate entre la vida y la muerte tras estrellarse en el puente \"Sin Fin\"",
+    "source_name": "Diario de Morelos",
+    "source_title": "Joven motociclista se debate entre la vida y la muerte tras estrellarse en el puente \"Sin Fin\"",
+    "published_at": "2026-08-23T20:14:10-06:00",
+    "scraped_at": "2026-08-24T17:46:42Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "105767710faf7bc3"
   }
 ]
