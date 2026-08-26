@@ -3718,5 +3718,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "105767710faf7bc3"
+  },
+  {
+    "id": "9b54ccf75fc73a06",
+    "fecha": "2026-08-25",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-en-colonia-san-francisco-texcalpan-en-jiutepec",
+    "resumen": "Asesinan a balazos a hombre en San Francisco Texcalpan Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a hombre en la colonia San Francisco Texcalpan en Jiutepec",
+    "published_at": "2026-08-25T11:09:21-06:00",
+    "scraped_at": "2026-08-26T19:18:37Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "7758d30498c069b8"
   }
 ]
