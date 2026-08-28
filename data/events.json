@@ -3742,5 +3742,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "7758d30498c069b8"
+  },
+  {
+    "id": "d290af293085a3b1",
+    "fecha": "2026-08-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vista Hermosa",
+    "coordenadas": [
+      18.9360255,
+      -99.2162139
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asaltan-comando-armado-casa-descanso-namaste-en-vista-hermosa-roban-camioneta",
+    "resumen": "Asaltan casa de descanso en Vista Hermosa y roban camioneta",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asaltan comando armado casa de descanso Namasté en Vista Hermosa y roban camioneta",
+    "published_at": "2026-08-27T10:27:19-06:00",
+    "scraped_at": "2026-08-28T01:30:02Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "c028552ba3df0f2a"
+  },
+  {
+    "id": "430c18b047b7dfec",
+    "fecha": "2026-08-26",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/carambola-en-paseo-tlahuica-ruta-23-termina-impactada-por-auto-en-yautepec",
+    "resumen": "¡Carambola en Paseo Tlahuica! Ruta 23 termina impactada por auto en Yautepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Carambola en Paseo Tlahuica! Ruta 23 termina impactada por auto en Yautepec",
+    "published_at": "2026-08-26T15:44:30-06:00",
+    "scraped_at": "2026-08-28T01:30:04Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ec0922734c431378"
   }
 ]
