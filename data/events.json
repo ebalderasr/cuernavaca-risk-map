@@ -3790,5 +3790,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "ec0922734c431378"
+  },
+  {
+    "id": "f664347bb261a39c",
+    "fecha": "2026-08-28",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/vagoneta-queda-reducida-cenizas-repentino-incendio-en-emiliano-zapata",
+    "resumen": "Vagoneta queda reducida a cenizas tras repentino incendio en Emiliano Zapata",
+    "source_name": "Diario de Morelos",
+    "source_title": "Vagoneta queda reducida a cenizas tras repentino incendio en la colonia Benito Juárez",
+    "published_at": "2026-08-28T15:16:00-06:00",
+    "scraped_at": "2026-08-29T00:58:32Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "1b9c682c940a86e3"
   }
 ]
