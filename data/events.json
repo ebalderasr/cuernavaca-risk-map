@@ -3814,5 +3814,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "1b9c682c940a86e3"
+  },
+  {
+    "id": "713ed099af01b41d",
+    "fecha": "2026-08-29",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-en-jiutepec-noe-por-presunta-agresion-sexual-continuada-contra-menor-en-jiutepec",
+    "resumen": "Detienen en Jiutepec a Noé \"N\" por presunta agresión sexual continuada contra una menor en Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen en Jiutepec a Noé \"N\" por presunta agresión sexual continuada contra una menor en Jiutepec",
+    "published_at": "2026-08-29T09:14:20-06:00",
+    "scraped_at": "2026-08-29T19:44:47Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "6a5feaa23a0d4d91"
+  },
+  {
+    "id": "10795802c91d3628",
+    "fecha": "2026-08-29",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/insolito-operativo-especial-en-temixco-logra-aseguramiento-caiman-en-colonia-presidentes",
+    "resumen": "¡Insólito!  Operativo especial en Temixco logra el aseguramiento de un caimán en colonia Los Presidentes",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Insólito!  Operativo especial en Temixco logra el aseguramiento de un caimán en colonia Los Presidentes",
+    "published_at": "2026-08-29T09:14:16-06:00",
+    "scraped_at": "2026-08-29T19:44:47Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "685e5ca6893dcbb6"
   }
 ]
