@@ -4150,5 +4150,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "b940f5156fc8709c"
+  },
+  {
+    "id": "beaf3fb0790dc193",
+    "fecha": "2026-09-01",
+    "hora": "23:14",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Buena Vista",
+    "coordenadas": [
+      18.9661036,
+      -99.2473801
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/pareja-incendia-local-unas-en-cuernavaca-camara-seguridad-capta-en-video",
+    "resumen": "Pareja incendia local de uñas en Cuernavaca y cámara de seguridad los capta en video",
+    "source_name": "Diario de Morelos",
+    "source_title": "Pareja incendia local de uñas en Cuernavaca y cámara de seguridad los capta en video",
+    "published_at": "2026-09-01T12:20:00-06:00",
+    "scraped_at": "2026-09-01T19:56:42Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "0a90f7224e573436"
+  },
+  {
+    "id": "b498bd93cf34468d",
+    "fecha": "2026-09-01",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Satelite",
+    "coordenadas": [
+      18.9179378,
+      -99.2058987
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-cuerpo-cobijado-con-mensaje-amenazante-en-colonia-satelite-cuernavaca",
+    "resumen": "Hallan cuerpo cobijado y con mensaje amenazante en la colonia Satélite de Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan cuerpo cobijado y con mensaje amenazante en la colonia Satélite de Cuernavaca",
+    "published_at": "2026-09-01T09:25:27-06:00",
+    "scraped_at": "2026-09-01T19:56:43Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "9e136547b1ca2937"
+  },
+  {
+    "id": "4c34357f4681891f",
+    "fecha": "2026-08-30",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Buena Vista",
+    "coordenadas": [
+      18.9661036,
+      -99.2473801
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-en-mexico-cuernavaca-mueren-dos-motociclistas-fatal-derrape-en-pera",
+    "resumen": "Tragedia en la México-Cuernavaca: Mueren dos motociclistas tras fatal derrape en La Pera",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia en la México-Cuernavaca: Mueren dos motociclistas tras fatal derrape en La Pera",
+    "published_at": "2026-08-30T20:12:33-06:00",
+    "scraped_at": "2026-09-01T19:56:44Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "c0771a2a4d7ce8ef"
+  },
+  {
+    "id": "3d459c2751a25580",
+    "fecha": "2026-08-30",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/tragedia-dominical-en-tres-mayo-balacera-deja-muerto-moviliza-policia",
+    "resumen": "Tragedia dominical en Tres de Mayo: Balacera deja un muerto y moviliza a la policía",
+    "source_name": "Diario de Morelos",
+    "source_title": "Tragedia dominical en Tres de Mayo: Balacera deja un muerto y moviliza a la policía",
+    "published_at": "2026-08-30T18:08:40-06:00",
+    "scraped_at": "2026-09-01T19:56:44Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "bada0aa7b16e9822"
   }
 ]
