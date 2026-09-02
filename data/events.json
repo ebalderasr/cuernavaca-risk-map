@@ -4246,5 +4246,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "bada0aa7b16e9822"
+  },
+  {
+    "id": "968fb57bbee69607",
+    "fecha": "2026-08-31",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-jiutepec-deja-policia-civil-muertos-noche-sabado",
+    "resumen": "Asesinan a balazos a un policía y a otro hombre en Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado en Jiutepec deja un policía y un civil muertos la noche del sábado",
+    "published_at": "2026-08-31T10:15:15-06:00",
+    "scraped_at": "2026-09-02T19:47:32Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "432da8557aa32976"
   }
 ]
