@@ -4270,5 +4270,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "432da8557aa32976"
+  },
+  {
+    "id": "92cf2f7cd9599743",
+    "fecha": "2026-09-03",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fge-morelos-inacipe-firman-convenio-capacitar-ministerios-publicos-peritos",
+    "resumen": "FGE Morelos e INACIPE firman convenio para capacitar a MP y peritos",
+    "source_name": "Diario de Morelos",
+    "source_title": "FGE Morelos e INACIPE firman convenio para capacitar a ministerios públicos y peritos",
+    "published_at": "2026-09-03T10:12:11-06:00",
+    "scraped_at": "2026-09-03T19:50:44Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "69d6635e17c19548"
+  },
+  {
+    "id": "b1eca2470458e837",
+    "fecha": "2026-09-02",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/exceso-velocidad-sin-casco-cae-joven-con-motoneta-robada-en-yautepec",
+    "resumen": "A exceso de velocidad y sin casco: cae joven con motoneta robada en Yautepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "A exceso de velocidad y sin casco: cae joven con motoneta robada en Yautepec",
+    "published_at": "2026-09-02T18:19:42-06:00",
+    "scraped_at": "2026-09-03T19:50:45Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "3780bd8ac42a69c2"
+  },
+  {
+    "id": "d5e178c9da36333b",
+    "fecha": "2026-09-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caos-en-cuernavaca-camion-volteo-vuelca-en-paso-express-chocar-contra-muro",
+    "resumen": "Caos en Cuernavaca: Camión de volteo vuelca en el Paso Express tras chocar contra muro",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caos en Cuernavaca: Camión de volteo vuelca en el Paso Express tras chocar contra muro",
+    "published_at": "2026-09-02T17:59:58-06:00",
+    "scraped_at": "2026-09-03T19:50:46Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "db4ad6284a965703"
+  },
+  {
+    "id": "92298c2b90326214",
+    "fecha": "2026-09-01",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/sujeto-sobrevive-lluvia-balas-en-teopanzolco-condujo-herido-hasta-hospital-ataque-armado",
+    "resumen": "Sujeto sobrevive a lluvia de balas en Teopanzolco: condujo herido hasta el hospital tras ataque armado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Sujeto sobrevive a lluvia de balas en Teopanzolco: condujo herido hasta el hospital tras ataque armado",
+    "published_at": "2026-09-01T18:44:49-06:00",
+    "scraped_at": "2026-09-03T19:50:46Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "f079ff313b6ed8eb"
   }
 ]
