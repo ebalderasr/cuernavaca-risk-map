@@ -4366,5 +4366,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "f079ff313b6ed8eb"
+  },
+  {
+    "id": "65a0268a6386fd1b",
+    "fecha": "2026-09-03",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/sujetos-armados-asaltan-casa-empeno-en-jiutepec-desatan-panico-en-paseo-cuauhnahuac",
+    "resumen": "Sujetos armados asaltan casa de empeño en Jiutepec y desatan pánico en Paseo Cuauhnáhuac",
+    "source_name": "Diario de Morelos",
+    "source_title": "Sujetos armados asaltan casa de empeño en Jiutepec y desatan pánico en Paseo Cuauhnáhuac",
+    "published_at": "2026-09-03T18:08:27-06:00",
+    "scraped_at": "2026-09-04T19:35:23Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ffe3081a2c179670"
+  },
+  {
+    "id": "cc42d8808fa673e9",
+    "fecha": "2026-09-03",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lagunilla",
+    "coordenadas": [
+      18.906818,
+      -99.244286
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asaltan-paqueteria-frente-poder-judicial-en-cuernavaca-roban-cajas-seguridad-con-documentos",
+    "resumen": "Asaltan a paquetería frente al Poder Judicial en Cuernavaca: roban cajas de seguridad con documentos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asaltan a paquetería frente al Poder Judicial en Cuernavaca: roban cajas de seguridad con documentos",
+    "published_at": "2026-09-03T13:38:39-06:00",
+    "scraped_at": "2026-09-04T19:35:24Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "dd1791c341b3a122"
   }
 ]
