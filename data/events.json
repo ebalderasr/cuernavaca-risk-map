@@ -4414,5 +4414,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "dd1791c341b3a122"
+  },
+  {
+    "id": "b61fc7c9adb6f7c0",
+    "fecha": "2026-09-06",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/impactante-hallazgo-que-paso-con-hombre-encontrado-sin-vida-en-mexico-acapulco",
+    "resumen": "Trágico hallazgo en Xochitepec: Cuerpo con huellas de violencia en autopista",
+    "source_name": "Diario de Morelos",
+    "source_title": "Impactante hallazgo: ¿Qué pasó con el hombre encontrado sin vida en la México-Acapulco?",
+    "published_at": "2026-09-06T11:03:00-06:00",
+    "scraped_at": "2026-09-06T19:10:43Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5bedf165939ad956"
+  },
+  {
+    "id": "483d341b4f02b8ca",
+    "fecha": "2026-09-03",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ciclista-muere-en-tierra-blanca-caida-autoridades-descartan-ataque-buscan-verdad",
+    "resumen": "Ciclista muere en Tierra Blanca tras caída: Autoridades descartan ataque y buscan la verdad",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ciclista muere en Tierra Blanca tras caída: Autoridades descartan ataque y buscan la verdad",
+    "published_at": "2026-09-03T14:16:25-06:00",
+    "scraped_at": "2026-09-06T19:10:45Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "801c5a51b7952711"
   }
 ]
