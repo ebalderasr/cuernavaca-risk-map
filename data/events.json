@@ -4462,5 +4462,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "801c5a51b7952711"
+  },
+  {
+    "id": "904022a6438c9b6b",
+    "fecha": "2026-09-06",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-nocturno-en-temixco-motociclistas-abren-fuego-contra-casa-sin-heridos",
+    "resumen": "Balacera en Temixco (colonia Azteca): Motociclistas atacan vivienda y escapan",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balacera en colonia Azteca: Motociclistas atacan vivienda y escapan",
+    "published_at": "2026-09-06T08:39:00-06:00",
+    "scraped_at": "2026-09-07T20:34:17Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "f8ac6bff68c4e051"
+  },
+  {
+    "id": "85d751ef9a2eb7c9",
+    "fecha": "2026-09-05",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/milagro-tecnologico-recuperaron-auto-robado-en-jiutepec-gracias-gps",
+    "resumen": "Jiutepec: GPS salva a conductor de app tras robo armado",
+    "source_name": "Diario de Morelos",
+    "source_title": "¿Milagro tecnológico? Así recuperaron un auto robado en Jiutepec gracias al GPS",
+    "published_at": "2026-09-05T11:12:27-06:00",
+    "scraped_at": "2026-09-07T20:34:18Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "07a3dd3414192370"
+  },
+  {
+    "id": "a22ab2fbad8a7608",
+    "fecha": "2026-09-05",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/unidades-ruta-20-chocan-en-paseo-cuauhnahuac-presuntamente-competian-por-pasaje",
+    "resumen": "Unidades de la Ruta 20 chocan en Paseo Cuauhnáhuac; presuntamente competían por el pasaje",
+    "source_name": "Diario de Morelos",
+    "source_title": "Unidades de la Ruta 20 chocan en Paseo Cuauhnáhuac; presuntamente competían por el pasaje",
+    "published_at": "2026-09-05T08:55:51-06:00",
+    "scraped_at": "2026-09-07T20:34:18Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "1bcc632837817448"
   }
 ]
