@@ -4534,5 +4534,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "1bcc632837817448"
+  },
+  {
+    "id": "c38530957f99f631",
+    "fecha": "2026-09-08",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-conductor-auto-rojo-en-lomas-jiutepec-choca-contra-ruta-ataque",
+    "resumen": "Asesinan a balazos a conductor de auto rojo en Lomas de Jiutepec; choca contra una ruta tras el ataque",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a conductor de auto rojo en Lomas de Jiutepec; choca contra una ruta tras el ataque",
+    "published_at": "2026-09-08T10:01:00-06:00",
+    "scraped_at": "2026-09-08T19:55:08Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "6352be64cb9098e9"
+  },
+  {
+    "id": "531510d5cfe245f5",
+    "fecha": "2026-09-08",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-restos-pareja-en-eje-metropolitano-tezoyuca",
+    "resumen": "Hallan los restos de una pareja en el Eje Metropolitano de Tezoyuca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan los restos de una pareja en el Eje Metropolitano de Tezoyuca",
+    "published_at": "2026-09-08T07:47:00-06:00",
+    "scraped_at": "2026-09-08T19:55:08Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "48bef0cf1531b552"
+  },
+  {
+    "id": "d0bb89dd19e7c358",
+    "fecha": "2026-09-07",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/panico-en-chamilpa-sujetos-armados-asaltan-restaurante-cerca-uaem-despojan-clientes",
+    "resumen": "Asalto en Chamilpa: Sujetos armados irrumpen en restaurante cerca de UAEM",
+    "source_name": "Diario de Morelos",
+    "source_title": "Pánico en Chamilpa! Sujetos armados asaltan restaurante cerca de la UAEM y despojan a clientes",
+    "published_at": "2026-09-07T19:02:00-06:00",
+    "scraped_at": "2026-09-08T19:55:08Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "be0bb13059cd150b"
+  },
+  {
+    "id": "968ddb1b04309ba7",
+    "fecha": "2026-09-06",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/arman-zafarrancho-en-hueyapan-rescatar-su-amigo-detenido-terminan-en-carcel",
+    "resumen": "Hueyapan: Rescate violento de detenido termina con amigos en la cárcel",
+    "source_name": "Diario de Morelos",
+    "source_title": "Arman zafarrancho en Hueyapan para rescatar a su amigo detenido y terminan en la cárcel",
+    "published_at": "2026-09-06T16:50:14-06:00",
+    "scraped_at": "2026-09-08T19:55:11Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a65386b1c7d540b3"
   }
 ]
