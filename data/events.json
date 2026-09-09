@@ -4630,5 +4630,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "a65386b1c7d540b3"
+  },
+  {
+    "id": "1ebf03f818875b81",
+    "fecha": "2026-09-07",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Maravillas",
+    "coordenadas": [
+      18.9587383,
+      -99.2328344
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/operaban-video-muestra-2-hombres-mujer-robando-en-ampliacion-maravillas-botin",
+    "resumen": "Así operaban: El video que muestra a 2 hombres y una mujer robando en Ampliación Maravillas y el botín",
+    "source_name": "Diario de Morelos",
+    "source_title": "Así operaban: El video que muestra a 2 hombres y una mujer robando en Ampliación Maravillas y el botín",
+    "published_at": "2026-09-07T16:04:00-06:00",
+    "scraped_at": "2026-09-09T19:46:12Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "496bed3eb52c5730"
   }
 ]
