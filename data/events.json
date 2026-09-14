@@ -4918,5 +4918,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "4223adb05895bf0b"
+  },
+  {
+    "id": "fba2c7d22b27528c",
+    "fecha": "2026-09-14",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/gradua-fge-16-nuevos-agentes-ministerio-publico-en-morelos-con-inversion-millon-pesos",
+    "resumen": "Gradúa FGE a 16 nuevos agentes del Ministerio Público en Morelos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Gradúa FGE a 16 nuevos agentes del Ministerio Público en Morelos con inversión de un millón de pesos",
+    "published_at": "2026-09-14T10:52:47-06:00",
+    "scraped_at": "2026-09-14T20:56:41Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "2276e953f32fb561"
+  },
+  {
+    "id": "16a4204868706789",
+    "fecha": "2026-09-14",
+    "hora": "18:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cabeza-humana-fue-localizada-dentro-bolsa-negra-en-colonia-centro-cuernavaca",
+    "resumen": "Hallazgo de Cabeza Humana en Cuernavaca Centro: Narcomensaje y Movilización Policiaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Una cabeza humana fue localizada dentro de una bolsa negra en la colonia Centro de Cuernavaca",
+    "published_at": "2026-09-14T07:57:00-06:00",
+    "scraped_at": "2026-09-14T20:56:41Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "f9358976f5165dc6"
+  },
+  {
+    "id": "b0ee524a07740f4b",
+    "fecha": "2026-09-13",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/misterio-en-huesca-conductor-destroza-su-camioneta-desaparece-sin-dejar-rastro",
+    "resumen": "Choque y fuga en Huesca: Conductor abandona camioneta destrozada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Misterio en Huesca: Conductor destroza su camioneta y desaparece sin dejar rastro",
+    "published_at": "2026-09-13T18:40:00-06:00",
+    "scraped_at": "2026-09-14T20:56:41Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "fdc568dae8797166"
+  },
+  {
+    "id": "1573cf21cf0472e0",
+    "fecha": "2026-09-12",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-en-puebla-ricardo-n-presunto-feminicida-andrea-maylin",
+    "resumen": "Detienen en Puebla a Ricardo “N”, presunto feminicida de Andrea Maylin",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen en Puebla a Ricardo “N”, presunto feminicida de Andrea Maylin",
+    "published_at": "2026-09-12T09:05:00-06:00",
+    "scraped_at": "2026-09-14T20:56:42Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "787e2e602d493115"
   }
 ]
