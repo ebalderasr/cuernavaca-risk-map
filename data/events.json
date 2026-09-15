@@ -5014,5 +5014,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "787e2e602d493115"
+  },
+  {
+    "id": "a7b1e2003d5bfeaf",
+    "fecha": "2026-09-14",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-mujer-atropellada-por-ruta-12-mientras-iba-comprar-pan",
+    "resumen": "Muere mujer atropellada por Ruta 12 mientras iba a comprar pan",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere mujer atropellada por Ruta 12 mientras iba a comprar pan",
+    "published_at": "2026-09-14T23:38:00-06:00",
+    "scraped_at": "2026-09-15T20:15:19Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5e057e561499a4e1"
   }
 ]
