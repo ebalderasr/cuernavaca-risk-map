@@ -5038,5 +5038,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "5e057e561499a4e1"
+  },
+  {
+    "id": "9f4b01e7694917dd",
+    "fecha": "2026-09-16",
+    "hora": "12:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-alta-palmira-deja-tres-heridos-dentro-vehiculo",
+    "resumen": "Ataque armado en Alta Palmira deja tres heridos dentro de un vehículo",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado en Alta Palmira deja tres heridos dentro de un vehículo",
+    "published_at": "2026-09-16T18:51:00-06:00",
+    "scraped_at": "2026-09-17T20:21:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "c9c5659ceab48e7e"
+  },
+  {
+    "id": "fe3971dce1399448",
+    "fecha": "2026-09-15",
+    "hora": "12:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/giro-en-caso-claudia-n-nuevo-video-mostraria-nuevos-datos-relevantes-en-este-caso-ha-estremecido-morelos",
+    "resumen": "Giro en caso Claudia 'N': nuevo video mostraría nuevos datos relevantes en este caso que ha estremecido a Morelos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Giro en caso Claudia 'N': nuevo video mostraría nuevos datos relevantes en este caso que ha estremecido a Morelos",
+    "published_at": "2026-09-15T20:44:00-06:00",
+    "scraped_at": "2026-09-17T20:21:02Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "ae8cbee3e829882d"
+  },
+  {
+    "id": "df1b0c2e132b775d",
+    "fecha": "2026-09-13",
+    "hora": "12:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/sujeto-asalta-oxxo-con-pistola-juguete-en-oriente-morelos-termina-rejas",
+    "resumen": "Morelos: Asalta OXXO con pistola de juguete y es capturado\" o \"Cae asaltante de OXXO en Morelos: Usó arma falsa",
+    "source_name": "Diario de Morelos",
+    "source_title": "Sujeto asalta OXXO con pistola de juguete en el Oriente de Morelos y termina tras las rejas",
+    "published_at": "2026-09-13T17:36:00-06:00",
+    "scraped_at": "2026-09-17T20:21:07Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "785cc144591a7fbd"
   }
 ]
