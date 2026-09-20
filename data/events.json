@@ -5110,5 +5110,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "785cc144591a7fbd"
+  },
+  {
+    "id": "93f4d06f82d802d9",
+    "fecha": "2026-09-20",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-en-tetecala-deja-dos-muertos-victima-era-dirigente-pri",
+    "resumen": "Tetecala registra ataque armado con dos muertos; una víctima era dirigente del PRI",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque en Tetecala deja dos muertos; una víctima era dirigente del PRI",
+    "published_at": "2026-09-20T10:07:43-06:00",
+    "scraped_at": "2026-09-20T19:27:25Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "94eea7ba930e698a"
+  },
+  {
+    "id": "6b6e18901dcb3a31",
+    "fecha": "2026-09-18",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-cuerpo-hombre-envuelto-en-cobijas-en-colonia-eden-jiutepec",
+    "resumen": "Jiutepec: hallan un cuerpo envuelto en cobijas en la colonia El Edén",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan el cuerpo de un hombre envuelto en cobijas en la colonia El Edén de Jiutepec",
+    "published_at": "2026-09-18T07:42:31-06:00",
+    "scraped_at": "2026-09-20T19:27:27Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5715ec3c225ce77d"
+  },
+  {
+    "id": "a5f94ffabd0df285",
+    "fecha": "2026-09-17",
+    "hora": "15:16",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/sujetos-armados-encanonan-cuentahabiente-quitan-100-mil-pesos-en-jiutepec",
+    "resumen": "Asalto a cuentahabiente en Jiutepec: le quitan 100 mil pesos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Sujetos armados encañonan a cuentahabiente y le quitan 100 mil pesos en Jiutepec",
+    "published_at": "2026-09-17T16:11:56-06:00",
+    "scraped_at": "2026-09-20T19:27:28Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "54c944e4172be897"
+  },
+  {
+    "id": "dcc3622e3b6ade22",
+    "fecha": "2026-09-17",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Morelos",
+    "coordenadas": [
+      18.98,
+      -99.24149
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hombre-muere-recibir-disparo-dentro-su-casa-en-bosques-cuernavaca",
+    "resumen": "Muere un hombre por disparo en su casa de Bosques de Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre muere tras recibir un disparo dentro de su casa en Bosques de Cuernavaca",
+    "published_at": "2026-09-17T00:13:00-06:00",
+    "scraped_at": "2026-09-20T19:27:28Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "09fd027b9c926350"
   }
 ]
