@@ -5206,5 +5206,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "09fd027b9c926350"
+  },
+  {
+    "id": "2b0567f0be9282c5",
+    "fecha": "2026-09-21",
+    "hora": "02:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-joven-en-jiutepec-llega-herido-clinica",
+    "resumen": "Joven baleado en Jiutepec logra llegar a una clínica",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a balazos a joven en Jiutepec; logra llegar herido a clínica",
+    "published_at": "2026-09-21T12:44:00-06:00",
+    "scraped_at": "2026-09-21T21:04:28Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "f493ed793b53d05e"
+  },
+  {
+    "id": "f2394c86e955be9c",
+    "fecha": "2026-09-20",
+    "hora": "02:00",
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/accidente-en-autopista-aeropuerto-tepetzingo-deja-motociclista-con-amputacion",
+    "resumen": "Accidente en Xochitepec deja a motociclista con amputación | Noticias Morelos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Accidente en la autopista Aeropuerto-Tepetzingo deja a motociclista con amputación",
+    "published_at": "2026-09-20T14:59:00-06:00",
+    "scraped_at": "2026-09-21T21:04:29Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "bd26a90da1650079"
   }
 ]
