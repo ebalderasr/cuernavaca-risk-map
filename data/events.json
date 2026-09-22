@@ -5254,5 +5254,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "bd26a90da1650079"
+  },
+  {
+    "id": "e530663c21657842",
+    "fecha": "2026-09-22",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/joven-llega-baleado-clinica-jiutepec-ataque-armado-en-colonia-pinos",
+    "resumen": "Joven herido de bala llega a clínica de Jiutepec tras ataque en Los Pinos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Joven llega baleado a clínica de Jiutepec tras ataque armado en la colonia Los Pinos",
+    "published_at": "2026-09-22T11:34:07-06:00",
+    "scraped_at": "2026-09-22T20:11:51Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "6391b4614b6adf77"
   }
 ]
