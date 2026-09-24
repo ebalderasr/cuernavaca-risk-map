@@ -5278,5 +5278,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "6391b4614b6adf77"
+  },
+  {
+    "id": "77413b29069d9be3",
+    "fecha": "2026-09-24",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "La Esperanza",
+    "coordenadas": [
+      18.9412669,
+      -99.2180362
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-es-embestido-abandonado-en-libramiento-oriente-cuautla",
+    "resumen": "Motociclista embestido y abandonado en Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista es embestido y abandonado en el Libramiento Oriente de Cuautla",
+    "published_at": "2026-09-24T13:42:41-06:00",
+    "scraped_at": "2026-09-24T20:30:32Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "51d3d68d2a50a6ef"
   }
 ]
