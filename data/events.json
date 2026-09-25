@@ -5302,5 +5302,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "51d3d68d2a50a6ef"
+  },
+  {
+    "id": "6d898da882f1a11b",
+    "fecha": "2026-09-25",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclistas-armados-encanonan-conductor-roban-su-moto-en-jiutepec",
+    "resumen": "Jiutepec: motociclistas armados encañonan a conductor y le roban su moto",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclistas armados encañonan a conductor y le roban su moto en Jiutepec",
+    "published_at": "2026-09-25T11:05:59-06:00",
+    "scraped_at": "2026-09-25T20:29:37Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "8813a4a84c4d5a6b"
+  },
+  {
+    "id": "b31cd49023f57c18",
+    "fecha": "2026-09-24",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-tiros-mujer-dentro-su-camioneta-en-fuentes-jiutepec",
+    "resumen": "FGE investiga el asesinato de una mujer en su camioneta en Las Fuentes de Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a tiros a una mujer dentro de su camioneta en Las Fuentes de Jiutepec",
+    "published_at": "2026-09-24T17:17:18-06:00",
+    "scraped_at": "2026-09-25T20:29:38Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "e42986489d10140b"
   }
 ]
