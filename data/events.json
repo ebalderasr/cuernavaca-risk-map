@@ -5350,5 +5350,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "e42986489d10140b"
+  },
+  {
+    "id": "9f206a2112fa7bea",
+    "fecha": "2026-09-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Loma Bonita",
+    "coordenadas": [
+      18.9576021,
+      -99.2113669
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/gracias-gps-caen-tres-jovenes-armados-robar-motocicleta-en-colonia-loma-bonita",
+    "resumen": "Caen tres jóvenes tras robar motocicleta con GPS en Loma Bonita, Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Gracias a GPS, caen tres jóvenes armados tras robar una motocicleta en la colonia Loma Bonita",
+    "published_at": "2026-09-27T09:21:32-06:00",
+    "scraped_at": "2026-09-27T20:09:05Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "3686a14cb3b0d602"
+  },
+  {
+    "id": "b75d60936d90bcc6",
+    "fecha": "2026-09-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-durante-festejo-deja-dos-lesionados-en-colonia-lazaro-cardenas-cuautla",
+    "resumen": "Ataque a balazos deja dos heridos en la colonia Lázaro Cárdenas de Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado durante festejo deja dos lesionados en la colonia Lázaro Cárdenas",
+    "published_at": "2026-09-27T08:13:00-06:00",
+    "scraped_at": "2026-09-27T20:09:06Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "f83ef42627ca476f"
   }
 ]
