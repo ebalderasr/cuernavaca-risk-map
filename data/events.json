@@ -5398,5 +5398,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "f83ef42627ca476f"
+  },
+  {
+    "id": "0f6e89fe495dae16",
+    "fecha": "2026-09-28",
+    "hora": "14:50",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-conductor-en-morelos-menor-resulta-lesionada",
+    "resumen": "Balacera en Morelos deja a una menor lesionada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a balazos a conductor en Morelos: una menor resulta lesionada",
+    "published_at": "2026-09-28T19:01:46-06:00",
+    "scraped_at": "2026-09-29T21:24:27Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "3328ea67c9613dba"
+  },
+  {
+    "id": "cf27969ff87a315f",
+    "fecha": "2026-09-27",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-daniela-n-por-homicidio-calificado-en-xoxocotla",
+    "resumen": "Homicidio calificado en Xoxocotla: detienen a Daniela “N”",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a Daniela “N” por homicidio calificado en Xoxocotla",
+    "published_at": "2026-09-27T16:04:00-06:00",
+    "scraped_at": "2026-09-29T21:24:28Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "ff9e5dc9c089d903"
   }
 ]
