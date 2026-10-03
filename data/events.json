@@ -5686,5 +5686,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "d6425c1381731d20"
+  },
+  {
+    "id": "965540ccc1f6272c",
+    "fecha": "2026-10-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Plan De Ayala",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-golpes-hombre-en-carretera-cuautla-cuernavaca-autoridades-ya-investigan",
+    "resumen": "Hombre asesinado a golpes en la carretera Cuautla-Cuernavaca: autoridades investigan el crimen",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a golpes a un hombre en la carretera Cuautla-Cuernavaca; autoridades ya investigan",
+    "published_at": "2026-10-02T14:06:05-06:00",
+    "scraped_at": "2026-10-03T19:50:43Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "10c03b0f453b8472"
   }
 ]
