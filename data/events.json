@@ -5710,5 +5710,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "10c03b0f453b8472"
+  },
+  {
+    "id": "e8c359bafe811673",
+    "fecha": "2026-10-04",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Revolucion",
+    "coordenadas": [
+      18.9191909,
+      -99.1871447
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-en-cuernavaca-presunto-narcomenudista-con-17-dosis-cristal-marihuana",
+    "resumen": "SSPC detiene en Cuernavaca a hombre con 17 dosis de cristal y marihuana",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen en Cuernavaca a presunto narcomenudista con 17 dosis de cristal y marihuana",
+    "published_at": "2026-10-04T09:45:35-06:00",
+    "scraped_at": "2026-10-04T20:11:22Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "d5b097247ef133ae"
   }
 ]
