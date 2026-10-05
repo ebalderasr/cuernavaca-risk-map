@@ -5734,5 +5734,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "d5b097247ef133ae"
+  },
+  {
+    "id": "d48e859983397c2e",
+    "fecha": "2026-10-04",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-presunto-implicado-en-tentativa-feminicidio-en-jiutepec",
+    "resumen": "Detienen a David Omar \"N\" por tentativa de feminicidio en Jiutepec: FGE",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a presunto implicado en tentativa de feminicidio en Jiutepec",
+    "published_at": "2026-10-04T09:27:00-06:00",
+    "scraped_at": "2026-10-05T23:10:22Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "61901ad6fdaa358a"
+  },
+  {
+    "id": "cc42577fb4b202ad",
+    "fecha": "2026-10-03",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Plan De Ayala",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/lluvia-viento-derriban-rama-bloquean-calle-en-cuautla",
+    "resumen": "Rama derribada por lluvia y viento bloquea calle en Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Lluvia y viento derriban rama y bloquean calle en Cuautla",
+    "published_at": "2026-10-03T07:26:06-06:00",
+    "scraped_at": "2026-10-05T23:10:23Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "04358c527c7f4382"
+  },
+  {
+    "id": "71ef696fa0e8408f",
+    "fecha": "2026-10-02",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Del Empleado",
+    "coordenadas": [
+      18.9436225,
+      -99.2416338
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atropellan-peaton-en-cuautla-conductor-huye-impacto",
+    "resumen": "Peatón atropellado en la México-Oaxaca, Cuautla; conductor se dio a la fuga",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atropellan a peatón en Cuautla; conductor huye tras el impacto",
+    "published_at": "2026-10-02T14:27:56-06:00",
+    "scraped_at": "2026-10-05T23:10:23Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "023f1406dfd65fa7"
   }
 ]
