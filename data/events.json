@@ -5806,5 +5806,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "023f1406dfd65fa7"
+  },
+  {
+    "id": "4c5f17014fd1d0ea",
+    "fecha": "2026-10-04",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-yautepec-deja-muerto-herido-en-colonia-alvaro-leonel",
+    "resumen": "Yautepec: ataque armado en Álvaro Leonel deja un muerto y un herido",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado en Yautepec deja un muerto y un herido en la colonia Álvaro Leonel",
+    "published_at": "2026-10-04T16:56:00-06:00",
+    "scraped_at": "2026-10-06T21:37:52Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "e0685969c30f36e9"
   }
 ]
