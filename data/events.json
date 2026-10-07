@@ -5830,5 +5830,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "e0685969c30f36e9"
+  },
+  {
+    "id": "8e322414320239bb",
+    "fecha": "2026-10-06",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/condenan-50-anos-prision-hombre-por-violacion-agravada-en-cuernavaca",
+    "resumen": "Condenan a 50 años de prisión a hombre por violación agravada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Condenan a 50 años de prisión a hombre por violación agravada",
+    "published_at": "2026-10-06T11:26:12-06:00",
+    "scraped_at": "2026-10-07T21:59:00Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "820926a714682de0"
+  },
+  {
+    "id": "ace28a14993320d5",
+    "fecha": "2026-10-05",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/incendio-en-jiutepec-deja-abuelita-sin-pertenencias",
+    "resumen": "Jiutepec: incendio consume una vivienda y deja a una abuelita sin pertenencias",
+    "source_name": "Diario de Morelos",
+    "source_title": "Incendio en Jiutepec deja a una abuelita sin pertenencias",
+    "published_at": "2026-10-05T19:45:00-06:00",
+    "scraped_at": "2026-10-07T21:59:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "bb1fd2b217f57ec4"
+  },
+  {
+    "id": "3aa650d38b13bec4",
+    "fecha": "2026-10-05",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/recuperan-camion-robado-en-oriente-morelos-ser-hallado-abandonado",
+    "resumen": "Recuperan camión robado en el Oriente de Morelos tras ser hallado abandonado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Recuperan camión robado en el Oriente de Morelos tras ser hallado abandonado",
+    "published_at": "2026-10-05T19:11:00-06:00",
+    "scraped_at": "2026-10-07T21:59:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "70f11690fcc50580"
   }
 ]
