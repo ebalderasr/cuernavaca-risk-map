@@ -5902,5 +5902,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "70f11690fcc50580"
+  },
+  {
+    "id": "86406c4b5a95a4f5",
+    "fecha": "2026-10-08",
+    "hora": "23:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/baelana-cone-reportan-detonaciones-en-lomas-copal",
+    "resumen": "Balean a \"El Cone\": reportan detonaciones en Lomas del Copal",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balean a \"El Cone\": reportan detonaciones en Lomas del Copal",
+    "published_at": "2026-10-08T19:39:00-06:00",
+    "scraped_at": "2026-10-09T21:41:01Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "11afee3e694025e9"
   }
 ]
