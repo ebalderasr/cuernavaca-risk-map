@@ -5926,5 +5926,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "11afee3e694025e9"
+  },
+  {
+    "id": "35aa1a3cf9f1237a",
+    "fecha": "2026-10-10",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-nuevamente-hombre-acusado-violencia-familiar-contra-su-madre-en-jiutepec",
+    "resumen": "Jiutepec: reaprehenden a hombre por violencia familiar tras incumplir medidas cautelares",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen nuevamente a hombre acusado de violencia familiar contra su madre en Jiutepec",
+    "published_at": "2026-10-10T11:25:32-06:00",
+    "scraped_at": "2026-10-10T20:34:07Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "167d83f46885f1ae"
   }
 ]
