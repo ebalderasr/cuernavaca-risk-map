@@ -5950,5 +5950,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "167d83f46885f1ae"
+  },
+  {
+    "id": "ccea4f5afe02a22e",
+    "fecha": "2026-10-11",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-hombre-sin-vida-atado-manos-con-heridas-bala-en-colonia-pueblo-viejo",
+    "resumen": "Hallan a hombre sin vida y atado de manos en Temixco; investigan el homicidio",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan a hombre sin vida, atado de manos y con heridas de bala en la colonia Pueblo Viejo",
+    "published_at": "2026-10-11T10:28:44-06:00",
+    "scraped_at": "2026-10-11T20:58:20Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "893c979d31070306"
+  },
+  {
+    "id": "1b1d2eccdf2f07f0",
+    "fecha": "2026-10-10",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/video-intento-asalto-en-cuernavaca-conductor-logra-escapar-tres-sujetos-iban-por-su-camioneta",
+    "resumen": "Cuernavaca: conductor escapa de tres sujetos que intentaron robarle la camioneta",
+    "source_name": "Diario de Morelos",
+    "source_title": "VIDEO | Intento de asalto en Cuernavaca: Conductor logra escapar de tres sujetos que iban por su camioneta",
+    "published_at": "2026-10-10T20:33:43-06:00",
+    "scraped_at": "2026-10-11T20:58:20Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "06509fa81fe91e81"
   }
 ]
