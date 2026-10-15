@@ -5998,5 +5998,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "06509fa81fe91e81"
+  },
+  {
+    "id": "29c7c1152031b02b",
+    "fecha": "2026-10-15",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/camion-con-plastico-se-incendia-en-carretera-yautepec-ticuman-por-falla-en-frenos",
+    "resumen": "Camión con plástico se incendia en la carretera Yautepec-Ticumán por falla en los frenos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Camión con plástico se incendia en la carretera Yautepec-Ticumán por falla en los frenos",
+    "published_at": "2026-10-15T13:58:30-06:00",
+    "scraped_at": "2026-10-15T20:20:26Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a72a7622a84814c6"
+  },
+  {
+    "id": "66a6dda3ca8f12c0",
+    "fecha": "2026-10-15",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Unidad Habitacional Cantarranas",
+    "coordenadas": [
+      18.9200112,
+      -99.2211325
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caen-hombre-mujer-despojar-conductor-su-auto-en-colonia-cantarranas",
+    "resumen": "Caen hombre y mujer tras despojar a conductor de su auto en colonia Cantarranas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caen hombre y mujer tras despojar a conductor de su auto en colonia Cantarranas",
+    "published_at": "2026-10-15T11:14:19-06:00",
+    "scraped_at": "2026-10-15T20:20:29Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "909c0db469cf14af"
+  },
+  {
+    "id": "9bee3bd48cf3de8b",
+    "fecha": "2026-10-13",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-en-jiutepec-rodolfo-n-alias-general-lider-red-narcotrafico-con-operaciones-internacionales",
+    "resumen": "Detienen en Jiutepec a Rodolfo “N” alias \"El General, líder de red de narcotráfico con operaciones internacionales",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen en Jiutepec a Rodolfo “N” alias \"El General, líder de red de narcotráfico con operaciones internacionales",
+    "published_at": "2026-10-13T19:30:23-06:00",
+    "scraped_at": "2026-10-15T20:20:35Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "5c7fb78a4289c137"
   }
 ]
