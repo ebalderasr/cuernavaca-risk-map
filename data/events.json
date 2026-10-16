@@ -6070,5 +6070,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "5c7fb78a4289c137"
+  },
+  {
+    "id": "23308c6cf4edb1c9",
+    "fecha": "2026-10-16",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hombre-muere-aplastado-por-su-propio-vehiculo-en-jiutepec",
+    "resumen": "Jiutepec: hombre muere aplastado por su vehículo",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre muere aplastado por su propio vehículo en Jiutepec",
+    "published_at": "2026-10-16T10:47:19-06:00",
+    "scraped_at": "2026-10-16T19:58:02Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "8fd5ddbf58985628"
+  },
+  {
+    "id": "8d46565d0a7ceb37",
+    "fecha": "2026-10-15",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-heroico-enfrenta-delincuentes-armados-evita-asalto-en-jiutepec",
+    "resumen": "Motociclista evita asalto en Jiutepec y termina lesionado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista heroico enfrenta a delincuentes armados y evita un asalto en Jiutepec",
+    "published_at": "2026-10-15T18:05:12-06:00",
+    "scraped_at": "2026-10-16T19:58:03Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "fcc6253c998e9766"
+  },
+  {
+    "id": "79ea357ae2c9ca18",
+    "fecha": "2026-10-14",
+    "hora": "02:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/balean-tres-hombres-persecucion-en-colonia-10-abril-en-morelos",
+    "resumen": "Balean a tres hombres tras persecución en la colonia 10 de Abril, en Morelos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Balean a tres hombres tras persecución en la colonia 10 de Abril, en Morelos",
+    "published_at": "2026-10-14T16:32:27-06:00",
+    "scraped_at": "2026-10-16T19:58:05Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "9f487f791fa6044a"
   }
 ]
