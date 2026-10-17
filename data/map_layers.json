@@ -8,709 +8,6 @@
         "coordinates": [
           [
             [
-              -99.04269942220274,
-              18.8891562
-            ],
-            [
-              -99.04286999693328,
-              18.891635890642863
-            ],
-            [
-              -99.04337880254391,
-              18.894073153091327
-            ],
-            [
-              -99.0442171332296,
-              18.89642628510916
-            ],
-            [
-              -99.04537064491987,
-              18.89865502395513
-            ],
-            [
-              -99.0468196007099,
-              18.90072123528965
-            ],
-            [
-              -99.04853920856438,
-              18.902589565663938
-            ],
-            [
-              -99.05050004551617,
-              18.904228047427278
-            ],
-            [
-              -99.05266856110137,
-              18.905608645702436
-            ],
-            [
-              -99.0550076514171,
-              18.906707738070143
-            ],
-            [
-              -99.05747729397953,
-              18.907506518755262
-            ],
-            [
-              -99.0600352325197,
-              18.907991320398814
-            ],
-            [
-              -99.0626377,
-              18.908153847910256
-            ],
-            [
-              -99.0652401674803,
-              18.907991320398814
-            ],
-            [
-              -99.06779810602046,
-              18.907506518755262
-            ],
-            [
-              -99.07026774858289,
-              18.906707738070143
-            ],
-            [
-              -99.07260683889862,
-              18.905608645702436
-            ],
-            [
-              -99.07477535448382,
-              18.904228047427278
-            ],
-            [
-              -99.07673619143561,
-              18.902589565663938
-            ],
-            [
-              -99.0784557992901,
-              18.90072123528965
-            ],
-            [
-              -99.07990475508012,
-              18.89865502395513
-            ],
-            [
-              -99.0810582667704,
-              18.89642628510916
-            ],
-            [
-              -99.08189659745608,
-              18.894073153091327
-            ],
-            [
-              -99.08240540306672,
-              18.891635890642863
-            ],
-            [
-              -99.08257597779725,
-              18.8891562
-            ],
-            [
-              -99.08240540306672,
-              18.886676509357134
-            ],
-            [
-              -99.08189659745608,
-              18.88423924690867
-            ],
-            [
-              -99.0810582667704,
-              18.881886114890836
-            ],
-            [
-              -99.07990475508012,
-              18.879657376044868
-            ],
-            [
-              -99.0784557992901,
-              18.877591164710346
-            ],
-            [
-              -99.07673619143561,
-              18.87572283433606
-            ],
-            [
-              -99.07477535448382,
-              18.87408435257272
-            ],
-            [
-              -99.07260683889862,
-              18.87270375429756
-            ],
-            [
-              -99.07026774858289,
-              18.871604661929855
-            ],
-            [
-              -99.06779810602046,
-              18.870805881244735
-            ],
-            [
-              -99.0652401674803,
-              18.870321079601183
-            ],
-            [
-              -99.0626377,
-              18.87015855208974
-            ],
-            [
-              -99.0600352325197,
-              18.870321079601183
-            ],
-            [
-              -99.05747729397953,
-              18.870805881244735
-            ],
-            [
-              -99.0550076514171,
-              18.871604661929855
-            ],
-            [
-              -99.05266856110137,
-              18.87270375429756
-            ],
-            [
-              -99.05050004551617,
-              18.87408435257272
-            ],
-            [
-              -99.04853920856438,
-              18.87572283433606
-            ],
-            [
-              -99.0468196007099,
-              18.877591164710346
-            ],
-            [
-              -99.04537064491987,
-              18.879657376044868
-            ],
-            [
-              -99.0442171332296,
-              18.881886114890836
-            ],
-            [
-              -99.04337880254391,
-              18.88423924690867
-            ],
-            [
-              -99.04286999693328,
-              18.886676509357134
-            ],
-            [
-              -99.04269942220274,
-              18.8891562
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "rojo",
-        "n_incidents": 19,
-        "dias_sin_hechos_violentos": 1,
-        "last_incident_date": "2026-10-15",
-        "first_incident_date": "2026-08-18",
-        "location_scope": "municipio",
-        "location_name": "Yautepec",
-        "delitos": [
-          "feminicidio",
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Camión con plástico se incendia en la carretera Yautepec-Ticumán por falla en los frenos",
-            "url": "https://www.diariodemorelos.com/noticias/camion-con-plastico-se-incendia-en-carretera-yautepec-ticuman-por-falla-en-frenos"
-          },
-          {
-            "title": "Recuperan camión robado en el Oriente de Morelos tras ser hallado abandonado",
-            "url": "https://www.diariodemorelos.com/noticias/recuperan-camion-robado-en-oriente-morelos-ser-hallado-abandonado"
-          },
-          {
-            "title": "Ataque armado en Yautepec deja un muerto y un herido en la colonia Álvaro Leonel",
-            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-yautepec-deja-muerto-herido-en-colonia-alvaro-leonel"
-          },
-          {
-            "title": "Choque entre motociclista y colectiva en Yautepec termina en riña con bate",
-            "url": "https://www.diariodemorelos.com/noticias/choque-entre-motociclista-colectiva-ruta-13-en-yautepec-termina-en-brutal-rina-con-bate-en-cocoyoc"
-          },
-          {
-            "title": "Atacan a balazos a conductor en Morelos: una menor resulta lesionada",
-            "url": "https://www.diariodemorelos.com/noticias/atacan-balazos-conductor-en-morelos-menor-resulta-lesionada"
-          }
-        ],
-        "radius_meters": 2100,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -99.2363330843268,
-              18.9246255
-            ],
-            [
-              -99.23637370597011,
-              18.925215902534017
-            ],
-            [
-              -99.23649487585247,
-              18.925796203116985
-            ],
-            [
-              -99.23669452072359,
-              18.92635647264504
-            ],
-            [
-              -99.23696922460437,
-              18.92688712475122
-            ],
-            [
-              -99.23731428723525,
-              18.92737907983087
-            ],
-            [
-              -99.23772380449896,
-              18.927823920396175
-            ],
-            [
-              -99.23819076944154,
-              18.928214035101735
-            ],
-            [
-              -99.2387071921634,
-              18.92854274897677
-            ],
-            [
-              -99.23926423652857,
-              18.92880443763575
-            ],
-            [
-              -99.23985237135352,
-              18.92899462351316
-            ],
-            [
-              -99.24046153348834,
-              18.92911005247591
-            ],
-            [
-              -99.2410813,
-              18.929148749502446
-            ],
-            [
-              -99.24170106651167,
-              18.92911005247591
-            ],
-            [
-              -99.24231022864649,
-              18.92899462351316
-            ],
-            [
-              -99.24289836347144,
-              18.92880443763575
-            ],
-            [
-              -99.2434554078366,
-              18.92854274897677
-            ],
-            [
-              -99.24397183055846,
-              18.928214035101735
-            ],
-            [
-              -99.24443879550105,
-              18.927823920396175
-            ],
-            [
-              -99.24484831276476,
-              18.92737907983087
-            ],
-            [
-              -99.24519337539564,
-              18.92688712475122
-            ],
-            [
-              -99.24546807927642,
-              18.92635647264504
-            ],
-            [
-              -99.24566772414754,
-              18.925796203116985
-            ],
-            [
-              -99.2457888940299,
-              18.925215902534017
-            ],
-            [
-              -99.24582951567321,
-              18.9246255
-            ],
-            [
-              -99.2457888940299,
-              18.924035097465985
-            ],
-            [
-              -99.24566772414754,
-              18.923454796883018
-            ],
-            [
-              -99.24546807927642,
-              18.922894527354963
-            ],
-            [
-              -99.24519337539564,
-              18.92236387524878
-            ],
-            [
-              -99.24484831276476,
-              18.92187192016913
-            ],
-            [
-              -99.24443879550105,
-              18.921427079603827
-            ],
-            [
-              -99.24397183055846,
-              18.921036964898267
-            ],
-            [
-              -99.2434554078366,
-              18.920708251023232
-            ],
-            [
-              -99.24289836347144,
-              18.92044656236425
-            ],
-            [
-              -99.24231022864649,
-              18.920256376486844
-            ],
-            [
-              -99.24170106651167,
-              18.920140947524093
-            ],
-            [
-              -99.2410813,
-              18.920102250497557
-            ],
-            [
-              -99.24046153348834,
-              18.920140947524093
-            ],
-            [
-              -99.23985237135352,
-              18.920256376486844
-            ],
-            [
-              -99.23926423652857,
-              18.92044656236425
-            ],
-            [
-              -99.2387071921634,
-              18.920708251023232
-            ],
-            [
-              -99.23819076944154,
-              18.921036964898267
-            ],
-            [
-              -99.23772380449896,
-              18.921427079603827
-            ],
-            [
-              -99.23731428723525,
-              18.92187192016913
-            ],
-            [
-              -99.23696922460437,
-              18.92236387524878
-            ],
-            [
-              -99.23669452072359,
-              18.922894527354963
-            ],
-            [
-              -99.23649487585247,
-              18.923454796883018
-            ],
-            [
-              -99.23637370597011,
-              18.924035097465985
-            ],
-            [
-              -99.2363330843268,
-              18.9246255
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "amarillo",
-        "n_incidents": 1,
-        "dias_sin_hechos_violentos": 59,
-        "last_incident_date": "2026-08-18",
-        "first_incident_date": "2026-08-18",
-        "location_scope": "colonia",
-        "location_name": "Independencia",
-        "delitos": [
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Ataque con dron en Jiutepec: lanzan explosivos contra casa y vehículo en la colonia Independencia",
-            "url": "https://www.diariodemorelos.com/noticias/ataque-con-dron-en-jiutepec-lanzan-explosivos-contra-casa-vehiculo-en-colonia-independencia"
-          }
-        ],
-        "radius_meters": 500,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -99.22990708707898,
-              18.9203462
-            ],
-            [
-              -99.22995583180287,
-              18.92105468304082
-            ],
-            [
-              -99.2301012319388,
-              18.92175104374038
-            ],
-            [
-              -99.23034079965015,
-              18.922423367174048
-            ],
-            [
-              -99.23067043586693,
-              18.923060149701467
-            ],
-            [
-              -99.23108450042209,
-              18.923650495797045
-            ],
-            [
-              -99.2315759085563,
-              18.92418430447541
-            ],
-            [
-              -99.23213625214011,
-              18.92465244212208
-            ],
-            [
-              -99.23275594353949,
-              18.925046898772127
-            ],
-            [
-              -99.23342437966275,
-              18.9253609251629
-            ],
-            [
-              -99.23413012338251,
-              18.925589148215792
-            ],
-            [
-              -99.23486109922804,
-              18.92572766297109
-            ],
-            [
-              -99.23560479999999,
-              18.925774099402933
-            ],
-            [
-              -99.23634850077194,
-              18.92572766297109
-            ],
-            [
-              -99.23707947661747,
-              18.925589148215792
-            ],
-            [
-              -99.23778522033723,
-              18.9253609251629
-            ],
-            [
-              -99.23845365646049,
-              18.925046898772127
-            ],
-            [
-              -99.23907334785987,
-              18.92465244212208
-            ],
-            [
-              -99.23963369144369,
-              18.92418430447541
-            ],
-            [
-              -99.2401250995779,
-              18.923650495797045
-            ],
-            [
-              -99.24053916413305,
-              18.923060149701467
-            ],
-            [
-              -99.24086880034983,
-              18.922423367174048
-            ],
-            [
-              -99.24110836806118,
-              18.92175104374038
-            ],
-            [
-              -99.24125376819711,
-              18.92105468304082
-            ],
-            [
-              -99.241302512921,
-              18.9203462
-            ],
-            [
-              -99.24125376819711,
-              18.919637716959183
-            ],
-            [
-              -99.24110836806118,
-              18.918941356259623
-            ],
-            [
-              -99.24086880034983,
-              18.918269032825954
-            ],
-            [
-              -99.24053916413305,
-              18.917632250298535
-            ],
-            [
-              -99.2401250995779,
-              18.917041904202957
-            ],
-            [
-              -99.23963369144369,
-              18.91650809552459
-            ],
-            [
-              -99.23907334785987,
-              18.91603995787792
-            ],
-            [
-              -99.23845365646049,
-              18.915645501227875
-            ],
-            [
-              -99.23778522033723,
-              18.915331474837103
-            ],
-            [
-              -99.23707947661747,
-              18.91510325178421
-            ],
-            [
-              -99.23634850077194,
-              18.91496473702891
-            ],
-            [
-              -99.23560479999999,
-              18.91491830059707
-            ],
-            [
-              -99.23486109922804,
-              18.91496473702891
-            ],
-            [
-              -99.23413012338251,
-              18.91510325178421
-            ],
-            [
-              -99.23342437966275,
-              18.915331474837103
-            ],
-            [
-              -99.23275594353949,
-              18.915645501227875
-            ],
-            [
-              -99.23213625214011,
-              18.91603995787792
-            ],
-            [
-              -99.2315759085563,
-              18.91650809552459
-            ],
-            [
-              -99.23108450042209,
-              18.917041904202957
-            ],
-            [
-              -99.23067043586693,
-              18.917632250298535
-            ],
-            [
-              -99.23034079965015,
-              18.918269032825954
-            ],
-            [
-              -99.2301012319388,
-              18.918941356259623
-            ],
-            [
-              -99.22995583180287,
-              18.919637716959183
-            ],
-            [
-              -99.22990708707898,
-              18.9203462
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "level": "rojo",
-        "n_incidents": 3,
-        "dias_sin_hechos_violentos": 26,
-        "last_incident_date": "2026-09-20",
-        "first_incident_date": "2026-08-18",
-        "location_scope": "colonia",
-        "location_name": "Centro",
-        "delitos": [
-          "homicidio"
-        ],
-        "fuentes": [
-          {
-            "title": "Ataque en Tetecala deja dos muertos; una víctima era dirigente del PRI",
-            "url": "https://www.diariodemorelos.com/noticias/ataque-en-tetecala-deja-dos-muertos-victima-era-dirigente-pri"
-          },
-          {
-            "title": "Una cabeza humana fue localizada dentro de una bolsa negra en la colonia Centro de Cuernavaca",
-            "url": "https://www.diariodemorelos.com/noticias/cabeza-humana-fue-localizada-dentro-bolsa-negra-en-colonia-centro-cuernavaca"
-          },
-          {
-            "title": "Tragedia en Axochiapan: Hombre asesinado a balazos en taquería frente a su esposa",
-            "url": "https://www.diariodemorelos.com/noticias/tragedia-en-axochiapan-hombre-asesinado-balazos-en-taqueria-frente-su-esposa"
-          }
-        ],
-        "radius_meters": 600,
-        "geometry_source": "buffer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               -99.15098087393741,
               18.8954874
             ],
@@ -912,7 +209,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 24,
-        "dias_sin_hechos_violentos": 0,
+        "dias_sin_hechos_violentos": 1,
         "last_incident_date": "2026-10-16",
         "first_incident_date": "2026-08-23",
         "location_scope": "municipio",
@@ -1156,7 +453,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-09-01",
         "first_incident_date": "2026-08-23",
         "location_scope": "colonia",
@@ -1386,7 +683,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 5,
-        "dias_sin_hechos_violentos": 54,
+        "dias_sin_hechos_violentos": 55,
         "last_incident_date": "2026-08-23",
         "first_incident_date": "2026-08-19",
         "location_scope": "colonia",
@@ -1628,7 +925,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 13,
-        "dias_sin_hechos_violentos": 2,
+        "dias_sin_hechos_violentos": 3,
         "last_incident_date": "2026-10-14",
         "first_incident_date": "2026-08-23",
         "location_scope": "municipio",
@@ -1871,7 +1168,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 50,
+        "dias_sin_hechos_violentos": 51,
         "last_incident_date": "2026-08-27",
         "first_incident_date": "2026-08-27",
         "location_scope": "colonia",
@@ -1886,6 +1183,249 @@
           }
         ],
         "radius_meters": 500,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.04317414310269,
+              18.8891562
+            ],
+            [
+              -99.0433406565301,
+              18.89157685038946
+            ],
+            [
+              -99.04383734772144,
+              18.893956082779628
+            ],
+            [
+              -99.0446557181527,
+              18.896253187844657
+            ],
+            [
+              -99.04578176527892,
+              18.898428861480006
+            ],
+            [
+              -99.04719622212157,
+              18.900445877306566
+            ],
+            [
+              -99.0488748869319,
+              18.90226972362432
+            ],
+            [
+              -99.05078903728959,
+              18.903869193917107
+            ],
+            [
+              -99.05290592155134,
+              18.905216920804758
+            ],
+            [
+              -99.0551893192405,
+              18.906289844306567
+            ],
+            [
+              -99.05760016078953,
+              18.907069606403947
+            ],
+            [
+              -99.06009719603114,
+              18.90754286515122
+            ],
+            [
+              -99.0626377,
+              18.907701522960014
+            ],
+            [
+              -99.06517820396886,
+              18.90754286515122
+            ],
+            [
+              -99.06767523921046,
+              18.907069606403947
+            ],
+            [
+              -99.0700860807595,
+              18.906289844306567
+            ],
+            [
+              -99.07236947844865,
+              18.905216920804758
+            ],
+            [
+              -99.0744863627104,
+              18.903869193917107
+            ],
+            [
+              -99.0764005130681,
+              18.90226972362432
+            ],
+            [
+              -99.07807917787842,
+              18.900445877306566
+            ],
+            [
+              -99.07949363472108,
+              18.898428861480006
+            ],
+            [
+              -99.0806196818473,
+              18.896253187844657
+            ],
+            [
+              -99.08143805227856,
+              18.893956082779628
+            ],
+            [
+              -99.08193474346989,
+              18.89157685038946
+            ],
+            [
+              -99.0821012568973,
+              18.8891562
+            ],
+            [
+              -99.08193474346989,
+              18.88673554961054
+            ],
+            [
+              -99.08143805227856,
+              18.88435631722037
+            ],
+            [
+              -99.0806196818473,
+              18.88205921215534
+            ],
+            [
+              -99.07949363472108,
+              18.87988353851999
+            ],
+            [
+              -99.07807917787842,
+              18.87786652269343
+            ],
+            [
+              -99.0764005130681,
+              18.87604267637568
+            ],
+            [
+              -99.0744863627104,
+              18.87444320608289
+            ],
+            [
+              -99.07236947844865,
+              18.87309547919524
+            ],
+            [
+              -99.0700860807595,
+              18.87202255569343
+            ],
+            [
+              -99.06767523921046,
+              18.87124279359605
+            ],
+            [
+              -99.06517820396886,
+              18.870769534848776
+            ],
+            [
+              -99.0626377,
+              18.870610877039983
+            ],
+            [
+              -99.06009719603114,
+              18.870769534848776
+            ],
+            [
+              -99.05760016078953,
+              18.87124279359605
+            ],
+            [
+              -99.0551893192405,
+              18.87202255569343
+            ],
+            [
+              -99.05290592155134,
+              18.87309547919524
+            ],
+            [
+              -99.05078903728959,
+              18.87444320608289
+            ],
+            [
+              -99.0488748869319,
+              18.87604267637568
+            ],
+            [
+              -99.04719622212157,
+              18.87786652269343
+            ],
+            [
+              -99.04578176527892,
+              18.87988353851999
+            ],
+            [
+              -99.0446557181527,
+              18.88205921215534
+            ],
+            [
+              -99.04383734772144,
+              18.88435631722037
+            ],
+            [
+              -99.0433406565301,
+              18.88673554961054
+            ],
+            [
+              -99.04317414310269,
+              18.8891562
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "rojo",
+        "n_incidents": 18,
+        "dias_sin_hechos_violentos": 2,
+        "last_incident_date": "2026-10-15",
+        "first_incident_date": "2026-08-26",
+        "location_scope": "municipio",
+        "location_name": "Yautepec",
+        "delitos": [
+          "feminicidio",
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Camión con plástico se incendia en la carretera Yautepec-Ticumán por falla en los frenos",
+            "url": "https://www.diariodemorelos.com/noticias/camion-con-plastico-se-incendia-en-carretera-yautepec-ticuman-por-falla-en-frenos"
+          },
+          {
+            "title": "Recuperan camión robado en el Oriente de Morelos tras ser hallado abandonado",
+            "url": "https://www.diariodemorelos.com/noticias/recuperan-camion-robado-en-oriente-morelos-ser-hallado-abandonado"
+          },
+          {
+            "title": "Ataque armado en Yautepec deja un muerto y un herido en la colonia Álvaro Leonel",
+            "url": "https://www.diariodemorelos.com/noticias/ataque-armado-en-yautepec-deja-muerto-herido-en-colonia-alvaro-leonel"
+          },
+          {
+            "title": "Choque entre motociclista y colectiva en Yautepec termina en riña con bate",
+            "url": "https://www.diariodemorelos.com/noticias/choque-entre-motociclista-colectiva-ruta-13-en-yautepec-termina-en-brutal-rina-con-bate-en-cocoyoc"
+          },
+          {
+            "title": "Atacan a balazos a conductor en Morelos: una menor resulta lesionada",
+            "url": "https://www.diariodemorelos.com/noticias/atacan-balazos-conductor-en-morelos-menor-resulta-lesionada"
+          }
+        ],
+        "radius_meters": 2050,
         "geometry_source": "buffer"
       }
     },
@@ -2097,7 +1637,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 7,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-10-01",
         "first_incident_date": "2026-08-28",
         "location_scope": "municipio",
@@ -2339,7 +1879,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 47,
+        "dias_sin_hechos_violentos": 48,
         "last_incident_date": "2026-08-30",
         "first_incident_date": "2026-08-27",
         "location_scope": "colonia",
@@ -2577,7 +2117,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 47,
+        "dias_sin_hechos_violentos": 48,
         "last_incident_date": "2026-08-30",
         "first_incident_date": "2026-08-30",
         "location_scope": "colonia",
@@ -2803,7 +2343,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 46,
+        "dias_sin_hechos_violentos": 47,
         "last_incident_date": "2026-08-31",
         "first_incident_date": "2026-08-28",
         "location_scope": "colonia",
@@ -3041,7 +2581,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 6,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-10-01",
         "first_incident_date": "2026-08-29",
         "location_scope": "colonia",
@@ -3283,7 +2823,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 45,
+        "dias_sin_hechos_violentos": 46,
         "last_incident_date": "2026-09-01",
         "first_incident_date": "2026-08-30",
         "location_scope": "colonia",
@@ -3513,7 +3053,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 4,
-        "dias_sin_hechos_violentos": 6,
+        "dias_sin_hechos_violentos": 7,
         "last_incident_date": "2026-10-10",
         "first_incident_date": "2026-09-01",
         "location_scope": "colonia",
@@ -3749,9 +3289,9 @@
         ]
       },
       "properties": {
-        "level": "naranja",
+        "level": "amarillo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 29,
+        "dias_sin_hechos_violentos": 30,
         "last_incident_date": "2026-09-17",
         "first_incident_date": "2026-09-02",
         "location_scope": "colonia",
@@ -3981,7 +3521,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 43,
+        "dias_sin_hechos_violentos": 44,
         "last_incident_date": "2026-09-03",
         "first_incident_date": "2026-09-03",
         "location_scope": "colonia",
@@ -4207,7 +3747,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 39,
+        "dias_sin_hechos_violentos": 40,
         "last_incident_date": "2026-09-07",
         "first_incident_date": "2026-09-07",
         "location_scope": "colonia",
@@ -4433,7 +3973,7 @@
       "properties": {
         "level": "amarillo",
         "n_incidents": 3,
-        "dias_sin_hechos_violentos": 34,
+        "dias_sin_hechos_violentos": 35,
         "last_incident_date": "2026-09-12",
         "first_incident_date": "2026-09-10",
         "location_scope": "colonia",
@@ -4456,6 +3996,236 @@
           }
         ],
         "radius_meters": 600,
+        "geometry_source": "buffer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23038189648908,
+              18.9203462
+            ],
+            [
+              -99.23042657915265,
+              18.920995642787418
+            ],
+            [
+              -99.23055986261059,
+              18.921633973428683
+            ],
+            [
+              -99.23077946634598,
+              18.922250269909544
+            ],
+            [
+              -99.23108163287803,
+              18.922833987226344
+            ],
+            [
+              -99.23146119205359,
+              18.92337513781396
+            ],
+            [
+              -99.23191164950995,
+              18.923864462435795
+            ],
+            [
+              -99.23242529779512,
+              18.924293588611906
+            ],
+            [
+              -99.23299334824455,
+              18.92465517387445
+            ],
+            [
+              -99.23360608135754,
+              18.924943031399323
+            ],
+            [
+              -99.23425301310064,
+              18.925152235864473
+            ],
+            [
+              -99.2349230742924,
+              18.9252792077235
+            ],
+            [
+              -99.2356048,
+              18.925321774452687
+            ],
+            [
+              -99.23628652570761,
+              18.9252792077235
+            ],
+            [
+              -99.23695658689937,
+              18.925152235864473
+            ],
+            [
+              -99.23760351864247,
+              18.924943031399323
+            ],
+            [
+              -99.23821625175546,
+              18.92465517387445
+            ],
+            [
+              -99.23878430220489,
+              18.924293588611906
+            ],
+            [
+              -99.23929795049006,
+              18.923864462435795
+            ],
+            [
+              -99.23974840794642,
+              18.92337513781396
+            ],
+            [
+              -99.24012796712198,
+              18.922833987226344
+            ],
+            [
+              -99.24043013365403,
+              18.922250269909544
+            ],
+            [
+              -99.24064973738942,
+              18.921633973428683
+            ],
+            [
+              -99.24078302084736,
+              18.920995642787418
+            ],
+            [
+              -99.24082770351093,
+              18.9203462
+            ],
+            [
+              -99.24078302084736,
+              18.919696757212584
+            ],
+            [
+              -99.24064973738942,
+              18.91905842657132
+            ],
+            [
+              -99.24043013365403,
+              18.918442130090458
+            ],
+            [
+              -99.24012796712198,
+              18.917858412773658
+            ],
+            [
+              -99.23974840794642,
+              18.917317262186042
+            ],
+            [
+              -99.23929795049006,
+              18.916827937564207
+            ],
+            [
+              -99.23878430220489,
+              18.916398811388095
+            ],
+            [
+              -99.23821625175546,
+              18.916037226125553
+            ],
+            [
+              -99.23760351864247,
+              18.91574936860068
+            ],
+            [
+              -99.23695658689937,
+              18.91554016413553
+            ],
+            [
+              -99.23628652570761,
+              18.915413192276503
+            ],
+            [
+              -99.2356048,
+              18.915370625547315
+            ],
+            [
+              -99.2349230742924,
+              18.915413192276503
+            ],
+            [
+              -99.23425301310064,
+              18.91554016413553
+            ],
+            [
+              -99.23360608135754,
+              18.91574936860068
+            ],
+            [
+              -99.23299334824455,
+              18.916037226125553
+            ],
+            [
+              -99.23242529779512,
+              18.916398811388095
+            ],
+            [
+              -99.23191164950995,
+              18.916827937564207
+            ],
+            [
+              -99.23146119205359,
+              18.917317262186042
+            ],
+            [
+              -99.23108163287803,
+              18.917858412773658
+            ],
+            [
+              -99.23077946634598,
+              18.918442130090458
+            ],
+            [
+              -99.23055986261059,
+              18.91905842657132
+            ],
+            [
+              -99.23042657915265,
+              18.919696757212584
+            ],
+            [
+              -99.23038189648908,
+              18.9203462
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "level": "naranja",
+        "n_incidents": 2,
+        "dias_sin_hechos_violentos": 27,
+        "last_incident_date": "2026-09-20",
+        "first_incident_date": "2026-09-14",
+        "location_scope": "colonia",
+        "location_name": "Centro",
+        "delitos": [
+          "homicidio"
+        ],
+        "fuentes": [
+          {
+            "title": "Ataque en Tetecala deja dos muertos; una víctima era dirigente del PRI",
+            "url": "https://www.diariodemorelos.com/noticias/ataque-en-tetecala-deja-dos-muertos-victima-era-dirigente-pri"
+          },
+          {
+            "title": "Una cabeza humana fue localizada dentro de una bolsa negra en la colonia Centro de Cuernavaca",
+            "url": "https://www.diariodemorelos.com/noticias/cabeza-humana-fue-localizada-dentro-bolsa-negra-en-colonia-centro-cuernavaca"
+          }
+        ],
+        "radius_meters": 550,
         "geometry_source": "buffer"
       }
     },
@@ -4667,7 +4437,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 22,
+        "dias_sin_hechos_violentos": 23,
         "last_incident_date": "2026-09-24",
         "first_incident_date": "2026-09-24",
         "location_scope": "colonia",
@@ -4893,7 +4663,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 19,
+        "dias_sin_hechos_violentos": 20,
         "last_incident_date": "2026-09-27",
         "first_incident_date": "2026-09-27",
         "location_scope": "colonia",
@@ -5119,7 +4889,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 15,
+        "dias_sin_hechos_violentos": 16,
         "last_incident_date": "2026-10-01",
         "first_incident_date": "2026-09-29",
         "location_scope": "colonia",
@@ -5349,7 +5119,7 @@
       "properties": {
         "level": "rojo",
         "n_incidents": 2,
-        "dias_sin_hechos_violentos": 13,
+        "dias_sin_hechos_violentos": 14,
         "last_incident_date": "2026-10-03",
         "first_incident_date": "2026-10-02",
         "location_scope": "colonia",
@@ -5579,7 +5349,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 12,
+        "dias_sin_hechos_violentos": 13,
         "last_incident_date": "2026-10-04",
         "first_incident_date": "2026-10-04",
         "location_scope": "colonia",
@@ -5805,7 +5575,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 14,
+        "dias_sin_hechos_violentos": 15,
         "last_incident_date": "2026-10-02",
         "first_incident_date": "2026-10-02",
         "location_scope": "colonia",
@@ -6031,7 +5801,7 @@
       "properties": {
         "level": "naranja",
         "n_incidents": 1,
-        "dias_sin_hechos_violentos": 1,
+        "dias_sin_hechos_violentos": 2,
         "last_incident_date": "2026-10-15",
         "first_incident_date": "2026-10-15",
         "location_scope": "colonia",
