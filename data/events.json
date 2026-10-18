@@ -6142,5 +6142,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "9f487f791fa6044a"
+  },
+  {
+    "id": "7908c4b64369a898",
+    "fecha": "2026-10-16",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/policias-persiguen-capturan-dos-jovenes-robar-moto-en-yautepec",
+    "resumen": "Persecución en Cañón de Lobos: caen dos jóvenes tras robar una moto en Yautepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Policías persiguen y capturan a dos jóvenes tras robar una moto en Yautepec",
+    "published_at": "2026-10-16T15:38:57-06:00",
+    "scraped_at": "2026-10-18T19:26:03Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "3e33a9ed0a270f74"
+  },
+  {
+    "id": "43eb97e1baaef9e0",
+    "fecha": "2026-10-15",
+    "hora": "14:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-hombre-intentar-recuperar-su-motocicleta-robada-en-colonia-10-abril",
+    "resumen": "Temixco: hombre muere al intentar recuperar su motocicleta robada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere hombre tras intentar recuperar su motocicleta robada en la colonia 10 de Abril",
+    "published_at": "2026-10-15T21:01:11-06:00",
+    "scraped_at": "2026-10-18T19:26:04Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "6aff6e66f5fbc4f9"
   }
 ]
