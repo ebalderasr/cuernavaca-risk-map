@@ -6190,5 +6190,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "6aff6e66f5fbc4f9"
+  },
+  {
+    "id": "7ed7d973e3cd1e58",
+    "fecha": "2026-10-19",
+    "hora": "13:30",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hombre-sobrevive-ataque-armado-en-colonia-10-abril-temixco",
+    "resumen": "Hombre sobrevive a ataque armado en la colonia 10 de Abril",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre sobrevive a ataque armado en la colonia 10 de Abril",
+    "published_at": "2026-10-19T15:11:00-06:00",
+    "scraped_at": "2026-10-19T21:32:00Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "0278aa4f0f77aa84"
+  },
+  {
+    "id": "f3923b7d7fee385b",
+    "fecha": "2026-10-19",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/disparos-gritos-alertan-vecinos-por-homicidio-en-casa-amador-salazar",
+    "resumen": "Homicidio en Amador Salazar, Yautepec: disparos y gritos alertan a vecinos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Disparos y gritos alertan a vecinos por homicidio en una casa de Amador Salazar",
+    "published_at": "2026-10-19T10:43:40-06:00",
+    "scraped_at": "2026-10-19T21:32:00Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "72d7bc2affe8c7b9"
   }
 ]
