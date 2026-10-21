@@ -6286,5 +6286,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "4da9fc4b453a6f91"
+  },
+  {
+    "id": "be2437a380db9ac3",
+    "fecha": "2026-10-21",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/estalla-inconformidad-policial-en-jiutepec-exigen-homologacion-salarios-servicios-medicos",
+    "resumen": "Policías de Jiutepec protestan por salarios y servicios médicos insuficientes",
+    "source_name": "Diario de Morelos",
+    "source_title": "Estalla inconformidad policial en Jiutepec; exigen homologación de salarios y servicios médicos",
+    "published_at": "2026-10-21T10:06:53-06:00",
+    "scraped_at": "2026-10-21T20:38:06Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "1d2c6f50c6bcc6b7"
+  },
+  {
+    "id": "6eef8d51188010d9",
+    "fecha": "2026-10-20",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/choque-entre-tres-vehiculos-en-paso-express-paralizo-trafico-en-cuernavaca",
+    "resumen": "Paso Express de Cuernavaca: choque de tres vehículos paraliza el tránsito",
+    "source_name": "Diario de Morelos",
+    "source_title": "Choque entre tres vehículos en el Paso Express paralizó el tráfico en Cuernavaca",
+    "published_at": "2026-10-20T20:51:15-06:00",
+    "scraped_at": "2026-10-21T20:38:06Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "1776679320ae2ca3"
+  },
+  {
+    "id": "ee6d896bf6c27fa0",
+    "fecha": "2026-10-19",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "secuestro",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/caen-en-ahuatepec-meses-profuga-acusan-secuestrar-paciente-en-tlalpan",
+    "resumen": "Detienen en Ahuatepec a prófuga acusada de secuestrar a paciente en Tlalpan",
+    "source_name": "Diario de Morelos",
+    "source_title": "Caen en Ahuatepec tras meses prófuga: la acusan de secuestrar a paciente en Tlalpan",
+    "published_at": "2026-10-19T10:43:23-06:00",
+    "scraped_at": "2026-10-21T20:38:09Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "9afd08fab97a64b4"
   }
 ]
