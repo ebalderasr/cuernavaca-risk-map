@@ -6478,5 +6478,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "fbf862aa562b804f"
+  },
+  {
+    "id": "87ffa7bc277c4f7c",
+    "fecha": "2026-10-24",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Adolfo Lopez Mateos",
+    "coordenadas": [
+      18.9233648,
+      -99.2313598
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/incendio-consume-habitacion-vivienda-en-cuernavaca-no-hay-lesionados",
+    "resumen": "Incendio en Cuernavaca consume habitación de vivienda; no hay lesionados",
+    "source_name": "Diario de Morelos",
+    "source_title": "Incendio consume habitación de vivienda en Cuernavaca; no hay lesionados",
+    "published_at": "2026-10-24T18:58:53-06:00",
+    "scraped_at": "2026-10-25T19:36:34Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "11b6490886458e19"
   }
 ]
