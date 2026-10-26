@@ -6502,5 +6502,101 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "11b6490886458e19"
+  },
+  {
+    "id": "396d8521e95467c3",
+    "fecha": "2026-10-26",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/presidente-de-taxis-tlahuica-fue-herido-a-balazos-en-la-zona-oriente",
+    "resumen": "Atacan a balazos al dirigente de taxis Tlahuica en Yautepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Presidente de taxis Tlahuica fue herido a balazos en Yautepec",
+    "published_at": "2026-10-26T12:36:00-06:00",
+    "scraped_at": "2026-10-26T21:42:36Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a2c6af545d19b81a"
+  },
+  {
+    "id": "c50d17a243a35c3e",
+    "fecha": "2026-10-26",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/terror-en-tepetzingo-exnovio-entra-fuerza-casa-dispara-contra-dos-hermanas",
+    "resumen": "Exnovio irrumpe en vivienda de Tepetzingo y dispara contra dos hermanas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Terror en Tepetzingo: Exnovio entra a la fuerza a casa y dispara contra dos hermanas",
+    "published_at": "2026-10-26T11:35:23-06:00",
+    "scraped_at": "2026-10-26T21:42:37Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "895339a7e19c69fb"
+  },
+  {
+    "id": "048836137af081ca",
+    "fecha": "2026-10-25",
+    "hora": null,
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/rescatan-tres-mujeres-extraviadas-en-sierra-montenegro-emiliano-zapata",
+    "resumen": "Rescatan a tres mujeres en Sierra Montenegro, Morelos: así las localizaron",
+    "source_name": "Diario de Morelos",
+    "source_title": "Rescatan a tres mujeres extraviadas en la Sierra Montenegro de Emiliano Zapata",
+    "published_at": "2026-10-25T21:05:14-06:00",
+    "scraped_at": "2026-10-26T21:42:37Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "54c6e8dcaa19eb3b"
+  },
+  {
+    "id": "d8f10dbfe4413549",
+    "fecha": "2026-10-25",
+    "hora": "02:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-dentro-vivienda-en-yautepec",
+    "resumen": "Asesinan a un hombre en Yautepec: ataque a balazos en vivienda de Santa Rosa",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a un hombre dentro de una vivienda en Yautepec",
+    "published_at": "2026-10-25T12:18:10-06:00",
+    "scraped_at": "2026-10-26T21:42:37Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "5de495f09f95087f"
   }
 ]
