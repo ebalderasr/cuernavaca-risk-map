@@ -6598,5 +6598,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "5de495f09f95087f"
+  },
+  {
+    "id": "e5f5a58321f8c732",
+    "fecha": "2026-10-27",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Del Bosque",
+    "coordenadas": [
+      18.9981159,
+      -99.2619204
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/paramedicos-proteccion-civil-salvan-mujer-68-anos-ataque-perro-en-jojutla",
+    "resumen": "Ataque de perro en la colonia Del Bosque: paramédicos estabilizan a mujer de 68 años",
+    "source_name": "Diario de Morelos",
+    "source_title": "Paramédicos estabilizan a mujer de 68 años tras ataque de perro en Jojutla",
+    "published_at": "2026-10-27T10:23:59-06:00",
+    "scraped_at": "2026-10-27T21:18:49Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "e54ed5c06c925a07"
+  },
+  {
+    "id": "4a2792d94c6f048b",
+    "fecha": "2026-10-26",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ataque-armado-en-la-zona-oriente-deja-un-muerto-y-dos-heridos",
+    "resumen": "Ataque armado en la zona oriente deja un muerto y dos heridos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ataque armado en la zona oriente deja un muerto y dos heridos",
+    "published_at": "2026-10-26T10:19:00-06:00",
+    "scraped_at": "2026-10-27T21:18:50Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "320c97332f433171"
   }
 ]
