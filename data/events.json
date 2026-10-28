@@ -6646,5 +6646,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "320c97332f433171"
+  },
+  {
+    "id": "269a72b4856e1ad3",
+    "fecha": "2026-10-28",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/choque-en-paseo-cuauhnahuac-deja-tres-heridos-danos-por-mas-100-mil-pesos",
+    "resumen": "Choque en Paseo Cuauhnáhuac deja tres heridos prensados",
+    "source_name": "Diario de Morelos",
+    "source_title": "Choque en Paseo Cuauhnáhuac deja tres heridos y daños por más de 100 mil pesos",
+    "published_at": "2026-10-28T10:42:58-06:00",
+    "scraped_at": "2026-10-28T21:39:09Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "6e41fe4185aa74d9"
+  },
+  {
+    "id": "82d00efe3391de69",
+    "fecha": "2026-10-28",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/llevaran-modulo-compra-segura-autos-mas-municipios-morelos-evitar-fraudes",
+    "resumen": "FGE llevará el Módulo de Compra Segura a más regiones de Morelos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Llevarán el Módulo de Compra Segura de autos a más municipios de Morelos para evitar fraudes",
+    "published_at": "2026-10-28T10:42:45-06:00",
+    "scraped_at": "2026-10-28T21:39:09Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "1853372959c911a0"
+  },
+  {
+    "id": "a253406b6c93d0cd",
+    "fecha": "2026-10-23",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-presunto-extorsionador-en-morelos-operativo-federal-estatal",
+    "resumen": "Operativo federal y estatal en Morelos: cae presunto extorsionador",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae presunto extorsionador en Morelos tras operativo federal y estatal",
+    "published_at": "2026-10-23T12:04:06-06:00",
+    "scraped_at": "2026-10-28T21:39:13Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "59a88a4f03e09e3d"
   }
 ]
