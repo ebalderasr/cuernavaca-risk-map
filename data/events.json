@@ -6718,5 +6718,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "59a88a4f03e09e3d"
+  },
+  {
+    "id": "f84897bff0185c05",
+    "fecha": "2026-10-28",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/falsos-agentes-fiscalia-irrumpen-en-vivienda-temixco-asesinan-hombre",
+    "resumen": "Falsos agentes de la Fiscalía atacan una vivienda en Temixco y asesinan a un hombre",
+    "source_name": "Diario de Morelos",
+    "source_title": "Falsos agentes de la Fiscalía irrumpen en vivienda de Temixco y asesinan a un hombre",
+    "published_at": "2026-10-28T20:37:06-06:00",
+    "scraped_at": "2026-10-29T21:48:59Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "444eb281af02cba0"
   }
 ]
