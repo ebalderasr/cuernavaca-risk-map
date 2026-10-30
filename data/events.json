@@ -6742,5 +6742,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "444eb281af02cba0"
+  },
+  {
+    "id": "c3e472006747ce5a",
+    "fecha": "2026-10-29",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Guerrero",
+    "coordenadas": [
+      18.9677532,
+      -99.2102416
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/se-incendia-auto-en-autoservicio-mcdonald-en-cuernavaca",
+    "resumen": "Auto se incendia en el autoservicio de McDonald’s en Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Se incendia un auto en el autoservicio de McDonald’s en Cuernavaca",
+    "published_at": "2026-10-29T18:12:32-06:00",
+    "scraped_at": "2026-10-30T21:30:14Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "95d18e1bbe2a6aaa"
   }
 ]
