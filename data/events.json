@@ -6766,5 +6766,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "95d18e1bbe2a6aaa"
+  },
+  {
+    "id": "46597d979bcc3d77",
+    "fecha": "2026-10-30",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/aguas-en-cocoyoc-detienen-motociclista-por-exceso-velocidad-llevar-moto-robada",
+    "resumen": "Cocoyoc: detienen a motociclista por exceso de velocidad y moto robada",
+    "source_name": "Diario de Morelos",
+    "source_title": "¡Aguas en Cocoyoc! Detienen a motociclista por exceso de velocidad y llevar una moto robada",
+    "published_at": "2026-10-30T19:28:26-06:00",
+    "scraped_at": "2026-11-01T21:11:34Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "31e8023be86833b3"
+  },
+  {
+    "id": "7a568318a44ba42a",
+    "fecha": "2026-10-30",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Guerrero",
+    "coordenadas": [
+      18.9677532,
+      -99.2102416
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/apagon-chispas-en-cuautla-alertan-vecinos-colonia-vicente-guerrero-por-cortocircuito-en-poste-luz",
+    "resumen": "Cortocircuito en poste de luz provoca apagón y moviliza a bomberos en la colonia Vicente Guerrero de Cuautla",
+    "source_name": "Diario de Morelos",
+    "source_title": "Apagón y chispas en Cuautla alertan a vecinos de la colonia Vicente Guerrero por cortocircuito en poste de luz",
+    "published_at": "2026-10-30T11:19:36-06:00",
+    "scraped_at": "2026-11-01T21:11:35Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "286377242f771cf5"
   }
 ]
