@@ -6814,5 +6814,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "286377242f771cf5"
+  },
+  {
+    "id": "52c54db13b976ef1",
+    "fecha": "2026-11-02",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-sufre-lesiones-derrapar-pasar-tope-en-yautepec",
+    "resumen": "Lesionado motociclista en Yautepec tras perder el control al pasar un tope",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista sufre lesiones al derrapar tras pasar un tope en Yautepec",
+    "published_at": "2026-11-02T08:49:22-06:00",
+    "scraped_at": "2026-11-02T23:53:21Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "83407d32ad923963"
   }
 ]
