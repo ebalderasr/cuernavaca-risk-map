@@ -6958,5 +6958,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "1452e51cd868f3d0"
+  },
+  {
+    "id": "1e8c92c9b0282f51",
+    "fecha": "2026-11-04",
+    "hora": null,
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/autoridades-aseguran-armas-droga-equipo-tactico-cateo-vivienda-en-temixco",
+    "resumen": "Cateo a vivienda deja decomiso de armas y droga",
+    "source_name": "Diario de Morelos",
+    "source_title": "Autoridades aseguran armas, droga y equipo táctico tras cateo a vivienda",
+    "published_at": "2026-11-04T11:05:21-06:00",
+    "scraped_at": "2026-11-04T22:38:56Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "f7940ae4bad612d0"
   }
 ]
