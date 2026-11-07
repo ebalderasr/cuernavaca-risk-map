@@ -7102,5 +7102,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "db91f63d605075dc"
+  },
+  {
+    "id": "4f1176bd5752376d",
+    "fecha": "2026-11-06",
+    "hora": null,
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/ejecutan-balazos-pareja-dentro-domicilio-en-yautepec",
+    "resumen": "Violencia en Yautepec: ejecutan a balazos a una pareja dentro de un domicilio",
+    "source_name": "Diario de Morelos",
+    "source_title": "Ejecutan a balazos a una pareja dentro de un domicilio en Yautepec",
+    "published_at": "2026-11-06T17:33:53-06:00",
+    "scraped_at": "2026-11-07T20:52:45Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "a0304e54d7031a1e"
   }
 ]
