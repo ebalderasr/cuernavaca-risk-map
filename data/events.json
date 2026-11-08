@@ -7126,5 +7126,77 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "a0304e54d7031a1e"
+  },
+  {
+    "id": "35b06febdfb457d3",
+    "fecha": "2026-11-08",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lienzo del Charro",
+    "coordenadas": [
+      18.97065,
+      -99.2446
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-balazos-auto-estacionado-en-cuernavaca-fiscalia-investiga",
+    "resumen": "Cuernavaca: atacan a balazos un auto estacionado y la Fiscalía abre investigación",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan a balazos un auto estacionado en Cuernavaca; la Fiscalía investiga",
+    "published_at": "2026-11-08T12:03:38-06:00",
+    "scraped_at": "2026-11-08T21:11:07Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "5c5c86f5b4b7179b"
+  },
+  {
+    "id": "dd6260344961aa7d",
+    "fecha": "2026-11-07",
+    "hora": null,
+    "municipio_detectado": "Xochitepec",
+    "location_scope": "colonia",
+    "location_name": "Satelite",
+    "coordenadas": [
+      18.9179378,
+      -99.2058987
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-detenido-en-celdas-juzgado-civico-cuernavaca",
+    "resumen": "Investigan muerte de un detenido en las celdas del Juzgado Cívico de Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere un detenido en las celdas del Juzgado Cívico de Cuernavaca",
+    "published_at": "2026-11-07T19:58:49-06:00",
+    "scraped_at": "2026-11-08T21:11:07Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "fc0a0b5e26bd27e1"
+  },
+  {
+    "id": "7d6a1fd0be79bd4b",
+    "fecha": "2026-11-06",
+    "hora": "15:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lienzo del Charro",
+    "coordenadas": [
+      18.97065,
+      -99.2446
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-lesionado-ser-embestido-en-crucero-ticuman-fue-trasladado-hospital",
+    "resumen": "Accidente en Ticumán: motociclista embestido en la Cuautla-Cuernavaca termina hospitalizado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista lesionado tras ser embestido en el crucero de Ticumán; fue trasladado al hospital",
+    "published_at": "2026-11-06T20:06:50-06:00",
+    "scraped_at": "2026-11-08T21:11:08Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "60a9dcdcb558602a"
   }
 ]
