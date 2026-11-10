@@ -7198,5 +7198,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "60a9dcdcb558602a"
+  },
+  {
+    "id": "91401781487e3967",
+    "fecha": "2026-11-09",
+    "hora": "20:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asalto-mano-armada-en-coppel-yautepec-provoca-intensa-movilizacion-policial",
+    "resumen": "Asalto en Coppel de Yautepec: fuerte movilización policial",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asalto a mano armada en Coppel de Yautepec provoca intensa movilización policial",
+    "published_at": "2026-11-09T18:24:05-06:00",
+    "scraped_at": "2026-11-10T00:41:28Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "3f438f438575b7e1"
   }
 ]
