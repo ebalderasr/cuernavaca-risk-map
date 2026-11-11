@@ -7222,5 +7222,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "3f438f438575b7e1"
+  },
+  {
+    "id": "7695aab577923099",
+    "fecha": "2026-11-11",
+    "hora": "11:11",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Estrada Cajigal",
+    "coordenadas": [
+      18.917414,
+      -99.197793
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fiscal-blumenkron-anuncia-detencion-probable-autor-material-homicidio-regidor-gabriel-rivas-rios",
+    "resumen": "Detienen al probable autor material del homicidio del regidor Gabriel Rivas Ríos, confirma Fiscal Blumenkron",
+    "source_name": "Diario de Morelos",
+    "source_title": "Fiscal Blumenkron anuncia detención de probable autor material del homicidio del regidor Gabriel Rivas Ríos",
+    "published_at": "2026-11-11T17:25:26-06:00",
+    "scraped_at": "2026-11-11T23:28:10Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "bd81564d93b9d2bf"
+  },
+  {
+    "id": "37f5417e2e03d7d2",
+    "fecha": "2026-11-11",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Ricardo Flores Magon",
+    "coordenadas": [
+      18.927163,
+      -99.199392
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-brandon-jafet-por-ofrecer-en-internet-motocicleta-robada",
+    "resumen": "Detienen a Brandon Jafet \"N\" por ofrecer en internet una motocicleta robada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a Brandon Jafet \"N\" por ofrecer en internet una motocicleta robada",
+    "published_at": "2026-11-11T10:09:41-06:00",
+    "scraped_at": "2026-11-11T23:28:10Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "d62b2139142302c9"
   }
 ]
