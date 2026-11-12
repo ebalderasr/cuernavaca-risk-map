@@ -7270,5 +7270,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "d62b2139142302c9"
+  },
+  {
+    "id": "718e21c269f25977",
+    "fecha": "2026-11-12",
+    "hora": "09:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/muere-mujer-en-colonia-antonio-barona-cuernavaca-sufrir-presunto-infarto",
+    "resumen": "Cuernavaca: muere una mujer en Antonio Barona tras presunto infarto",
+    "source_name": "Diario de Morelos",
+    "source_title": "Muere mujer en la colonia Antonio Barona de Cuernavaca tras sufrir presunto infarto",
+    "published_at": "2026-11-12T12:10:47-06:00",
+    "scraped_at": "2026-11-12T22:44:04Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "0542be447d9ef1a7"
+  },
+  {
+    "id": "3f4ba173a9b8e832",
+    "fecha": "2026-11-11",
+    "hora": "02:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/volcadura-en-autopista-cuernavaca-acapulco-deja-4-lesionados-provoca-movilizacion",
+    "resumen": "Volcadura en Cuernavaca-Acapulco deja 4 lesionados tras salir del camino de madrugada",
+    "source_name": "Diario de Morelos",
+    "source_title": "Volcadura en la autopista Cuernavaca-Acapulco deja 4 lesionados y provoca movilización",
+    "published_at": "2026-11-11T18:31:57-06:00",
+    "scraped_at": "2026-11-12T22:44:04Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "9c3d1bd855f813ec"
+  },
+  {
+    "id": "0c836f51d53b7c4c",
+    "fecha": "2026-11-10",
+    "hora": "09:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fiscalia-anticorrupcion-en-morelos-atiende-2-mil-763-carpetas-combate-rezago-penal",
+    "resumen": "Fiscalía Anticorrupción en Morelos reporta 2 mil 763 carpetas y 641 audiencias",
+    "source_name": "Diario de Morelos",
+    "source_title": "Fiscalía Anticorrupción en Morelos atiende 2 mil 763 carpetas y combate el rezago penal",
+    "published_at": "2026-11-10T11:19:13-06:00",
+    "scraped_at": "2026-11-12T22:44:05Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "ec558bdf619567ba"
   }
 ]
