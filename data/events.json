@@ -7462,5 +7462,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "935368ad07fc966e"
+  },
+  {
+    "id": "4d8bae1da00a2d5c",
+    "fecha": "2026-11-12",
+    "hora": "10:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Plan De Ayala",
+    "coordenadas": [
+      18.929291,
+      -99.2553467
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-pareja-en-motoneta-en-cuautla-asegurar-presunta-droga-vegetal",
+    "resumen": "Cuautla: detienen a pareja en motoneta por presunta droga vegetal",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen a pareja en motoneta en Cuautla tras asegurar presunta droga vegetal",
+    "published_at": "2026-11-12T17:54:59-06:00",
+    "scraped_at": "2026-11-15T21:48:44Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "8c48c901a0803784"
   }
 ]
