@@ -7486,5 +7486,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "8c48c901a0803784"
+  },
+  {
+    "id": "f02926ee636089ee",
+    "fecha": "2026-11-14",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/atacan-con-bomba-molotov-tortilleria-en-cuautla-vecinos-frenan-incendio",
+    "resumen": "Bomba Molotov contra tortillería en Cuautla: vecinos evitan incendio y reportan amenazas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Atacan con bomba Molotov una tortillería en Cuautla; vecinos frenan incendio",
+    "published_at": "2026-11-14T20:28:53-06:00",
+    "scraped_at": "2026-11-17T00:47:48Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "36d1568e02967dd0"
   }
 ]
