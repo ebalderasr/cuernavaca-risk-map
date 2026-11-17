@@ -7510,5 +7510,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.7,
     "dedupe_group_id": "36d1568e02967dd0"
+  },
+  {
+    "id": "313f7e5dba71f2ee",
+    "fecha": "2026-11-17",
+    "hora": "10:00",
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-balazos-hombre-en-camino-terraceria-tetecalita",
+    "resumen": "Asesinan a balazos a un hombre en Tetecalita; investigan el homicidio en Emiliano Zapata",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan a balazos a un hombre en camino de terracería de Tetecalita",
+    "published_at": "2026-11-17T11:38:55-06:00",
+    "scraped_at": "2026-11-17T23:51:08Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "9bd2d6b10fb80a67"
+  },
+  {
+    "id": "ee6188e02135edeb",
+    "fecha": "2026-11-16",
+    "hora": "10:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/temixco-hombre-esperaba-ruta-resulta-herido-por-bala-perdida-durante-ataque-armado",
+    "resumen": "Bala perdida hiere a hombre que esperaba la ruta durante ataque armado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hombre que esperaba la ruta resulta herido por bala perdida durante ataque armado en Temixco",
+    "published_at": "2026-11-16T19:11:00-06:00",
+    "scraped_at": "2026-11-17T23:51:10Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "45a56790af23ac11"
   }
 ]
