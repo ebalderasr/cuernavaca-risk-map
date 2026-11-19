@@ -7558,5 +7558,53 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "45a56790af23ac11"
+  },
+  {
+    "id": "2d3172bdb477ddfb",
+    "fecha": "2026-11-18",
+    "hora": "14:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "La Esperanza",
+    "coordenadas": [
+      18.9412669,
+      -99.2180362
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/incendio-consume-vivienda-en-cuautla-investigan-si-fue-provocado",
+    "resumen": "Incendio en Cuautla consume una vivienda; investigan posible provocación",
+    "source_name": "Diario de Morelos",
+    "source_title": "Incendio consume vivienda en Cuautla y investigan si fue provocado",
+    "published_at": "2026-11-18T16:12:37-06:00",
+    "scraped_at": "2026-11-19T23:49:15Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "faa1963712beaac5"
+  },
+  {
+    "id": "e32ff268c0da9954",
+    "fecha": "2026-11-17",
+    "hora": "09:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Lazaro Cardenas",
+    "coordenadas": [
+      18.8922881,
+      -99.2303571
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/motociclista-cae-pavimento-choque-en-carretera-mexico-cuautla",
+    "resumen": "Motociclista cae tras choque en la México-Cuautla, a la altura de Lázaro Cárdenas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Motociclista cae al pavimento tras choque en la carretera México-Cuautla",
+    "published_at": "2026-11-17T18:35:37-06:00",
+    "scraped_at": "2026-11-19T23:49:17Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "c3f5e07a2ab61379"
   }
 ]
