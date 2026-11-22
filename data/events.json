@@ -7726,5 +7726,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "bd0ccd4b8d538da2"
+  },
+  {
+    "id": "dc7ea7be8baaaaad",
+    "fecha": "2026-11-21",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/detienen-en-cuernavaca-mujer-acusada-incumplir-pension-alimenticia-2020",
+    "resumen": "Detienen a mujer en Cuernavaca por presuntamente no pagar pensión alimenticia",
+    "source_name": "Diario de Morelos",
+    "source_title": "Detienen en Cuernavaca a mujer acusada de incumplir pensión alimenticia desde 2020",
+    "published_at": "2026-11-21T18:32:44-06:00",
+    "scraped_at": "2026-11-22T22:28:37Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "61555c1840465fcd"
+  },
+  {
+    "id": "ee6681334c48d877",
+    "fecha": "2026-11-20",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/feminicidio-impacta-hijos-familias-convocan-25n-en-capital-estado",
+    "resumen": "Feminicidio impacta a hijos y familias; convocan al 25N en la Capital del Estado",
+    "source_name": "Diario de Morelos",
+    "source_title": "Feminicidio impacta a hijos y familias; convocan al 25N en la Capital del Estado",
+    "published_at": "2026-11-20T11:13:14-06:00",
+    "scraped_at": "2026-11-22T22:28:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "ecebd30b2d8b7196"
+  },
+  {
+    "id": "62c72b3d98cd4111",
+    "fecha": "2026-11-19",
+    "hora": null,
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/intento-asalto-deja-muerto-herida-junto-mexico-cuernavaca",
+    "resumen": "Asalto en Tres Marías, Huitzilac: un muerto y una herida en la México-Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Intento de asalto deja un muerto y una herida junto a la México-Cuernavaca",
+    "published_at": "2026-11-19T10:02:29-06:00",
+    "scraped_at": "2026-11-22T22:28:38Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.7,
+    "dedupe_group_id": "04f2021e7ea3bbcd"
+  },
+  {
+    "id": "51b740925d98dc04",
+    "fecha": "2026-11-17",
+    "hora": "19:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Benito Juarez",
+    "coordenadas": [
+      18.9211173,
+      -99.2338804
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/derrapa-motociclista-en-autopista-mexico-cuernavaca-su-acompanante-deja-grave-en-asfalto",
+    "resumen": "Motociclista derrapa en la México-Cuernavaca: su acompañante lo abandona grave en el asfalto",
+    "source_name": "Diario de Morelos",
+    "source_title": "Derrapa motociclista en la autopista México-Cuernavaca y su acompañante lo deja grave en el asfalto",
+    "published_at": "2026-11-17T20:31:42-06:00",
+    "scraped_at": "2026-11-22T22:28:39Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "fb14e539aa0e3a7c"
   }
 ]
