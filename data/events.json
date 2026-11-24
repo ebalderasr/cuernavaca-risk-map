@@ -7822,5 +7822,29 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "fb14e539aa0e3a7c"
+  },
+  {
+    "id": "ebed3de0df24a7ae",
+    "fecha": "2026-11-22",
+    "hora": "19:04",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Centro",
+    "coordenadas": [
+      18.9203462,
+      -99.2356048
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/disputa-familiar-en-tlaltizapan-termina-en-balacera-hombre-muere-dos-personas-resultan-heridas",
+    "resumen": "Tlaltizapán: balacera por disputa familiar deja un muerto y dos heridos",
+    "source_name": "Diario de Morelos",
+    "source_title": "Disputa familiar en Tlaltizapán termina en balacera: un hombre muere y dos personas resultan heridas",
+    "published_at": "2026-11-22T21:26:12-06:00",
+    "scraped_at": "2026-11-24T03:20:00Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "16d3dc088a678df0"
   }
 ]
