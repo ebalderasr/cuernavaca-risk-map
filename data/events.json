@@ -7846,5 +7846,77 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "16d3dc088a678df0"
+  },
+  {
+    "id": "e564f4a4f53d5421",
+    "fecha": "2026-11-23",
+    "hora": "23:30",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Del Empleado",
+    "coordenadas": [
+      18.9436225,
+      -99.2416338
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-cuerpo-joven-desaparecido-en-barranca-cuernavaca",
+    "resumen": "Cuernavaca: hallan a joven desaparecido en barranca de Palmira",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan el cuerpo de un joven desaparecido en una barranca de Cuernavaca",
+    "published_at": "2026-11-23T19:11:07-06:00",
+    "scraped_at": "2026-11-25T01:25:12Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "2252df727909c5d7"
+  },
+  {
+    "id": "c7f55f05a2479592",
+    "fecha": "2026-11-22",
+    "hora": "14:00",
+    "municipio_detectado": "Yautepec",
+    "location_scope": "municipio",
+    "location_name": "Yautepec",
+    "coordenadas": [
+      18.8891562,
+      -99.0626377
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/cae-presunto-asaltante-en-persecucion-por-calles-yautepec",
+    "resumen": "Yautepec: cae presunto asaltante tras persecución en motocicleta",
+    "source_name": "Diario de Morelos",
+    "source_title": "Cae presunto asaltante en persecución por calles de Yautepec",
+    "published_at": "2026-11-22T17:15:15-06:00",
+    "scraped_at": "2026-11-25T01:25:14Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "3383456b8d74bd0c"
+  },
+  {
+    "id": "f17327e84a2f3af6",
+    "fecha": "2026-11-20",
+    "hora": "18:00",
+    "municipio_detectado": "Temixco",
+    "location_scope": "municipio",
+    "location_name": "Temixco",
+    "coordenadas": [
+      18.8593026,
+      -99.2393666
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/sujeto-en-moto-mata-dos-hombres-en-casa-colonia-10-abril-en-temixco",
+    "resumen": "Doble homicidio en Temixco: atacan a dos hombres en la colonia 10 de Abril",
+    "source_name": "Diario de Morelos",
+    "source_title": "Sujeto en moto mata a dos hombres en una casa de la colonia 10 de Abril, en Temixco",
+    "published_at": "2026-11-20T17:37:23-06:00",
+    "scraped_at": "2026-11-25T01:25:16Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "b352b5e9b6e2ebf1"
   }
 ]
