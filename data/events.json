@@ -7918,5 +7918,101 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.6,
     "dedupe_group_id": "b352b5e9b6e2ebf1"
+  },
+  {
+    "id": "5682bc2c619ec279",
+    "fecha": "2026-11-25",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/carambola-en-paso-express-paraliza-trafico-altura-antonio-barona",
+    "resumen": "Carambola en Paso Express hoy: tres vehículos paralizan la circulación en Antonio Barona",
+    "source_name": "Diario de Morelos",
+    "source_title": "Carambola en el Paso Express paraliza el tráfico a la altura de Antonio Barona",
+    "published_at": "2026-11-25T15:29:24-06:00",
+    "scraped_at": "2026-11-26T01:00:07Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "be0dd1272bd7991d"
+  },
+  {
+    "id": "e923ac5ee16c949f",
+    "fecha": "2026-11-25",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Vicente Estrada Cajigal",
+    "coordenadas": [
+      18.917414,
+      -99.197793
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/asesinan-cuatro-balazos-en-rostro-hombre-en-cuernavaca",
+    "resumen": "Asesinan de cuatro balazos en el rostro a un hombre en Cuernavaca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Asesinan de cuatro balazos en el rostro a un hombre en Cuernavaca",
+    "published_at": "2026-11-25T10:44:25-06:00",
+    "scraped_at": "2026-11-26T01:00:07Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "7d91a7b7e0ad220a"
+  },
+  {
+    "id": "5803692f75d8d517",
+    "fecha": "2026-11-23",
+    "hora": "07:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/hallan-sin-vida-adrian-n-en-cereso-atlacholoaya-fiscalia-morelos-abre-investigacion",
+    "resumen": "Muerte de Adrián “N” en el Cereso de Atlacholoaya: Fiscalía de Morelos investiga el caso",
+    "source_name": "Diario de Morelos",
+    "source_title": "Hallan sin vida a Adrián “N” en el Cereso de Atlacholoaya; Fiscalía de Morelos abre investigación",
+    "published_at": "2026-11-23T20:46:17-06:00",
+    "scraped_at": "2026-11-26T01:00:08Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "1681ca68b872b12e"
+  },
+  {
+    "id": "079c8b6be6b86fef",
+    "fecha": "2026-11-22",
+    "hora": "23:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Antonio Barona",
+    "coordenadas": [
+      18.9517043,
+      -99.1968277
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 6,
+    "fuente": "https://www.diariodemorelos.com/noticias/mujer-muere-por-heridas-arma-blanca-en-motel-ocotepec-cuernavaca",
+    "resumen": "Mujer muere en motel de Ocotepec, Cuernavaca tras ataque con arma blanca",
+    "source_name": "Diario de Morelos",
+    "source_title": "Mujer muere por heridas de arma blanca en motel de Ocotepec, Cuernavaca",
+    "published_at": "2026-11-22T13:11:37-06:00",
+    "scraped_at": "2026-11-26T01:00:09Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "61ad887826899dc8"
   }
 ]
