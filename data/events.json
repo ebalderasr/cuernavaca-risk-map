@@ -8014,5 +8014,53 @@
     "geo_confidence": "gazetteer_text",
     "extraction_confidence": 0.8,
     "dedupe_group_id": "61ad887826899dc8"
+  },
+  {
+    "id": "d155b0e1cb98f2e7",
+    "fecha": "2026-11-26",
+    "hora": "13:00",
+    "municipio_detectado": "Emiliano Zapata",
+    "location_scope": "municipio",
+    "location_name": "Emiliano Zapata",
+    "coordenadas": [
+      18.8478608,
+      -99.1843676
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/condenan-26-anos-ocho-meses-prision-por-tentativa-feminicidio",
+    "resumen": "Condenan a 26 años y ocho meses de prisión por tentativa de feminicidio",
+    "source_name": "Diario de Morelos",
+    "source_title": "Condenan a 26 años y ocho meses de prisión por tentativa de feminicidio",
+    "published_at": "2026-11-26T10:57:37-06:00",
+    "scraped_at": "2026-11-27T01:00:33Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.6,
+    "dedupe_group_id": "274990137f4417e3"
+  },
+  {
+    "id": "67bb14f97e6f087a",
+    "fecha": "2026-11-24",
+    "hora": null,
+    "municipio_detectado": "Jiutepec",
+    "location_scope": "municipio",
+    "location_name": "Jiutepec",
+    "coordenadas": [
+      18.8954874,
+      -99.1732936
+    ],
+    "buffer_meters": 1000,
+    "tipo_delito": "feminicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/fallo-condenatorio-contra-uriel-n-por-feminicidio-aylin-rodriguez-fernandez-en-jiutepec",
+    "resumen": "Condena contra Uriel “N” por el feminicidio de Aylin Rodríguez Fernández en Jiutepec",
+    "source_name": "Diario de Morelos",
+    "source_title": "Fallo condenatorio contra Uriel “N” por feminicidio de Aylin Rodríguez Fernández en Jiutepec",
+    "published_at": "2026-11-24T18:00:34-06:00",
+    "scraped_at": "2026-11-27T01:00:34Z",
+    "geo_confidence": "gazetteer",
+    "extraction_confidence": 0.5,
+    "dedupe_group_id": "35df058bab4a7477"
   }
 ]
