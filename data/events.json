@@ -8062,5 +8062,29 @@
     "geo_confidence": "gazetteer",
     "extraction_confidence": 0.5,
     "dedupe_group_id": "35df058bab4a7477"
+  },
+  {
+    "id": "e5725b4b2fc6065a",
+    "fecha": "2026-11-26",
+    "hora": "18:00",
+    "municipio_detectado": null,
+    "location_scope": "colonia",
+    "location_name": "Las Granjas",
+    "coordenadas": [
+      18.9065269,
+      -99.2006187
+    ],
+    "buffer_meters": 500,
+    "tipo_delito": "homicidio",
+    "nivel_inicial": 5,
+    "fuente": "https://www.diariodemorelos.com/noticias/persiguen-motociclista-matan-balazos-en-granjas",
+    "resumen": "Matan a motociclista tras persecución a balazos en la colonia Las Granjas",
+    "source_name": "Diario de Morelos",
+    "source_title": "Persiguen a motociclista y lo matan a balazos en Las Granjas",
+    "published_at": "2026-11-26T20:44:33-06:00",
+    "scraped_at": "2026-11-28T00:32:30Z",
+    "geo_confidence": "gazetteer_text",
+    "extraction_confidence": 0.8,
+    "dedupe_group_id": "12890ba1c450ffdc"
   }
 ]
